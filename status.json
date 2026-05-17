@@ -1,6 +1,6 @@
 {
-  "status": "CRITICAL",
-  "outlookText": "Critical Weather Day has been declared. REASON: Severe thunderstorm ops from the Great Plains into the Upper Midwest and wildfire ops across portions of the Southwest and Southern Plains. All steps will be taken to support critical Severe Thunderstorms and Wildfire operations. Critical Weather Day is in effect from 12Z Sunday, May 17th through 12Z Tuesday, May 19th in support of Severe Weather ops from the Great Plains into the Upper Midwest and Fire Weather ops across portions of the Southwest and Southern Plains. While not currently expected, CWD potential is being monitored from 12Z Tuesday, May 19th through 12Z Wednesday, May 20th due to continuing Severe and Fire Weather threats.",
+  "status": "Critical Weather Day",
+  "outlookText": "Critical Weather Day is in effect from 12Z Sunday, May 17th through 12Z Tuesday, May 19th in support of Severe Weather ops from the Great Plains into the Upper Midwest and Fire Weather ops across portions of the Southwest and Southern Plains. While not currently expected, CWD potential is being monitored from 12Z Tuesday, May 19th through 12Z Wednesday, May 20th due to continuing Severe and Fire Weather threats.",
   "days": [
     {
       "weekday": "Sun",
@@ -8,7 +8,8 @@
       "status": "Critical",
       "hazards": [
         "rainstorm",
-        "wildfire"
+        "wildfire",
+        "lightning"
       ]
     },
     {
@@ -17,7 +18,8 @@
       "status": "Critical",
       "hazards": [
         "rainstorm",
-        "wildfire"
+        "wildfire",
+        "lightning"
       ]
     },
     {
@@ -26,7 +28,8 @@
       "status": "Enhanced Caution",
       "hazards": [
         "rainstorm",
-        "wildfire"
+        "wildfire",
+        "lightning"
       ]
     },
     {
@@ -35,9 +38,10 @@
       "status": "Enhanced Caution",
       "hazards": [
         "rainstorm",
-        "wildfire"
+        "wildfire",
+        "lightning"
       ]
     }
   ],
-  "updated": "2026-05-17T17:49:28Z"
+  "updated": "2026-05-17T17:51:12Z"
 }
