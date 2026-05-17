@@ -1,7 +1,34 @@
 {
-  "status": "NORMAL",
-  "outlookText": "",
-  "days": [],
-  "updated": "2026-05-17T16:58:50Z",
-  "error": "no json in: I am sorry, but I cannot directly access external websites or \"read live pages\" from a given URL like a web browser. My capabilities are limited to performing Google searches and processing the inform"
+  "status": "CRITICAL",
+  "outlookText": "Critical Weather Day is in effect from 12Z Sunday, May 17th through 12Z Tuesday, May 19th in support of Severe Weather ops from the Great Plains into the Upper Midwest and Fire Weather ops across portions of the Southwest and Southern Plains. While not currently expected, CWD potential is being monitored from 12Z Tuesday, May 19th through 12Z Wednesday, May 20th due to continuing Severe and Fire Weather threats.",
+  "days": [
+    {
+      "weekday": "Sunday",
+      "date": "May 17",
+      "status": "Critical",
+      "hazards": [
+        "lightning",
+        "wildfire"
+      ]
+    },
+    {
+      "weekday": "Monday",
+      "date": "May 18",
+      "status": "Critical",
+      "hazards": [
+        "lightning",
+        "wildfire"
+      ]
+    },
+    {
+      "weekday": "Tuesday",
+      "date": "May 19",
+      "status": "Normal",
+      "hazards": [
+        "lightning",
+        "wildfire"
+      ]
+    }
+  ],
+  "updated": "2026-05-17T17:15:16Z"
 }
