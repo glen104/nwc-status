@@ -1,34 +1,43 @@
 {
   "status": "CRITICAL",
-  "outlookText": "Critical Weather Day is in effect from 12Z Sunday, May 17th through 12Z Tuesday, May 19th in support of Severe Weather ops from the Great Plains into the Upper Midwest and Fire Weather ops across portions of the Southwest and Southern Plains. While not currently expected, CWD potential is being monitored from 12Z Tuesday, May 19th through 12Z Wednesday, May 20th due to continuing Severe and Fire Weather threats.",
+  "outlookText": "Critical Weather Day has been declared. REASON: Severe thunderstorm ops from the Great Plains into the Upper Midwest and wildfire ops across portions of the Southwest and Southern Plains. All steps will be taken to support critical Severe Thunderstorms and Wildfire operations. Critical Weather Day is in effect from 12Z Sunday, May 17th through 12Z Tuesday, May 19th in support of Severe Weather ops from the Great Plains into the Upper Midwest and Fire Weather ops across portions of the Southwest and Southern Plains. While not currently expected, CWD potential is being monitored from 12Z Tuesday, May 19th through 12Z Wednesday, May 20th due to continuing Severe and Fire Weather threats.",
   "days": [
     {
-      "weekday": "Sunday",
+      "weekday": "Sun",
       "date": "May 17",
       "status": "Critical",
       "hazards": [
-        "lightning",
+        "rainstorm",
         "wildfire"
       ]
     },
     {
-      "weekday": "Monday",
+      "weekday": "Mon",
       "date": "May 18",
       "status": "Critical",
       "hazards": [
-        "lightning",
+        "rainstorm",
         "wildfire"
       ]
     },
     {
-      "weekday": "Tuesday",
+      "weekday": "Tue",
       "date": "May 19",
       "status": "Enhanced Caution",
       "hazards": [
-        "lightning",
+        "rainstorm",
+        "wildfire"
+      ]
+    },
+    {
+      "weekday": "Wed",
+      "date": "May 20",
+      "status": "Enhanced Caution",
+      "hazards": [
+        "rainstorm",
         "wildfire"
       ]
     }
   ],
-  "updated": "2026-05-17T17:31:53Z"
+  "updated": "2026-05-17T17:49:28Z"
 }
