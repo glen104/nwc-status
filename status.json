@@ -1,7 +1,27 @@
 {
   "status": "NORMAL",
-  "outlookText": "",
-  "days": [],
-  "updated": "2026-05-17T04:39:06Z",
-  "error": "no json in: "
+  "outlookText": "Critical Weather Day is possible on Sunday and/or Monday in support of Severe Weather ops from the Great Plains into the Upper Midwest and Fire Weather ops across portions of the Southwest and Southern Plains.",
+  "days": [
+    {
+      "weekday": "Sunday",
+      "date": "May 17",
+      "status": "Enhanced Caution",
+      "hazards": [
+        "lightning",
+        "rainstorm",
+        "wildfire"
+      ]
+    },
+    {
+      "weekday": "Monday",
+      "date": "May 18",
+      "status": "Enhanced Caution",
+      "hazards": [
+        "lightning",
+        "rainstorm",
+        "wildfire"
+      ]
+    }
+  ],
+  "updated": "2026-05-17T07:33:07Z"
 }
