@@ -1,1 +1,6 @@
-{ "status": "NORMAL", "outlookText": "Critical Weather Day is possible on Sunday and/or Monday in support of Severe Weather ops from the Great Plains into the Upper Midwest and Fire Weather ops across portions of the Southwest and Southern Plains.", "days": [ { "weekday": "Saturday", "date": "May 16", "status": "Normal", "hazards": [] }, { "weekday": "Sunday", "date": "May 17", "status": "Critical", "hazards": [] }, { "weekday": "Monday", "date": "May 18", "status": "Critical", "hazards": [] } ], "updated": "2026-05-16T23:31:07Z" }
+{
+  "status": "NORMAL",
+  "outlookText": "Critical Weather Day is possible on Sunday and/or Monday in support of Severe Weather ops from the Great Plains into the Upper Midwest and Fire Weather ops across portions of the Southwest and Southern Plains.",
+  "days": [],
+  "updated": "2026-05-17T00:21:31Z"
+}
