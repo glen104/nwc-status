@@ -1,24 +1,29 @@
 {
   "tornado": {
-    "active": false
-  },
-  "severe": {
     "active": true,
     "action": "NEW",
-    "etn": "0042",
+    "etn": "0017",
     "office": "KBMX",
-    "threatLevel": "CONSIDERABLE",
-    "tornadoPossible": false,
-    "hailSize": "2.00\"",
-    "windSpeed": "70 MPH",
-    "nearestLocation": "Gordo",
-    "motionStr": "moving northeast at 45 MPH",
+    "zone": "DIRECT",
+    "threatLevel": "CATASTROPHIC",
+    "includesTarget": true,
+    "approachingCounty": null,
+    "nearestLocation": "Northport",
+    "motionStr": "moving northeast at 55 MPH",
+    "stormMotion": {
+      "direction": "NORTHEAST",
+      "speed": 55,
+      "bearing": 45
+    },
     "areaDesc": "NATIONAL WEATHER SERVICE BIRMINGHAM AL",
     "expires": "2099-01-01T00:00:00Z"
+  },
+  "severe": {
+    "active": false
   },
   "flashFlood": {
     "active": false
   },
-  "updated": "2026-05-17T23:45:52Z",
-  "lastChecked": "2026-05-17T23:45:52Z"
+  "updated": "2026-05-17T23:47:37Z",
+  "lastChecked": "2026-05-17T23:47:37Z"
 }
