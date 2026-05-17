@@ -1,29 +1,24 @@
 {
   "tornado": {
-    "active": true,
-    "action": "NEW",
-    "etn": "0006",
-    "office": "KBMX",
-    "zone": "DIRECT",
-    "threatLevel": "STANDARD",
-    "includesTarget": true,
-    "approachingCounty": null,
-    "nearestLocation": "Jena",
-    "motionStr": "moving northeast at 55 MPH",
-    "stormMotion": {
-      "direction": "NORTHEAST",
-      "speed": 55,
-      "bearing": 45
-    },
-    "areaDesc": "NATIONAL WEATHER SERVICE BIRMINGHAM AL",
-    "expires": "2099-01-01T00:00:00Z"
+    "active": false
   },
   "severe": {
-    "active": false
+    "active": true,
+    "action": "NEW",
+    "etn": "0042",
+    "office": "KBMX",
+    "threatLevel": "CONSIDERABLE",
+    "tornadoPossible": false,
+    "hailSize": "2.00\"",
+    "windSpeed": "70 MPH",
+    "nearestLocation": "Gordo",
+    "motionStr": "moving northeast at 45 MPH",
+    "areaDesc": "NATIONAL WEATHER SERVICE BIRMINGHAM AL",
+    "expires": "2099-01-01T00:00:00Z"
   },
   "flashFlood": {
     "active": false
   },
-  "updated": "2026-05-17T23:15:01Z",
-  "lastChecked": "2026-05-17T23:15:01Z"
+  "updated": "2026-05-17T23:41:13Z",
+  "lastChecked": "2026-05-17T23:41:13Z"
 }
