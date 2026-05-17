@@ -1,7 +1,13 @@
 {
-  "tornado": { "active": false },
-  "severe": { "active": false },
-  "flashFlood": { "active": false },
-  "updated": "2026-01-01T00:00:00Z",
-  "lastChecked": "2026-01-01T00:00:00Z"
+  "tornado": {
+    "active": false
+  },
+  "severe": {
+    "active": false
+  },
+  "flashFlood": {
+    "active": false
+  },
+  "updated": "2026-05-17T21:30:47Z",
+  "lastChecked": "2026-05-17T21:30:47Z"
 }
