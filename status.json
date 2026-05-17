@@ -23,12 +23,12 @@
     {
       "weekday": "Tuesday",
       "date": "May 19",
-      "status": "Normal",
+      "status": "Enhanced Caution",
       "hazards": [
         "lightning",
         "wildfire"
       ]
     }
   ],
-  "updated": "2026-05-17T17:15:16Z"
+  "updated": "2026-05-17T17:31:53Z"
 }
