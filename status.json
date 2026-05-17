@@ -23,9 +23,9 @@
     {
       "weekday": "Tue",
       "date": "May 19",
-      "status": "Critical",
-      "hazards": ["severe"]
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-05-17T22:36:29Z"
+  "updated": "2026-05-17T23:33:32Z"
 }
