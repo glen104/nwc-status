@@ -23,8 +23,8 @@
     {
       "weekday": "Tue",
       "date": "May 19",
-      "status": "Normal",
-      "hazards": []
+      "status": "Critical",
+      "hazards": ["severe"]
     }
   ],
   "updated": "2026-05-17T22:36:29Z"
