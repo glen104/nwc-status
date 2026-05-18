@@ -8,30 +8,22 @@
     "threatLevel": "CONSIDERABLE",
     "includesTarget": true,
     "approachingCounty": null,
-    "nearestLocation": "Northport",
+    "nearestLocation": "Tuscaloosa",
     "motionStr": "moving northeast at 45 MPH",
     "stormMotion": {
       "direction": "NORTHEAST",
       "speed": 45,
       "bearing": 45
     },
-    "areaDesc": "TUSCALOOSA AL",
+    "areaDesc": "NATIONAL WEATHER SERVICE BIRMINGHAM AL",
     "expires": "2099-01-01T00:00:00Z"
   },
   "severe": {
     "active": false
   },
   "flashFlood": {
-    "active": true,
-    "action": "NEW",
-    "etn": "0008",
-    "office": "KBMX",
-    "threatLevel": "CONSIDERABLE",
-    "nearestLocation": "Tuscaloosa",
-    "motionStr": null,
-    "areaDesc": "TUSCALOOSA AL",
-    "expires": "2099-01-01T00:00:00Z"
+    "active": false
   },
-  "updated": "2026-05-18T00:15:00Z",
-  "lastChecked": "2026-05-18T00:15:00Z"
+  "updated": "2026-05-18T04:39:22Z",
+  "lastChecked": "2026-05-18T04:39:22Z"
 }
