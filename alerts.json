@@ -2,17 +2,17 @@
   "tornado": {
     "active": true,
     "action": "NEW",
-    "etn": "0017",
+    "etn": "0018",
     "office": "KBMX",
     "zone": "DIRECT",
-    "threatLevel": "CATASTROPHIC",
+    "threatLevel": "CONSIDERABLE",
     "includesTarget": true,
     "approachingCounty": null,
-    "nearestLocation": "Northport",
-    "motionStr": "moving northeast at 55 MPH",
+    "nearestLocation": "Tuscaloosa",
+    "motionStr": "moving northeast at 45 MPH",
     "stormMotion": {
       "direction": "NORTHEAST",
-      "speed": 55,
+      "speed": 45,
       "bearing": 45
     },
     "areaDesc": "NATIONAL WEATHER SERVICE BIRMINGHAM AL",
@@ -24,6 +24,6 @@
   "flashFlood": {
     "active": false
   },
-  "updated": "2026-05-18T00:05:04Z",
-  "lastChecked": "2026-05-18T00:05:04Z"
+  "updated": "2026-05-18T00:06:03Z",
+  "lastChecked": "2026-05-18T00:06:03Z"
 }
