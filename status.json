@@ -1,6 +1,6 @@
 {
-  "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day is in effect through 12Z Tuesday, May 19th in support of Severe Weather ops from the southern/central Plains into the Upper Midwest and Fire Weather ops across portions of the Southwest and Southern Plains. Otherwise, CWD is not expected.",
+  "status": "NORMAL",
+  "outlookText": "Critical Weather Day is not expected in the next 3 days.",
   "days": [
     {
       "weekday": "Tue",
@@ -21,5 +21,5 @@
       "hazards": []
     }
   ],
-  "updated": "2026-05-19T11:32:14Z"
+  "updated": "2026-05-19T14:15:32Z"
 }
