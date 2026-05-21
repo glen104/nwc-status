@@ -1,8 +1,8 @@
 {
   "nwc": {
-    "opsLevel": "Level 3",
-    "reason": "Test dispatch",
-    "updated": "2026-05-21T12:22:11Z"
+    "opsLevel": "Level 2 (Partial Activation)",
+    "reason": "Test",
+    "updated": "2026-05-21T12:27:00Z"
   },
-  "lastUpdated": "2026-05-21T12:22:11Z"
+  "lastUpdated": "2026-05-21T12:27:00Z"
 }
