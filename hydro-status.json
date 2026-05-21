@@ -15,7 +15,7 @@
       },
       {
         "end": "08:30 PM",
-        "forecasters": [],
+        "forecasters": ["Rose"],
         "lead": "Test",
         "start": "12:30 PM"
       }
