@@ -1,9 +1,29 @@
 {
   "nwc": {
-    "opsLevel": "Level 4 (Normal Operations)",
-    "reason": "",
-    "hours": "5:00 AM - 8:30 PM CDT",
-    "updated": "2026-05-21T15:56:17Z"
+    "opsLevel": "Level 2 (Partial Activation)",
+    "reason": "Test",
+    "hours": "24-Hour Operations",
+    "shifts": [
+      {
+        "end": "01:00 PM",
+        "forecaster": "",
+        "lead": "",
+        "start": "05:00 AM"
+      },
+      {
+        "end": "08:30 PM",
+        "forecaster": "",
+        "lead": "",
+        "start": "12:30 PM"
+      }
+    ],
+    "fim": {
+      "end": "0000",
+      "name": "Glen",
+      "start": "1200"
+    },
+    "ic": null,
+    "updated": "2026-05-21T17:12:36Z"
   },
-  "lastUpdated": "2026-05-21T15:56:17Z"
+  "lastUpdated": "2026-05-21T17:12:36Z"
 }
