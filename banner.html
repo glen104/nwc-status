@@ -7,62 +7,70 @@
   html, body { width: 100%; height: 100%; font-family: Arial, sans-serif; background: transparent; }
 
   #banner {
-    background: #00c400;
+    background: #1a7a1a;
     color: white;
-    text-align: center;
-    padding: 16px 24px;
-    font-size: 1.05rem;
-    font-weight: 700;
+    padding: 14px 24px;
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
     width: 100%;
     min-height: 70px;
   }
 
-  #banner-text {
-    flex: 1;
-    min-width: 200px;
-    line-height: 1.6;
-    word-wrap: break-word;
-    white-space: normal;
+  #banner-text { flex: 1; min-width: 0; line-height: 1.5; }
+
+  .line1 { font-size: 1rem; font-weight: 700; letter-spacing: 0.2px; }
+  .line1 .sep { opacity: 0.5; margin: 0 8px; font-weight: 400; }
+
+  .line2 {
+    margin-top: 6px;
+    padding-top: 6px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    line-height: 1.7;
+  }
+  .line2 .sep { opacity: 0.35; margin: 0 10px; font-weight: 400; }
+  .badge {
+    display: inline-block;
+    background: rgba(0,0,0,0.25);
+    border-radius: 3px;
+    padding: 1px 7px;
+    margin-right: 6px;
+    font-size: 0.72rem;
+    letter-spacing: 1px;
   }
 
   #banner-btn {
-    background: #003087;
+    background: rgba(0,0,30,0.45);
     color: white;
-    border: none;
-    padding: 8px 20px;
+    border: 1px solid rgba(255,255,255,0.35);
+    padding: 8px 18px;
     border-radius: 4px;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-weight: 700;
-    cursor: pointer;
     white-space: nowrap;
     text-decoration: none;
     flex-shrink: 0;
   }
 
-  #banner.level3 { background: #e6a817; }
-  #banner.level2 { background: #cc3300; }
-  #banner.level1 { background: #800000; animation: pulse 1.5s infinite; }
+  #banner.level3 { background: #8a5500; }
+  #banner.level2 { background: #8a1f00; }
+  #banner.level1 { background: #5a0000; animation: pulse 1.5s infinite; }
 
   @keyframes pulse {
-    0%,100% { background: #800000; }
-    50%      { background: #cc0000; }
+    0%,100% { background: #5a0000; }
+    50%      { background: #8a0000; }
   }
-
-  .shift-line { font-size: 0.82rem; font-weight: 800; letter-spacing: 0.8px; text-transform: uppercase; line-height: 1.7; border-top: 1px solid rgba(255,255,255,0.2); margin-top: 6px; padding-top: 6px; }
-  .shift-badge { background: rgba(0,0,0,0.2); border-radius: 3px; padding: 1px 7px; margin-right: 6px; font-size: 0.78rem; }
-  #banner-btn { background: rgba(0,0,30,0.45); border: 1px solid rgba(255,255,255,0.35); }
 </style>
 </head>
 <body>
-
 <div id="banner">
   <div id="banner-text">
-    <span id="banner-main">Loading NWC operational status...</span>
+    <div class="line1" id="line1">Loading NWC operational status...</div>
+    <div class="line2" id="line2" style="display:none;"></div>
   </div>
   <a id="banner-btn" href="https://docs.google.com/document/d/1" target="_blank">NWC Operational Levels</a>
 </div>
@@ -77,13 +85,27 @@ function isDST() {
   return now.getTimezoneOffset() < Math.max(jan.getTimezoneOffset(), jul.getTimezoneOffset());
 }
 
+function toDisplayTime(t) {
+  if (!t) return '';
+  var zm = t.toString().match(/^(\d{1,2}):?(\d{2})Z?$/);
+  if (zm) {
+    var offset = isDST() ? 5 : 6;
+    var tz = isDST() ? 'CDT' : 'CST';
+    var ctMins = (parseInt(zm[1]) * 60 + parseInt(zm[2]) - offset * 60 + 1440) % 1440;
+    var h = Math.floor(ctMins / 60); var m = ctMins % 60;
+    var ap = h >= 12 ? 'PM' : 'AM';
+    h = h % 12; if (h === 0) h = 12;
+    return h + (m > 0 ? ':' + (m < 10 ? '0' + m : m) : '') + ' ' + ap + ' ' + tz;
+  }
+  return t;
+}
+
 function parseTimeToMins(t) {
   if (!t) return -1;
-  var zm = t.toString().match(/^(\d{2}):?(\d{2})Z?$/);
+  var zm = t.toString().match(/^(\d{1,2}):?(\d{2})Z?$/);
   if (zm) {
-    var utcMins = parseInt(zm[1]) * 60 + parseInt(zm[2]);
     var offset = isDST() ? 5 : 6;
-    return (utcMins - offset * 60 + 1440) % 1440;
+    return (parseInt(zm[1]) * 60 + parseInt(zm[2]) - offset * 60 + 1440) % 1440;
   }
   var m = t.toString().match(/(\d+):(\d+)\s*(AM|PM)/i);
   if (!m) return -1;
@@ -95,8 +117,8 @@ function parseTimeToMins(t) {
 
 function getCurrentCTMins() {
   var now = new Date();
-  var ctStr = now.toLocaleString('en-US', { timeZone: 'America/Chicago', hour: 'numeric', minute: '2-digit', hour12: true });
-  var p = ctStr.match(/(\d+):(\d+)\s+(AM|PM)/i);
+  var s = now.toLocaleString('en-US', { timeZone: 'America/Chicago', hour: 'numeric', minute: '2-digit', hour12: true });
+  var p = s.match(/(\d+):(\d+)\s+(AM|PM)/i);
   if (!p) return 0;
   var h = parseInt(p[1]); var mn = parseInt(p[2]); var ap = p[3].toUpperCase();
   if (ap === 'PM' && h !== 12) h += 12;
@@ -106,62 +128,50 @@ function getCurrentCTMins() {
 
 function getCurrentShift(shifts) {
   if (!shifts || !shifts.length) return null;
-  var ctMins = getCurrentCTMins();
+  var ct = getCurrentCTMins();
   for (var i = 0; i < shifts.length; i++) {
     var s = shifts[i];
-    var start = parseTimeToMins(s.start);
-    var end   = parseTimeToMins(s.end);
+    var start = parseTimeToMins(s.start); var end = parseTimeToMins(s.end);
     if (start < 0 || end < 0) continue;
-    if (end < start) {
-      if (ctMins >= start || ctMins < end) return s;
-    } else {
-      if (ctMins >= start && ctMins < end) return s;
-    }
+    if (end < start) { if (ct >= start || ct < end) return s; }
+    else { if (ct >= start && ct < end) return s; }
   }
   return null;
 }
 
 function getNextShift(shifts) {
   if (!shifts || !shifts.length) return null;
-  var ctMins = getCurrentCTMins();
+  var ct = getCurrentCTMins();
+  var cur = getCurrentShift(shifts);
+  var best = null; var bestDiff = 9999;
   for (var i = 0; i < shifts.length; i++) {
     var s = shifts[i];
+    if (s === cur) continue;
     var start = parseTimeToMins(s.start);
     if (start < 0) continue;
-    var diff = (start - ctMins + 1440) % 1440;
-    if (diff > 0 && diff <= 120) return s;  // 2 hour warning
+    var diff = (start - ct + 1440) % 1440;
+    if (diff > 0 && diff <= 120 && diff < bestDiff) { best = s; bestDiff = diff; }
   }
-  return null;
+  return best;
 }
 
-function toDisplayTime(t) {
-  if (!t) return '';
-  // Handle Z/24hr formats: "1600", "16:00", "16:00Z"
-  var zm = t.toString().match(/^(\d{2}):?(\d{2})Z?$/);
-  if (zm) {
-    var utcH = parseInt(zm[1]); var utcM = parseInt(zm[2]);
-    var offset = isDST() ? 5 : 6;
-    var tz = isDST() ? 'CDT' : 'CST';
-    var ctMins = (utcH * 60 + utcM - offset * 60 + 1440) % 1440;
-    var h = Math.floor(ctMins / 60); var m = ctMins % 60;
-    var ap = h >= 12 ? 'PM' : 'AM';
-    h = h % 12; if (h === 0) h = 12;
-    return h + (m > 0 ? ':' + (m < 10 ? '0' + m : m) : '') + ' ' + ap + ' ' + tz;
-  }
-  // Already 12hr format - just return as-is
-  return t;
+function badge(label) {
+  return '<span class="badge">' + label + '</span>';
 }
 
-function formatShiftPlan(label, s) {
+function sep() {
+  return '<span class="sep">|</span>';
+}
+
+function formatShiftBlock(label, s) {
   if (!s) return '';
   var parts = [];
   if (s.lead) parts.push('Lead: ' + s.lead);
   var fores = s.forecasters || (s.forecaster ? [s.forecaster] : []);
   fores = fores.filter(function(f){ return f; });
-  if (fores.length) parts.push('Forecaster: ' + fores.join(', '));
+  if (fores.length) parts.push('Fore: ' + fores.join(', '));
   var endTime = s.end ? ' thru ' + toDisplayTime(s.end) : '';
-  var staff = parts.length ? '  ' + parts.join(' / ') : '';
-  return '<span class="shift-badge">' + label + '</span>' + endTime + ':' + staff;
+  return badge(label) + endTime + (parts.length ? '&nbsp;&nbsp;' + parts.join(' / ') : '');
 }
 
 function updateBanner(nwc) {
@@ -172,36 +182,36 @@ function updateBanner(nwc) {
   var fim    = nwc.fim      || null;
   var ic     = nwc.ic       || null;
 
-  // Line 1 - status
-  var line1 = 'The NWC is currently at ' + level + '  |  NWC OPS Available: ' + hours;
-  if (reason) line1 += '  |  ' + reason;
+  // Line 1
+  var l1 = ['The NWC is currently at ' + level, 'NWC OPS Available: ' + hours];
+  if (reason) l1.push(reason);
+  document.getElementById('line1').innerHTML = l1.join('<span class="sep">|</span>');
 
-  // Line 2 - shift plan
-  var line2Parts = [];
-
-  var curShift = getCurrentShift(shifts);
-  if (curShift) line2Parts.push(formatShiftPlan('CURRENT SHIFT', curShift));
-
-  var nextShift = getNextShift(shifts);
-  if (nextShift) line2Parts.push(formatShiftPlan('NEXT SHIFT', nextShift));
+  // Line 2
+  var l2 = [];
+  var cur = getCurrentShift(shifts);
+  if (cur) l2.push(formatShiftBlock('CURRENT SHIFT', cur));
+  var nxt = getNextShift(shifts);
+  if (nxt) l2.push(formatShiftBlock('NEXT SHIFT', nxt));
 
   if (fim && fim.name) {
-    var fimStr = '<span class="shift-badge">FIM COORD</span> ' + fim.name;
-    if (fim.start) fimStr += ' (' + toDisplayTime(fim.start) + (fim.end ? ' - ' + toDisplayTime(fim.end) : '') + ')';
-    line2Parts.push(fimStr);
+    var fs = badge('FIM COORD') + fim.name;
+    if (fim.start) fs += ' (' + toDisplayTime(fim.start) + (fim.end ? ' &ndash; ' + toDisplayTime(fim.end) : '') + ')';
+    l2.push(fs);
   }
-
   if (ic && ic.name) {
-    var icStr = '<span class="shift-badge">IC</span> ' + ic.name;
-    if (ic.start) icStr += ' (' + toDisplayTime(ic.start) + (ic.end ? ' - ' + toDisplayTime(ic.end) : '') + ')';
-    line2Parts.push(icStr);
+    var is = badge('IC') + ic.name;
+    if (ic.start) is += ' (' + toDisplayTime(ic.start) + (ic.end ? ' &ndash; ' + toDisplayTime(ic.end) : '') + ')';
+    l2.push(is);
   }
 
-  var html = line1;
-  if (line2Parts.length) {
-    html += '<div class="shift-line">' + line2Parts.join('<span style="opacity:0.4; margin:0 10px;">|</span>') + '</div>';
+  var line2El = document.getElementById('line2');
+  if (l2.length) {
+    line2El.innerHTML = l2.join(sep());
+    line2El.style.display = 'block';
+  } else {
+    line2El.style.display = 'none';
   }
-  document.getElementById('banner-main').innerHTML = html;
 
   var banner = document.getElementById('banner');
   banner.className = '';
@@ -217,12 +227,8 @@ function fetchStatus() {
   xhr.setRequestHeader('Pragma', 'no-cache');
   xhr.onload = function() {
     if (xhr.status === 200) {
-      try {
-        var data = JSON.parse(xhr.responseText);
-        updateBanner(data.nwc || {});
-      } catch(e) {
-        document.getElementById('banner-main').innerText = 'Status unavailable.';
-      }
+      try { updateBanner(JSON.parse(xhr.responseText).nwc || {}); }
+      catch(e) { document.getElementById('line1').innerText = 'Status unavailable.'; }
     }
   };
   xhr.send();
@@ -231,6 +237,5 @@ function fetchStatus() {
 fetchStatus();
 setInterval(fetchStatus, 5000);
 </script>
-
 </body>
 </html>
