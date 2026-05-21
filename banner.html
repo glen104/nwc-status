@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 100%; height: 100%; font-family: Arial, sans-serif; background: transparent; }
+
+  #banner {
+    background: #00c400;
+    color: white;
+    text-align: center;
+    padding: 16px 24px;
+    font-size: 1.05rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 70px;
+  }
+
+  #banner-text {
+    flex: 1;
+    min-width: 200px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+
+  #banner-btn {
+    background: #003087;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+    flex-shrink: 0;
+  }
+
+  #banner.level3 { background: #e6a817; }
+  #banner.level2 { background: #cc3300; }
+  #banner.level1 { background: #800000; animation: pulse 1.5s infinite; }
+
+  @keyframes pulse {
+    0%,100% { background: #800000; }
+    50%      { background: #cc0000; }
+  }
+
+</style>
+</head>
+<body>
+
+<div id="banner">
+  <div id="banner-text">
+    <span id="banner-main">Loading NWC operational status...</span>
+  </div>
+  <a id="banner-btn" href="https://docs.google.com/document/d/1" target="_blank">NWC Operational Levels</a>
+</div>
+
+<script>
+var HYDRO_URL = "https://glen104.github.io/nwc-status/hydro-status.json";
+
+function fetchStatus() {
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", HYDRO_URL + "?cb=" + Date.now(), true);
+  xhr.setRequestHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+  xhr.setRequestHeader("Pragma", "no-cache");
+  xhr.onload = function() {
+    if (xhr.status === 200) {
+      try {
+        var data = JSON.parse(xhr.responseText);
+        var nwc  = data.nwc || {};
+        updateBanner(nwc);
+      } catch(e) {
+        document.getElementById('banner-main').innerText = "Status unavailable.";
+      }
+    }
+  };
+  xhr.send();
+}
+
+function updateBanner(nwc) {
+  var level  = nwc.opsLevel || "Level 4 (Normal Operations)";
+  var reason = nwc.reason   || "";
+  var hours  = nwc.hours    || "5:00 AM - 8:30 PM CT";
+  var updated = nwc.updated || "";
+
+  // Build display text
+  var text = "The NWC is currently at " + level + "  |  NWC OPS Available: " + hours;
+  if (reason) text += "  |  " + reason;
+  document.getElementById('banner-main').innerText = text;
+
+
+
+  // Color based on level
+  var banner = document.getElementById('banner');
+  banner.className = '';
+  if      (level.indexOf('Level 1') !== -1) banner.className = 'level1';
+  else if (level.indexOf('Level 2') !== -1) banner.className = 'level2';
+  else if (level.indexOf('Level 3') !== -1) banner.className = 'level3';
+}
+
+// Fetch on load and every 5 minutes
+fetchStatus();
+setInterval(fetchStatus, 5000);
+</script>
+
+</body>
+</html>
