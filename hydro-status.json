@@ -1,9 +1,9 @@
 {
   "nwc": {
-    "opsLevel": "Level 1 (Full Activation)",
-    "reason": "Things are going down hill real quick but we are only needed during the day",
+    "opsLevel": "Level 2 (Partial Activation)",
+    "reason": "a little cooler today",
     "hours": "5:00 AM - 8:30 PM CDT",
-    "updated": "2026-05-21T15:41:32Z"
+    "updated": "2026-05-21T15:43:13Z"
   },
-  "lastUpdated": "2026-05-21T15:41:32Z"
+  "lastUpdated": "2026-05-21T15:43:13Z"
 }
