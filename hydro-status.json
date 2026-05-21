@@ -1,7 +1,7 @@
 {
   "nwc": {
     "opsLevel": "Level 2 (Partial Activation)",
-    "reason": "Test",
+    "reason": "test test",
     "hours": "0500 - 2300 CDT",
     "shifts": [
       {
@@ -26,7 +26,7 @@
       "start": "1200"
     },
     "ic": null,
-    "updated": "2026-05-21T18:05:38Z"
+    "updated": "2026-05-21T18:05:48Z"
   },
-  "lastUpdated": "2026-05-21T18:05:38Z"
+  "lastUpdated": "2026-05-21T18:05:48Z"
 }
