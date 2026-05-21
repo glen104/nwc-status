@@ -1,9 +1,9 @@
 {
   "nwc": {
     "opsLevel": "Level 2 (Partial Activation)",
-    "reason": "",
-    "hours": "5:00 AM - 8:30 PM CDT",
-    "updated": "2026-05-21T15:12:31Z"
+    "reason": "TEST Hurricane",
+    "hours": "24-Hour Operations",
+    "updated": "2026-05-21T15:12:44Z"
   },
-  "lastUpdated": "2026-05-21T15:12:31Z"
+  "lastUpdated": "2026-05-21T15:12:44Z"
 }
