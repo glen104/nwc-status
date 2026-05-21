@@ -25,7 +25,7 @@
   #banner-text {
     flex: 1;
     min-width: 200px;
-    line-height: 1.5;
+    line-height: 1.6;
     word-wrap: break-word;
     white-space: normal;
   }
@@ -52,6 +52,8 @@
     0%,100% { background: #800000; }
     50%      { background: #cc0000; }
   }
+
+  .shift-line { font-size: 0.92rem; font-weight: 800; letter-spacing: 0.5px; opacity: 0.97; text-transform: uppercase; }
 </style>
 </head>
 <body>
@@ -75,14 +77,12 @@ function isDST() {
 
 function parseTimeToMins(t) {
   if (!t) return -1;
-  // Z time e.g. "0500Z" or "05:00Z" or "0500"
   var zm = t.toString().match(/^(\d{2}):?(\d{2})Z?$/);
   if (zm) {
     var utcMins = parseInt(zm[1]) * 60 + parseInt(zm[2]);
     var offset = isDST() ? 5 : 6;
     return (utcMins - offset * 60 + 1440) % 1440;
   }
-  // 12hr e.g. "5:00 AM"
   var m = t.toString().match(/(\d+):(\d+)\s*(AM|PM)/i);
   if (!m) return -1;
   var h = parseInt(m[1]); var mn = parseInt(m[2]); var ap = m[3].toUpperCase();
@@ -127,29 +127,21 @@ function getNextShift(shifts) {
     var start = parseTimeToMins(s.start);
     if (start < 0) continue;
     var diff = (start - ctMins + 1440) % 1440;
-    if (diff > 0 && diff <= 60) return s;
+    if (diff > 0 && diff <= 120) return s;  // 2 hour warning
   }
   return null;
 }
 
-function formatShift(s) {
+function formatShiftPlan(label, s) {
   if (!s) return '';
   var parts = [];
   if (s.lead) parts.push('Lead: ' + s.lead);
-  if (s.forecaster) parts.push('Fore: ' + s.forecaster);
-  var times = (s.start || '') + (s.end ? ' - ' + s.end : '');
-  return parts.join(' / ') + (times ? ' (' + times + ')' : '');
-}
-
-function formatShiftPlan(s) {
-  if (!s) return '';
-  var parts = [];
-  if (s.lead) parts.push('Lead: ' + s.lead);
-  // Support both single forecaster and array
   var fores = s.forecasters || (s.forecaster ? [s.forecaster] : []);
   fores = fores.filter(function(f){ return f; });
   if (fores.length) parts.push('Forecaster: ' + fores.join(', '));
-  return parts.join(' / ');
+  var endTime = s.end ? ' thru ' + s.end : '';
+  var staff = parts.length ? '  ' + parts.join(' / ') : '';
+  return label + endTime + ':' + staff;
 }
 
 function updateBanner(nwc) {
@@ -160,36 +152,35 @@ function updateBanner(nwc) {
   var fim    = nwc.fim      || null;
   var ic     = nwc.ic       || null;
 
-  // Line 1 - status info
-  var line1Parts = ['The NWC is currently at ' + level];
-  line1Parts.push('NWC OPS Available: ' + hours);
-  if (reason) line1Parts.push(reason);
+  // Line 1 - status
+  var line1 = 'The NWC is currently at ' + level + '  |  NWC OPS Available: ' + hours;
+  if (reason) line1 += '  |  ' + reason;
 
   // Line 2 - shift plan
   var line2Parts = [];
+
   var curShift = getCurrentShift(shifts);
-  if (curShift) {
-    var times = (curShift.start || '') + (curShift.end ? ' - ' + curShift.end : '');
-    line2Parts.push('Shift Plan (' + times + '): ' + formatShiftPlan(curShift));
-  }
+  if (curShift) line2Parts.push(formatShiftPlan('CURRENT SHIFT', curShift));
+
   var nextShift = getNextShift(shifts);
-  if (nextShift) {
-    var ntimes = (nextShift.start || '') + (nextShift.end ? ' - ' + nextShift.end : '');
-    line2Parts.push('Next Shift (' + ntimes + '): ' + formatShiftPlan(nextShift));
-  }
+  if (nextShift) line2Parts.push(formatShiftPlan('NEXT SHIFT', nextShift));
+
   if (fim && fim.name) {
-    var fimStr = 'FIM: ' + fim.name;
+    var fimStr = 'FIM COORD: ' + fim.name;
     if (fim.start) fimStr += ' (' + fim.start + (fim.end ? ' - ' + fim.end : '') + ')';
     line2Parts.push(fimStr);
   }
+
   if (ic && ic.name) {
     var icStr = 'IC: ' + ic.name;
     if (ic.start) icStr += ' (' + ic.start + (ic.end ? ' - ' + ic.end : '') + ')';
     line2Parts.push(icStr);
   }
 
-  var html = line1Parts.join('  |  ');
-  if (line2Parts.length) html += '<br><span style="font-size:0.9rem; font-weight:600; opacity:0.95;">' + line2Parts.join('  |  ') + '</span>';
+  var html = line1;
+  if (line2Parts.length) {
+    html += '<br><span class="shift-line">' + line2Parts.join('  |  ') + '</span>';
+  }
   document.getElementById('banner-main').innerHTML = html;
 
   var banner = document.getElementById('banner');
@@ -208,8 +199,7 @@ function fetchStatus() {
     if (xhr.status === 200) {
       try {
         var data = JSON.parse(xhr.responseText);
-        var nwc  = data.nwc || {};
-        updateBanner(nwc);
+        updateBanner(data.nwc || {});
       } catch(e) {
         document.getElementById('banner-main').innerText = 'Status unavailable.';
       }
