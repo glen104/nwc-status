@@ -53,7 +53,9 @@
     50%      { background: #cc0000; }
   }
 
-  .shift-line { font-size: 0.92rem; font-weight: 800; letter-spacing: 0.5px; opacity: 0.97; text-transform: uppercase; }
+  .shift-line { font-size: 0.82rem; font-weight: 800; letter-spacing: 0.8px; text-transform: uppercase; line-height: 1.7; border-top: 1px solid rgba(255,255,255,0.2); margin-top: 6px; padding-top: 6px; }
+  .shift-badge { background: rgba(0,0,0,0.2); border-radius: 3px; padding: 1px 7px; margin-right: 6px; font-size: 0.78rem; }
+  #banner-btn { background: rgba(0,0,30,0.45); border: 1px solid rgba(255,255,255,0.35); }
 </style>
 </head>
 <body>
@@ -132,6 +134,24 @@ function getNextShift(shifts) {
   return null;
 }
 
+function toDisplayTime(t) {
+  if (!t) return '';
+  // Handle Z/24hr formats: "1600", "16:00", "16:00Z"
+  var zm = t.toString().match(/^(\d{2}):?(\d{2})Z?$/);
+  if (zm) {
+    var utcH = parseInt(zm[1]); var utcM = parseInt(zm[2]);
+    var offset = isDST() ? 5 : 6;
+    var tz = isDST() ? 'CDT' : 'CST';
+    var ctMins = (utcH * 60 + utcM - offset * 60 + 1440) % 1440;
+    var h = Math.floor(ctMins / 60); var m = ctMins % 60;
+    var ap = h >= 12 ? 'PM' : 'AM';
+    h = h % 12; if (h === 0) h = 12;
+    return h + (m > 0 ? ':' + (m < 10 ? '0' + m : m) : '') + ' ' + ap + ' ' + tz;
+  }
+  // Already 12hr format - just return as-is
+  return t;
+}
+
 function formatShiftPlan(label, s) {
   if (!s) return '';
   var parts = [];
@@ -139,9 +159,9 @@ function formatShiftPlan(label, s) {
   var fores = s.forecasters || (s.forecaster ? [s.forecaster] : []);
   fores = fores.filter(function(f){ return f; });
   if (fores.length) parts.push('Forecaster: ' + fores.join(', '));
-  var endTime = s.end ? ' thru ' + s.end : '';
-  var staff = parts.length ? '  ' + parts.join(' / ') : '';
-  return label + endTime + ':' + staff;
+  var endTime = s.end ? ' thru ' + toDisplayTime(s.end) : '';
+  var staff = parts.length ? '  ' + parts.join(' / ') : '';
+  return '<span class="shift-badge">' + label + '</span>' + endTime + ':' + staff;
 }
 
 function updateBanner(nwc) {
@@ -166,20 +186,20 @@ function updateBanner(nwc) {
   if (nextShift) line2Parts.push(formatShiftPlan('NEXT SHIFT', nextShift));
 
   if (fim && fim.name) {
-    var fimStr = 'FIM COORD: ' + fim.name;
-    if (fim.start) fimStr += ' (' + fim.start + (fim.end ? ' - ' + fim.end : '') + ')';
+    var fimStr = '<span class="shift-badge">FIM COORD</span> ' + fim.name;
+    if (fim.start) fimStr += ' (' + toDisplayTime(fim.start) + (fim.end ? ' - ' + toDisplayTime(fim.end) : '') + ')';
     line2Parts.push(fimStr);
   }
 
   if (ic && ic.name) {
-    var icStr = 'IC: ' + ic.name;
-    if (ic.start) icStr += ' (' + ic.start + (ic.end ? ' - ' + ic.end : '') + ')';
+    var icStr = '<span class="shift-badge">IC</span> ' + ic.name;
+    if (ic.start) icStr += ' (' + toDisplayTime(ic.start) + (ic.end ? ' - ' + toDisplayTime(ic.end) : '') + ')';
     line2Parts.push(icStr);
   }
 
   var html = line1;
   if (line2Parts.length) {
-    html += '<br><span class="shift-line">' + line2Parts.join('  |  ') + '</span>';
+    html += '<div class="shift-line">' + line2Parts.join('<span style="opacity:0.4; margin:0 10px;">|</span>') + '</div>';
   }
   document.getElementById('banner-main').innerHTML = html;
 
