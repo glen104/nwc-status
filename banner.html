@@ -141,6 +141,17 @@ function formatShift(s) {
   return parts.join(' / ') + (times ? ' (' + times + ')' : '');
 }
 
+function formatShiftPlan(s) {
+  if (!s) return '';
+  var parts = [];
+  if (s.lead) parts.push('Lead: ' + s.lead);
+  // Support both single forecaster and array
+  var fores = s.forecasters || (s.forecaster ? [s.forecaster] : []);
+  fores = fores.filter(function(f){ return f; });
+  if (fores.length) parts.push('Forecaster: ' + fores.join(', '));
+  return parts.join(' / ');
+}
+
 function updateBanner(nwc) {
   var level  = nwc.opsLevel || 'Level 4 (Normal Operations)';
   var reason = nwc.reason   || '';
@@ -149,29 +160,37 @@ function updateBanner(nwc) {
   var fim    = nwc.fim      || null;
   var ic     = nwc.ic       || null;
 
-  var parts = ['The NWC is currently at ' + level];
-  parts.push('NWC OPS Available: ' + hours);
-  if (reason) parts.push(reason);
+  // Line 1 - status info
+  var line1Parts = ['The NWC is currently at ' + level];
+  line1Parts.push('NWC OPS Available: ' + hours);
+  if (reason) line1Parts.push(reason);
 
+  // Line 2 - shift plan
+  var line2Parts = [];
   var curShift = getCurrentShift(shifts);
-  if (curShift) parts.push('Current Shift: ' + formatShift(curShift));
-
+  if (curShift) {
+    var times = (curShift.start || '') + (curShift.end ? ' - ' + curShift.end : '');
+    line2Parts.push('Shift Plan (' + times + '): ' + formatShiftPlan(curShift));
+  }
   var nextShift = getNextShift(shifts);
-  if (nextShift) parts.push('Next Shift: ' + formatShift(nextShift));
-
+  if (nextShift) {
+    var ntimes = (nextShift.start || '') + (nextShift.end ? ' - ' + nextShift.end : '');
+    line2Parts.push('Next Shift (' + ntimes + '): ' + formatShiftPlan(nextShift));
+  }
   if (fim && fim.name) {
     var fimStr = 'FIM: ' + fim.name;
     if (fim.start) fimStr += ' (' + fim.start + (fim.end ? ' - ' + fim.end : '') + ')';
-    parts.push(fimStr);
+    line2Parts.push(fimStr);
   }
-
   if (ic && ic.name) {
     var icStr = 'IC: ' + ic.name;
     if (ic.start) icStr += ' (' + ic.start + (ic.end ? ' - ' + ic.end : '') + ')';
-    parts.push(icStr);
+    line2Parts.push(icStr);
   }
 
-  document.getElementById('banner-main').innerText = parts.join('  |  ');
+  var html = line1Parts.join('  |  ');
+  if (line2Parts.length) html += '<br><span style="font-size:0.9rem; font-weight:600; opacity:0.95;">' + line2Parts.join('  |  ') + '</span>';
+  document.getElementById('banner-main').innerHTML = html;
 
   var banner = document.getElementById('banner');
   banner.className = '';
