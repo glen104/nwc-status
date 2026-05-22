@@ -1,7 +1,7 @@
 {
-  "updated": "2026-05-22T16:18:50Z",
+  "updated": "2026-05-22T16:28:07Z",
   "sources": {
-    "primary": "IEM (Iowa Environmental Mesonet)",
+    "primary": "IEM (Iowa Environmental Mesonet) sbw.geojson",
     "secondary": "api.weather.gov"
   },
   "offices": {
@@ -21,10 +21,630 @@
     },
     "MOB": {
       "name": "Mobile, AL",
-      "iemCount": 0,
+      "iemCount": 5,
       "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "comparisonCount": 5,
+      "comparison": [
+        {
+          "key": "TO.W.21.KMOB",
+          "iem": {
+            "source": "iem",
+            "phenomena": "TO",
+            "significance": "W",
+            "event": "TO.W",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "21",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "TO",
+              "significance": "W",
+              "etn": "21",
+              "start": "",
+              "end": ""
+            },
+            "issued": "2026-05-22T15:58:00Z",
+            "expires": "2026-05-22T16:30:00Z",
+            "areaDesc": "",
+            "ugcZones": [],
+            "polygon": [
+              [
+                31.93,
+                -87.96
+              ],
+              [
+                31.95,
+                -88.03
+              ],
+              [
+                31.99,
+                -88.01
+              ],
+              [
+                31.99,
+                -87.89
+              ],
+              [
+                31.93,
+                -87.96
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "rawProps": {
+              "status": "EXP",
+              "phenomena": "TO",
+              "significance": "W",
+              "ps": "Tornado Warning",
+              "wfo": "MOB",
+              "eventid": 21,
+              "polygon_begin": "2026-05-22T16:25:00Z",
+              "polygon_end": "2026-05-22T16:30:00Z",
+              "expire": "2026-05-22T16:30:00Z",
+              "hvtec_nwsli": null,
+              "year": 2026,
+              "product_id": "202605221625-KMOB-WWUS54-SVSMOB",
+              "issue": "2026-05-22T15:58:00Z",
+              "expire_utc": "2026-05-22T16:30:00Z",
+              "href": "https://mesonet.agron.iastate.edu/vtec/?year=2026&wfo=KMOB&phenomena=TO&significance=W&eventid=0021",
+              "link": "<a href='https://mesonet.agron.iastate.edu/vtec/?year=2026&wfo=KMOB&phenomena=TO&significance=W&eventid=0021'>Tornado Warning 21</a> &nbsp; ",
+              "windtag": null,
+              "hailtag": null,
+              "tornadotag": null,
+              "damagetag": null,
+              "waterspouttag": null,
+              "is_emergency": false,
+              "is_pds": false,
+              "windthreat": null,
+              "hailthreat": null,
+              "product_signature": "RD",
+              "floodtag_damage": null,
+              "squalltag": null,
+              "max_windtag": null,
+              "max_hailtag": 0.75,
+              "max_is_pds": false,
+              "max_is_emergency": false,
+              "max_floodtag_damage": null
+            }
+          },
+          "api": null,
+          "inBoth": false,
+          "iemOnly": true,
+          "apiOnly": false
+        },
+        {
+          "key": "FF.W.5.KMOB",
+          "iem": {
+            "source": "iem",
+            "phenomena": "FF",
+            "significance": "W",
+            "event": "FF.W",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "5",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "FF",
+              "significance": "W",
+              "etn": "5",
+              "start": "",
+              "end": ""
+            },
+            "issued": "2026-05-22T15:45:00Z",
+            "expires": "2026-05-22T18:45:00Z",
+            "areaDesc": "",
+            "ugcZones": [],
+            "polygon": [
+              [
+                30.76,
+                -88.19
+              ],
+              [
+                30.82,
+                -88.18
+              ],
+              [
+                30.96,
+                -88.09
+              ],
+              [
+                30.9,
+                -88.03
+              ],
+              [
+                30.98,
+                -87.97
+              ],
+              [
+                30.97,
+                -87.95
+              ],
+              [
+                30.87,
+                -88
+              ],
+              [
+                30.71,
+                -88.16
+              ],
+              [
+                30.76,
+                -88.19
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "rawProps": {
+              "status": "NEW",
+              "phenomena": "FF",
+              "significance": "W",
+              "ps": "Flash Flood Warning",
+              "wfo": "MOB",
+              "eventid": 5,
+              "polygon_begin": "2026-05-22T15:45:00Z",
+              "polygon_end": "2026-05-22T18:45:00Z",
+              "expire": "2026-05-22T18:45:00Z",
+              "hvtec_nwsli": "00000",
+              "year": 2026,
+              "product_id": "202605221545-KMOB-WGUS54-FFWMOB",
+              "issue": "2026-05-22T15:45:00Z",
+              "expire_utc": "2026-05-22T18:45:00Z",
+              "href": "https://mesonet.agron.iastate.edu/vtec/?year=2026&wfo=KMOB&phenomena=FF&significance=W&eventid=0005",
+              "link": "<a href='https://mesonet.agron.iastate.edu/vtec/?year=2026&wfo=KMOB&phenomena=FF&significance=W&eventid=0005'>Flash Flood Warning 5</a> &nbsp; ",
+              "windtag": null,
+              "hailtag": null,
+              "tornadotag": null,
+              "damagetag": null,
+              "waterspouttag": null,
+              "is_emergency": false,
+              "is_pds": false,
+              "windthreat": null,
+              "hailthreat": null,
+              "product_signature": null,
+              "floodtag_damage": null,
+              "squalltag": null,
+              "max_windtag": null,
+              "max_hailtag": null,
+              "max_is_pds": false,
+              "max_is_emergency": false,
+              "max_floodtag_damage": null
+            }
+          },
+          "api": null,
+          "inBoth": false,
+          "iemOnly": true,
+          "apiOnly": false
+        },
+        {
+          "key": "FF.W.4.KMOB",
+          "iem": {
+            "source": "iem",
+            "phenomena": "FF",
+            "significance": "W",
+            "event": "FF.W",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "4",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "FF",
+              "significance": "W",
+              "etn": "4",
+              "start": "",
+              "end": ""
+            },
+            "issued": "2026-05-22T15:22:00Z",
+            "expires": "2026-05-22T18:30:00Z",
+            "areaDesc": "",
+            "ugcZones": [],
+            "polygon": [
+              [
+                30.96,
+                -88.09
+              ],
+              [
+                31.16,
+                -87.95
+              ],
+              [
+                31.16,
+                -87.94
+              ],
+              [
+                31.17,
+                -87.94
+              ],
+              [
+                31.19,
+                -87.93
+              ],
+              [
+                31.35,
+                -87.78
+              ],
+              [
+                31.35,
+                -87.77
+              ],
+              [
+                31.33,
+                -87.78
+              ],
+              [
+                31.31,
+                -87.78
+              ],
+              [
+                31.3,
+                -87.78
+              ],
+              [
+                31.3,
+                -87.76
+              ],
+              [
+                31.3,
+                -87.75
+              ],
+              [
+                31.3,
+                -87.74
+              ],
+              [
+                31.3,
+                -87.72
+              ],
+              [
+                31.17,
+                -87.81
+              ],
+              [
+                31.07,
+                -87.92
+              ],
+              [
+                30.9,
+                -88.03
+              ],
+              [
+                30.96,
+                -88.09
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "rawProps": {
+              "status": "NEW",
+              "phenomena": "FF",
+              "significance": "W",
+              "ps": "Flash Flood Warning",
+              "wfo": "MOB",
+              "eventid": 4,
+              "polygon_begin": "2026-05-22T15:22:00Z",
+              "polygon_end": "2026-05-22T18:30:00Z",
+              "expire": "2026-05-22T18:30:00Z",
+              "hvtec_nwsli": "00000",
+              "year": 2026,
+              "product_id": "202605221522-KMOB-WGUS54-FFWMOB",
+              "issue": "2026-05-22T15:22:00Z",
+              "expire_utc": "2026-05-22T18:30:00Z",
+              "href": "https://mesonet.agron.iastate.edu/vtec/?year=2026&wfo=KMOB&phenomena=FF&significance=W&eventid=0004",
+              "link": "<a href='https://mesonet.agron.iastate.edu/vtec/?year=2026&wfo=KMOB&phenomena=FF&significance=W&eventid=0004'>Flash Flood Warning 4</a> &nbsp; ",
+              "windtag": null,
+              "hailtag": null,
+              "tornadotag": null,
+              "damagetag": null,
+              "waterspouttag": null,
+              "is_emergency": false,
+              "is_pds": false,
+              "windthreat": null,
+              "hailthreat": null,
+              "product_signature": null,
+              "floodtag_damage": null,
+              "squalltag": null,
+              "max_windtag": null,
+              "max_hailtag": null,
+              "max_is_pds": false,
+              "max_is_emergency": false,
+              "max_floodtag_damage": null
+            }
+          },
+          "api": null,
+          "inBoth": false,
+          "iemOnly": true,
+          "apiOnly": false
+        },
+        {
+          "key": "FA.Y.12.KMOB",
+          "iem": {
+            "source": "iem",
+            "phenomena": "FA",
+            "significance": "Y",
+            "event": "FA.Y",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "12",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "FA",
+              "significance": "Y",
+              "etn": "12",
+              "start": "",
+              "end": ""
+            },
+            "issued": "2026-05-22T15:57:00Z",
+            "expires": "2026-05-22T19:00:00Z",
+            "areaDesc": "",
+            "ugcZones": [],
+            "polygon": [
+              [
+                31.7,
+                -88.17
+              ],
+              [
+                31.7,
+                -88.46
+              ],
+              [
+                31.87,
+                -88.47
+              ],
+              [
+                32.11,
+                -88.05
+              ],
+              [
+                32.08,
+                -88.04
+              ],
+              [
+                32.06,
+                -88.07
+              ],
+              [
+                32.07,
+                -88.09
+              ],
+              [
+                32.05,
+                -88.12
+              ],
+              [
+                32,
+                -88.11
+              ],
+              [
+                31.99,
+                -88.1
+              ],
+              [
+                32.01,
+                -88.09
+              ],
+              [
+                31.99,
+                -88.07
+              ],
+              [
+                31.99,
+                -87.97
+              ],
+              [
+                31.97,
+                -87.96
+              ],
+              [
+                31.7,
+                -88.12
+              ],
+              [
+                31.7,
+                -88.17
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "rawProps": {
+              "status": "NEW",
+              "phenomena": "FA",
+              "significance": "Y",
+              "ps": "Flood Advisory",
+              "wfo": "MOB",
+              "eventid": 12,
+              "polygon_begin": "2026-05-22T15:57:00Z",
+              "polygon_end": "2026-05-22T19:00:00Z",
+              "expire": "2026-05-22T19:00:00Z",
+              "hvtec_nwsli": "00000",
+              "year": 2026,
+              "product_id": "202605221557-KMOB-WGUS84-FLSMOB",
+              "issue": "2026-05-22T15:57:00Z",
+              "expire_utc": "2026-05-22T19:00:00Z",
+              "href": "https://mesonet.agron.iastate.edu/vtec/?year=2026&wfo=KMOB&phenomena=FA&significance=Y&eventid=0012",
+              "link": "<a href='https://mesonet.agron.iastate.edu/vtec/?year=2026&wfo=KMOB&phenomena=FA&significance=Y&eventid=0012'>Flood Advisory 12</a> &nbsp; ",
+              "windtag": null,
+              "hailtag": null,
+              "tornadotag": null,
+              "damagetag": null,
+              "waterspouttag": null,
+              "is_emergency": false,
+              "is_pds": false,
+              "windthreat": null,
+              "hailthreat": null,
+              "product_signature": null,
+              "floodtag_damage": null,
+              "squalltag": null,
+              "max_windtag": null,
+              "max_hailtag": null,
+              "max_is_pds": false,
+              "max_is_emergency": false,
+              "max_floodtag_damage": null
+            }
+          },
+          "api": null,
+          "inBoth": false,
+          "iemOnly": true,
+          "apiOnly": false
+        },
+        {
+          "key": "FA.Y.11.KMOB",
+          "iem": {
+            "source": "iem",
+            "phenomena": "FA",
+            "significance": "Y",
+            "event": "FA.Y",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "11",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "FA",
+              "significance": "Y",
+              "etn": "11",
+              "start": "",
+              "end": ""
+            },
+            "issued": "2026-05-22T14:49:00Z",
+            "expires": "2026-05-22T18:00:00Z",
+            "areaDesc": "",
+            "ugcZones": [],
+            "polygon": [
+              [
+                30.82,
+                -88.42
+              ],
+              [
+                30.93,
+                -88.34
+              ],
+              [
+                31.14,
+                -88.07
+              ],
+              [
+                31.16,
+                -87.94
+              ],
+              [
+                31.24,
+                -87.94
+              ],
+              [
+                31.69,
+                -87.54
+              ],
+              [
+                31.43,
+                -87.44
+              ],
+              [
+                31.25,
+                -87.52
+              ],
+              [
+                31.23,
+                -87.56
+              ],
+              [
+                31.24,
+                -87.62
+              ],
+              [
+                31.15,
+                -87.62
+              ],
+              [
+                30.52,
+                -88.4
+              ],
+              [
+                30.82,
+                -88.42
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "rawProps": {
+              "status": "NEW",
+              "phenomena": "FA",
+              "significance": "Y",
+              "ps": "Flood Advisory",
+              "wfo": "MOB",
+              "eventid": 11,
+              "polygon_begin": "2026-05-22T14:49:00Z",
+              "polygon_end": "2026-05-22T18:00:00Z",
+              "expire": "2026-05-22T18:00:00Z",
+              "hvtec_nwsli": "00000",
+              "year": 2026,
+              "product_id": "202605221449-KMOB-WGUS84-FLSMOB",
+              "issue": "2026-05-22T14:49:00Z",
+              "expire_utc": "2026-05-22T18:00:00Z",
+              "href": "https://mesonet.agron.iastate.edu/vtec/?year=2026&wfo=KMOB&phenomena=FA&significance=Y&eventid=0011",
+              "link": "<a href='https://mesonet.agron.iastate.edu/vtec/?year=2026&wfo=KMOB&phenomena=FA&significance=Y&eventid=0011'>Flood Advisory 11</a> &nbsp; ",
+              "windtag": null,
+              "hailtag": null,
+              "tornadotag": null,
+              "damagetag": null,
+              "waterspouttag": null,
+              "is_emergency": false,
+              "is_pds": false,
+              "windthreat": null,
+              "hailthreat": null,
+              "product_signature": null,
+              "floodtag_damage": null,
+              "squalltag": null,
+              "max_windtag": null,
+              "max_hailtag": null,
+              "max_is_pds": false,
+              "max_is_emergency": false,
+              "max_floodtag_damage": null
+            }
+          },
+          "api": null,
+          "inBoth": false,
+          "iemOnly": true,
+          "apiOnly": false
+        }
+      ]
     },
     "HUN": {
       "name": "Huntsville, AL",
