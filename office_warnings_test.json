@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T15:52:33Z",
+  "updated": "2026-05-22T15:58:58Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet)",
     "secondary": "api.weather.gov"
@@ -14,6 +14,20 @@
     },
     "BMX": {
       "name": "Birmingham, AL",
+      "iemCount": 0,
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
+    },
+    "MOB": {
+      "name": "Mobile, AL",
+      "iemCount": 0,
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
+    },
+    "HUN": {
+      "name": "Huntsville, AL",
       "iemCount": 0,
       "apiCount": 0,
       "comparisonCount": 0,
