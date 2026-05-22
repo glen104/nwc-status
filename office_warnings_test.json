@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T23:25:22Z",
+  "updated": "2026-05-22T23:30:39Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,94 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
+      "apiCount": 3,
+      "comparisonCount": 3,
       "comparison": [
+        {
+          "key": "SV.W.174.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "W",
+            "event": "Severe Thunderstorm Warning",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0174",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "SV",
+              "significance": "W",
+              "etn": "0174",
+              "start": "260522T2325Z",
+              "end": "260523T0030Z"
+            },
+            "issued": "2026-05-22T18:25:00-05:00",
+            "expires": "2026-05-22T19:30:00-05:00",
+            "areaDesc": "Simpson, MS; Smith, MS",
+            "ugcZones": [
+              "MSC127",
+              "MSC129"
+            ],
+            "sameCodes": [
+              "028127",
+              "028129"
+            ],
+            "polygon": [
+              [
+                32.06,
+                -89.42
+              ],
+              [
+                31.97,
+                -89.58
+              ],
+              [
+                31.97,
+                -89.75
+              ],
+              [
+                32.22,
+                -89.64
+              ],
+              [
+                32.22,
+                -89.32
+              ],
+              [
+                32.2,
+                -89.32
+              ],
+              [
+                32.06,
+                -89.42
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": {
+              "direction": "NORTHEAST",
+              "speed_mph": 20,
+              "bearing": 45
+            },
+            "motionStr": "Northeast at 20 MPH",
+            "hailSize": "1.00\"",
+            "windSpeed": "60 MPH",
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": "White Oak",
+            "headline": "Severe Thunderstorm Warning issued May 22 at 6:25PM CDT until May 22 at 7:30PM CDT by NWS Jackson MS",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
         {
           "key": "SV.W.173.KJAN",
           "iem": null,
