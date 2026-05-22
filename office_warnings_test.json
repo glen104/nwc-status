@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T23:30:39Z",
+  "updated": "2026-05-22T23:43:38Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,8 +8,8 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 3,
-      "comparisonCount": 3,
+      "apiCount": 2,
+      "comparisonCount": 2,
       "comparison": [
         {
           "key": "SV.W.174.KJAN",
@@ -86,91 +86,6 @@
             "detectionSource": "RADAR INDICATED",
             "nearestLocation": "White Oak",
             "headline": "Severe Thunderstorm Warning issued May 22 at 6:25PM CDT until May 22 at 7:30PM CDT by NWS Jackson MS",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Observed",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "SV.W.173.KJAN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "SV",
-            "significance": "W",
-            "event": "Severe Thunderstorm Warning",
-            "action": "NEW",
-            "office": "KJAN",
-            "wfo": "JAN",
-            "etn": "0173",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KJAN",
-              "phenomena": "SV",
-              "significance": "W",
-              "etn": "0173",
-              "start": "260522T2255Z",
-              "end": "260523T0000Z"
-            },
-            "issued": "2026-05-22T17:55:00-05:00",
-            "expires": "2026-05-22T19:00:00-05:00",
-            "areaDesc": "Covington, MS; Jefferson Davis, MS; Simpson, MS; Smith, MS",
-            "ugcZones": [
-              "MSC031",
-              "MSC065",
-              "MSC127",
-              "MSC129"
-            ],
-            "sameCodes": [
-              "028031",
-              "028065",
-              "028127",
-              "028129"
-            ],
-            "polygon": [
-              [
-                31.68,
-                -89.6
-              ],
-              [
-                31.68,
-                -89.79
-              ],
-              [
-                31.77,
-                -89.82
-              ],
-              [
-                31.98,
-                -89.81
-              ],
-              [
-                31.96,
-                -89.47
-              ],
-              [
-                31.68,
-                -89.6
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": {
-              "direction": "NORTH",
-              "speed_mph": 15,
-              "bearing": 0
-            },
-            "motionStr": "North at 15 MPH",
-            "hailSize": "1.25\"",
-            "windSpeed": "60 MPH",
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Mount Olive",
-            "headline": "Severe Thunderstorm Warning issued May 22 at 5:55PM CDT until May 22 at 7:00PM CDT by NWS Jackson MS",
             "nwsHeadline": null,
             "urgency": "Immediate",
             "severity": "Severe",
@@ -274,8 +189,8 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 3,
-      "comparisonCount": 3,
+      "apiCount": 2,
+      "comparisonCount": 2,
       "comparison": [
         {
           "key": "RP.S.14.KMOB",
@@ -403,77 +318,6 @@
             "nearestLocation": null,
             "headline": "Flood Advisory issued May 22 at 4:24PM CDT until May 22 at 7:30PM CDT by NWS Mobile AL",
             "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 730 PM CDT THIS EVENING",
-            "urgency": "Expected",
-            "severity": "Minor",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "FA.Y.14.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FA",
-            "significance": "Y",
-            "event": "Flood Advisory",
-            "action": "NEW",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0014",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KMOB",
-              "phenomena": "FA",
-              "significance": "Y",
-              "etn": "0014",
-              "start": "260522T2038Z",
-              "end": "260522T2345Z"
-            },
-            "issued": "2026-05-22T15:38:00-05:00",
-            "expires": "2026-05-22T18:45:00-05:00",
-            "areaDesc": "Perry, MS",
-            "ugcZones": [
-              "MSC111"
-            ],
-            "sameCodes": [
-              "028111"
-            ],
-            "polygon": [
-              [
-                31.43,
-                -89.15
-              ],
-              [
-                31.43,
-                -88.84
-              ],
-              [
-                31.25,
-                -88.84
-              ],
-              [
-                31,
-                -89.15
-              ],
-              [
-                31.43,
-                -89.15
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "The Area",
-            "headline": "Flood Advisory issued May 22 at 3:38PM CDT until May 22 at 6:45PM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 645 PM CDT THIS EVENING",
             "urgency": "Expected",
             "severity": "Minor",
             "certainty": "Likely",
