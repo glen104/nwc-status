@@ -1,16 +1,98 @@
 {
-  "updated": "2026-05-22T16:28:07Z",
+  "updated": "2026-05-22T17:15:41Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) sbw.geojson",
-    "secondary": "api.weather.gov"
+    "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
   },
   "offices": {
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "FL.W.0011.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0011",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0011",
+              "start": "260523T0454Z",
+              "end": "000000T0000Z"
+            },
+            "issued": "2026-05-22T09:39:00-05:00",
+            "expires": "2026-05-22T21:45:00-05:00",
+            "areaDesc": "Attala, MS; Holmes, MS",
+            "ugcZones": [
+              "MSC007",
+              "MSC051"
+            ],
+            "sameCodes": [
+              "028007",
+              "028051"
+            ],
+            "polygon": [
+              [
+                32.91,
+                -90.06
+              ],
+              [
+                33.14,
+                -89.9
+              ],
+              [
+                33.3,
+                -89.81
+              ],
+              [
+                33.22,
+                -89.63
+              ],
+              [
+                33.13,
+                -89.69
+              ],
+              [
+                32.85,
+                -89.87
+              ],
+              [
+                32.91,
+                -90.06
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued May 22 at 9:39AM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT FROM THIS EVENING UNTIL FURTHER NOTICE",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "BMX": {
       "name": "Birmingham, AL",
@@ -22,82 +104,119 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 5,
-      "apiCount": 0,
-      "comparisonCount": 5,
+      "apiCount": 4,
+      "comparisonCount": 9,
       "comparison": [
         {
-          "key": "TO.W.21.KMOB",
+          "key": "MA.W.29.KMOB",
           "iem": {
             "source": "iem",
-            "phenomena": "TO",
+            "status": "NEW",
+            "phenomena": "MA",
             "significance": "W",
-            "event": "TO.W",
+            "event": "MA.W",
             "action": "NEW",
             "office": "KMOB",
             "wfo": "MOB",
-            "etn": "21",
+            "etn": "29",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KMOB",
-              "phenomena": "TO",
+              "phenomena": "MA",
               "significance": "W",
-              "etn": "21",
-              "start": "",
-              "end": ""
+              "etn": "29",
+              "start": "2026-05-22T17:09:00Z",
+              "end": "2026-05-22T18:15:00Z"
             },
-            "issued": "2026-05-22T15:58:00Z",
-            "expires": "2026-05-22T16:30:00Z",
+            "issued": "2026-05-22T17:09:00Z",
+            "expires": "2026-05-22T18:15:00Z",
             "areaDesc": "",
             "ugcZones": [],
             "polygon": [
               [
-                31.93,
-                -87.96
+                30.39,
+                -88.4
               ],
               [
-                31.95,
-                -88.03
+                30.4,
+                -88.4
               ],
               [
-                31.99,
-                -88.01
+                30.42,
+                -88.38
               ],
               [
-                31.99,
-                -87.89
+                30.43,
+                -88.36
               ],
               [
-                31.93,
-                -87.96
+                30.38,
+                -88.19
+              ],
+              [
+                30.34,
+                -88.13
+              ],
+              [
+                30.32,
+                -88.14
+              ],
+              [
+                30.23,
+                -88.29
+              ],
+              [
+                30.22,
+                -88.38
+              ],
+              [
+                30.34,
+                -88.4
+              ],
+              [
+                30.35,
+                -88.39
+              ],
+              [
+                30.37,
+                -88.4
+              ],
+              [
+                30.38,
+                -88.41
+              ],
+              [
+                30.39,
+                -88.4
               ]
             ],
             "threatLevel": "STANDARD",
             "stormMotion": null,
             "motionStr": "",
             "hailSize": null,
-            "windSpeed": null,
+            "windSpeed": "34.0 MPH",
             "detectionSource": null,
             "nearestLocation": null,
             "rawProps": {
-              "status": "EXP",
-              "phenomena": "TO",
+              "status": "NEW",
+              "phenomena": "MA",
               "significance": "W",
-              "ps": "Tornado Warning",
+              "ps": "Marine Warning",
               "wfo": "MOB",
-              "eventid": 21,
-              "polygon_begin": "2026-05-22T16:25:00Z",
-              "polygon_end": "2026-05-22T16:30:00Z",
-              "expire": "2026-05-22T16:30:00Z",
+              "eventid": 29,
+              "polygon_begin": "2026-05-22T17:09:00Z",
+              "polygon_end": "2026-05-22T18:15:00Z",
+              "expire": "2026-05-22T18:15:00Z",
               "hvtec_nwsli": null,
               "year": 2026,
-              "product_id": "202605221625-KMOB-WWUS54-SVSMOB",
-              "issue": "2026-05-22T15:58:00Z",
-              "expire_utc": "2026-05-22T16:30:00Z",
-              "href": "https://mesonet.agron.iastate.edu/vtec/?year=2026&wfo=KMOB&phenomena=TO&significance=W&eventid=0021",
-              "link": "<a href='https://mesonet.agron.iastate.edu/vtec/?year=2026&wfo=KMOB&phenomena=TO&significance=W&eventid=0021'>Tornado Warning 21</a> &nbsp; ",
-              "windtag": null,
-              "hailtag": null,
+              "product_id": "202605221709-KMOB-WHUS54-SMWMOB",
+              "issue": "2026-05-22T17:09:00Z",
+              "expire_utc": "2026-05-22T18:15:00Z",
+              "href": "https://mesonet.agron.iastate.edu/vtec/?year=2026&wfo=KMOB&phenomena=MA&significance=W&eventid=0029",
+              "link": "<a href='https://mesonet.agron.iastate.edu/vtec/?year=2026&wfo=KMOB&phenomena=MA&significance=W&eventid=0029'>Marine Warning 29</a> &nbsp; ",
+              "windtag": 34.0,
+              "hailtag": 0.0,
               "tornadotag": null,
               "damagetag": null,
               "waterspouttag": null,
@@ -108,8 +227,8 @@
               "product_signature": "RD",
               "floodtag_damage": null,
               "squalltag": null,
-              "max_windtag": null,
-              "max_hailtag": 0.75,
+              "max_windtag": 34.0,
+              "max_hailtag": 0.0,
               "max_is_pds": false,
               "max_is_emergency": false,
               "max_floodtag_damage": null
@@ -124,6 +243,7 @@
           "key": "FF.W.5.KMOB",
           "iem": {
             "source": "iem",
+            "status": "NEW",
             "phenomena": "FF",
             "significance": "W",
             "event": "FF.W",
@@ -138,8 +258,8 @@
               "phenomena": "FF",
               "significance": "W",
               "etn": "5",
-              "start": "",
-              "end": ""
+              "start": "2026-05-22T15:45:00Z",
+              "end": "2026-05-22T18:45:00Z"
             },
             "issued": "2026-05-22T15:45:00Z",
             "expires": "2026-05-22T18:45:00Z",
@@ -235,6 +355,7 @@
           "key": "FF.W.4.KMOB",
           "iem": {
             "source": "iem",
+            "status": "NEW",
             "phenomena": "FF",
             "significance": "W",
             "event": "FF.W",
@@ -249,8 +370,8 @@
               "phenomena": "FF",
               "significance": "W",
               "etn": "4",
-              "start": "",
-              "end": ""
+              "start": "2026-05-22T15:22:00Z",
+              "end": "2026-05-22T18:30:00Z"
             },
             "issued": "2026-05-22T15:22:00Z",
             "expires": "2026-05-22T18:30:00Z",
@@ -379,9 +500,224 @@
           "apiOnly": false
         },
         {
+          "key": "FF.W.0005.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FF",
+            "significance": "W",
+            "event": "Flash Flood Warning",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0005",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "FF",
+              "significance": "W",
+              "etn": "0005",
+              "start": "260522T1545Z",
+              "end": "260522T1845Z"
+            },
+            "issued": "2026-05-22T10:45:00-05:00",
+            "expires": "2026-05-22T13:45:00-05:00",
+            "areaDesc": "Mobile, AL",
+            "ugcZones": [
+              "ALC097"
+            ],
+            "sameCodes": [
+              "001097"
+            ],
+            "polygon": [
+              [
+                30.76,
+                -88.19
+              ],
+              [
+                30.82,
+                -88.18
+              ],
+              [
+                30.96,
+                -88.09
+              ],
+              [
+                30.9,
+                -88.03
+              ],
+              [
+                30.98,
+                -87.97
+              ],
+              [
+                30.97,
+                -87.95
+              ],
+              [
+                30.87,
+                -88
+              ],
+              [
+                30.71,
+                -88.16
+              ],
+              [
+                30.76,
+                -88.19
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flash Flood Warning issued May 22 at 10:45AM CDT until May 22 at 1:45PM CDT by NWS Mobile AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FF.W.0004.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FF",
+            "significance": "W",
+            "event": "Flash Flood Warning",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0004",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "FF",
+              "significance": "W",
+              "etn": "0004",
+              "start": "260522T1522Z",
+              "end": "260522T1830Z"
+            },
+            "issued": "2026-05-22T10:22:00-05:00",
+            "expires": "2026-05-22T13:30:00-05:00",
+            "areaDesc": "Baldwin, AL; Clarke, AL; Mobile, AL",
+            "ugcZones": [
+              "ALC003",
+              "ALC025",
+              "ALC097"
+            ],
+            "sameCodes": [
+              "001003",
+              "001025",
+              "001097"
+            ],
+            "polygon": [
+              [
+                30.96,
+                -88.09
+              ],
+              [
+                31.16,
+                -87.95
+              ],
+              [
+                31.16,
+                -87.94
+              ],
+              [
+                31.17,
+                -87.94
+              ],
+              [
+                31.19,
+                -87.93
+              ],
+              [
+                31.35,
+                -87.78
+              ],
+              [
+                31.35,
+                -87.77
+              ],
+              [
+                31.33,
+                -87.78
+              ],
+              [
+                31.31,
+                -87.78
+              ],
+              [
+                31.3,
+                -87.78
+              ],
+              [
+                31.3,
+                -87.76
+              ],
+              [
+                31.3,
+                -87.75
+              ],
+              [
+                31.3,
+                -87.74
+              ],
+              [
+                31.3,
+                -87.72
+              ],
+              [
+                31.17,
+                -87.81
+              ],
+              [
+                31.07,
+                -87.92
+              ],
+              [
+                30.9,
+                -88.03
+              ],
+              [
+                30.96,
+                -88.09
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flash Flood Warning issued May 22 at 10:22AM CDT until May 22 at 1:30PM CDT by NWS Mobile AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
           "key": "FA.Y.12.KMOB",
           "iem": {
             "source": "iem",
+            "status": "NEW",
             "phenomena": "FA",
             "significance": "Y",
             "event": "FA.Y",
@@ -396,8 +732,8 @@
               "phenomena": "FA",
               "significance": "Y",
               "etn": "12",
-              "start": "",
-              "end": ""
+              "start": "2026-05-22T15:57:00Z",
+              "end": "2026-05-22T19:00:00Z"
             },
             "issued": "2026-05-22T15:57:00Z",
             "expires": "2026-05-22T19:00:00Z",
@@ -521,6 +857,7 @@
           "key": "FA.Y.11.KMOB",
           "iem": {
             "source": "iem",
+            "status": "NEW",
             "phenomena": "FA",
             "significance": "Y",
             "event": "FA.Y",
@@ -535,8 +872,8 @@
               "phenomena": "FA",
               "significance": "Y",
               "etn": "11",
-              "start": "",
-              "end": ""
+              "start": "2026-05-22T14:49:00Z",
+              "end": "2026-05-22T18:00:00Z"
             },
             "issued": "2026-05-22T14:49:00Z",
             "expires": "2026-05-22T18:00:00Z",
@@ -643,15 +980,398 @@
           "inBoth": false,
           "iemOnly": true,
           "apiOnly": false
+        },
+        {
+          "key": "FA.Y.0012.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "Y",
+            "event": "Flood Advisory",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0012",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "FA",
+              "significance": "Y",
+              "etn": "0012",
+              "start": "260522T1557Z",
+              "end": "260522T1900Z"
+            },
+            "issued": "2026-05-22T10:57:00-05:00",
+            "expires": "2026-05-22T14:00:00-05:00",
+            "areaDesc": "Choctaw, AL; Clarke, AL",
+            "ugcZones": [
+              "ALC023",
+              "ALC025"
+            ],
+            "sameCodes": [
+              "001023",
+              "001025"
+            ],
+            "polygon": [
+              [
+                31.7,
+                -88.17
+              ],
+              [
+                31.7,
+                -88.46
+              ],
+              [
+                31.87,
+                -88.47
+              ],
+              [
+                32.11,
+                -88.05
+              ],
+              [
+                32.08,
+                -88.04
+              ],
+              [
+                32.06,
+                -88.07
+              ],
+              [
+                32.07,
+                -88.09
+              ],
+              [
+                32.05,
+                -88.12
+              ],
+              [
+                32,
+                -88.11
+              ],
+              [
+                31.99,
+                -88.1
+              ],
+              [
+                32.01,
+                -88.09
+              ],
+              [
+                31.99,
+                -88.07
+              ],
+              [
+                31.99,
+                -87.97
+              ],
+              [
+                31.97,
+                -87.96
+              ],
+              [
+                31.7,
+                -88.12
+              ],
+              [
+                31.7,
+                -88.17
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flood Advisory issued May 22 at 10:57AM CDT until May 22 at 2:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 2 PM CDT THIS AFTERNOON",
+            "urgency": "Expected",
+            "severity": "Minor",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FA.Y.0011.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "Y",
+            "event": "Flood Advisory",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0011",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "FA",
+              "significance": "Y",
+              "etn": "0011",
+              "start": "260522T1449Z",
+              "end": "260522T1800Z"
+            },
+            "issued": "2026-05-22T09:49:00-05:00",
+            "expires": "2026-05-22T13:00:00-05:00",
+            "areaDesc": "Baldwin, AL; Clarke, AL; Mobile, AL; Monroe, AL",
+            "ugcZones": [
+              "ALC003",
+              "ALC025",
+              "ALC097",
+              "ALC099"
+            ],
+            "sameCodes": [
+              "001003",
+              "001025",
+              "001097",
+              "001099"
+            ],
+            "polygon": [
+              [
+                30.82,
+                -88.42
+              ],
+              [
+                30.93,
+                -88.34
+              ],
+              [
+                31.14,
+                -88.07
+              ],
+              [
+                31.16,
+                -87.94
+              ],
+              [
+                31.24,
+                -87.94
+              ],
+              [
+                31.69,
+                -87.54
+              ],
+              [
+                31.43,
+                -87.44
+              ],
+              [
+                31.25,
+                -87.52
+              ],
+              [
+                31.23,
+                -87.56
+              ],
+              [
+                31.24,
+                -87.62
+              ],
+              [
+                31.15,
+                -87.62
+              ],
+              [
+                30.52,
+                -88.4
+              ],
+              [
+                30.82,
+                -88.42
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flood Advisory issued May 22 at 9:49AM CDT until May 22 at 1:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 1 PM CDT THIS AFTERNOON",
+            "urgency": "Expected",
+            "severity": "Minor",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
         }
       ]
     },
     "HUN": {
       "name": "Huntsville, AL",
-      "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "iemCount": 1,
+      "apiCount": 1,
+      "comparisonCount": 2,
+      "comparison": [
+        {
+          "key": "TO.W.3.KHUN",
+          "iem": {
+            "source": "iem",
+            "status": "CON",
+            "phenomena": "TO",
+            "significance": "W",
+            "event": "TO.W",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "3",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "TO",
+              "significance": "W",
+              "etn": "3",
+              "start": "2026-05-22T17:13:00Z",
+              "end": "2026-05-22T17:45:00Z"
+            },
+            "issued": "2026-05-22T16:54:00Z",
+            "expires": "2026-05-22T17:45:00Z",
+            "areaDesc": "",
+            "ugcZones": [],
+            "polygon": [
+              [
+                34.87,
+                -86.53
+              ],
+              [
+                34.71,
+                -86.67
+              ],
+              [
+                34.72,
+                -86.71
+              ],
+              [
+                34.76,
+                -86.75
+              ],
+              [
+                34.94,
+                -86.71
+              ],
+              [
+                34.87,
+                -86.53
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": "0.75\"",
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "rawProps": {
+              "status": "CON",
+              "phenomena": "TO",
+              "significance": "W",
+              "ps": "Tornado Warning",
+              "wfo": "HUN",
+              "eventid": 3,
+              "polygon_begin": "2026-05-22T17:13:00Z",
+              "polygon_end": "2026-05-22T17:45:00Z",
+              "expire": "2026-05-22T17:45:00Z",
+              "hvtec_nwsli": null,
+              "year": 2026,
+              "product_id": "202605221713-KHUN-WWUS54-SVSHUN",
+              "issue": "2026-05-22T16:54:00Z",
+              "expire_utc": "2026-05-22T17:45:00Z",
+              "href": "https://mesonet.agron.iastate.edu/vtec/?year=2026&wfo=KHUN&phenomena=TO&significance=W&eventid=0003",
+              "link": "<a href='https://mesonet.agron.iastate.edu/vtec/?year=2026&wfo=KHUN&phenomena=TO&significance=W&eventid=0003'>Tornado Warning 3</a> &nbsp; ",
+              "windtag": null,
+              "hailtag": 0.75,
+              "tornadotag": "RADAR INDICATED",
+              "damagetag": null,
+              "waterspouttag": null,
+              "is_emergency": false,
+              "is_pds": false,
+              "windthreat": null,
+              "hailthreat": null,
+              "product_signature": "KTW",
+              "floodtag_damage": null,
+              "squalltag": null,
+              "max_windtag": null,
+              "max_hailtag": 0.75,
+              "max_is_pds": false,
+              "max_is_emergency": false,
+              "max_floodtag_damage": null
+            }
+          },
+          "api": null,
+          "inBoth": false,
+          "iemOnly": true,
+          "apiOnly": false
+        },
+        {
+          "key": "FA.A.0002.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "A",
+            "event": "Flood Watch",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0002",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "FA",
+              "significance": "A",
+              "etn": "0002",
+              "start": "260522T1321Z",
+              "end": "260523T1500Z"
+            },
+            "issued": "2026-05-22T08:21:00-05:00",
+            "expires": "2026-05-23T10:00:00-05:00",
+            "areaDesc": "Marshall; Jackson; DeKalb; Cullman",
+            "ugcZones": [
+              "ALZ008",
+              "ALZ009",
+              "ALZ010",
+              "ALZ016"
+            ],
+            "sameCodes": [
+              "001095",
+              "001071",
+              "001049",
+              "001043"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Watch issued May 22 at 8:21AM CDT until May 23 at 10:00AM CDT by NWS Huntsville AL",
+            "nwsHeadline": "FLASH FLOOD WATCH IN EFFECT THROUGH SATURDAY MORNING",
+            "urgency": "Future",
+            "severity": "Severe",
+            "certainty": "Possible",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     }
   }
 }
