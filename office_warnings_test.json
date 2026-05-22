@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T21:49:49Z",
+  "updated": "2026-05-22T22:44:39Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,11 +8,11 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 4,
-      "comparisonCount": 4,
+      "apiCount": 2,
+      "comparisonCount": 2,
       "comparison": [
         {
-          "key": "SV.W.171.KJAN",
+          "key": "SV.W.172.KJAN",
           "iem": null,
           "api": {
             "source": "api",
@@ -22,187 +22,60 @@
             "action": "NEW",
             "office": "KJAN",
             "wfo": "JAN",
-            "etn": "0171",
+            "etn": "0172",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KJAN",
               "phenomena": "SV",
               "significance": "W",
-              "etn": "0171",
-              "start": "260522T2123Z",
-              "end": "260522T2230Z"
+              "etn": "0172",
+              "start": "260522T2228Z",
+              "end": "260522T2315Z"
             },
-            "issued": "2026-05-22T16:23:00-05:00",
-            "expires": "2026-05-22T17:30:00-05:00",
-            "areaDesc": "Clay, MS; Lowndes, MS",
+            "issued": "2026-05-22T17:28:00-05:00",
+            "expires": "2026-05-22T18:15:00-05:00",
+            "areaDesc": "Copiah, MS",
             "ugcZones": [
-              "MSC025",
-              "MSC087"
+              "MSC029"
             ],
             "sameCodes": [
-              "028025",
-              "028087"
+              "028029"
             ],
             "polygon": [
               [
-                33.41,
-                -88.29
+                31.76,
+                -90.57
               ],
               [
-                33.35,
-                -88.67
+                31.81,
+                -90.63
               ],
               [
-                33.54,
-                -88.67
+                31.96,
+                -90.52
               ],
               [
-                33.66,
-                -88.49
+                31.85,
+                -90.32
               ],
               [
-                33.66,
-                -88.46
-              ],
-              [
-                33.67,
-                -88.45
-              ],
-              [
-                33.67,
-                -88.44
-              ],
-              [
-                33.68,
-                -88.43
-              ],
-              [
-                33.67,
-                -88.42
-              ],
-              [
-                33.69,
-                -88.39
-              ],
-              [
-                33.69,
-                -88.37
-              ],
-              [
-                33.72,
-                -88.33
-              ],
-              [
-                33.74,
-                -88.33
-              ],
-              [
-                33.74,
-                -88.25
-              ],
-              [
-                33.41,
-                -88.29
+                31.76,
+                -90.57
               ]
             ],
             "threatLevel": "STANDARD",
             "stormMotion": {
               "direction": "NORTHEAST",
-              "speed_mph": 30,
+              "speed_mph": 15,
               "bearing": 45
             },
-            "motionStr": "Northeast at 30 MPH",
+            "motionStr": "Northeast at 15 MPH",
             "hailSize": "1.00\"",
             "windSpeed": "60 MPH",
             "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Artesia",
-            "headline": "Severe Thunderstorm Warning issued May 22 at 4:23PM CDT until May 22 at 5:30PM CDT by NWS Jackson MS",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Observed",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "SV.W.170.KJAN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "SV",
-            "significance": "W",
-            "event": "Severe Thunderstorm Warning",
-            "action": "NEW",
-            "office": "KJAN",
-            "wfo": "JAN",
-            "etn": "0170",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KJAN",
-              "phenomena": "SV",
-              "significance": "W",
-              "etn": "0170",
-              "start": "260522T2109Z",
-              "end": "260522T2215Z"
-            },
-            "issued": "2026-05-22T16:09:00-05:00",
-            "expires": "2026-05-22T17:15:00-05:00",
-            "areaDesc": "Forrest, MS; Jones, MS",
-            "ugcZones": [
-              "MSC035",
-              "MSC067"
-            ],
-            "sameCodes": [
-              "028035",
-              "028067"
-            ],
-            "polygon": [
-              [
-                31.44,
-                -89.32
-              ],
-              [
-                31.66,
-                -88.95
-              ],
-              [
-                31.43,
-                -88.94
-              ],
-              [
-                31.43,
-                -89.14
-              ],
-              [
-                31.32,
-                -89.15
-              ],
-              [
-                31.32,
-                -89.32
-              ],
-              [
-                31.44,
-                -89.32
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": {
-              "direction": "NORTHEAST",
-              "speed_mph": 25,
-              "bearing": 45
-            },
-            "motionStr": "Northeast at 25 MPH",
-            "hailSize": "1.00\"",
-            "windSpeed": "60 MPH",
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Macedonia",
-            "headline": "Severe Thunderstorm Warning issued May 22 at 4:09PM CDT until May 22 at 5:15PM CDT by NWS Jackson MS",
+            "nearestLocation": "Glancy",
+            "headline": "Severe Thunderstorm Warning issued May 22 at 5:28PM CDT until May 22 at 6:15PM CDT by NWS Jackson MS",
             "nwsHeadline": null,
             "urgency": "Immediate",
             "severity": "Severe",
@@ -288,123 +161,6 @@
             "urgency": "Immediate",
             "severity": "Severe",
             "certainty": "Observed",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "FF.W.20.KJAN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FF",
-            "significance": "W",
-            "event": "Flash Flood Warning",
-            "action": "NEW",
-            "office": "KJAN",
-            "wfo": "JAN",
-            "etn": "0020",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KJAN",
-              "phenomena": "FF",
-              "significance": "W",
-              "etn": "0020",
-              "start": "260522T2054Z",
-              "end": "260523T0000Z"
-            },
-            "issued": "2026-05-22T15:54:00-05:00",
-            "expires": "2026-05-22T19:00:00-05:00",
-            "areaDesc": "Forrest, MS; Lamar, MS",
-            "ugcZones": [
-              "MSC035",
-              "MSC073"
-            ],
-            "sameCodes": [
-              "028035",
-              "028073"
-            ],
-            "polygon": [
-              [
-                31.39,
-                -89.29
-              ],
-              [
-                31.39,
-                -89.15
-              ],
-              [
-                31,
-                -89.15
-              ],
-              [
-                31,
-                -89.14
-              ],
-              [
-                30.91,
-                -89.14
-              ],
-              [
-                30.91,
-                -89.34
-              ],
-              [
-                31,
-                -89.34
-              ],
-              [
-                31.01,
-                -89.35
-              ],
-              [
-                31.01,
-                -89.42
-              ],
-              [
-                30.98,
-                -89.43
-              ],
-              [
-                30.98,
-                -89.48
-              ],
-              [
-                31,
-                -89.48
-              ],
-              [
-                31.02,
-                -89.53
-              ],
-              [
-                31.19,
-                -89.46
-              ],
-              [
-                31.33,
-                -89.37
-              ],
-              [
-                31.39,
-                -89.29
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flash Flood Warning issued May 22 at 3:54PM CDT until May 22 at 7:00PM CDT by NWS Jackson MS",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Likely",
             "messageType": "Alert"
           },
           "inBoth": false,
