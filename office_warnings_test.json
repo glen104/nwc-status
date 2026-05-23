@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T01:30:12Z",
+  "updated": "2026-05-23T05:05:07Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,91 +8,9 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "FL.W.11.KJAN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FL",
-            "significance": "W",
-            "event": "Flood Warning",
-            "action": "EXT",
-            "office": "KJAN",
-            "wfo": "JAN",
-            "etn": "0011",
-            "vtec": {
-              "productClass": "O",
-              "action": "EXT",
-              "office": "KJAN",
-              "phenomena": "FL",
-              "significance": "W",
-              "etn": "0011",
-              "start": "260523T0454Z",
-              "end": "000000T0000Z"
-            },
-            "issued": "2026-05-22T09:39:00-05:00",
-            "expires": "2026-05-22T21:45:00-05:00",
-            "areaDesc": "Attala, MS; Holmes, MS",
-            "ugcZones": [
-              "MSC007",
-              "MSC051"
-            ],
-            "sameCodes": [
-              "028007",
-              "028051"
-            ],
-            "polygon": [
-              [
-                32.91,
-                -90.06
-              ],
-              [
-                33.14,
-                -89.9
-              ],
-              [
-                33.3,
-                -89.81
-              ],
-              [
-                33.22,
-                -89.63
-              ],
-              [
-                33.13,
-                -89.69
-              ],
-              [
-                32.85,
-                -89.87
-              ],
-              [
-                32.91,
-                -90.06
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Flood Warning issued May 22 at 9:39AM CDT by NWS Jackson MS",
-            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT FROM THIS EVENING UNTIL FURTHER NOTICE",
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Observed",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "BMX": {
       "name": "Birmingham, AL",
@@ -115,13 +33,13 @@
             "phenomena": "RP",
             "significance": "S",
             "event": "Rip Current Statement",
-            "action": "EXA",
+            "action": "CON",
             "office": "KMOB",
             "wfo": "MOB",
             "etn": "0014",
             "vtec": {
               "productClass": "O",
-              "action": "EXA",
+              "action": "CON",
               "office": "KMOB",
               "phenomena": "RP",
               "significance": "S",
@@ -129,16 +47,22 @@
               "start": "000000T0000Z",
               "end": "260523T1200Z"
             },
-            "issued": "2026-05-22T13:57:00-05:00",
-            "expires": "2026-05-22T22:00:00-05:00",
-            "areaDesc": "Mobile Coastal; Baldwin Coastal",
+            "issued": "2026-05-22T23:33:00-05:00",
+            "expires": "2026-05-23T07:00:00-05:00",
+            "areaDesc": "Mobile Coastal; Baldwin Coastal; Escambia Coastal; Santa Rosa Coastal; Okaloosa Coastal",
             "ugcZones": [
               "ALZ265",
-              "ALZ266"
+              "ALZ266",
+              "FLZ202",
+              "FLZ204",
+              "FLZ206"
             ],
             "sameCodes": [
               "001097",
-              "001003"
+              "001003",
+              "012033",
+              "012113",
+              "012091"
             ],
             "polygon": null,
             "threatLevel": "STANDARD",
@@ -148,8 +72,8 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Rip Current Statement issued May 22 at 1:57PM CDT until May 23 at 7:00AM CDT by NWS Mobile AL",
-            "nwsHeadline": "HIGH RIP CURRENT RISK IN EFFECT THROUGH SATURDAY MORNING",
+            "headline": "Rip Current Statement issued May 22 at 11:33PM CDT until May 23 at 7:00AM CDT by NWS Mobile AL",
+            "nwsHeadline": "HIGH RIP CURRENT RISK REMAINS IN EFFECT UNTIL 7 AM CDT SATURDAY",
             "urgency": "Expected",
             "severity": "Moderate",
             "certainty": "Likely",
@@ -164,66 +88,9 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "FA.A.2.KHUN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FA",
-            "significance": "A",
-            "event": "Flood Watch",
-            "action": "NEW",
-            "office": "KHUN",
-            "wfo": "HUN",
-            "etn": "0002",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KHUN",
-              "phenomena": "FA",
-              "significance": "A",
-              "etn": "0002",
-              "start": "260522T1321Z",
-              "end": "260523T1500Z"
-            },
-            "issued": "2026-05-22T08:21:00-05:00",
-            "expires": "2026-05-23T10:00:00-05:00",
-            "areaDesc": "Marshall; Jackson; DeKalb; Cullman",
-            "ugcZones": [
-              "ALZ008",
-              "ALZ009",
-              "ALZ010",
-              "ALZ016"
-            ],
-            "sameCodes": [
-              "001095",
-              "001071",
-              "001049",
-              "001043"
-            ],
-            "polygon": null,
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Flood Watch issued May 22 at 8:21AM CDT until May 23 at 10:00AM CDT by NWS Huntsville AL",
-            "nwsHeadline": "FLASH FLOOD WATCH IN EFFECT THROUGH SATURDAY MORNING",
-            "urgency": "Future",
-            "severity": "Severe",
-            "certainty": "Possible",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     }
   }
 }
