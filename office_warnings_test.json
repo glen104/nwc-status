@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T17:36:50Z",
+  "updated": "2026-05-23T18:39:20Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -12,7 +12,7 @@
       "comparisonCount": 3,
       "comparison": [
         {
-          "key": "SV.W.182.KJAN",
+          "key": "SV.W.185.KJAN",
           "iem": null,
           "api": {
             "source": "api",
@@ -22,126 +22,88 @@
             "action": "NEW",
             "office": "KJAN",
             "wfo": "JAN",
-            "etn": "0182",
+            "etn": "0185",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KJAN",
               "phenomena": "SV",
               "significance": "W",
-              "etn": "0182",
-              "start": "260523T1716Z",
-              "end": "260523T1815Z"
+              "etn": "0185",
+              "start": "260523T1834Z",
+              "end": "260523T1930Z"
             },
-            "issued": "2026-05-23T12:16:00-05:00",
-            "expires": "2026-05-23T13:15:00-05:00",
-            "areaDesc": "Catahoula, LA; Concordia, LA; Franklin, LA; Tensas, LA; Adams, MS; Claiborne, MS; Franklin, MS; Jefferson, MS",
+            "issued": "2026-05-23T13:34:00-05:00",
+            "expires": "2026-05-23T14:30:00-05:00",
+            "areaDesc": "Hinds, MS; Rankin, MS; Warren, MS",
             "ugcZones": [
-              "LAC025",
-              "LAC029",
-              "LAC041",
-              "LAC107",
-              "MSC001",
-              "MSC021",
-              "MSC037",
-              "MSC063"
+              "MSC049",
+              "MSC121",
+              "MSC149"
             ],
             "sameCodes": [
-              "022025",
-              "022029",
-              "022041",
-              "022107",
-              "028001",
-              "028021",
-              "028037",
-              "028063"
+              "028049",
+              "028121",
+              "028149"
             ],
             "polygon": [
               [
-                31.92,
-                -91.96
+                32.38,
+                -90.88
               ],
               [
-                31.93,
-                -91.9
+                32.52,
+                -90.45
               ],
               [
-                32.03,
-                -91.9
+                32.49,
+                -90.45
               ],
               [
-                32.07,
-                -91.93
+                32.49,
+                -90.37
               ],
               [
-                32.09,
-                -91.87
+                32.26,
+                -90.03
               ],
               [
-                32.15,
-                -91.89
+                32.05,
+                -89.97
               ],
               [
-                32.18,
-                -91.83
-              ],
-              [
-                32.31,
-                -91.74
+                32.05,
+                -90.72
               ],
               [
                 32.22,
-                -91.53
+                -90.73
               ],
               [
-                32.2,
-                -91.54
+                32.21,
+                -90.74
               ],
               [
-                32.2,
-                -91.49
+                32.31,
+                -90.91
               ],
               [
-                32.04,
-                -91.11
-              ],
-              [
-                31.47,
-                -90.8
-              ],
-              [
-                31.33,
-                -91.14
-              ],
-              [
-                31.37,
-                -91.22
-              ],
-              [
-                31.33,
-                -91.41
-              ],
-              [
-                31.66,
-                -91.57
-              ],
-              [
-                31.92,
-                -91.96
+                32.38,
+                -90.88
               ]
             ],
             "threatLevel": "STANDARD",
             "stormMotion": {
               "direction": "NORTHEAST",
-              "speed_mph": 40,
+              "speed_mph": 50,
               "bearing": 45
             },
-            "motionStr": "Northeast at 40 MPH",
+            "motionStr": "Northeast at 50 MPH",
             "hailSize": "Up to .75\"",
             "windSpeed": "60 MPH",
             "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Severe Thunderstorm Warning issued May 23 at 12:16PM CDT until May 23 at 1:15PM CDT by NWS Jackson MS",
+            "nearestLocation": "Carpenter To Near Glancy",
+            "headline": "Severe Thunderstorm Warning issued May 23 at 1:34PM CDT until May 23 at 2:30PM CDT by NWS Jackson MS",
             "nwsHeadline": null,
             "urgency": "Immediate",
             "severity": "Severe",
