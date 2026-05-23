@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T16:33:18Z",
+  "updated": "2026-05-23T17:36:50Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -12,7 +12,7 @@
       "comparisonCount": 3,
       "comparison": [
         {
-          "key": "SV.W.181.KJAN",
+          "key": "SV.W.182.KJAN",
           "iem": null,
           "api": {
             "source": "api",
@@ -22,26 +22,28 @@
             "action": "NEW",
             "office": "KJAN",
             "wfo": "JAN",
-            "etn": "0181",
+            "etn": "0182",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KJAN",
               "phenomena": "SV",
               "significance": "W",
-              "etn": "0181",
-              "start": "260523T1622Z",
-              "end": "260523T1715Z"
+              "etn": "0182",
+              "start": "260523T1716Z",
+              "end": "260523T1815Z"
             },
-            "issued": "2026-05-23T11:22:00-05:00",
-            "expires": "2026-05-23T12:15:00-05:00",
-            "areaDesc": "Catahoula, LA; Concordia, LA; Franklin, LA; Tensas, LA; Adams, MS; Jefferson, MS",
+            "issued": "2026-05-23T12:16:00-05:00",
+            "expires": "2026-05-23T13:15:00-05:00",
+            "areaDesc": "Catahoula, LA; Concordia, LA; Franklin, LA; Tensas, LA; Adams, MS; Claiborne, MS; Franklin, MS; Jefferson, MS",
             "ugcZones": [
               "LAC025",
               "LAC029",
               "LAC041",
               "LAC107",
               "MSC001",
+              "MSC021",
+              "MSC037",
               "MSC063"
             ],
             "sameCodes": [
@@ -50,106 +52,96 @@
               "022041",
               "022107",
               "028001",
+              "028021",
+              "028037",
               "028063"
             ],
             "polygon": [
               [
-                31.3,
-                -92
+                31.92,
+                -91.96
               ],
               [
                 31.93,
-                -92.01
+                -91.9
               ],
               [
-                31.93,
+                32.03,
                 -91.9
               ],
               [
                 32.07,
-                -91.9
+                -91.93
               ],
               [
-                31.92,
-                -91.35
+                32.09,
+                -91.87
               ],
               [
-                31.63,
-                -91.15
+                32.15,
+                -91.89
               ],
               [
-                31.35,
-                -91.16
+                32.18,
+                -91.83
               ],
               [
-                31.37,
-                -91.27
+                32.31,
+                -91.74
               ],
               [
-                31.32,
-                -91.47
+                32.22,
+                -91.53
               ],
               [
-                31.23,
+                32.2,
+                -91.54
+              ],
+              [
+                32.2,
                 -91.49
               ],
               [
-                31.24,
-                -91.56
+                32.04,
+                -91.11
               ],
               [
-                31.13,
-                -91.63
+                31.47,
+                -90.8
               ],
               [
-                31.11,
-                -91.7
+                31.33,
+                -91.14
               ],
               [
-                31.2,
-                -91.7
+                31.37,
+                -91.22
               ],
               [
-                31.3,
-                -91.91
+                31.33,
+                -91.41
               ],
               [
-                31.27,
-                -91.95
+                31.66,
+                -91.57
               ],
               [
-                31.23,
-                -91.92
-              ],
-              [
-                31.24,
+                31.92,
                 -91.96
-              ],
-              [
-                31.22,
-                -91.98
-              ],
-              [
-                31.28,
-                -92.02
-              ],
-              [
-                31.3,
-                -92
               ]
             ],
             "threatLevel": "STANDARD",
             "stormMotion": {
               "direction": "NORTHEAST",
-              "speed_mph": 50,
+              "speed_mph": 40,
               "bearing": 45
             },
-            "motionStr": "Northeast at 50 MPH",
-            "hailSize": "0.75\"",
+            "motionStr": "Northeast at 40 MPH",
+            "hailSize": "Up to .75\"",
             "windSpeed": "60 MPH",
             "detectionSource": "RADAR INDICATED",
             "nearestLocation": null,
-            "headline": "Severe Thunderstorm Warning issued May 23 at 11:22AM CDT until May 23 at 12:15PM CDT by NWS Jackson MS",
+            "headline": "Severe Thunderstorm Warning issued May 23 at 12:16PM CDT until May 23 at 1:15PM CDT by NWS Jackson MS",
             "nwsHeadline": null,
             "urgency": "Immediate",
             "severity": "Severe",
