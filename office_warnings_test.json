@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T18:39:20Z",
+  "updated": "2026-05-23T19:47:12Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,232 +8,9 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 3,
-      "comparisonCount": 3,
+      "apiCount": 1,
+      "comparisonCount": 1,
       "comparison": [
-        {
-          "key": "SV.W.185.KJAN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "SV",
-            "significance": "W",
-            "event": "Severe Thunderstorm Warning",
-            "action": "NEW",
-            "office": "KJAN",
-            "wfo": "JAN",
-            "etn": "0185",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KJAN",
-              "phenomena": "SV",
-              "significance": "W",
-              "etn": "0185",
-              "start": "260523T1834Z",
-              "end": "260523T1930Z"
-            },
-            "issued": "2026-05-23T13:34:00-05:00",
-            "expires": "2026-05-23T14:30:00-05:00",
-            "areaDesc": "Hinds, MS; Rankin, MS; Warren, MS",
-            "ugcZones": [
-              "MSC049",
-              "MSC121",
-              "MSC149"
-            ],
-            "sameCodes": [
-              "028049",
-              "028121",
-              "028149"
-            ],
-            "polygon": [
-              [
-                32.38,
-                -90.88
-              ],
-              [
-                32.52,
-                -90.45
-              ],
-              [
-                32.49,
-                -90.45
-              ],
-              [
-                32.49,
-                -90.37
-              ],
-              [
-                32.26,
-                -90.03
-              ],
-              [
-                32.05,
-                -89.97
-              ],
-              [
-                32.05,
-                -90.72
-              ],
-              [
-                32.22,
-                -90.73
-              ],
-              [
-                32.21,
-                -90.74
-              ],
-              [
-                32.31,
-                -90.91
-              ],
-              [
-                32.38,
-                -90.88
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": {
-              "direction": "NORTHEAST",
-              "speed_mph": 50,
-              "bearing": 45
-            },
-            "motionStr": "Northeast at 50 MPH",
-            "hailSize": "Up to .75\"",
-            "windSpeed": "60 MPH",
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Carpenter To Near Glancy",
-            "headline": "Severe Thunderstorm Warning issued May 23 at 1:34PM CDT until May 23 at 2:30PM CDT by NWS Jackson MS",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Observed",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "SV.A.241.KJAN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "SV",
-            "significance": "A",
-            "event": "Severe Thunderstorm Watch",
-            "action": "NEW",
-            "office": "KJAN",
-            "wfo": "JAN",
-            "etn": "0241",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KJAN",
-              "phenomena": "SV",
-              "significance": "A",
-              "etn": "0241",
-              "start": "260523T1515Z",
-              "end": "260523T2300Z"
-            },
-            "issued": "2026-05-23T10:15:00-05:00",
-            "expires": "2026-05-23T18:00:00-05:00",
-            "areaDesc": "Ashley, AR; Chicot, AR; Catahoula, LA; Concordia, LA; East Carroll, LA; Franklin, LA; Madison, LA; Morehouse, LA; Richland, LA; Tensas, LA; West Carroll, LA; Adams, MS; Attala, MS; Claiborne, MS; Copiah, MS; Covington, MS; Franklin, MS; Hinds, MS; Holmes, MS; Humphreys, MS; Issaquena, MS; Jefferson, MS; Jefferson Davis, MS; Lawrence, MS; Leake, MS; Lincoln, MS; Madison, MS; Marion, MS; Rankin, MS; Scott, MS; Sharkey, MS; Simpson, MS; Smith, MS; Warren, MS; Washington, MS; Yazoo, MS",
-            "ugcZones": [
-              "ARC003",
-              "ARC017",
-              "LAC025",
-              "LAC029",
-              "LAC035",
-              "LAC041",
-              "LAC065",
-              "LAC067",
-              "LAC083",
-              "LAC107",
-              "LAC123",
-              "MSC001",
-              "MSC007",
-              "MSC021",
-              "MSC029",
-              "MSC031",
-              "MSC037",
-              "MSC049",
-              "MSC051",
-              "MSC053",
-              "MSC055",
-              "MSC063",
-              "MSC065",
-              "MSC077",
-              "MSC079",
-              "MSC085",
-              "MSC089",
-              "MSC091",
-              "MSC121",
-              "MSC123",
-              "MSC125",
-              "MSC127",
-              "MSC129",
-              "MSC149",
-              "MSC151",
-              "MSC163"
-            ],
-            "sameCodes": [
-              "005003",
-              "005017",
-              "022025",
-              "022029",
-              "022035",
-              "022041",
-              "022065",
-              "022067",
-              "022083",
-              "022107",
-              "022123",
-              "028001",
-              "028007",
-              "028021",
-              "028029",
-              "028031",
-              "028037",
-              "028049",
-              "028051",
-              "028053",
-              "028055",
-              "028063",
-              "028065",
-              "028077",
-              "028079",
-              "028085",
-              "028089",
-              "028091",
-              "028121",
-              "028123",
-              "028125",
-              "028127",
-              "028129",
-              "028149",
-              "028151",
-              "028163"
-            ],
-            "polygon": null,
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Severe Thunderstorm Watch issued May 23 at 10:15AM CDT until May 23 at 6:00PM CDT by NWS Jackson MS",
-            "nwsHeadline": null,
-            "urgency": "Future",
-            "severity": "Severe",
-            "certainty": "Possible",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
         {
           "key": "FL.W.11.KJAN",
           "iem": null,
@@ -327,9 +104,92 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
+      "apiCount": 2,
+      "comparisonCount": 2,
       "comparison": [
+        {
+          "key": "SV.W.60.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "W",
+            "event": "Severe Thunderstorm Warning",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0060",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "SV",
+              "significance": "W",
+              "etn": "0060",
+              "start": "260523T1929Z",
+              "end": "260523T2015Z"
+            },
+            "issued": "2026-05-23T14:29:00-05:00",
+            "expires": "2026-05-23T15:15:00-05:00",
+            "areaDesc": "Choctaw, AL; Clarke, AL; Washington, AL",
+            "ugcZones": [
+              "ALC023",
+              "ALC025",
+              "ALC129"
+            ],
+            "sameCodes": [
+              "001023",
+              "001025",
+              "001129"
+            ],
+            "polygon": [
+              [
+                31.8,
+                -87.93
+              ],
+              [
+                31.56,
+                -88.19
+              ],
+              [
+                31.67,
+                -88.46
+              ],
+              [
+                31.91,
+                -88.47
+              ],
+              [
+                32.04,
+                -88.46
+              ],
+              [
+                31.8,
+                -87.93
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": {
+              "direction": "NORTH",
+              "speed_mph": 25,
+              "bearing": 0
+            },
+            "motionStr": "North at 25 MPH",
+            "hailSize": "Up to .75\"",
+            "windSpeed": "60 MPH",
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Severe Thunderstorm Warning issued May 23 at 2:29PM CDT until May 23 at 3:15PM CDT by NWS Mobile AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
         {
           "key": "RP.S.15.KMOB",
           "iem": null,
