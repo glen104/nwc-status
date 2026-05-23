@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T11:48:40Z",
+  "updated": "2026-05-23T12:46:27Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -22,68 +22,9 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "RP.S.14.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "RP",
-            "significance": "S",
-            "event": "Rip Current Statement",
-            "action": "CON",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0014",
-            "vtec": {
-              "productClass": "O",
-              "action": "CON",
-              "office": "KMOB",
-              "phenomena": "RP",
-              "significance": "S",
-              "etn": "0014",
-              "start": "000000T0000Z",
-              "end": "260523T1200Z"
-            },
-            "issued": "2026-05-22T23:33:00-05:00",
-            "expires": "2026-05-23T07:00:00-05:00",
-            "areaDesc": "Mobile Coastal; Baldwin Coastal; Escambia Coastal; Santa Rosa Coastal; Okaloosa Coastal",
-            "ugcZones": [
-              "ALZ265",
-              "ALZ266",
-              "FLZ202",
-              "FLZ204",
-              "FLZ206"
-            ],
-            "sameCodes": [
-              "001097",
-              "001003",
-              "012033",
-              "012113",
-              "012091"
-            ],
-            "polygon": null,
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Rip Current Statement issued May 22 at 11:33PM CDT until May 23 at 7:00AM CDT by NWS Mobile AL",
-            "nwsHeadline": "HIGH RIP CURRENT RISK REMAINS IN EFFECT UNTIL 7 AM CDT SATURDAY",
-            "urgency": "Expected",
-            "severity": "Moderate",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "HUN": {
       "name": "Huntsville, AL",
