@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T14:17:59Z",
+  "updated": "2026-05-23T15:34:15Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,211 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 2,
+      "comparisonCount": 2,
+      "comparison": [
+        {
+          "key": "SV.A.241.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "A",
+            "event": "Severe Thunderstorm Watch",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0241",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "SV",
+              "significance": "A",
+              "etn": "0241",
+              "start": "260523T1515Z",
+              "end": "260523T2300Z"
+            },
+            "issued": "2026-05-23T10:15:00-05:00",
+            "expires": "2026-05-23T18:00:00-05:00",
+            "areaDesc": "Ashley, AR; Chicot, AR; Catahoula, LA; Concordia, LA; East Carroll, LA; Franklin, LA; Madison, LA; Morehouse, LA; Richland, LA; Tensas, LA; West Carroll, LA; Adams, MS; Attala, MS; Claiborne, MS; Copiah, MS; Covington, MS; Franklin, MS; Hinds, MS; Holmes, MS; Humphreys, MS; Issaquena, MS; Jefferson, MS; Jefferson Davis, MS; Lawrence, MS; Leake, MS; Lincoln, MS; Madison, MS; Marion, MS; Rankin, MS; Scott, MS; Sharkey, MS; Simpson, MS; Smith, MS; Warren, MS; Washington, MS; Yazoo, MS",
+            "ugcZones": [
+              "ARC003",
+              "ARC017",
+              "LAC025",
+              "LAC029",
+              "LAC035",
+              "LAC041",
+              "LAC065",
+              "LAC067",
+              "LAC083",
+              "LAC107",
+              "LAC123",
+              "MSC001",
+              "MSC007",
+              "MSC021",
+              "MSC029",
+              "MSC031",
+              "MSC037",
+              "MSC049",
+              "MSC051",
+              "MSC053",
+              "MSC055",
+              "MSC063",
+              "MSC065",
+              "MSC077",
+              "MSC079",
+              "MSC085",
+              "MSC089",
+              "MSC091",
+              "MSC121",
+              "MSC123",
+              "MSC125",
+              "MSC127",
+              "MSC129",
+              "MSC149",
+              "MSC151",
+              "MSC163"
+            ],
+            "sameCodes": [
+              "005003",
+              "005017",
+              "022025",
+              "022029",
+              "022035",
+              "022041",
+              "022065",
+              "022067",
+              "022083",
+              "022107",
+              "022123",
+              "028001",
+              "028007",
+              "028021",
+              "028029",
+              "028031",
+              "028037",
+              "028049",
+              "028051",
+              "028053",
+              "028055",
+              "028063",
+              "028065",
+              "028077",
+              "028079",
+              "028085",
+              "028089",
+              "028091",
+              "028121",
+              "028123",
+              "028125",
+              "028127",
+              "028129",
+              "028149",
+              "028151",
+              "028163"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Severe Thunderstorm Watch issued May 23 at 10:15AM CDT until May 23 at 6:00PM CDT by NWS Jackson MS",
+            "nwsHeadline": null,
+            "urgency": "Future",
+            "severity": "Severe",
+            "certainty": "Possible",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.11.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0011",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0011",
+              "start": "000000T0000Z",
+              "end": "260528T0224Z"
+            },
+            "issued": "2026-05-23T09:22:00-05:00",
+            "expires": "2026-05-23T21:30:00-05:00",
+            "areaDesc": "Attala, MS; Holmes, MS",
+            "ugcZones": [
+              "MSC007",
+              "MSC051"
+            ],
+            "sameCodes": [
+              "028007",
+              "028051"
+            ],
+            "polygon": [
+              [
+                32.91,
+                -90.06
+              ],
+              [
+                33.14,
+                -89.9
+              ],
+              [
+                33.3,
+                -89.81
+              ],
+              [
+                33.22,
+                -89.63
+              ],
+              [
+                33.13,
+                -89.69
+              ],
+              [
+                32.85,
+                -89.87
+              ],
+              [
+                32.91,
+                -90.06
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued May 23 at 9:22AM CDT until May 27 at 9:24PM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL LATE WEDNESDAY EVENING",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "BMX": {
       "name": "Birmingham, AL",
