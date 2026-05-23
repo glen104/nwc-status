@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T15:34:15Z",
+  "updated": "2026-05-23T16:33:18Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,158 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
+      "apiCount": 3,
+      "comparisonCount": 3,
       "comparison": [
+        {
+          "key": "SV.W.181.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "W",
+            "event": "Severe Thunderstorm Warning",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0181",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "SV",
+              "significance": "W",
+              "etn": "0181",
+              "start": "260523T1622Z",
+              "end": "260523T1715Z"
+            },
+            "issued": "2026-05-23T11:22:00-05:00",
+            "expires": "2026-05-23T12:15:00-05:00",
+            "areaDesc": "Catahoula, LA; Concordia, LA; Franklin, LA; Tensas, LA; Adams, MS; Jefferson, MS",
+            "ugcZones": [
+              "LAC025",
+              "LAC029",
+              "LAC041",
+              "LAC107",
+              "MSC001",
+              "MSC063"
+            ],
+            "sameCodes": [
+              "022025",
+              "022029",
+              "022041",
+              "022107",
+              "028001",
+              "028063"
+            ],
+            "polygon": [
+              [
+                31.3,
+                -92
+              ],
+              [
+                31.93,
+                -92.01
+              ],
+              [
+                31.93,
+                -91.9
+              ],
+              [
+                32.07,
+                -91.9
+              ],
+              [
+                31.92,
+                -91.35
+              ],
+              [
+                31.63,
+                -91.15
+              ],
+              [
+                31.35,
+                -91.16
+              ],
+              [
+                31.37,
+                -91.27
+              ],
+              [
+                31.32,
+                -91.47
+              ],
+              [
+                31.23,
+                -91.49
+              ],
+              [
+                31.24,
+                -91.56
+              ],
+              [
+                31.13,
+                -91.63
+              ],
+              [
+                31.11,
+                -91.7
+              ],
+              [
+                31.2,
+                -91.7
+              ],
+              [
+                31.3,
+                -91.91
+              ],
+              [
+                31.27,
+                -91.95
+              ],
+              [
+                31.23,
+                -91.92
+              ],
+              [
+                31.24,
+                -91.96
+              ],
+              [
+                31.22,
+                -91.98
+              ],
+              [
+                31.28,
+                -92.02
+              ],
+              [
+                31.3,
+                -92
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": {
+              "direction": "NORTHEAST",
+              "speed_mph": 50,
+              "bearing": 45
+            },
+            "motionStr": "Northeast at 50 MPH",
+            "hailSize": "0.75\"",
+            "windSpeed": "60 MPH",
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Severe Thunderstorm Warning issued May 23 at 11:22AM CDT until May 23 at 12:15PM CDT by NWS Jackson MS",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
         {
           "key": "SV.A.241.KJAN",
           "iem": null,
