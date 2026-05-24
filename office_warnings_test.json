@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T12:14:47Z",
+  "updated": "2026-05-24T14:00:45Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,91 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "FL.W.11.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0011",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0011",
+              "start": "000000T0000Z",
+              "end": "260527T0400Z"
+            },
+            "issued": "2026-05-24T08:38:00-05:00",
+            "expires": "2026-05-24T20:45:00-05:00",
+            "areaDesc": "Attala, MS; Holmes, MS",
+            "ugcZones": [
+              "MSC007",
+              "MSC051"
+            ],
+            "sameCodes": [
+              "028007",
+              "028051"
+            ],
+            "polygon": [
+              [
+                32.91,
+                -90.06
+              ],
+              [
+                33.14,
+                -89.9
+              ],
+              [
+                33.3,
+                -89.81
+              ],
+              [
+                33.22,
+                -89.63
+              ],
+              [
+                33.13,
+                -89.69
+              ],
+              [
+                32.85,
+                -89.87
+              ],
+              [
+                32.91,
+                -90.06
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": "The\nRiver Begin To Flood",
+            "headline": "Flood Warning issued May 24 at 8:38AM CDT until May 26 at 11:00PM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL LATE TUESDAY EVENING",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "BMX": {
       "name": "Birmingham, AL",
@@ -22,139 +104,9 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "FA.Y.18.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FA",
-            "significance": "Y",
-            "event": "Flood Advisory",
-            "action": "NEW",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0018",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KMOB",
-              "phenomena": "FA",
-              "significance": "Y",
-              "etn": "0018",
-              "start": "260524T0925Z",
-              "end": "260524T1230Z"
-            },
-            "issued": "2026-05-24T04:25:00-05:00",
-            "expires": "2026-05-24T07:30:00-05:00",
-            "areaDesc": "Choctaw, AL; Washington, AL; Greene, MS; Wayne, MS",
-            "ugcZones": [
-              "ALC023",
-              "ALC129",
-              "MSC041",
-              "MSC153"
-            ],
-            "sameCodes": [
-              "001023",
-              "001129",
-              "028041",
-              "028153"
-            ],
-            "polygon": [
-              [
-                31.86,
-                -88.63
-              ],
-              [
-                31.86,
-                -88.62
-              ],
-              [
-                31.86,
-                -88.61
-              ],
-              [
-                31.88,
-                -88.55
-              ],
-              [
-                31.88,
-                -88.54
-              ],
-              [
-                31.88,
-                -88.53
-              ],
-              [
-                31.89,
-                -88.5
-              ],
-              [
-                31.89,
-                -88.49
-              ],
-              [
-                31.89,
-                -88.48
-              ],
-              [
-                31.89,
-                -88.47
-              ],
-              [
-                31.91,
-                -88.47
-              ],
-              [
-                31.91,
-                -88.28
-              ],
-              [
-                31.5,
-                -88.36
-              ],
-              [
-                31.32,
-                -88.44
-              ],
-              [
-                31.02,
-                -88.58
-              ],
-              [
-                31.1,
-                -88.82
-              ],
-              [
-                31.43,
-                -88.74
-              ],
-              [
-                31.86,
-                -88.63
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "The Area",
-            "headline": "Flood Advisory issued May 24 at 4:25AM CDT until May 24 at 7:30AM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 730 AM CDT THIS MORNING",
-            "urgency": "Expected",
-            "severity": "Minor",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "HUN": {
       "name": "Huntsville, AL",
