@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T15:08:33Z",
+  "updated": "2026-05-24T16:13:03Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -111,9 +111,201 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 2,
+      "comparisonCount": 2,
+      "comparison": [
+        {
+          "key": "FF.W.4.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FF",
+            "significance": "W",
+            "event": "Flash Flood Warning",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0004",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "FF",
+              "significance": "W",
+              "etn": "0004",
+              "start": "260524T1544Z",
+              "end": "260524T1845Z"
+            },
+            "issued": "2026-05-24T10:44:00-05:00",
+            "expires": "2026-05-24T13:45:00-05:00",
+            "areaDesc": "Cullman, AL",
+            "ugcZones": [
+              "ALC043"
+            ],
+            "sameCodes": [
+              "001043"
+            ],
+            "polygon": [
+              [
+                34.12,
+                -86.6
+              ],
+              [
+                34.08,
+                -86.7
+              ],
+              [
+                34.05,
+                -86.68
+              ],
+              [
+                34.06,
+                -86.7
+              ],
+              [
+                34.04,
+                -86.7
+              ],
+              [
+                33.97,
+                -86.77
+              ],
+              [
+                33.93,
+                -86.89
+              ],
+              [
+                33.91,
+                -86.92
+              ],
+              [
+                33.87,
+                -86.92
+              ],
+              [
+                33.87,
+                -86.96
+              ],
+              [
+                33.86,
+                -86.96
+              ],
+              [
+                33.87,
+                -87.01
+              ],
+              [
+                33.89,
+                -87.01
+              ],
+              [
+                33.9,
+                -87.09
+              ],
+              [
+                33.91,
+                -87.08
+              ],
+              [
+                33.98,
+                -87.14
+              ],
+              [
+                33.99,
+                -87.11
+              ],
+              [
+                34.31,
+                -86.88
+              ],
+              [
+                34.3,
+                -86.51
+              ],
+              [
+                34.12,
+                -86.6
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flash Flood Warning issued May 24 at 10:44AM CDT until May 24 at 1:45PM CDT by NWS Huntsville AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FA.A.3.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "A",
+            "event": "Flood Watch",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0003",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "FA",
+              "significance": "A",
+              "etn": "0003",
+              "start": "260524T1611Z",
+              "end": "260524T2300Z"
+            },
+            "issued": "2026-05-24T11:11:00-05:00",
+            "expires": "2026-05-24T18:00:00-05:00",
+            "areaDesc": "Madison; Morgan; Marshall; Jackson; DeKalb; Cullman",
+            "ugcZones": [
+              "ALZ006",
+              "ALZ007",
+              "ALZ008",
+              "ALZ009",
+              "ALZ010",
+              "ALZ016"
+            ],
+            "sameCodes": [
+              "001089",
+              "001103",
+              "001095",
+              "001071",
+              "001049",
+              "001043"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Watch issued May 24 at 11:11AM CDT until May 24 at 6:00PM CDT by NWS Huntsville AL",
+            "nwsHeadline": "FLOOD WATCH IN EFFECT UNTIL 6 PM CDT THIS EVENING",
+            "urgency": "Future",
+            "severity": "Severe",
+            "certainty": "Possible",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     }
   }
 }
