@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T17:16:00Z",
+  "updated": "2026-05-24T18:12:51Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -97,9 +97,94 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
+      "apiCount": 2,
+      "comparisonCount": 2,
       "comparison": [
+        {
+          "key": "FA.Y.25.KBMX",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "Y",
+            "event": "Flood Advisory",
+            "action": "NEW",
+            "office": "KBMX",
+            "wfo": "BMX",
+            "etn": "0025",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KBMX",
+              "phenomena": "FA",
+              "significance": "Y",
+              "etn": "0025",
+              "start": "260524T1737Z",
+              "end": "260524T2045Z"
+            },
+            "issued": "2026-05-24T12:37:00-05:00",
+            "expires": "2026-05-24T15:45:00-05:00",
+            "areaDesc": "Jefferson, AL; Shelby, AL",
+            "ugcZones": [
+              "ALC073",
+              "ALC117"
+            ],
+            "sameCodes": [
+              "001073",
+              "001117"
+            ],
+            "polygon": [
+              [
+                33.5,
+                -87.08
+              ],
+              [
+                33.57,
+                -86.95
+              ],
+              [
+                33.58,
+                -86.76
+              ],
+              [
+                33.53,
+                -86.58
+              ],
+              [
+                33.37,
+                -86.64
+              ],
+              [
+                33.23,
+                -86.8
+              ],
+              [
+                33.32,
+                -86.98
+              ],
+              [
+                33.5,
+                -87.08
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flood Advisory issued May 24 at 12:37PM CDT until May 24 at 3:45PM CDT by NWS Birmingham AL",
+            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 345 PM CDT THIS AFTERNOON",
+            "urgency": "Expected",
+            "severity": "Minor",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
         {
           "key": "FA.A.3.KBMX",
           "iem": null,
