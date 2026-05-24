@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T20:34:48Z",
+  "updated": "2026-05-24T21:33:02Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -97,94 +97,9 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
+      "apiCount": 1,
+      "comparisonCount": 1,
       "comparison": [
-        {
-          "key": "FA.Y.25.KBMX",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FA",
-            "significance": "Y",
-            "event": "Flood Advisory",
-            "action": "NEW",
-            "office": "KBMX",
-            "wfo": "BMX",
-            "etn": "0025",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KBMX",
-              "phenomena": "FA",
-              "significance": "Y",
-              "etn": "0025",
-              "start": "260524T1737Z",
-              "end": "260524T2045Z"
-            },
-            "issued": "2026-05-24T12:37:00-05:00",
-            "expires": "2026-05-24T15:45:00-05:00",
-            "areaDesc": "Jefferson, AL; Shelby, AL",
-            "ugcZones": [
-              "ALC073",
-              "ALC117"
-            ],
-            "sameCodes": [
-              "001073",
-              "001117"
-            ],
-            "polygon": [
-              [
-                33.5,
-                -87.08
-              ],
-              [
-                33.57,
-                -86.95
-              ],
-              [
-                33.58,
-                -86.76
-              ],
-              [
-                33.53,
-                -86.58
-              ],
-              [
-                33.37,
-                -86.64
-              ],
-              [
-                33.23,
-                -86.8
-              ],
-              [
-                33.32,
-                -86.98
-              ],
-              [
-                33.5,
-                -87.08
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flood Advisory issued May 24 at 12:37PM CDT until May 24 at 3:45PM CDT by NWS Birmingham AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 345 PM CDT THIS AFTERNOON",
-            "urgency": "Expected",
-            "severity": "Minor",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
         {
           "key": "FA.A.3.KBMX",
           "iem": null,
@@ -267,9 +182,144 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
+      "apiCount": 2,
+      "comparisonCount": 2,
       "comparison": [
+        {
+          "key": "FA.W.6.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0006",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "FA",
+              "significance": "W",
+              "etn": "0006",
+              "start": "260524T2048Z",
+              "end": "260525T0000Z"
+            },
+            "issued": "2026-05-24T15:48:00-05:00",
+            "expires": "2026-05-24T19:00:00-05:00",
+            "areaDesc": "Cullman, AL",
+            "ugcZones": [
+              "ALC043"
+            ],
+            "sameCodes": [
+              "001043"
+            ],
+            "polygon": [
+              [
+                34.04,
+                -86.7
+              ],
+              [
+                33.97,
+                -86.77
+              ],
+              [
+                33.92,
+                -86.92
+              ],
+              [
+                33.88,
+                -86.92
+              ],
+              [
+                33.87,
+                -86.92
+              ],
+              [
+                33.87,
+                -86.96
+              ],
+              [
+                33.86,
+                -86.96
+              ],
+              [
+                33.87,
+                -87.01
+              ],
+              [
+                33.89,
+                -87.01
+              ],
+              [
+                33.9,
+                -87.09
+              ],
+              [
+                33.92,
+                -87.09
+              ],
+              [
+                33.98,
+                -87.14
+              ],
+              [
+                33.99,
+                -87.11
+              ],
+              [
+                34.31,
+                -86.88
+              ],
+              [
+                34.3,
+                -86.51
+              ],
+              [
+                34.12,
+                -86.6
+              ],
+              [
+                34.09,
+                -86.69
+              ],
+              [
+                34.08,
+                -86.7
+              ],
+              [
+                34.05,
+                -86.68
+              ],
+              [
+                34.06,
+                -86.7
+              ],
+              [
+                34.04,
+                -86.7
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued May 24 at 3:48PM CDT until May 24 at 7:00PM CDT by NWS Huntsville AL",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT UNTIL 7 PM CDT THIS EVENING... ...REPLACES FLASH FLOOD WARNING",
+            "urgency": "Expected",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
         {
           "key": "FA.A.3.KHUN",
           "iem": null,
