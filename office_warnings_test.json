@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T01:29:16Z",
+  "updated": "2026-05-24T05:36:13Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -22,8 +22,8 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 3,
-      "comparisonCount": 3,
+      "apiCount": 1,
+      "comparisonCount": 1,
       "comparison": [
         {
           "key": "RP.S.15.KMOB",
@@ -82,275 +82,15 @@
           "inBoth": false,
           "iemOnly": false,
           "apiOnly": true
-        },
-        {
-          "key": "FA.Y.17.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FA",
-            "significance": "Y",
-            "event": "Flood Advisory",
-            "action": "NEW",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0017",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KMOB",
-              "phenomena": "FA",
-              "significance": "Y",
-              "etn": "0017",
-              "start": "260523T2350Z",
-              "end": "260524T0300Z"
-            },
-            "issued": "2026-05-23T18:50:00-05:00",
-            "expires": "2026-05-23T22:00:00-05:00",
-            "areaDesc": "Mobile, AL",
-            "ugcZones": [
-              "ALC097"
-            ],
-            "sameCodes": [
-              "001097"
-            ],
-            "polygon": [
-              [
-                30.68,
-                -88.33
-              ],
-              [
-                30.74,
-                -88.4
-              ],
-              [
-                30.83,
-                -88.28
-              ],
-              [
-                30.87,
-                -88.15
-              ],
-              [
-                30.87,
-                -88.06
-              ],
-              [
-                30.8,
-                -88.03
-              ],
-              [
-                30.77,
-                -88.04
-              ],
-              [
-                30.73,
-                -88.2
-              ],
-              [
-                30.68,
-                -88.33
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flood Advisory issued May 23 at 6:50PM CDT until May 23 at 10:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 10 PM CDT THIS EVENING",
-            "urgency": "Expected",
-            "severity": "Minor",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "FA.Y.16.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FA",
-            "significance": "Y",
-            "event": "Flood Advisory",
-            "action": "NEW",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0016",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KMOB",
-              "phenomena": "FA",
-              "significance": "Y",
-              "etn": "0016",
-              "start": "260523T2256Z",
-              "end": "260524T0200Z"
-            },
-            "issued": "2026-05-23T17:56:00-05:00",
-            "expires": "2026-05-23T21:00:00-05:00",
-            "areaDesc": "Baldwin, AL; Mobile, AL",
-            "ugcZones": [
-              "ALC003",
-              "ALC097"
-            ],
-            "sameCodes": [
-              "001003",
-              "001097"
-            ],
-            "polygon": [
-              [
-                30.85,
-                -88.06
-              ],
-              [
-                30.89,
-                -88.03
-              ],
-              [
-                30.95,
-                -87.98
-              ],
-              [
-                31.01,
-                -87.9
-              ],
-              [
-                31.05,
-                -87.84
-              ],
-              [
-                31.05,
-                -87.78
-              ],
-              [
-                30.98,
-                -87.81
-              ],
-              [
-                30.91,
-                -87.88
-              ],
-              [
-                30.85,
-                -87.96
-              ],
-              [
-                30.8,
-                -88.03
-              ],
-              [
-                30.85,
-                -88.06
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flood Advisory issued May 23 at 5:56PM CDT until May 23 at 9:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 9 PM CDT THIS EVENING",
-            "urgency": "Expected",
-            "severity": "Minor",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
         }
       ]
     },
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "FL.W.3.KHUN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FL",
-            "significance": "W",
-            "event": "Flood Warning",
-            "action": "NEW",
-            "office": "KHUN",
-            "wfo": "HUN",
-            "etn": "0003",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KHUN",
-              "phenomena": "FL",
-              "significance": "W",
-              "etn": "0003",
-              "start": "260524T1200Z",
-              "end": "260525T0000Z"
-            },
-            "issued": "2026-05-23T19:58:00-05:00",
-            "expires": "2026-05-24T08:00:00-05:00",
-            "areaDesc": "Jackson, AL; Madison, AL; Marshall, AL",
-            "ugcZones": [
-              "ALC071",
-              "ALC089",
-              "ALC095"
-            ],
-            "sameCodes": [
-              "001071",
-              "001089",
-              "001095"
-            ],
-            "polygon": [
-              [
-                34.91,
-                -86.28
-              ],
-              [
-                34.89,
-                -86.06
-              ],
-              [
-                34.42,
-                -86.37
-              ],
-              [
-                34.5,
-                -86.53
-              ],
-              [
-                34.91,
-                -86.28
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": "Woodville Affecting Marshall",
-            "headline": "Flood Warning issued May 23 at 7:58PM CDT until May 24 at 7:00PM CDT by NWS Huntsville AL",
-            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM SUNDAY MORNING TO SUNDAY EVENING",
-            "urgency": "Expected",
-            "severity": "Severe",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     }
   }
 }
