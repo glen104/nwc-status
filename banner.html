@@ -17,7 +17,7 @@
     min-height: 70px;
   }
 
-  #banner-text { flex: 1; min-width: 0; line-height: 1.5; }
+  #banner-text { flex: 1; min-width: 0; line-height: 1.5; overflow: visible; word-break: break-word; }
 
   .line1 { font-size: 1rem; font-weight: 700; letter-spacing: 0.2px; }
   .line1 .sep { opacity: 0.5; margin: 0 8px; font-weight: 400; }
@@ -31,6 +31,9 @@
     letter-spacing: 0.8px;
     text-transform: uppercase;
     line-height: 1.7;
+    overflow: visible;
+    white-space: normal;
+    word-break: break-word;
   }
   .line2 .sep { opacity: 0.35; margin: 0 10px; font-weight: 400; }
   .badge {
@@ -167,9 +170,14 @@ function formatShiftBlock(label, s) {
   if (!s) return '';
   var parts = [];
   if (s.lead) parts.push('Lead: ' + s.lead);
-  var fores = s.forecasters || (s.forecaster ? [s.forecaster] : []);
-  fores = fores.filter(function(f){ return f; });
-  if (fores.length) parts.push('Fore: ' + fores.join(', '));
+  var fores = [];
+  if (s.forecasters && s.forecasters.length) {
+    fores = s.forecasters.filter(function(f){ return f && f.trim(); });
+  }
+  if (!fores.length && s.forecaster && s.forecaster.trim()) {
+    fores = [s.forecaster];
+  }
+  if (fores.length) parts.push('Forecaster: ' + fores.join(', '));
   var endTime = s.end ? ' thru ' + toDisplayTime(s.end) : '';
   return badge(label) + endTime + (parts.length ? '&nbsp;&nbsp;' + parts.join(' / ') : '');
 }
