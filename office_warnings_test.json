@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25T01:35:45Z",
+  "updated": "2026-05-25T06:06:52Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -31,10 +31,10 @@
               "significance": "W",
               "etn": "0011",
               "start": "000000T0000Z",
-              "end": "260527T0400Z"
+              "end": "260528T1536Z"
             },
-            "issued": "2026-05-24T08:38:00-05:00",
-            "expires": "2026-05-24T20:45:00-05:00",
+            "issued": "2026-05-24T21:11:00-05:00",
+            "expires": "2026-05-25T09:15:00-05:00",
             "areaDesc": "Attala, MS; Holmes, MS",
             "ugcZones": [
               "MSC007",
@@ -81,8 +81,8 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": "The\nRiver Begin To Flood",
-            "headline": "Flood Warning issued May 24 at 8:38AM CDT until May 26 at 11:00PM CDT by NWS Jackson MS",
-            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL LATE TUESDAY EVENING",
+            "headline": "Flood Warning issued May 24 at 9:11PM CDT until May 28 at 10:36AM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL LATE THURSDAY MORNING",
             "urgency": "Immediate",
             "severity": "Severe",
             "certainty": "Observed",
@@ -97,23 +97,339 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "FA.A.4.KBMX",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "A",
+            "event": "Flood Watch",
+            "action": "NEW",
+            "office": "KBMX",
+            "wfo": "BMX",
+            "etn": "0004",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KBMX",
+              "phenomena": "FA",
+              "significance": "A",
+              "etn": "0004",
+              "start": "260525T1500Z",
+              "end": "260527T0300Z"
+            },
+            "issued": "2026-05-24T23:29:00-05:00",
+            "expires": "2026-05-25T13:00:00-05:00",
+            "areaDesc": "Walker; Blount; Etowah; Calhoun; Cherokee; Cleburne; Tuscaloosa; Jefferson; Shelby; St. Clair; Talladega; Clay; Randolph; Hale; Perry; Bibb; Chilton; Coosa; Marengo; Dallas; Autauga; Lowndes; Elmore; Montgomery",
+            "ugcZones": [
+              "ALZ015",
+              "ALZ017",
+              "ALZ018",
+              "ALZ019",
+              "ALZ020",
+              "ALZ021",
+              "ALZ023",
+              "ALZ024",
+              "ALZ025",
+              "ALZ026",
+              "ALZ027",
+              "ALZ028",
+              "ALZ029",
+              "ALZ032",
+              "ALZ033",
+              "ALZ034",
+              "ALZ035",
+              "ALZ036",
+              "ALZ039",
+              "ALZ040",
+              "ALZ041",
+              "ALZ042",
+              "ALZ043",
+              "ALZ044"
+            ],
+            "sameCodes": [
+              "001127",
+              "001009",
+              "001055",
+              "001015",
+              "001019",
+              "001029",
+              "001125",
+              "001073",
+              "001117",
+              "001115",
+              "001121",
+              "001027",
+              "001111",
+              "001065",
+              "001105",
+              "001007",
+              "001021",
+              "001037",
+              "001091",
+              "001047",
+              "001001",
+              "001085",
+              "001051",
+              "001101"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Watch issued May 24 at 11:29PM CDT until May 26 at 10:00PM CDT by NWS Birmingham AL",
+            "nwsHeadline": "FLOOD WATCH IN EFFECT FROM 10 AM CDT MONDAY THROUGH TUESDAY EVENING",
+            "urgency": "Future",
+            "severity": "Severe",
+            "certainty": "Possible",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "FL.W.16.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0016",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0016",
+              "start": "260526T0430Z",
+              "end": "000000T0000Z"
+            },
+            "issued": "2026-05-24T22:05:00-05:00",
+            "expires": "2026-05-25T22:15:00-05:00",
+            "areaDesc": "George, MS; Greene, MS",
+            "ugcZones": [
+              "MSC039",
+              "MSC041"
+            ],
+            "sameCodes": [
+              "028039",
+              "028041"
+            ],
+            "polygon": [
+              [
+                31.43,
+                -88.57
+              ],
+              [
+                31.43,
+                -88.46
+              ],
+              [
+                31.08,
+                -88.54
+              ],
+              [
+                30.98,
+                -88.73
+              ],
+              [
+                31,
+                -88.75
+              ],
+              [
+                31.1,
+                -88.58
+              ],
+              [
+                31.43,
+                -88.57
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued May 24 at 10:05PM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM MONDAY EVENING UNTIL FURTHER NOTICE",
+            "urgency": "Expected",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 2,
+      "comparisonCount": 2,
+      "comparison": [
+        {
+          "key": "FG.Y.9.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FG",
+            "significance": "Y",
+            "event": "Dense Fog Advisory",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0009",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "FG",
+              "significance": "Y",
+              "etn": "0009",
+              "start": "260525T0415Z",
+              "end": "260525T1500Z"
+            },
+            "issued": "2026-05-24T23:15:00-05:00",
+            "expires": "2026-05-25T10:00:00-05:00",
+            "areaDesc": "Lauderdale; Colbert; Franklin; Lawrence; Limestone; Madison; Morgan; Marshall; Jackson; DeKalb; Cullman; Moore; Lincoln; Franklin",
+            "ugcZones": [
+              "ALZ001",
+              "ALZ002",
+              "ALZ003",
+              "ALZ004",
+              "ALZ005",
+              "ALZ006",
+              "ALZ007",
+              "ALZ008",
+              "ALZ009",
+              "ALZ010",
+              "ALZ016",
+              "TNZ076",
+              "TNZ096",
+              "TNZ097"
+            ],
+            "sameCodes": [
+              "001077",
+              "001033",
+              "001059",
+              "001079",
+              "001083",
+              "001089",
+              "001103",
+              "001095",
+              "001071",
+              "001049",
+              "001043",
+              "047127",
+              "047103",
+              "047051"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Dense Fog Advisory issued May 24 at 11:15PM CDT until May 25 at 10:00AM CDT by NWS Huntsville AL",
+            "nwsHeadline": "DENSE FOG ADVISORY IN EFFECT UNTIL 10 AM CDT MONDAY",
+            "urgency": "Expected",
+            "severity": "Moderate",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FA.A.4.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "A",
+            "event": "Flood Watch",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0004",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "FA",
+              "significance": "A",
+              "etn": "0004",
+              "start": "260525T1500Z",
+              "end": "260527T0300Z"
+            },
+            "issued": "2026-05-24T23:12:00-05:00",
+            "expires": "2026-05-25T14:00:00-05:00",
+            "areaDesc": "Madison; Morgan; Marshall; Jackson; DeKalb; Cullman",
+            "ugcZones": [
+              "ALZ006",
+              "ALZ007",
+              "ALZ008",
+              "ALZ009",
+              "ALZ010",
+              "ALZ016"
+            ],
+            "sameCodes": [
+              "001089",
+              "001103",
+              "001095",
+              "001071",
+              "001049",
+              "001043"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Watch issued May 24 at 11:12PM CDT until May 26 at 10:00PM CDT by NWS Huntsville AL",
+            "nwsHeadline": "FLOOD WATCH IN EFFECT FROM 10 AM CDT MONDAY THROUGH 10 PM CDT TUESDAY EVENING",
+            "urgency": "Future",
+            "severity": "Severe",
+            "certainty": "Possible",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     }
   }
 }
