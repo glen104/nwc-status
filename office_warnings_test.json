@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25T17:56:02Z",
+  "updated": "2026-05-25T19:16:08Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -188,8 +188,8 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 5,
-      "comparisonCount": 5,
+      "apiCount": 6,
+      "comparisonCount": 6,
       "comparison": [
         {
           "key": "RP.S.16.KMOB",
@@ -403,6 +403,89 @@
             "headline": "Flood Warning issued May 24 at 10:05PM CDT by NWS Mobile AL",
             "nwsHeadline": "FLOOD WARNING IN EFFECT FROM MONDAY EVENING UNTIL FURTHER NOTICE",
             "urgency": "Expected",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FF.W.10.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FF",
+            "significance": "W",
+            "event": "Flash Flood Warning",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0010",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "FF",
+              "significance": "W",
+              "etn": "0010",
+              "start": "260525T1841Z",
+              "end": "260525T2145Z"
+            },
+            "issued": "2026-05-25T13:41:00-05:00",
+            "expires": "2026-05-25T16:45:00-05:00",
+            "areaDesc": "Stone, MS",
+            "ugcZones": [
+              "MSC131"
+            ],
+            "sameCodes": [
+              "028131"
+            ],
+            "polygon": [
+              [
+                30.68,
+                -89.24
+              ],
+              [
+                30.65,
+                -89.24
+              ],
+              [
+                30.65,
+                -89.34
+              ],
+              [
+                30.91,
+                -89.34
+              ],
+              [
+                30.91,
+                -89.26
+              ],
+              [
+                30.8,
+                -89.14
+              ],
+              [
+                30.68,
+                -89.14
+              ],
+              [
+                30.68,
+                -89.24
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flash Flood Warning issued May 25 at 1:41PM CDT until May 25 at 4:45PM CDT by NWS Mobile AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
             "severity": "Severe",
             "certainty": "Likely",
             "messageType": "Alert"
