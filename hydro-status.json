@@ -1,14 +1,14 @@
 {
   "nwc": {
-    "opsLevel": "Level 3 (Enhanced Operations)",
-    "reason": "Test",
+    "opsLevel": "Level 4 (Normal Operations)",
+    "reason": "",
     "hours": "5:00 AM - 8:30 PM CDT",
     "shifts": [],
     "tomorrow": [],
     "fim": null,
     "ic": null,
     "roster": [],
-    "updated": "2026-05-25T16:27:03Z"
+    "updated": "2026-05-25T18:08:32Z"
   },
   "abrfc": {
     "opsLevel": "Level 4 (Normal Operations)",
@@ -153,5 +153,5 @@
     "roster": [],
     "updated": ""
   },
-  "lastUpdated": "2026-05-25T16:27:03Z"
+  "lastUpdated": "2026-05-25T18:08:32Z"
 }
