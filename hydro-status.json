@@ -1,26 +1,76 @@
 {
   "nwc": {
     "opsLevel": "Level 2 (Partial Activation)",
-    "reason": "Test",
-    "hours": "5:00 AM - 8:30 PM CDT",
+    "reason": "This is a test",
+    "hours": "24-Hour Operations",
     "shifts": [
       {
         "end": "01:00 PM",
-        "forecasters": [],
-        "lead": "",
+        "forecasters": [
+          "Glen"
+        ],
+        "lead": "Charlie",
         "start": "05:00 AM"
       },
       {
         "end": "08:30 PM",
-        "forecasters": [],
-        "lead": "",
-        "start": "12:30 PM"
+        "forecasters": [
+          "John",
+          "Rose"
+        ],
+        "lead": "Jam",
+        "start": "10:00 PM"
       }
     ],
     "fim": null,
     "ic": null,
-    "roster": [],
-    "updated": "2026-05-25T14:17:26Z"
+    "roster": [
+      {
+        "name": "Charlie",
+        "role": "FIM Coordinator",
+        "roles": [
+          "FIM Coordinator",
+          "Shift Lead"
+        ]
+      },
+      {
+        "name": "Glen",
+        "role": "Shift Lead",
+        "roles": [
+          "Shift Lead"
+        ]
+      },
+      {
+        "name": "Jam",
+        "role": "Shift Lead",
+        "roles": [
+          "Shift Lead"
+        ]
+      },
+      {
+        "name": "Kat",
+        "role": "Forecaster",
+        "roles": [
+          "Forecaster"
+        ]
+      },
+      {
+        "name": "John",
+        "role": "Forecaster",
+        "roles": [
+          "Forecaster"
+        ]
+      },
+      {
+        "name": "Rose",
+        "role": "Forecaster",
+        "roles": [
+          "Forecaster",
+          "Shift Lead"
+        ]
+      }
+    ],
+    "updated": "2026-05-25T14:18:39Z"
   },
-  "lastUpdated": "2026-05-25T14:17:26Z"
+  "lastUpdated": "2026-05-25T14:18:39Z"
 }
