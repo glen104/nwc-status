@@ -7,8 +7,60 @@
     "tomorrow": [],
     "fim": null,
     "ic": null,
-    "roster": [],
-    "updated": "2026-05-25T18:09:09Z"
+    "roster": [
+      {
+        "name": "Charlie",
+        "role": "Shift Lead",
+        "roles": [
+          "Shift Lead",
+          "FIM Coordinator"
+        ]
+      },
+      {
+        "name": "John",
+        "role": "Forecaster",
+        "roles": [
+          "Forecaster"
+        ]
+      },
+      {
+        "name": "Kat",
+        "role": "Forecaster",
+        "roles": [
+          "Forecaster"
+        ]
+      },
+      {
+        "name": "Rose",
+        "role": "Forecaster",
+        "roles": [
+          "Forecaster",
+          "Shift Lead"
+        ]
+      },
+      {
+        "name": "Jam",
+        "role": "Shift Lead",
+        "roles": [
+          "Shift Lead"
+        ]
+      },
+      {
+        "name": "Joe",
+        "role": "Shift Lead",
+        "roles": [
+          "Shift Lead"
+        ]
+      },
+      {
+        "name": "Royce",
+        "role": "Shift Lead",
+        "roles": [
+          "Shift Lead"
+        ]
+      }
+    ],
+    "updated": "2026-05-25T18:13:43Z"
   },
   "abrfc": {
     "opsLevel": "Level 4 (Normal Operations)",
@@ -153,5 +205,5 @@
     "roster": [],
     "updated": ""
   },
-  "lastUpdated": "2026-05-25T18:09:09Z"
+  "lastUpdated": "2026-05-25T18:13:43Z"
 }
