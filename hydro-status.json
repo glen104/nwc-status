@@ -1,86 +1,157 @@
 {
   "nwc": {
-    "opsLevel": "Level 2 (Partial Activation)",
-    "reason": "This is a test",
-    "hours": "24-Hour Operations",
-    "shifts": [
-      {
-        "end": "01:00 PM",
-        "forecasters": [
-          "Glen"
-        ],
-        "lead": "Charlie",
-        "start": "05:00 AM"
-      },
-      {
-        "end": "08:30 PM",
-        "forecasters": [
-          "John",
-          "Rose"
-        ],
-        "lead": "Jam",
-        "start": "10:00 AM"
-      }
-    ],
-    "tomorrow": [
-      {
-        "end": "1:00 PM",
-        "forecasters": [
-          "Kat"
-        ],
-        "lead": "Glen",
-        "start": "5:00 AM"
-      }
-    ],
+    "opsLevel": "Level 4 (Normal Operations)",
+    "reason": "",
+    "hours": "5:00 AM - 8:30 PM CT",
+    "shifts": [],
+    "tomorrow": [],
     "fim": null,
     "ic": null,
-    "roster": [
-      {
-        "name": "Charlie",
-        "role": "FIM Coordinator",
-        "roles": [
-          "FIM Coordinator",
-          "Shift Lead"
-        ]
-      },
-      {
-        "name": "Glen",
-        "role": "Shift Lead",
-        "roles": [
-          "Shift Lead"
-        ]
-      },
-      {
-        "name": "Jam",
-        "role": "Shift Lead",
-        "roles": [
-          "Shift Lead"
-        ]
-      },
-      {
-        "name": "Kat",
-        "role": "Forecaster",
-        "roles": [
-          "Forecaster"
-        ]
-      },
-      {
-        "name": "John",
-        "role": "Forecaster",
-        "roles": [
-          "Forecaster"
-        ]
-      },
-      {
-        "name": "Rose",
-        "role": "Forecaster",
-        "roles": [
-          "Forecaster",
-          "Shift Lead"
-        ]
-      }
-    ],
-    "updated": "2026-05-25T14:45:51Z"
+    "roster": [],
+    "updated": ""
   },
-  "lastUpdated": "2026-05-25T14:45:51Z"
+  "abrfc": {
+    "opsLevel": "Level 4 (Normal Operations)",
+    "reason": "",
+    "hours": "8:00 AM - 5:00 PM CT",
+    "shifts": [],
+    "tomorrow": [],
+    "fim": null,
+    "ic": null,
+    "roster": [],
+    "updated": ""
+  },
+  "akrfc": {
+    "opsLevel": "Level 4 (Normal Operations)",
+    "reason": "",
+    "hours": "8:00 AM - 5:00 PM CT",
+    "shifts": [],
+    "tomorrow": [],
+    "fim": null,
+    "ic": null,
+    "roster": [],
+    "updated": ""
+  },
+  "cbrfc": {
+    "opsLevel": "Level 4 (Normal Operations)",
+    "reason": "",
+    "hours": "8:00 AM - 5:00 PM CT",
+    "shifts": [],
+    "tomorrow": [],
+    "fim": null,
+    "ic": null,
+    "roster": [],
+    "updated": ""
+  },
+  "cnrfc": {
+    "opsLevel": "Level 4 (Normal Operations)",
+    "reason": "",
+    "hours": "8:00 AM - 5:00 PM CT",
+    "shifts": [],
+    "tomorrow": [],
+    "fim": null,
+    "ic": null,
+    "roster": [],
+    "updated": ""
+  },
+  "lmrfc": {
+    "opsLevel": "Level 4 (Normal Operations)",
+    "reason": "",
+    "hours": "8:00 AM - 5:00 PM CT",
+    "shifts": [],
+    "tomorrow": [],
+    "fim": null,
+    "ic": null,
+    "roster": [],
+    "updated": ""
+  },
+  "marfc": {
+    "opsLevel": "Level 4 (Normal Operations)",
+    "reason": "",
+    "hours": "8:00 AM - 5:00 PM CT",
+    "shifts": [],
+    "tomorrow": [],
+    "fim": null,
+    "ic": null,
+    "roster": [],
+    "updated": ""
+  },
+  "mbrfc": {
+    "opsLevel": "Level 4 (Normal Operations)",
+    "reason": "",
+    "hours": "8:00 AM - 5:00 PM CT",
+    "shifts": [],
+    "tomorrow": [],
+    "fim": null,
+    "ic": null,
+    "roster": [],
+    "updated": ""
+  },
+  "ncrfc": {
+    "opsLevel": "Level 4 (Normal Operations)",
+    "reason": "",
+    "hours": "8:00 AM - 5:00 PM CT",
+    "shifts": [],
+    "tomorrow": [],
+    "fim": null,
+    "ic": null,
+    "roster": [],
+    "updated": ""
+  },
+  "nerfc": {
+    "opsLevel": "Level 4 (Normal Operations)",
+    "reason": "",
+    "hours": "8:00 AM - 5:00 PM CT",
+    "shifts": [],
+    "tomorrow": [],
+    "fim": null,
+    "ic": null,
+    "roster": [],
+    "updated": ""
+  },
+  "nwrfc": {
+    "opsLevel": "Level 4 (Normal Operations)",
+    "reason": "",
+    "hours": "8:00 AM - 5:00 PM CT",
+    "shifts": [],
+    "tomorrow": [],
+    "fim": null,
+    "ic": null,
+    "roster": [],
+    "updated": ""
+  },
+  "ohrfc": {
+    "opsLevel": "Level 4 (Normal Operations)",
+    "reason": "",
+    "hours": "8:00 AM - 5:00 PM CT",
+    "shifts": [],
+    "tomorrow": [],
+    "fim": null,
+    "ic": null,
+    "roster": [],
+    "updated": ""
+  },
+  "serfc": {
+    "opsLevel": "Level 4 (Normal Operations)",
+    "reason": "",
+    "hours": "8:00 AM - 5:00 PM CT",
+    "shifts": [],
+    "tomorrow": [],
+    "fim": null,
+    "ic": null,
+    "roster": [],
+    "updated": ""
+  },
+  "wgrfc": {
+    "opsLevel": "Level 4 (Normal Operations)",
+    "reason": "",
+    "hours": "8:00 AM - 5:00 PM CT",
+    "shifts": [],
+    "tomorrow": [],
+    "fim": null,
+    "ic": null,
+    "roster": [],
+    "updated": ""
+  },
+  "lastUpdated": ""
 }
