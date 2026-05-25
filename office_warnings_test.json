@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25T10:44:47Z",
+  "updated": "2026-05-25T13:50:31Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -291,8 +291,8 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
+      "apiCount": 3,
+      "comparisonCount": 3,
       "comparison": [
         {
           "key": "RP.S.16.KMOB",
@@ -432,91 +432,98 @@
           "inBoth": false,
           "iemOnly": false,
           "apiOnly": true
-        }
-      ]
-    },
-    "HUN": {
-      "name": "Huntsville, AL",
-      "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
-      "comparison": [
+        },
         {
-          "key": "FG.Y.9.KHUN",
+          "key": "FA.Y.19.KMOB",
           "iem": null,
           "api": {
             "source": "api",
-            "phenomena": "FG",
+            "phenomena": "FA",
             "significance": "Y",
-            "event": "Dense Fog Advisory",
+            "event": "Flood Advisory",
             "action": "NEW",
-            "office": "KHUN",
-            "wfo": "HUN",
-            "etn": "0009",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0019",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
-              "office": "KHUN",
-              "phenomena": "FG",
+              "office": "KMOB",
+              "phenomena": "FA",
               "significance": "Y",
-              "etn": "0009",
-              "start": "260525T0415Z",
+              "etn": "0019",
+              "start": "260525T1149Z",
               "end": "260525T1500Z"
             },
-            "issued": "2026-05-24T23:15:00-05:00",
+            "issued": "2026-05-25T06:49:00-05:00",
             "expires": "2026-05-25T10:00:00-05:00",
-            "areaDesc": "Lauderdale; Colbert; Franklin; Lawrence; Limestone; Madison; Morgan; Marshall; Jackson; DeKalb; Cullman; Moore; Lincoln; Franklin",
+            "areaDesc": "Stone, MS",
             "ugcZones": [
-              "ALZ001",
-              "ALZ002",
-              "ALZ003",
-              "ALZ004",
-              "ALZ005",
-              "ALZ006",
-              "ALZ007",
-              "ALZ008",
-              "ALZ009",
-              "ALZ010",
-              "ALZ016",
-              "TNZ076",
-              "TNZ096",
-              "TNZ097"
+              "MSC131"
             ],
             "sameCodes": [
-              "001077",
-              "001033",
-              "001059",
-              "001079",
-              "001083",
-              "001089",
-              "001103",
-              "001095",
-              "001071",
-              "001049",
-              "001043",
-              "047127",
-              "047103",
-              "047051"
+              "028131"
             ],
-            "polygon": null,
+            "polygon": [
+              [
+                30.68,
+                -89.23
+              ],
+              [
+                30.68,
+                -89.24
+              ],
+              [
+                30.65,
+                -89.24
+              ],
+              [
+                30.65,
+                -89.34
+              ],
+              [
+                30.91,
+                -89.34
+              ],
+              [
+                30.91,
+                -88.96
+              ],
+              [
+                30.68,
+                -88.97
+              ],
+              [
+                30.68,
+                -89.23
+              ]
+            ],
             "threatLevel": "STANDARD",
             "stormMotion": null,
             "motionStr": "",
             "hailSize": null,
             "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Dense Fog Advisory issued May 24 at 11:15PM CDT until May 25 at 10:00AM CDT by NWS Huntsville AL",
-            "nwsHeadline": "DENSE FOG ADVISORY IN EFFECT UNTIL 10 AM CDT MONDAY",
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": "The Area",
+            "headline": "Flood Advisory issued May 25 at 6:49AM CDT until May 25 at 10:00AM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 10 AM CDT THIS MORNING",
             "urgency": "Expected",
-            "severity": "Moderate",
+            "severity": "Minor",
             "certainty": "Likely",
             "messageType": "Alert"
           },
           "inBoth": false,
           "iemOnly": false,
           "apiOnly": true
-        },
+        }
+      ]
+    },
+    "HUN": {
+      "name": "Huntsville, AL",
+      "iemCount": 0,
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
         {
           "key": "FA.A.4.KHUN",
           "iem": null,
