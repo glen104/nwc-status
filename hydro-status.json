@@ -1,29 +1,26 @@
 {
   "nwc": {
-    "opsLevel": "Level 1 (Full Activation)",
-    "reason": "The ocean is gonna flood",
-    "hours": "24-Hour Operations",
+    "opsLevel": "Level 2 (Partial Activation)",
+    "reason": "Test",
+    "hours": "5:00 AM - 8:30 PM CDT",
     "shifts": [
       {
         "end": "01:00 PM",
         "forecasters": [],
-        "lead": "Glen",
+        "lead": "",
         "start": "05:00 AM"
       },
       {
         "end": "08:30 PM",
         "forecasters": [],
-        "lead": "Charlie",
+        "lead": "",
         "start": "12:30 PM"
       }
     ],
-    "fim": {
-      "end": "1900",
-      "name": "Charlie FIM",
-      "start": "1200"
-    },
+    "fim": null,
     "ic": null,
-    "updated": "2026-05-25T13:54:47Z"
+    "roster": [],
+    "updated": "2026-05-25T14:07:34Z"
   },
-  "lastUpdated": "2026-05-25T13:54:47Z"
+  "lastUpdated": "2026-05-25T14:07:34Z"
 }
