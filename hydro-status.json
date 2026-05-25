@@ -18,8 +18,18 @@
           "John",
           "Rose"
         ],
-        "lead": "Jam",
-        "start": "10:00 PM"
+        "lead": "",
+        "start": "10:00 AM"
+      }
+    ],
+    "tomorrow": [
+      {
+        "end": "1:00 PM",
+        "forecasters": [
+          "Kat"
+        ],
+        "lead": "Glen",
+        "start": "5:00 AM"
       }
     ],
     "fim": null,
@@ -70,7 +80,7 @@
         ]
       }
     ],
-    "updated": "2026-05-25T14:18:39Z"
+    "updated": "2026-05-25T14:36:13Z"
   },
-  "lastUpdated": "2026-05-25T14:18:39Z"
+  "lastUpdated": "2026-05-25T14:36:13Z"
 }
