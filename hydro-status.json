@@ -107,15 +107,15 @@
     "updated": ""
   },
   "lmrfc": {
-    "opsLevel": "Level 4 (Normal Operations)",
-    "reason": "",
-    "hours": "8:00 AM - 5:00 PM CT",
+    "opsLevel": "Level 1 (Full Activation)",
+    "reason": "Things going crazy",
+    "hours": "24-Hour Operations",
     "shifts": [],
     "tomorrow": [],
     "fim": null,
     "ic": null,
     "roster": [],
-    "updated": ""
+    "updated": "2026-05-25T18:27:08Z"
   },
   "marfc": {
     "opsLevel": "Level 4 (Normal Operations)",
@@ -205,5 +205,5 @@
     "roster": [],
     "updated": ""
   },
-  "lastUpdated": "2026-05-25T18:26:30Z"
+  "lastUpdated": "2026-05-25T18:27:08Z"
 }
