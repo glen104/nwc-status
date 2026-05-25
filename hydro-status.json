@@ -174,14 +174,14 @@
   },
   "ohrfc": {
     "opsLevel": "Level 2 (Partial Activation)",
-    "reason": "",
+    "reason": "Because",
     "hours": "24-Hour Operations",
     "shifts": [],
     "tomorrow": [],
     "fim": null,
     "ic": null,
     "roster": [],
-    "updated": "2026-05-25T18:22:41Z"
+    "updated": "2026-05-25T18:26:30Z"
   },
   "serfc": {
     "opsLevel": "Level 4 (Normal Operations)",
@@ -205,5 +205,5 @@
     "roster": [],
     "updated": ""
   },
-  "lastUpdated": "2026-05-25T18:22:41Z"
+  "lastUpdated": "2026-05-25T18:26:30Z"
 }
