@@ -1,11 +1,32 @@
 {
   "nwc": {
-    "opsLevel": "Level 4 (Normal Operations)",
-    "reason": "",
-    "hours": "5:00 AM - 8:30 PM CDT",
-    "shifts": [],
+    "opsLevel": "Level 2 (Partial Activation)",
+    "reason": "It is crazy out there",
+    "hours": "24-Hour Operations",
+    "shifts": [
+      {
+        "end": "03:00 PM",
+        "forecasters": [
+          "John"
+        ],
+        "lead": "Jam",
+        "start": "1:00 PM"
+      },
+      {
+        "end": "08:30 PM",
+        "forecasters": [
+          "Kat"
+        ],
+        "lead": "Rose",
+        "start": "4:30 PM"
+      }
+    ],
     "tomorrow": [],
-    "fim": null,
+    "fim": {
+      "end": "",
+      "name": "Charlie",
+      "start": ""
+    },
     "ic": null,
     "roster": [
       {
@@ -60,7 +81,7 @@
         ]
       }
     ],
-    "updated": "2026-05-25T18:13:43Z"
+    "updated": "2026-05-25T18:36:00Z"
   },
   "abrfc": {
     "opsLevel": "Level 4 (Normal Operations)",
@@ -205,5 +226,5 @@
     "roster": [],
     "updated": ""
   },
-  "lastUpdated": "2026-05-25T18:27:08Z"
+  "lastUpdated": "2026-05-25T18:36:00Z"
 }
