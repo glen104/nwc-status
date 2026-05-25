@@ -178,8 +178,11 @@ function formatShiftBlock(label, s) {
     fores = [s.forecaster];
   }
   if (fores.length) parts.push('Forecaster: ' + fores.join(', '));
-  var endTime = s.end ? ' thru ' + toDisplayTime(s.end) : '';
-  return badge(label) + endTime + (parts.length ? '&nbsp;&nbsp;' + parts.join(' / ') : '');
+  var startTime = s.start ? toDisplayTime(s.start) : '';
+  var endTime   = s.end   ? toDisplayTime(s.end)   : '';
+  var timeStr   = startTime && endTime ? ' ' + startTime + ' - ' + endTime : (endTime ? ' thru ' + endTime : '');
+  var staffStr  = parts.length ? '&nbsp;&nbsp;' + parts.join(' / ') : '';
+  return badge(label) + timeStr + ':' + staffStr;
 }
 
 function updateBanner(nwc) {
