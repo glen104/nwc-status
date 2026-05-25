@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25T22:48:04Z",
+  "updated": "2026-05-25T23:48:54Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -95,8 +95,8 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
+      "apiCount": 1,
+      "comparisonCount": 1,
       "comparison": [
         {
           "key": "FL.W.7.KBMX",
@@ -180,101 +180,14 @@
           "inBoth": false,
           "iemOnly": false,
           "apiOnly": true
-        },
-        {
-          "key": "FA.Y.26.KBMX",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FA",
-            "significance": "Y",
-            "event": "Flood Advisory",
-            "action": "NEW",
-            "office": "KBMX",
-            "wfo": "BMX",
-            "etn": "0026",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KBMX",
-              "phenomena": "FA",
-              "significance": "Y",
-              "etn": "0026",
-              "start": "260525T2029Z",
-              "end": "260525T2330Z"
-            },
-            "issued": "2026-05-25T15:29:00-05:00",
-            "expires": "2026-05-25T18:30:00-05:00",
-            "areaDesc": "Etowah, AL",
-            "ugcZones": [
-              "ALC055"
-            ],
-            "sameCodes": [
-              "001055"
-            ],
-            "polygon": [
-              [
-                33.99,
-                -86.1
-              ],
-              [
-                34.2,
-                -86.09
-              ],
-              [
-                34.2,
-                -86.08
-              ],
-              [
-                34.2,
-                -86.04
-              ],
-              [
-                34.2,
-                -86.02
-              ],
-              [
-                34.2,
-                -86
-              ],
-              [
-                34.2,
-                -85.95
-              ],
-              [
-                33.98,
-                -85.95
-              ],
-              [
-                33.99,
-                -86.1
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flood Advisory issued May 25 at 3:29PM CDT until May 25 at 6:30PM CDT by NWS Birmingham AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 630 PM CDT THIS EVENING",
-            "urgency": "Expected",
-            "severity": "Minor",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
         }
       ]
     },
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 3,
-      "comparisonCount": 3,
+      "apiCount": 2,
+      "comparisonCount": 2,
       "comparison": [
         {
           "key": "FL.W.18.KMOB",
@@ -439,94 +352,98 @@
           "inBoth": false,
           "iemOnly": false,
           "apiOnly": true
-        },
+        }
+      ]
+    },
+    "HUN": {
+      "name": "Huntsville, AL",
+      "iemCount": 0,
+      "apiCount": 2,
+      "comparisonCount": 2,
+      "comparison": [
         {
-          "key": "FA.Y.23.KMOB",
+          "key": "FF.W.6.KHUN",
           "iem": null,
           "api": {
             "source": "api",
-            "phenomena": "FA",
-            "significance": "Y",
-            "event": "Flood Advisory",
+            "phenomena": "FF",
+            "significance": "W",
+            "event": "Flash Flood Warning",
             "action": "NEW",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0023",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0006",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
-              "office": "KMOB",
-              "phenomena": "FA",
-              "significance": "Y",
-              "etn": "0023",
-              "start": "260525T2223Z",
-              "end": "260525T2330Z"
+              "office": "KHUN",
+              "phenomena": "FF",
+              "significance": "W",
+              "etn": "0006",
+              "start": "260525T2319Z",
+              "end": "260526T0230Z"
             },
-            "issued": "2026-05-25T17:23:00-05:00",
-            "expires": "2026-05-25T18:30:00-05:00",
-            "areaDesc": "Stone, MS",
+            "issued": "2026-05-25T18:19:00-05:00",
+            "expires": "2026-05-25T21:30:00-05:00",
+            "areaDesc": "Marshall, AL",
             "ugcZones": [
-              "MSC131"
+              "ALC095"
             ],
             "sameCodes": [
-              "028131"
+              "001095"
             ],
             "polygon": [
               [
-                30.91,
-                -89.32
+                34.51,
+                -86.34
               ],
               [
-                30.91,
-                -89.31
+                34.52,
+                -86.32
               ],
               [
-                30.91,
-                -89.3
+                34.56,
+                -86.29
               ],
               [
-                30.91,
-                -89.29
+                34.56,
+                -86.21
               ],
               [
-                30.91,
-                -89.28
+                34.52,
+                -86.18
               ],
               [
-                30.91,
-                -89.27
+                34.44,
+                -86.27
               ],
               [
-                30.91,
-                -89.25
+                34.3,
+                -86.36
               ],
               [
-                30.68,
-                -89.13
+                34.3,
+                -86.54
               ],
               [
-                30.68,
-                -89.24
+                34.47,
+                -86.48
               ],
               [
-                30.66,
-                -89.24
+                34.48,
+                -86.44
               ],
               [
-                30.65,
-                -89.24
+                34.48,
+                -86.43
               ],
               [
-                30.65,
-                -89.34
+                34.51,
+                -86.38
               ],
               [
-                30.91,
-                -89.34
-              ],
-              [
-                30.91,
-                -89.32
+                34.51,
+                -86.34
               ]
             ],
             "threatLevel": "STANDARD",
@@ -534,12 +451,103 @@
             "motionStr": "",
             "hailSize": null,
             "windSpeed": null,
-            "detectionSource": null,
+            "detectionSource": "RADAR INDICATED",
             "nearestLocation": null,
-            "headline": "Flood Advisory issued May 25 at 5:23PM CDT until May 25 at 6:30PM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 630 PM CDT THIS EVENING... ...REPLACES FLASH FLOOD WARNING",
-            "urgency": "Expected",
-            "severity": "Minor",
+            "headline": "Flash Flood Warning issued May 25 at 6:19PM CDT until May 25 at 9:30PM CDT by NWS Huntsville AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FF.W.5.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FF",
+            "significance": "W",
+            "event": "Flash Flood Warning",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0005",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "FF",
+              "significance": "W",
+              "etn": "0005",
+              "start": "260525T2307Z",
+              "end": "260526T0215Z"
+            },
+            "issued": "2026-05-25T18:07:00-05:00",
+            "expires": "2026-05-25T21:15:00-05:00",
+            "areaDesc": "Jackson, AL",
+            "ugcZones": [
+              "ALC071"
+            ],
+            "sameCodes": [
+              "001071"
+            ],
+            "polygon": [
+              [
+                34.92,
+                -85.6
+              ],
+              [
+                34.67,
+                -85.75
+              ],
+              [
+                34.59,
+                -85.83
+              ],
+              [
+                34.57,
+                -85.87
+              ],
+              [
+                34.6,
+                -86.1
+              ],
+              [
+                34.72,
+                -86.1
+              ],
+              [
+                34.82,
+                -86.01
+              ],
+              [
+                34.98,
+                -85.89
+              ],
+              [
+                34.98,
+                -85.65
+              ],
+              [
+                34.92,
+                -85.6
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flash Flood Warning issued May 25 at 6:07PM CDT until May 25 at 9:15PM CDT by NWS Huntsville AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
             "certainty": "Likely",
             "messageType": "Alert"
           },
@@ -548,13 +556,6 @@
           "apiOnly": true
         }
       ]
-    },
-    "HUN": {
-      "name": "Huntsville, AL",
-      "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
     }
   }
 }
