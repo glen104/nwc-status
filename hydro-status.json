@@ -1,25 +1,32 @@
 {
   "nwc": {
-    "opsLevel": "Level 3 (Enhanced Operations)",
-    "reason": "Rain",
-    "hours": "24-Hour Operations",
+    "opsLevel": "Level 2 (Partial Activation)",
+    "reason": "Test",
+    "hours": "0500 - 2300 CDT",
     "shifts": [
       {
         "end": "01:00 PM",
-        "forecasters": [],
-        "lead": "",
+        "forecasters": [
+          "Test4",
+          "Test5"
+        ],
+        "lead": "Glen",
         "start": "05:00 AM"
       },
       {
         "end": "08:30 PM",
         "forecasters": [],
-        "lead": "",
+        "lead": "Test",
         "start": "12:30 PM"
       }
     ],
-    "fim": null,
+    "fim": {
+      "end": "0000",
+      "name": "Glen",
+      "start": "1200"
+    },
     "ic": null,
-    "updated": "2026-05-22T18:01:49Z"
+    "updated": "2026-05-25T13:37:14Z"
   },
-  "lastUpdated": "2026-05-22T18:01:49Z"
+  "lastUpdated": "2026-05-25T13:37:14Z"
 }
