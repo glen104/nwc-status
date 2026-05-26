@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26T20:32:42Z",
+  "updated": "2026-05-26T22:07:57Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -234,9 +234,123 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "FA.Y.27.KBMX",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "Y",
+            "event": "Flood Advisory",
+            "action": "NEW",
+            "office": "KBMX",
+            "wfo": "BMX",
+            "etn": "0027",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KBMX",
+              "phenomena": "FA",
+              "significance": "Y",
+              "etn": "0027",
+              "start": "260526T2044Z",
+              "end": "260526T2345Z"
+            },
+            "issued": "2026-05-26T15:44:00-05:00",
+            "expires": "2026-05-26T18:45:00-05:00",
+            "areaDesc": "Lee, AL; Russell, AL",
+            "ugcZones": [
+              "ALC081",
+              "ALC113"
+            ],
+            "sameCodes": [
+              "001081",
+              "001113"
+            ],
+            "polygon": [
+              [
+                32.72,
+                -85.12
+              ],
+              [
+                32.68,
+                -85.11
+              ],
+              [
+                32.68,
+                -85.1
+              ],
+              [
+                32.66,
+                -85.09
+              ],
+              [
+                32.64,
+                -85.1
+              ],
+              [
+                32.64,
+                -85.08
+              ],
+              [
+                32.62,
+                -85.09
+              ],
+              [
+                32.58,
+                -85.07
+              ],
+              [
+                32.52,
+                -85.01
+              ],
+              [
+                32.5,
+                -85
+              ],
+              [
+                32.45,
+                -85
+              ],
+              [
+                32.44,
+                -84.97
+              ],
+              [
+                32.44,
+                -85.07
+              ],
+              [
+                32.72,
+                -85.17
+              ],
+              [
+                32.72,
+                -85.12
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flood Advisory issued May 26 at 3:44PM CDT until May 26 at 6:45PM CDT by NWS Birmingham AL",
+            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 645 PM CDT THIS EVENING",
+            "urgency": "Expected",
+            "severity": "Minor",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "MOB": {
       "name": "Mobile, AL",
@@ -245,76 +359,37 @@
       "comparisonCount": 1,
       "comparison": [
         {
-          "key": "FA.A.1.KMOB",
+          "key": "FA.A.2.KMOB",
           "iem": null,
           "api": {
             "source": "api",
             "phenomena": "FA",
             "significance": "A",
             "event": "Flood Watch",
-            "action": "CON",
+            "action": "NEW",
             "office": "KMOB",
             "wfo": "MOB",
-            "etn": "0001",
+            "etn": "0002",
             "vtec": {
               "productClass": "O",
-              "action": "CON",
+              "action": "NEW",
               "office": "KMOB",
               "phenomena": "FA",
               "significance": "A",
-              "etn": "0001",
-              "start": "000000T0000Z",
-              "end": "260527T0500Z"
+              "etn": "0002",
+              "start": "260527T1200Z",
+              "end": "260527T2300Z"
             },
-            "issued": "2026-05-26T11:01:00-05:00",
-            "expires": "2026-05-26T19:15:00-05:00",
-            "areaDesc": "Choctaw; Washington; Clarke; Wilcox; Monroe; Conecuh; Butler; Crenshaw; Escambia; Covington; Mobile Inland; Baldwin Inland; Mobile Central; Baldwin Central; Mobile Coastal; Baldwin Coastal; Escambia Inland; Escambia Coastal; Santa Rosa Inland; Santa Rosa Coastal; Okaloosa Inland; Okaloosa Coastal; Wayne; Perry; Greene; Stone; George",
+            "issued": "2026-05-26T15:38:00-05:00",
+            "expires": "2026-05-26T23:45:00-05:00",
+            "areaDesc": "Perry; Greene; Stone; George",
             "ugcZones": [
-              "ALZ051",
-              "ALZ052",
-              "ALZ053",
-              "ALZ054",
-              "ALZ055",
-              "ALZ056",
-              "ALZ057",
-              "ALZ058",
-              "ALZ059",
-              "ALZ060",
-              "ALZ261",
-              "ALZ262",
-              "ALZ263",
-              "ALZ264",
-              "ALZ265",
-              "ALZ266",
-              "FLZ201",
-              "FLZ202",
-              "FLZ203",
-              "FLZ204",
-              "FLZ205",
-              "FLZ206",
-              "MSZ067",
               "MSZ075",
               "MSZ076",
               "MSZ078",
               "MSZ079"
             ],
             "sameCodes": [
-              "001023",
-              "001129",
-              "001025",
-              "001131",
-              "001099",
-              "001035",
-              "001013",
-              "001041",
-              "001053",
-              "001039",
-              "001097",
-              "001003",
-              "012033",
-              "012113",
-              "012091",
-              "028153",
               "028111",
               "028041",
               "028131",
@@ -328,8 +403,8 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Flood Watch issued May 26 at 11:01AM CDT until May 27 at 12:00AM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD WATCH REMAINS IN EFFECT THROUGH THIS EVENING",
+            "headline": "Flood Watch issued May 26 at 3:38PM CDT until May 27 at 6:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WATCH IN EFFECT FROM WEDNESDAY MORNING THROUGH WEDNESDAY AFTERNOON",
             "urgency": "Future",
             "severity": "Severe",
             "certainty": "Possible",
