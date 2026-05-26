@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26T16:07:18Z",
+  "updated": "2026-05-26T18:35:25Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,88 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 3,
-      "comparisonCount": 3,
+      "apiCount": 4,
+      "comparisonCount": 4,
       "comparison": [
+        {
+          "key": "FL.W.14.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0014",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0014",
+              "start": "260526T1612Z",
+              "end": "260527T1200Z"
+            },
+            "issued": "2026-05-26T11:12:00-05:00",
+            "expires": "2026-05-26T23:15:00-05:00",
+            "areaDesc": "Noxubee, MS",
+            "ugcZones": [
+              "MSC103"
+            ],
+            "sameCodes": [
+              "028103"
+            ],
+            "polygon": [
+              [
+                33,
+                -88.52
+              ],
+              [
+                33.07,
+                -88.62
+              ],
+              [
+                33.14,
+                -88.75
+              ],
+              [
+                33.2,
+                -88.67
+              ],
+              [
+                33.13,
+                -88.55
+              ],
+              [
+                33.04,
+                -88.45
+              ],
+              [
+                33,
+                -88.52
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": "Crest",
+            "headline": "Flood Warning issued May 26 at 11:12AM CDT until May 27 at 7:00AM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM THIS MORNING TO TOMORROW MORNING",
+            "urgency": "Expected",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
         {
           "key": "FL.W.13.KJAN",
           "iem": null,
@@ -234,74 +313,9 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "FA.A.4.KBMX",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FA",
-            "significance": "A",
-            "event": "Flood Watch",
-            "action": "EXA",
-            "office": "KBMX",
-            "wfo": "BMX",
-            "etn": "0004",
-            "vtec": {
-              "productClass": "O",
-              "action": "EXA",
-              "office": "KBMX",
-              "phenomena": "FA",
-              "significance": "A",
-              "etn": "0004",
-              "start": "000000T0000Z",
-              "end": "260527T0300Z"
-            },
-            "issued": "2026-05-26T02:36:00-05:00",
-            "expires": "2026-05-26T16:00:00-05:00",
-            "areaDesc": "Tallapoosa; Chambers; Macon; Bullock; Lee; Russell; Pike; Barbour",
-            "ugcZones": [
-              "ALZ037",
-              "ALZ038",
-              "ALZ045",
-              "ALZ046",
-              "ALZ047",
-              "ALZ048",
-              "ALZ049",
-              "ALZ050"
-            ],
-            "sameCodes": [
-              "001123",
-              "001017",
-              "001087",
-              "001011",
-              "001081",
-              "001113",
-              "001109",
-              "001005"
-            ],
-            "polygon": null,
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Flood Watch issued May 26 at 2:36AM CDT until May 26 at 10:00PM CDT by NWS Birmingham AL",
-            "nwsHeadline": "FLOOD WATCH IN EFFECT THROUGH THIS EVENING",
-            "urgency": "Future",
-            "severity": "Severe",
-            "certainty": "Possible",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "MOB": {
       "name": "Mobile, AL",
