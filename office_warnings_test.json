@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26T08:58:36Z",
+  "updated": "2026-05-26T16:07:18Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,228 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 3,
+      "comparisonCount": 3,
+      "comparison": [
+        {
+          "key": "FL.W.13.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0013",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0013",
+              "start": "000000T0000Z",
+              "end": "260528T0243Z"
+            },
+            "issued": "2026-05-26T10:14:00-05:00",
+            "expires": "2026-05-26T22:15:00-05:00",
+            "areaDesc": "Clarke, MS",
+            "ugcZones": [
+              "MSC023"
+            ],
+            "sameCodes": [
+              "028023"
+            ],
+            "polygon": [
+              [
+                32,
+                -88.78
+              ],
+              [
+                32.08,
+                -88.83
+              ],
+              [
+                32.16,
+                -88.9
+              ],
+              [
+                32.2,
+                -88.79
+              ],
+              [
+                32.11,
+                -88.73
+              ],
+              [
+                32.05,
+                -88.68
+              ],
+              [
+                32,
+                -88.78
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued May 26 at 10:14AM CDT until May 27 at 9:43PM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL LATE TOMORROW EVENING",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.12.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0012",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0012",
+              "start": "000000T0000Z",
+              "end": "260528T0120Z"
+            },
+            "issued": "2026-05-26T10:14:00-05:00",
+            "expires": "2026-05-26T22:15:00-05:00",
+            "areaDesc": "Forrest, MS",
+            "ugcZones": [
+              "MSC035"
+            ],
+            "sameCodes": [
+              "028035"
+            ],
+            "polygon": [
+              [
+                31,
+                -89.15
+              ],
+              [
+                31.03,
+                -89.25
+              ],
+              [
+                31.21,
+                -89.51
+              ],
+              [
+                31.27,
+                -89.43
+              ],
+              [
+                31.13,
+                -89.24
+              ],
+              [
+                31.1,
+                -89.15
+              ],
+              [
+                31,
+                -89.15
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued May 26 at 10:14AM CDT until May 27 at 8:20PM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL TOMORROW EVENING",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FA.A.2.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "A",
+            "event": "Flood Watch",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0002",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "FA",
+              "significance": "A",
+              "etn": "0002",
+              "start": "260526T1600Z",
+              "end": "260527T0500Z"
+            },
+            "issued": "2026-05-26T09:42:00-05:00",
+            "expires": "2026-05-26T17:45:00-05:00",
+            "areaDesc": "Jasper; Clarke; Covington; Jones; Lamar; Forrest",
+            "ugcZones": [
+              "MSZ057",
+              "MSZ058",
+              "MSZ065",
+              "MSZ066",
+              "MSZ073",
+              "MSZ074"
+            ],
+            "sameCodes": [
+              "028061",
+              "028023",
+              "028031",
+              "028067",
+              "028073",
+              "028035"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Watch issued May 26 at 9:42AM CDT until May 27 at 12:00AM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WATCH IN EFFECT THROUGH THIS EVENING",
+            "urgency": "Future",
+            "severity": "Severe",
+            "certainty": "Possible",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "BMX": {
       "name": "Birmingham, AL",
@@ -87,9 +306,163 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 2,
+      "comparisonCount": 2,
+      "comparison": [
+        {
+          "key": "RP.S.16.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "RP",
+            "significance": "S",
+            "event": "Rip Current Statement",
+            "action": "CON",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0016",
+            "vtec": {
+              "productClass": "O",
+              "action": "CON",
+              "office": "KMOB",
+              "phenomena": "RP",
+              "significance": "S",
+              "etn": "0016",
+              "start": "000000T0000Z",
+              "end": "260529T1200Z"
+            },
+            "issued": "2026-05-26T09:58:00-05:00",
+            "expires": "2026-05-26T18:00:00-05:00",
+            "areaDesc": "Mobile Coastal; Baldwin Coastal; Escambia Coastal; Santa Rosa Coastal; Okaloosa Coastal",
+            "ugcZones": [
+              "ALZ265",
+              "ALZ266",
+              "FLZ202",
+              "FLZ204",
+              "FLZ206"
+            ],
+            "sameCodes": [
+              "001097",
+              "001003",
+              "012033",
+              "012113",
+              "012091"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Rip Current Statement issued May 26 at 9:58AM CDT until May 29 at 7:00AM CDT by NWS Mobile AL",
+            "nwsHeadline": "HIGH RIP CURRENT RISK REMAINS IN EFFECT THROUGH FRIDAY MORNING",
+            "urgency": "Expected",
+            "severity": "Moderate",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FA.A.1.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "A",
+            "event": "Flood Watch",
+            "action": "CON",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0001",
+            "vtec": {
+              "productClass": "O",
+              "action": "CON",
+              "office": "KMOB",
+              "phenomena": "FA",
+              "significance": "A",
+              "etn": "0001",
+              "start": "000000T0000Z",
+              "end": "260527T0500Z"
+            },
+            "issued": "2026-05-26T11:01:00-05:00",
+            "expires": "2026-05-26T19:15:00-05:00",
+            "areaDesc": "Choctaw; Washington; Clarke; Wilcox; Monroe; Conecuh; Butler; Crenshaw; Escambia; Covington; Mobile Inland; Baldwin Inland; Mobile Central; Baldwin Central; Mobile Coastal; Baldwin Coastal; Escambia Inland; Escambia Coastal; Santa Rosa Inland; Santa Rosa Coastal; Okaloosa Inland; Okaloosa Coastal; Wayne; Perry; Greene; Stone; George",
+            "ugcZones": [
+              "ALZ051",
+              "ALZ052",
+              "ALZ053",
+              "ALZ054",
+              "ALZ055",
+              "ALZ056",
+              "ALZ057",
+              "ALZ058",
+              "ALZ059",
+              "ALZ060",
+              "ALZ261",
+              "ALZ262",
+              "ALZ263",
+              "ALZ264",
+              "ALZ265",
+              "ALZ266",
+              "FLZ201",
+              "FLZ202",
+              "FLZ203",
+              "FLZ204",
+              "FLZ205",
+              "FLZ206",
+              "MSZ067",
+              "MSZ075",
+              "MSZ076",
+              "MSZ078",
+              "MSZ079"
+            ],
+            "sameCodes": [
+              "001023",
+              "001129",
+              "001025",
+              "001131",
+              "001099",
+              "001035",
+              "001013",
+              "001041",
+              "001053",
+              "001039",
+              "001097",
+              "001003",
+              "012033",
+              "012113",
+              "012091",
+              "028153",
+              "028111",
+              "028041",
+              "028131",
+              "028039"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Watch issued May 26 at 11:01AM CDT until May 27 at 12:00AM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WATCH REMAINS IN EFFECT THROUGH THIS EVENING",
+            "urgency": "Future",
+            "severity": "Severe",
+            "certainty": "Possible",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "HUN": {
       "name": "Huntsville, AL",
