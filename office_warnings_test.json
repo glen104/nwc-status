@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26T05:47:54Z",
+  "updated": "2026-05-26T08:58:36Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -15,9 +15,74 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "FA.A.4.KBMX",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "A",
+            "event": "Flood Watch",
+            "action": "EXA",
+            "office": "KBMX",
+            "wfo": "BMX",
+            "etn": "0004",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXA",
+              "office": "KBMX",
+              "phenomena": "FA",
+              "significance": "A",
+              "etn": "0004",
+              "start": "000000T0000Z",
+              "end": "260527T0300Z"
+            },
+            "issued": "2026-05-26T02:36:00-05:00",
+            "expires": "2026-05-26T16:00:00-05:00",
+            "areaDesc": "Tallapoosa; Chambers; Macon; Bullock; Lee; Russell; Pike; Barbour",
+            "ugcZones": [
+              "ALZ037",
+              "ALZ038",
+              "ALZ045",
+              "ALZ046",
+              "ALZ047",
+              "ALZ048",
+              "ALZ049",
+              "ALZ050"
+            ],
+            "sameCodes": [
+              "001123",
+              "001017",
+              "001087",
+              "001011",
+              "001081",
+              "001113",
+              "001109",
+              "001005"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Watch issued May 26 at 2:36AM CDT until May 26 at 10:00PM CDT by NWS Birmingham AL",
+            "nwsHeadline": "FLOOD WATCH IN EFFECT THROUGH THIS EVENING",
+            "urgency": "Future",
+            "severity": "Severe",
+            "certainty": "Possible",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "MOB": {
       "name": "Mobile, AL",
