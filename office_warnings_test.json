@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25T23:48:54Z",
+  "updated": "2026-05-26T01:33:42Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -12,7 +12,7 @@
       "comparisonCount": 1,
       "comparison": [
         {
-          "key": "FL.W.12.KJAN",
+          "key": "FL.W.13.KJAN",
           "iem": null,
           "api": {
             "source": "api",
@@ -22,54 +22,54 @@
             "action": "NEW",
             "office": "KJAN",
             "wfo": "JAN",
-            "etn": "0012",
+            "etn": "0013",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KJAN",
               "phenomena": "FL",
               "significance": "W",
-              "etn": "0012",
-              "start": "260526T0600Z",
-              "end": "260528T0720Z"
+              "etn": "0013",
+              "start": "260526T1415Z",
+              "end": "260528T0712Z"
             },
-            "issued": "2026-05-25T16:58:00-05:00",
-            "expires": "2026-05-26T05:00:00-05:00",
-            "areaDesc": "Forrest, MS",
+            "issued": "2026-05-25T20:25:00-05:00",
+            "expires": "2026-05-26T10:00:00-05:00",
+            "areaDesc": "Clarke, MS",
             "ugcZones": [
-              "MSC035"
+              "MSC023"
             ],
             "sameCodes": [
-              "028035"
+              "028023"
             ],
             "polygon": [
               [
-                31,
-                -89.15
+                32,
+                -88.78
               ],
               [
-                31.03,
-                -89.25
+                32.08,
+                -88.83
               ],
               [
-                31.21,
-                -89.51
+                32.16,
+                -88.9
               ],
               [
-                31.27,
-                -89.43
+                32.2,
+                -88.79
               ],
               [
-                31.13,
-                -89.24
+                32.11,
+                -88.73
               ],
               [
-                31.1,
-                -89.15
+                32.05,
+                -88.68
               ],
               [
-                31,
-                -89.15
+                32,
+                -88.78
               ]
             ],
             "threatLevel": "STANDARD",
@@ -79,8 +79,8 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Flood Warning issued May 25 at 4:58PM CDT until May 28 at 2:20AM CDT by NWS Jackson MS",
-            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM LATE TONIGHT TO EARLY THURSDAY MORNING",
+            "headline": "Flood Warning issued May 25 at 8:25PM CDT until May 28 at 2:12AM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM TUESDAY MORNING TO EARLY THURSDAY MORNING",
             "urgency": "Expected",
             "severity": "Severe",
             "certainty": "Likely",
@@ -95,93 +95,9 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "FL.W.7.KBMX",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FL",
-            "significance": "W",
-            "event": "Flood Warning",
-            "action": "NEW",
-            "office": "KBMX",
-            "wfo": "BMX",
-            "etn": "0007",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KBMX",
-              "phenomena": "FL",
-              "significance": "W",
-              "etn": "0007",
-              "start": "260527T1700Z",
-              "end": "260528T1800Z"
-            },
-            "issued": "2026-05-25T10:17:00-05:00",
-            "expires": "2026-05-26T01:30:00-05:00",
-            "areaDesc": "Greene, AL; Hale, AL; Marengo, AL",
-            "ugcZones": [
-              "ALC063",
-              "ALC065",
-              "ALC091"
-            ],
-            "sameCodes": [
-              "001063",
-              "001065",
-              "001091"
-            ],
-            "polygon": [
-              [
-                32.77,
-                -87.82
-              ],
-              [
-                32.56,
-                -87.69
-              ],
-              [
-                32.51,
-                -87.82
-              ],
-              [
-                32.62,
-                -87.84
-              ],
-              [
-                32.73,
-                -87.9
-              ],
-              [
-                32.81,
-                -87.89
-              ],
-              [
-                32.77,
-                -87.82
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Flood Warning issued May 25 at 10:17AM CDT until May 28 at 1:00PM CDT by NWS Birmingham AL",
-            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM WEDNESDAY AFTERNOON TO EARLY THURSDAY AFTERNOON",
-            "urgency": "Expected",
-            "severity": "Severe",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "MOB": {
       "name": "Mobile, AL",
@@ -358,204 +274,9 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
-      "comparison": [
-        {
-          "key": "FF.W.6.KHUN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FF",
-            "significance": "W",
-            "event": "Flash Flood Warning",
-            "action": "NEW",
-            "office": "KHUN",
-            "wfo": "HUN",
-            "etn": "0006",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KHUN",
-              "phenomena": "FF",
-              "significance": "W",
-              "etn": "0006",
-              "start": "260525T2319Z",
-              "end": "260526T0230Z"
-            },
-            "issued": "2026-05-25T18:19:00-05:00",
-            "expires": "2026-05-25T21:30:00-05:00",
-            "areaDesc": "Marshall, AL",
-            "ugcZones": [
-              "ALC095"
-            ],
-            "sameCodes": [
-              "001095"
-            ],
-            "polygon": [
-              [
-                34.51,
-                -86.34
-              ],
-              [
-                34.52,
-                -86.32
-              ],
-              [
-                34.56,
-                -86.29
-              ],
-              [
-                34.56,
-                -86.21
-              ],
-              [
-                34.52,
-                -86.18
-              ],
-              [
-                34.44,
-                -86.27
-              ],
-              [
-                34.3,
-                -86.36
-              ],
-              [
-                34.3,
-                -86.54
-              ],
-              [
-                34.47,
-                -86.48
-              ],
-              [
-                34.48,
-                -86.44
-              ],
-              [
-                34.48,
-                -86.43
-              ],
-              [
-                34.51,
-                -86.38
-              ],
-              [
-                34.51,
-                -86.34
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flash Flood Warning issued May 25 at 6:19PM CDT until May 25 at 9:30PM CDT by NWS Huntsville AL",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "FF.W.5.KHUN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FF",
-            "significance": "W",
-            "event": "Flash Flood Warning",
-            "action": "NEW",
-            "office": "KHUN",
-            "wfo": "HUN",
-            "etn": "0005",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KHUN",
-              "phenomena": "FF",
-              "significance": "W",
-              "etn": "0005",
-              "start": "260525T2307Z",
-              "end": "260526T0215Z"
-            },
-            "issued": "2026-05-25T18:07:00-05:00",
-            "expires": "2026-05-25T21:15:00-05:00",
-            "areaDesc": "Jackson, AL",
-            "ugcZones": [
-              "ALC071"
-            ],
-            "sameCodes": [
-              "001071"
-            ],
-            "polygon": [
-              [
-                34.92,
-                -85.6
-              ],
-              [
-                34.67,
-                -85.75
-              ],
-              [
-                34.59,
-                -85.83
-              ],
-              [
-                34.57,
-                -85.87
-              ],
-              [
-                34.6,
-                -86.1
-              ],
-              [
-                34.72,
-                -86.1
-              ],
-              [
-                34.82,
-                -86.01
-              ],
-              [
-                34.98,
-                -85.89
-              ],
-              [
-                34.98,
-                -85.65
-              ],
-              [
-                34.92,
-                -85.6
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flash Flood Warning issued May 25 at 6:07PM CDT until May 25 at 9:15PM CDT by NWS Huntsville AL",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     }
   }
 }
