@@ -2,7 +2,7 @@
   "nwc": {
     "opsLevel": "Level 2 (Partial Activation)",
     "reason": "It is crazy out there",
-    "hours": "5:00 AM - 8:30 PM CDT",
+    "hours": "5:00 AM - 11:30 PM CDT",
     "shifts": [
       {
         "end": "03:00 PM",
@@ -93,7 +93,7 @@
         ]
       }
     ],
-    "updated": "2026-05-26T12:53:25Z"
+    "updated": "2026-05-26T12:53:40Z"
   },
   "abrfc": {
     "opsLevel": "Level 4 (Normal Operations)",
@@ -238,7 +238,7 @@
     "roster": [],
     "updated": ""
   },
-  "lastUpdated": "2026-05-26T12:53:25Z",
+  "lastUpdated": "2026-05-26T12:53:40Z",
   "owp": {
     "opsLevel": "Level 1 (Full Activation)",
     "reason": "This",
