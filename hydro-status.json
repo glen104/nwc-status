@@ -226,5 +226,16 @@
     "roster": [],
     "updated": ""
   },
-  "lastUpdated": "2026-05-25T18:36:00Z"
+  "lastUpdated": "2026-05-26T12:51:30Z",
+  "owp": {
+    "opsLevel": "Level 1 (Full Activation)",
+    "reason": "This",
+    "hours": "5:00 AM - 8:30 PM CDT",
+    "shifts": [],
+    "tomorrow": [],
+    "fim": null,
+    "ic": null,
+    "roster": [],
+    "updated": "2026-05-26T12:51:30Z"
+  }
 }
