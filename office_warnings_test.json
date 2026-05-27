@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-27T05:53:22Z",
+  "updated": "2026-05-27T08:55:29Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -22,8 +22,8 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
+      "apiCount": 1,
+      "comparisonCount": 1,
       "comparison": [
         {
           "key": "RP.S.16.KMOB",
@@ -77,62 +77,6 @@
             "urgency": "Expected",
             "severity": "Moderate",
             "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "FA.A.2.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FA",
-            "significance": "A",
-            "event": "Flood Watch",
-            "action": "CON",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0002",
-            "vtec": {
-              "productClass": "O",
-              "action": "CON",
-              "office": "KMOB",
-              "phenomena": "FA",
-              "significance": "A",
-              "etn": "0002",
-              "start": "260527T1200Z",
-              "end": "260527T2300Z"
-            },
-            "issued": "2026-05-27T00:11:00-05:00",
-            "expires": "2026-05-27T08:15:00-05:00",
-            "areaDesc": "Perry; Greene; Stone; George",
-            "ugcZones": [
-              "MSZ075",
-              "MSZ076",
-              "MSZ078",
-              "MSZ079"
-            ],
-            "sameCodes": [
-              "028111",
-              "028041",
-              "028131",
-              "028039"
-            ],
-            "polygon": null,
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Flood Watch issued May 27 at 12:11AM CDT until May 27 at 6:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD WATCH HAS EXPIRED",
-            "urgency": "Future",
-            "severity": "Severe",
-            "certainty": "Possible",
             "messageType": "Alert"
           },
           "inBoth": false,
