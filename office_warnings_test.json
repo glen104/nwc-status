@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26T23:20:43Z",
+  "updated": "2026-05-27T01:30:12Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -177,22 +177,22 @@
             "phenomena": "FA",
             "significance": "A",
             "event": "Flood Watch",
-            "action": "NEW",
+            "action": "CAN",
             "office": "KJAN",
             "wfo": "JAN",
             "etn": "0002",
             "vtec": {
               "productClass": "O",
-              "action": "NEW",
+              "action": "CAN",
               "office": "KJAN",
               "phenomena": "FA",
               "significance": "A",
               "etn": "0002",
-              "start": "260526T1600Z",
+              "start": "000000T0000Z",
               "end": "260527T0500Z"
             },
-            "issued": "2026-05-26T09:42:00-05:00",
-            "expires": "2026-05-26T17:45:00-05:00",
+            "issued": "2026-05-26T20:17:00-05:00",
+            "expires": "2026-05-26T20:32:24-05:00",
             "areaDesc": "Jasper; Clarke; Covington; Jones; Lamar; Forrest",
             "ugcZones": [
               "MSZ057",
@@ -218,11 +218,11 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Flood Watch issued May 26 at 9:42AM CDT until May 27 at 12:00AM CDT by NWS Jackson MS",
-            "nwsHeadline": "FLOOD WATCH IN EFFECT THROUGH THIS EVENING",
-            "urgency": "Future",
-            "severity": "Severe",
-            "certainty": "Possible",
+            "headline": "The Flood Watch has been cancelled.",
+            "nwsHeadline": "FLOOD WATCH IS CANCELLED",
+            "urgency": "Past",
+            "severity": "Minor",
+            "certainty": "Observed",
             "messageType": "Alert"
           },
           "inBoth": false,
