@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-27T18:34:07Z",
+  "updated": "2026-05-27T20:36:14Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -26,89 +26,56 @@
       "comparisonCount": 1,
       "comparison": [
         {
-          "key": "FA.Y.24.KMOB",
+          "key": "RP.S.16.KMOB",
           "iem": null,
           "api": {
             "source": "api",
-            "phenomena": "FA",
-            "significance": "Y",
-            "event": "Flood Advisory",
-            "action": "NEW",
+            "phenomena": "RP",
+            "significance": "S",
+            "event": "Rip Current Statement",
+            "action": "EXT",
             "office": "KMOB",
             "wfo": "MOB",
-            "etn": "0024",
+            "etn": "0016",
             "vtec": {
               "productClass": "O",
-              "action": "NEW",
+              "action": "EXT",
               "office": "KMOB",
-              "phenomena": "FA",
-              "significance": "Y",
-              "etn": "0024",
-              "start": "260527T1658Z",
-              "end": "260527T2000Z"
+              "phenomena": "RP",
+              "significance": "S",
+              "etn": "0016",
+              "start": "000000T0000Z",
+              "end": "260530T1100Z"
             },
-            "issued": "2026-05-27T11:58:00-05:00",
-            "expires": "2026-05-27T15:00:00-05:00",
-            "areaDesc": "Mobile, AL",
+            "issued": "2026-05-27T15:00:00-05:00",
+            "expires": "2026-05-27T23:00:00-05:00",
+            "areaDesc": "Mobile Coastal; Baldwin Coastal; Escambia Coastal; Santa Rosa Coastal; Okaloosa Coastal",
             "ugcZones": [
-              "ALC097"
+              "ALZ265",
+              "ALZ266",
+              "FLZ202",
+              "FLZ204",
+              "FLZ206"
             ],
             "sameCodes": [
-              "001097"
+              "001097",
+              "001003",
+              "012033",
+              "012113",
+              "012091"
             ],
-            "polygon": [
-              [
-                30.76,
-                -88.33
-              ],
-              [
-                30.79,
-                -88.34
-              ],
-              [
-                30.81,
-                -88.33
-              ],
-              [
-                30.85,
-                -88.29
-              ],
-              [
-                30.85,
-                -88.27
-              ],
-              [
-                30.83,
-                -88.23
-              ],
-              [
-                30.78,
-                -88.22
-              ],
-              [
-                30.73,
-                -88.22
-              ],
-              [
-                30.72,
-                -88.29
-              ],
-              [
-                30.76,
-                -88.33
-              ]
-            ],
+            "polygon": null,
             "threatLevel": "STANDARD",
             "stormMotion": null,
             "motionStr": "",
             "hailSize": null,
             "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "The\nArea",
-            "headline": "Flood Advisory issued May 27 at 11:58AM CDT until May 27 at 3:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 3 PM CDT THIS AFTERNOON",
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Rip Current Statement issued May 27 at 3:00PM CDT until May 30 at 6:00AM CDT by NWS Mobile AL",
+            "nwsHeadline": "HIGH RIP CURRENT RISK NOW IN EFFECT THROUGH LATE FRIDAY NIGHT",
             "urgency": "Expected",
-            "severity": "Minor",
+            "severity": "Moderate",
             "certainty": "Likely",
             "messageType": "Alert"
           },
@@ -121,105 +88,9 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "FF.W.7.KHUN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FF",
-            "significance": "W",
-            "event": "Flash Flood Warning",
-            "action": "NEW",
-            "office": "KHUN",
-            "wfo": "HUN",
-            "etn": "0007",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KHUN",
-              "phenomena": "FF",
-              "significance": "W",
-              "etn": "0007",
-              "start": "260527T1800Z",
-              "end": "260527T2100Z"
-            },
-            "issued": "2026-05-27T13:00:00-05:00",
-            "expires": "2026-05-27T16:00:00-05:00",
-            "areaDesc": "Colbert, AL; Lauderdale, AL; Lawrence, AL",
-            "ugcZones": [
-              "ALC033",
-              "ALC077",
-              "ALC079"
-            ],
-            "sameCodes": [
-              "001033",
-              "001077",
-              "001079"
-            ],
-            "polygon": [
-              [
-                34.97,
-                -87.21
-              ],
-              [
-                34.81,
-                -87.22
-              ],
-              [
-                34.78,
-                -87.28
-              ],
-              [
-                34.76,
-                -87.26
-              ],
-              [
-                34.76,
-                -87.22
-              ],
-              [
-                34.75,
-                -87.22
-              ],
-              [
-                34.57,
-                -87.74
-              ],
-              [
-                34.58,
-                -88.01
-              ],
-              [
-                34.79,
-                -87.84
-              ],
-              [
-                34.97,
-                -87.21
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flash Flood Warning issued May 27 at 1:00PM CDT until May 27 at 4:00PM CDT by NWS Huntsville AL",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     }
   }
 }
