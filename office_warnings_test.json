@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28T09:02:54Z",
+  "updated": "2026-05-28T12:39:21Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,89 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "FL.W.15.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0015",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0015",
+              "start": "260528T1800Z",
+              "end": "260529T1200Z"
+            },
+            "issued": "2026-05-28T07:27:00-05:00",
+            "expires": "2026-05-28T19:30:00-05:00",
+            "areaDesc": "Neshoba, MS",
+            "ugcZones": [
+              "MSC099"
+            ],
+            "sameCodes": [
+              "028099"
+            ],
+            "polygon": [
+              [
+                32.89,
+                -89.22
+              ],
+              [
+                32.91,
+                -89.15
+              ],
+              [
+                32.93,
+                -89.02
+              ],
+              [
+                32.92,
+                -88.93
+              ],
+              [
+                32.84,
+                -88.92
+              ],
+              [
+                32.77,
+                -89.18
+              ],
+              [
+                32.89,
+                -89.22
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued May 28 at 7:27AM CDT until May 29 at 7:00AM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM THIS AFTERNOON TO TOMORROW MORNING",
+            "urgency": "Expected",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "BMX": {
       "name": "Birmingham, AL",
@@ -22,68 +102,9 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "RP.S.16.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "RP",
-            "significance": "S",
-            "event": "Rip Current Statement",
-            "action": "CON",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0016",
-            "vtec": {
-              "productClass": "O",
-              "action": "CON",
-              "office": "KMOB",
-              "phenomena": "RP",
-              "significance": "S",
-              "etn": "0016",
-              "start": "000000T0000Z",
-              "end": "260530T1100Z"
-            },
-            "issued": "2026-05-27T23:00:00-05:00",
-            "expires": "2026-05-28T07:00:00-05:00",
-            "areaDesc": "Mobile Coastal; Baldwin Coastal; Escambia Coastal; Santa Rosa Coastal; Okaloosa Coastal",
-            "ugcZones": [
-              "ALZ265",
-              "ALZ266",
-              "FLZ202",
-              "FLZ204",
-              "FLZ206"
-            ],
-            "sameCodes": [
-              "001097",
-              "001003",
-              "012033",
-              "012113",
-              "012091"
-            ],
-            "polygon": null,
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Rip Current Statement issued May 27 at 11:00PM CDT until May 30 at 6:00AM CDT by NWS Mobile AL",
-            "nwsHeadline": "HIGH RIP CURRENT RISK REMAINS IN EFFECT THROUGH LATE FRIDAY NIGHT",
-            "urgency": "Expected",
-            "severity": "Moderate",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "HUN": {
       "name": "Huntsville, AL",
