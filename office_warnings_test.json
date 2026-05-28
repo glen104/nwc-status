@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28T16:41:56Z",
+  "updated": "2026-05-28T19:20:24Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -437,29 +437,29 @@
           "apiOnly": true
         },
         {
-          "key": "FF.W.11.KMOB",
+          "key": "FA.W.1.KMOB",
           "iem": null,
           "api": {
             "source": "api",
-            "phenomena": "FF",
+            "phenomena": "FA",
             "significance": "W",
-            "event": "Flash Flood Warning",
+            "event": "Flood Warning",
             "action": "NEW",
             "office": "KMOB",
             "wfo": "MOB",
-            "etn": "0011",
+            "etn": "0001",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KMOB",
-              "phenomena": "FF",
+              "phenomena": "FA",
               "significance": "W",
-              "etn": "0011",
-              "start": "260528T1605Z",
-              "end": "260528T1900Z"
+              "etn": "0001",
+              "start": "260528T1856Z",
+              "end": "260528T2100Z"
             },
-            "issued": "2026-05-28T11:05:00-05:00",
-            "expires": "2026-05-28T14:00:00-05:00",
+            "issued": "2026-05-28T13:56:00-05:00",
+            "expires": "2026-05-28T16:00:00-05:00",
             "areaDesc": "Stone, MS",
             "ugcZones": [
               "MSC131"
@@ -510,11 +510,11 @@
             "motionStr": "",
             "hailSize": null,
             "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flash Flood Warning issued May 28 at 11:05AM CDT until May 28 at 2:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
+            "detectionSource": null,
+            "nearestLocation": "The Next Couple Of Hours",
+            "headline": "Flood Warning issued May 28 at 1:56PM CDT until May 28 at 4:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT UNTIL 4 PM CDT THIS AFTERNOON... ...REPLACES FLASH FLOOD WARNING",
+            "urgency": "Expected",
             "severity": "Severe",
             "certainty": "Likely",
             "messageType": "Alert"
