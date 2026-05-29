@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-29T02:57:26Z",
+  "updated": "2026-05-29T06:51:13Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,137 +8,9 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "FF.W.26.KJAN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FF",
-            "significance": "W",
-            "event": "Flash Flood Warning",
-            "action": "NEW",
-            "office": "KJAN",
-            "wfo": "JAN",
-            "etn": "0026",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KJAN",
-              "phenomena": "FF",
-              "significance": "W",
-              "etn": "0026",
-              "start": "260529T0220Z",
-              "end": "260529T0515Z"
-            },
-            "issued": "2026-05-28T21:20:00-05:00",
-            "expires": "2026-05-29T00:15:00-05:00",
-            "areaDesc": "Franklin, MS",
-            "ugcZones": [
-              "MSC037"
-            ],
-            "sameCodes": [
-              "028037"
-            ],
-            "polygon": [
-              [
-                31.35,
-                -90.73
-              ],
-              [
-                31.35,
-                -90.98
-              ],
-              [
-                31.34,
-                -90.99
-              ],
-              [
-                31.34,
-                -91
-              ],
-              [
-                31.35,
-                -91.01
-              ],
-              [
-                31.35,
-                -91.02
-              ],
-              [
-                31.34,
-                -91.03
-              ],
-              [
-                31.34,
-                -91.04
-              ],
-              [
-                31.33,
-                -91.06
-              ],
-              [
-                31.34,
-                -91.07
-              ],
-              [
-                31.33,
-                -91.07
-              ],
-              [
-                31.33,
-                -91.09
-              ],
-              [
-                31.32,
-                -91.09
-              ],
-              [
-                31.33,
-                -91.1
-              ],
-              [
-                31.32,
-                -91.11
-              ],
-              [
-                31.39,
-                -91.12
-              ],
-              [
-                31.61,
-                -91.08
-              ],
-              [
-                31.61,
-                -90.74
-              ],
-              [
-                31.35,
-                -90.73
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flash Flood Warning issued May 28 at 9:20PM CDT until May 29 at 12:15AM CDT by NWS Jackson MS",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "BMX": {
       "name": "Birmingham, AL",
@@ -150,67 +22,9 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 6,
-      "comparisonCount": 6,
+      "apiCount": 5,
+      "comparisonCount": 5,
       "comparison": [
-        {
-          "key": "RP.S.16.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "RP",
-            "significance": "S",
-            "event": "Rip Current Statement",
-            "action": "CON",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0016",
-            "vtec": {
-              "productClass": "O",
-              "action": "CON",
-              "office": "KMOB",
-              "phenomena": "RP",
-              "significance": "S",
-              "etn": "0016",
-              "start": "000000T0000Z",
-              "end": "260530T1100Z"
-            },
-            "issued": "2026-05-28T15:32:00-05:00",
-            "expires": "2026-05-28T23:45:00-05:00",
-            "areaDesc": "Mobile Coastal; Baldwin Coastal; Escambia Coastal; Santa Rosa Coastal; Okaloosa Coastal",
-            "ugcZones": [
-              "ALZ265",
-              "ALZ266",
-              "FLZ202",
-              "FLZ204",
-              "FLZ206"
-            ],
-            "sameCodes": [
-              "001097",
-              "001003",
-              "012033",
-              "012113",
-              "012091"
-            ],
-            "polygon": null,
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Rip Current Statement issued May 28 at 3:32PM CDT until May 30 at 6:00AM CDT by NWS Mobile AL",
-            "nwsHeadline": "HIGH RIP CURRENT RISK REMAINS IN EFFECT THROUGH LATE FRIDAY NIGHT",
-            "urgency": "Expected",
-            "severity": "Moderate",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
         {
           "key": "FL.W.22.KMOB",
           "iem": null,
@@ -219,22 +33,22 @@
             "phenomena": "FL",
             "significance": "W",
             "event": "Flood Warning",
-            "action": "NEW",
+            "action": "EXT",
             "office": "KMOB",
             "wfo": "MOB",
             "etn": "0022",
             "vtec": {
               "productClass": "O",
-              "action": "NEW",
+              "action": "EXT",
               "office": "KMOB",
               "phenomena": "FL",
               "significance": "W",
               "etn": "0022",
-              "start": "260529T1200Z",
-              "end": "260530T0600Z"
+              "start": "260529T0312Z",
+              "end": "260531T1200Z"
             },
-            "issued": "2026-05-28T09:40:00-05:00",
-            "expires": "2026-05-28T21:45:00-05:00",
+            "issued": "2026-05-28T22:12:00-05:00",
+            "expires": "2026-05-29T10:15:00-05:00",
             "areaDesc": "George, MS; Greene, MS; Jackson, MS",
             "ugcZones": [
               "MSC039",
@@ -283,11 +97,11 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Flood Warning issued May 28 at 9:40AM CDT until May 30 at 1:00AM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM FRIDAY MORNING TO LATE FRIDAY NIGHT",
-            "urgency": "Expected",
+            "headline": "Flood Warning issued May 28 at 10:12PM CDT until May 31 at 7:00AM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT FROM THIS EVENING TO SUNDAY MORNING",
+            "urgency": "Immediate",
             "severity": "Severe",
-            "certainty": "Likely",
+            "certainty": "Observed",
             "messageType": "Alert"
           },
           "inBoth": false,
@@ -302,22 +116,22 @@
             "phenomena": "FL",
             "significance": "W",
             "event": "Flood Warning",
-            "action": "NEW",
+            "action": "EXT",
             "office": "KMOB",
             "wfo": "MOB",
             "etn": "0021",
             "vtec": {
               "productClass": "O",
-              "action": "NEW",
+              "action": "EXT",
               "office": "KMOB",
               "phenomena": "FL",
               "significance": "W",
               "etn": "0021",
-              "start": "260529T0417Z",
-              "end": "260531T0100Z"
+              "start": "260529T1108Z",
+              "end": "260530T1912Z"
             },
-            "issued": "2026-05-28T09:38:00-05:00",
-            "expires": "2026-05-28T21:45:00-05:00",
+            "issued": "2026-05-28T22:07:00-05:00",
+            "expires": "2026-05-29T10:15:00-05:00",
             "areaDesc": "Clarke, AL; Washington, AL",
             "ugcZones": [
               "ALC025",
@@ -364,11 +178,11 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Flood Warning issued May 28 at 9:38AM CDT until May 30 at 8:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM THIS EVENING TO SATURDAY EVENING",
-            "urgency": "Expected",
+            "headline": "Flood Warning issued May 28 at 10:07PM CDT until May 30 at 2:12PM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT FROM FRIDAY MORNING TO SATURDAY AFTERNOON",
+            "urgency": "Immediate",
             "severity": "Severe",
-            "certainty": "Likely",
+            "certainty": "Observed",
             "messageType": "Alert"
           },
           "inBoth": false,
@@ -383,13 +197,13 @@
             "phenomena": "FL",
             "significance": "W",
             "event": "Flood Warning",
-            "action": "NEW",
+            "action": "CON",
             "office": "KMOB",
             "wfo": "MOB",
             "etn": "0020",
             "vtec": {
               "productClass": "O",
-              "action": "NEW",
+              "action": "CON",
               "office": "KMOB",
               "phenomena": "FL",
               "significance": "W",
@@ -397,8 +211,8 @@
               "start": "260529T1200Z",
               "end": "260530T0000Z"
             },
-            "issued": "2026-05-28T09:38:00-05:00",
-            "expires": "2026-05-28T21:45:00-05:00",
+            "issued": "2026-05-28T22:03:00-05:00",
+            "expires": "2026-05-29T10:15:00-05:00",
             "areaDesc": "Choctaw, AL; Clarke, AL; Washington, AL",
             "ugcZones": [
               "ALC023",
@@ -447,11 +261,11 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Flood Warning issued May 28 at 9:38AM CDT until May 29 at 7:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM FRIDAY MORNING TO FRIDAY EVENING",
-            "urgency": "Expected",
+            "headline": "Flood Warning issued May 28 at 10:03PM CDT until May 29 at 7:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WARNING REMAINS IN EFFECT FROM FRIDAY MORNING TO FRIDAY EVENING",
+            "urgency": "Immediate",
             "severity": "Severe",
-            "certainty": "Likely",
+            "certainty": "Observed",
             "messageType": "Alert"
           },
           "inBoth": false,
@@ -478,10 +292,10 @@
               "significance": "W",
               "etn": "0018",
               "start": "000000T0000Z",
-              "end": "260531T0651Z"
+              "end": "260531T0742Z"
             },
-            "issued": "2026-05-28T09:37:00-05:00",
-            "expires": "2026-05-28T21:45:00-05:00",
+            "issued": "2026-05-28T22:01:00-05:00",
+            "expires": "2026-05-29T10:15:00-05:00",
             "areaDesc": "George, MS; Greene, MS; Perry, MS",
             "ugcZones": [
               "MSC039",
@@ -529,8 +343,8 @@
             "hailSize": null,
             "windSpeed": null,
             "detectionSource": null,
-            "nearestLocation": "Mclain Affecting Greene",
-            "headline": "Flood Warning issued May 28 at 9:37AM CDT until May 31 at 1:51AM CDT by NWS Mobile AL",
+            "nearestLocation": "Mclain Affecting George",
+            "headline": "Flood Warning issued May 28 at 10:01PM CDT until May 31 at 2:42AM CDT by NWS Mobile AL",
             "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL LATE SATURDAY NIGHT",
             "urgency": "Immediate",
             "severity": "Severe",
