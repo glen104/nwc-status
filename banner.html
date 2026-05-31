@@ -4,20 +4,20 @@
 <meta charset="UTF-8">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  html, body { width: 100%; height: 100%; font-family: Arial, sans-serif; background: transparent; }
+  html, body { width: 100%; font-family: Arial, sans-serif; background: transparent; }
 
   #banner {
     background: #1a7a1a;
     color: white;
-    padding: 14px 24px;
+    padding: 12px 24px;
     display: flex;
     align-items: center;
     gap: 20px;
     width: 100%;
-    min-height: 70px;
+    transition: background 0.6s;
   }
 
-  #banner-text { flex: 1; min-width: 0; line-height: 1.5; overflow: visible; word-break: break-word; }
+  #banner-text { flex: 1; min-width: 0; line-height: 1.5; word-break: break-word; }
 
   .line1 { font-size: 1rem; font-weight: 700; letter-spacing: 0.2px; }
   .line1 .sep { opacity: 0.5; margin: 0 8px; font-weight: 400; }
@@ -31,11 +31,11 @@
     letter-spacing: 0.8px;
     text-transform: uppercase;
     line-height: 1.7;
-    overflow: visible;
     white-space: normal;
     word-break: break-word;
   }
   .line2 .sep { opacity: 0.35; margin: 0 10px; font-weight: 400; }
+
   .badge {
     display: inline-block;
     background: rgba(0,0,0,0.25);
@@ -44,6 +44,16 @@
     margin-right: 6px;
     font-size: 0.72rem;
     letter-spacing: 1px;
+  }
+  .basin-tag {
+    display: inline-block;
+    background: rgba(255,255,255,0.15);
+    border-radius: 3px;
+    padding: 0 5px;
+    font-size: 0.68rem;
+    margin-left: 4px;
+    font-weight: 600;
+    vertical-align: middle;
   }
 
   #banner-btn {
@@ -75,11 +85,23 @@
     <div class="line1" id="line1">Loading NWC operational status...</div>
     <div class="line2" id="line2" style="display:none;"></div>
   </div>
-  <a id="banner-btn" href="https://docs.google.com/document/d/1" target="_blank">NWC Operational Levels</a>
+  <a id="banner-btn" href="https://water.noaa.gov/about/nwc" target="_blank">NWC Operational Levels</a>
 </div>
 
 <script>
-var HYDRO_URL = "https://glen104.github.io/nwc-status/hydro-status.json";
+var HYDRO_URL  = 'https://cdn.jsdelivr.net/gh/glen104/nwc-status@main/hydro-status.json';
+var FALLBACK   = 'https://raw.githubusercontent.com/glen104/nwc-status/main/hydro-status.json';
+var _lastUpdated = null;
+
+// Tell parent iframe to resize to fit our content
+function notifyHeight() {
+  var h = document.getElementById('banner').offsetHeight;
+  // postMessage for Google Sites iframe resizing
+  try { window.parent.postMessage({ type: 'setHeight', height: h }, '*'); } catch(e) {}
+  // Also set our own html/body height so iframe shrinks correctly
+  document.documentElement.style.height = h + 'px';
+  document.body.style.height = h + 'px';
+}
 
 function isDST() {
   var now = new Date();
@@ -95,7 +117,7 @@ function toDisplayTime(t) {
     var offset = isDST() ? 5 : 6;
     var tz = isDST() ? 'CDT' : 'CST';
     var ctMins = (parseInt(zm[1]) * 60 + parseInt(zm[2]) - offset * 60 + 1440) % 1440;
-    var h = Math.floor(ctMins / 60); var m = ctMins % 60;
+    var h = Math.floor(ctMins / 60), m = ctMins % 60;
     var ap = h >= 12 ? 'PM' : 'AM';
     h = h % 12; if (h === 0) h = 12;
     return h + (m > 0 ? ':' + (m < 10 ? '0' + m : m) : '') + ' ' + ap + ' ' + tz;
@@ -112,18 +134,17 @@ function parseTimeToMins(t) {
   }
   var m = t.toString().match(/(\d+):(\d+)\s*(AM|PM)/i);
   if (!m) return -1;
-  var h = parseInt(m[1]); var mn = parseInt(m[2]); var ap = m[3].toUpperCase();
+  var h = parseInt(m[1]), mn = parseInt(m[2]), ap = m[3].toUpperCase();
   if (ap === 'PM' && h !== 12) h += 12;
   if (ap === 'AM' && h === 12) h = 0;
   return h * 60 + mn;
 }
 
 function getCurrentCTMins() {
-  var now = new Date();
-  var s = now.toLocaleString('en-US', { timeZone: 'America/Chicago', hour: 'numeric', minute: '2-digit', hour12: true });
+  var s = new Date().toLocaleString('en-US', { timeZone: 'America/Chicago', hour: 'numeric', minute: '2-digit', hour12: true });
   var p = s.match(/(\d+):(\d+)\s+(AM|PM)/i);
   if (!p) return 0;
-  var h = parseInt(p[1]); var mn = parseInt(p[2]); var ap = p[3].toUpperCase();
+  var h = parseInt(p[1]), mn = parseInt(p[2]), ap = p[3].toUpperCase();
   if (ap === 'PM' && h !== 12) h += 12;
   if (ap === 'AM' && h === 12) h = 0;
   return h * 60 + mn;
@@ -134,10 +155,10 @@ function getCurrentShift(shifts) {
   var ct = getCurrentCTMins();
   for (var i = 0; i < shifts.length; i++) {
     var s = shifts[i];
-    var start = parseTimeToMins(s.start); var end = parseTimeToMins(s.end);
+    var start = parseTimeToMins(s.start), end = parseTimeToMins(s.end);
     if (start < 0 || end < 0) continue;
     if (end < start) { if (ct >= start || ct < end) return s; }
-    else { if (ct >= start && ct < end) return s; }
+    else             { if (ct >= start && ct < end) return s; }
   }
   return null;
 }
@@ -146,7 +167,7 @@ function getNextShift(shifts) {
   if (!shifts || !shifts.length) return null;
   var ct = getCurrentCTMins();
   var cur = getCurrentShift(shifts);
-  var best = null; var bestDiff = 9999;
+  var best = null, bestDiff = 9999;
   for (var i = 0; i < shifts.length; i++) {
     var s = shifts[i];
     if (s === cur) continue;
@@ -158,31 +179,37 @@ function getNextShift(shifts) {
   return best;
 }
 
-function badge(label) {
-  return '<span class="badge">' + label + '</span>';
-}
+function badge(label) { return '<span class="badge">' + label + '</span>'; }
+function sep()        { return '<span class="sep">|</span>'; }
 
-function sep() {
-  return '<span class="sep">|</span>';
+function formatPerson(name, foreData) {
+  var out = name;
+  if (foreData && foreData[name]) {
+    var d = foreData[name];
+    var basins = Array.isArray(d.basins) ? d.basins : (d.basin ? [d.basin] : []);
+    basins.forEach(function(b){ out += '<span class="basin-tag">' + b + '</span>'; });
+    if (d.fim) out += '<span class="basin-tag">FIM</span>';
+  }
+  return out;
 }
 
 function formatShiftBlock(label, s) {
   if (!s) return '';
   var parts = [];
-  if (s.lead) parts.push('Lead: ' + s.lead);
-  var fores = [];
-  if (s.forecasters && s.forecasters.length) {
-    fores = s.forecasters.filter(function(f){ return f && f.trim(); });
+  if (s.lead) {
+    var leadStr = s.lead;
+    if (s.leadBasin) leadStr += '<span class="basin-tag">' + s.leadBasin + '</span>';
+    if (s.leadFIM)   leadStr += '<span class="basin-tag">FIM</span>';
+    parts.push('Lead: ' + leadStr);
   }
-  if (!fores.length && s.forecaster && s.forecaster.trim()) {
-    fores = [s.forecaster];
+  var fores = s.forecasters && s.forecasters.length
+    ? s.forecasters.filter(function(f){ return f && f.trim(); })
+    : (s.forecaster && s.forecaster.trim() ? [s.forecaster] : []);
+  if (fores.length) {
+    parts.push('Fore: ' + fores.map(function(f){ return formatPerson(f, s.foreData || {}); }).join(', '));
   }
-  if (fores.length) parts.push('Forecaster: ' + fores.join(', '));
-  var startTime = s.start ? toDisplayTime(s.start) : '';
-  var endTime   = s.end   ? toDisplayTime(s.end)   : '';
-  var timeStr   = startTime && endTime ? ' ' + startTime + ' - ' + endTime : (endTime ? ' thru ' + endTime : '');
-  var staffStr  = parts.length ? '&nbsp;&nbsp;' + parts.join(' / ') : '';
-  return badge(label) + timeStr + ':' + staffStr;
+  var timeStr = (s.start && s.end) ? ' ' + toDisplayTime(s.start) + ' - ' + toDisplayTime(s.end) : '';
+  return badge(label) + timeStr + (parts.length ? ':&nbsp;&nbsp;' + parts.join(' / ') : '');
 }
 
 function updateBanner(nwc) {
@@ -193,17 +220,21 @@ function updateBanner(nwc) {
   var fim    = nwc.fim      || null;
   var ic     = nwc.ic       || null;
 
-  // Line 1
-  var l1 = ['The NWC is currently at ' + level, 'NWC OPS Available: ' + hours];
-  if (reason) l1.push(reason);
-  document.getElementById('line1').innerHTML = l1.join('<span class="sep">|</span>');
+  // Line 1 — always visible
+  var l1parts = ['The NWC is currently at <strong>' + level + '</strong>',
+                 'NWC OPS Available: ' + hours];
+  if (reason) l1parts.push(reason);
+  document.getElementById('line1').innerHTML = l1parts.join('<span class="sep">|</span>');
 
-  // Line 2
+  // Line 2 — only when there's staffing data
   var l2 = [];
   var cur = getCurrentShift(shifts);
-  if (cur) l2.push(formatShiftBlock('CURRENT SHIFT', cur));
+  if (cur && (cur.lead || (cur.forecasters && cur.forecasters.length)))
+    l2.push(formatShiftBlock('CURRENT SHIFT', cur));
+
   var nxt = getNextShift(shifts);
-  if (nxt) l2.push(formatShiftBlock('NEXT SHIFT', nxt));
+  if (nxt && (nxt.lead || (nxt.forecasters && nxt.forecasters.length)))
+    l2.push(formatShiftBlock('NEXT SHIFT', nxt));
 
   if (fim && fim.name) {
     var fs = badge('FIM COORD') + fim.name;
@@ -211,9 +242,9 @@ function updateBanner(nwc) {
     l2.push(fs);
   }
   if (ic && ic.name) {
-    var is = badge('IC') + ic.name;
-    if (ic.start) is += ' (' + toDisplayTime(ic.start) + (ic.end ? ' &ndash; ' + toDisplayTime(ic.end) : '') + ')';
-    l2.push(is);
+    var is_ = badge('IC') + ic.name;
+    if (ic.start) is_ += ' (' + toDisplayTime(ic.start) + (ic.end ? ' &ndash; ' + toDisplayTime(ic.end) : '') + ')';
+    l2.push(is_);
   }
 
   var line2El = document.getElementById('line2');
@@ -224,29 +255,55 @@ function updateBanner(nwc) {
     line2El.style.display = 'none';
   }
 
+  // Color by level
   var banner = document.getElementById('banner');
   banner.className = '';
   if      (level.indexOf('Level 1') !== -1) banner.className = 'level1';
   else if (level.indexOf('Level 2') !== -1) banner.className = 'level2';
   else if (level.indexOf('Level 3') !== -1) banner.className = 'level3';
+
+  // Notify parent of new height after DOM settles
+  setTimeout(notifyHeight, 50);
 }
 
-function fetchStatus() {
+function fetchAndUpdate(url, fallback) {
   var xhr = new XMLHttpRequest();
-  xhr.open('GET', HYDRO_URL + '?cb=' + Date.now(), true);
-  xhr.setRequestHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
-  xhr.setRequestHeader('Pragma', 'no-cache');
+  xhr.open('GET', url + '?t=' + Math.floor(Date.now() / 5000), true);
   xhr.onload = function() {
     if (xhr.status === 200) {
-      try { updateBanner(JSON.parse(xhr.responseText).nwc || {}); }
-      catch(e) { document.getElementById('line1').innerText = 'Status unavailable.'; }
+      var data;
+      try { data = JSON.parse(xhr.responseText); } catch(e) {
+        if (fallback) { fetchAndUpdate(fallback, null); return; }
+        return;
+      }
+      var ts = data.lastUpdated || '';
+      if (ts !== _lastUpdated || !_lastUpdated) {
+        _lastUpdated = ts;
+        if (data.nwco || data.nwc) updateBanner(data.nwco || data.nwc);
+      } else {
+        // Even if data unchanged, recalculate current/next shift
+        if (data.nwco || data.nwc) updateBanner(data.nwco || data.nwc);
+      }
+    } else if (fallback) {
+      fetchAndUpdate(fallback, null);
     }
+  };
+  xhr.onerror = function() {
+    if (fallback) fetchAndUpdate(fallback, null);
   };
   xhr.send();
 }
 
-fetchStatus();
-setInterval(fetchStatus, 5000);
+function poll() {
+  fetchAndUpdate(HYDRO_URL, FALLBACK);
+}
+
+// Initial load then every 60s
+poll();
+setInterval(poll, 60000);
+
+// Also recalculate height if window resizes (text reflows)
+window.addEventListener('resize', function() { setTimeout(notifyHeight, 100); });
 </script>
 </body>
 </html>
