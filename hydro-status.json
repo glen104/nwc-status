@@ -168,7 +168,7 @@
     "day3": [],
     "day4": []
   },
-  "lastUpdated": "2026-05-31T16:07:20Z",
+  "lastUpdated": "2026-05-31T16:08:01Z",
   "nwco": {
     "opsLevel": "Level 1 (Full Activation)",
     "reason": "This is a test",
@@ -179,7 +179,7 @@
         "forecasters": [
           "Rose"
         ],
-        "lead": "Glen",
+        "lead": "Jam",
         "start": "5:00 AM"
       },
       {
@@ -189,6 +189,12 @@
         ],
         "lead": "Rose",
         "start": "11:30 AM"
+      },
+      {
+        "end": "",
+        "forecasters": [],
+        "lead": "",
+        "start": ""
       }
     ],
     "tomorrow": [],
@@ -199,7 +205,11 @@
       "name": "Charlie",
       "start": "10:00 AM CT"
     },
-    "ic": null,
+    "ic": {
+      "end": "",
+      "name": "Russ",
+      "start": "10"
+    },
     "roster": [
       {
         "name": "Charlie",
@@ -274,7 +284,7 @@
         ]
       }
     ],
-    "updated": "2026-05-31T16:07:20Z",
+    "updated": "2026-05-31T16:08:01Z",
     "preferences": {
       "defaultHours": "5:00 AM - 8:30 PM CT",
       "displayName": "",
