@@ -155,10 +155,10 @@
     "day3": [],
     "day4": []
   },
-  "lastUpdated": "2026-05-31T16:47:43Z",
+  "lastUpdated": "2026-05-31T16:47:49Z",
   "nwco": {
     "opsLevel": "Level 2 (Partial Activation)",
-    "reason": "",
+    "reason": "This is a test of level 2",
     "hours": "24-Hour Operations",
     "shifts": [
       {
@@ -175,6 +175,6 @@
     "day4": [],
     "fim": null,
     "ic": null,
-    "updated": "2026-05-31T16:47:43Z"
+    "updated": "2026-05-31T16:47:49Z"
   }
 }
