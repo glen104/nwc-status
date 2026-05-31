@@ -92,6 +92,7 @@
 var HYDRO_URL  = 'https://cdn.jsdelivr.net/gh/glen104/nwc-status@main/hydro-status.json';
 var FALLBACK   = 'https://raw.githubusercontent.com/glen104/nwc-status/main/hydro-status.json';
 var _lastUpdated = null;
+var _firstLoad = true;
 
 // Tell parent iframe to resize to fit our content
 function notifyHeight() {
@@ -295,7 +296,9 @@ function fetchAndUpdate(url, fallback) {
 }
 
 function poll() {
-  fetchAndUpdate(HYDRO_URL, FALLBACK);
+  // First load: bypass CDN cache with raw GitHub
+  if (_firstLoad) { _firstLoad = false; fetchAndUpdate(FALLBACK, HYDRO_URL); }
+  else { fetchAndUpdate(HYDRO_URL, FALLBACK); }
 }
 
 // Initial load then every 60s
