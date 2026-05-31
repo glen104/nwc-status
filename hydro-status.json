@@ -155,17 +155,32 @@
     "day3": [],
     "day4": []
   },
-  "lastUpdated": "2026-05-31T16:43:06Z",
+  "lastUpdated": "2026-05-31T16:43:23Z",
   "nwco": {
     "opsLevel": "Level 4 (Normal Operations)",
     "reason": "",
     "hours": "24-Hour Operations",
-    "shifts": [],
+    "shifts": [
+      {
+        "end": "1:00 PM",
+        "forecasters": [
+          "Rose"
+        ],
+        "lead": "",
+        "start": "5:00 PM"
+      },
+      {
+        "end": "",
+        "forecasters": [],
+        "lead": "",
+        "start": ""
+      }
+    ],
     "tomorrow": [],
     "day3": [],
     "day4": [],
     "fim": null,
     "ic": null,
-    "updated": "2026-05-31T16:43:06Z"
+    "updated": "2026-05-31T16:43:23Z"
   }
 }
