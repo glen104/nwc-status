@@ -168,7 +168,7 @@
     "day3": [],
     "day4": []
   },
-  "lastUpdated": "2026-05-31T15:00:10Z",
+  "lastUpdated": "2026-05-31T15:00:18Z",
   "nwco": {
     "opsLevel": "Level 2 (Partial Activation)",
     "reason": "this is a test",
@@ -179,7 +179,7 @@
         "forecasters": [
           "Caroline"
         ],
-        "lead": "Jam",
+        "lead": "Rose",
         "start": "5:00 AM"
       },
       {
@@ -267,6 +267,6 @@
         ]
       }
     ],
-    "updated": "2026-05-31T15:00:10Z"
+    "updated": "2026-05-31T15:00:18Z"
   }
 }
