@@ -155,7 +155,7 @@
     "day3": [],
     "day4": []
   },
-  "lastUpdated": "2026-05-31T16:43:50Z",
+  "lastUpdated": "2026-05-31T16:44:14Z",
   "nwco": {
     "opsLevel": "Level 4 (Normal Operations)",
     "reason": "",
@@ -164,9 +164,10 @@
       {
         "end": "1:00 PM",
         "forecasters": [
-          "Rose"
+          "Rose",
+          "John"
         ],
-        "lead": "",
+        "lead": "Glen",
         "start": "5:00 PM"
       },
       {
@@ -174,8 +175,14 @@
         "forecasters": [
           "Caroline"
         ],
-        "lead": "Jam",
+        "lead": "",
         "start": "11:30 AM"
+      },
+      {
+        "end": "",
+        "forecasters": [],
+        "lead": "",
+        "start": ""
       }
     ],
     "tomorrow": [],
@@ -183,6 +190,6 @@
     "day4": [],
     "fim": null,
     "ic": null,
-    "updated": "2026-05-31T16:43:50Z"
+    "updated": "2026-05-31T16:44:14Z"
   }
 }
