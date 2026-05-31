@@ -272,6 +272,40 @@
         ]
       }
     ],
-    "updated": "2026-05-31T15:57:19Z"
+    "updated": "2026-05-31T15:57:19Z",
+    "preferences": {
+      "defaultHours": "5:00 AM - 8:30 PM CT",
+      "displayName": "",
+      "heroZones": [
+        "ct",
+        "z"
+      ],
+      "homeGPS": {
+        "lat": null,
+        "lng": null
+      },
+      "homeTZ": "none",
+      "markerPositions": {},
+      "showSeconds": false,
+      "slackTemplate": "",
+      "slotColors": [
+        "#FF9800",
+        "#E040FB",
+        "#00E676"
+      ],
+      "use24Hour": true,
+      "visibleZones": [
+        "guam",
+        "pago",
+        "hawaii",
+        "alaska",
+        "pacific",
+        "mt",
+        "ct",
+        "et",
+        "pr",
+        "z"
+      ]
+    }
   }
 }
