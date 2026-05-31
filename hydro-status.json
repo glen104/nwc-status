@@ -168,10 +168,10 @@
     "day3": [],
     "day4": []
   },
-  "lastUpdated": "2026-05-31T15:57:29Z",
+  "lastUpdated": "2026-05-31T15:57:36Z",
   "nwco": {
     "opsLevel": "Level 3 (Enhanced Operations)",
-    "reason": "Test",
+    "reason": "THis is a test",
     "hours": "5:00 AM - 8:30 PM CDT",
     "shifts": [
       {
@@ -272,7 +272,7 @@
         ]
       }
     ],
-    "updated": "2026-05-31T15:57:29Z",
+    "updated": "2026-05-31T15:57:36Z",
     "preferences": {
       "defaultHours": "5:00 AM - 8:30 PM CT",
       "displayName": "",
