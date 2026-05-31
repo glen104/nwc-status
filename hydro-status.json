@@ -168,7 +168,7 @@
     "day3": [],
     "day4": []
   },
-  "lastUpdated": "2026-05-31T15:11:23Z",
+  "lastUpdated": "2026-05-31T15:11:38Z",
   "nwco": {
     "opsLevel": "Level 3 (Enhanced Operations)",
     "reason": "Trst",
@@ -179,13 +179,15 @@
         "forecasters": [
           "Rose"
         ],
-        "lead": "Jam",
+        "lead": "Glen",
         "start": "5:00 AM"
       },
       {
         "end": "08:30 PM",
-        "forecasters": [],
-        "lead": "Rose",
+        "forecasters": [
+          "Caroline"
+        ],
+        "lead": "Jam",
         "start": "8:30 PM"
       }
     ],
@@ -272,6 +274,6 @@
         ]
       }
     ],
-    "updated": "2026-05-31T15:11:23Z"
+    "updated": "2026-05-31T15:11:38Z"
   }
 }
