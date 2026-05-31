@@ -168,7 +168,7 @@
     "day3": [],
     "day4": []
   },
-  "lastUpdated": "2026-05-31T15:55:17Z",
+  "lastUpdated": "2026-05-31T15:56:27Z",
   "nwco": {
     "opsLevel": "Level 3 (Enhanced Operations)",
     "reason": "Test",
@@ -183,9 +183,9 @@
       {
         "end": "08:30 PM",
         "forecasters": [
-          "John"
+          "Caroline"
         ],
-        "lead": "Rose",
+        "lead": "Jam",
         "start": "11:30 AM"
       }
     ],
@@ -272,6 +272,6 @@
         ]
       }
     ],
-    "updated": "2026-05-31T15:55:17Z"
+    "updated": "2026-05-31T15:56:27Z"
   }
 }
