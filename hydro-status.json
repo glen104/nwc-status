@@ -168,7 +168,7 @@
     "day3": [],
     "day4": []
   },
-  "lastUpdated": "2026-05-31T15:56:27Z",
+  "lastUpdated": "2026-05-31T15:56:46Z",
   "nwco": {
     "opsLevel": "Level 3 (Enhanced Operations)",
     "reason": "Test",
@@ -195,7 +195,7 @@
     "fim": {
       "end": "",
       "name": "Charlie",
-      "start": ""
+      "start": "10:00 AM CT"
     },
     "ic": null,
     "roster": [
@@ -272,6 +272,6 @@
         ]
       }
     ],
-    "updated": "2026-05-31T15:56:27Z"
+    "updated": "2026-05-31T15:56:46Z"
   }
 }
