@@ -155,9 +155,9 @@
     "day3": [],
     "day4": []
   },
-  "lastUpdated": "2026-05-31T16:45:07Z",
+  "lastUpdated": "2026-05-31T16:47:43Z",
   "nwco": {
-    "opsLevel": "Level 4 (Normal Operations)",
+    "opsLevel": "Level 2 (Partial Activation)",
     "reason": "",
     "hours": "24-Hour Operations",
     "shifts": [
@@ -166,7 +166,7 @@
         "forecasters": [
           "John"
         ],
-        "lead": "",
+        "lead": "Glen",
         "start": "5:00 PM"
       }
     ],
@@ -175,6 +175,6 @@
     "day4": [],
     "fim": null,
     "ic": null,
-    "updated": "2026-05-31T16:45:07Z"
+    "updated": "2026-05-31T16:47:43Z"
   }
 }
