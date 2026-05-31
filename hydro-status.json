@@ -168,18 +168,18 @@
     "day3": [],
     "day4": []
   },
-  "lastUpdated": "2026-05-31T16:11:36Z",
+  "lastUpdated": "2026-05-31T16:17:19Z",
   "nwco": {
     "opsLevel": "Level 1 (Full Activation)",
     "reason": "This is a test of level one",
-    "hours": "24-Hour Operations",
+    "hours": "5:00 AM - 8:30 PM CDT",
     "shifts": [
       {
         "end": "01:00 PM",
         "forecasters": [
           "Rose"
         ],
-        "lead": "Glen",
+        "lead": "Jam",
         "start": "5:00 AM"
       },
       {
@@ -187,7 +187,7 @@
         "forecasters": [
           "Caroline"
         ],
-        "lead": "Jam",
+        "lead": "Rose",
         "start": "11:30 AM"
       },
       {
@@ -284,7 +284,7 @@
         ]
       }
     ],
-    "updated": "2026-05-31T16:11:36Z",
+    "updated": "2026-05-31T16:17:19Z",
     "preferences": {
       "defaultHours": "5:00 AM - 8:30 PM CT",
       "displayName": "",
