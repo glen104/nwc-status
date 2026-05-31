@@ -155,7 +155,7 @@
     "day3": [],
     "day4": []
   },
-  "lastUpdated": "2026-05-31T16:48:59Z",
+  "lastUpdated": "2026-05-31T16:49:03Z",
   "nwco": {
     "opsLevel": "Level 2 (Partial Activation)",
     "reason": "This is a test of level 2",
@@ -163,7 +163,9 @@
     "shifts": [
       {
         "end": "1:00 PM",
-        "forecasters": [],
+        "forecasters": [
+          "Rose"
+        ],
         "lead": "Glen",
         "start": "5:00 PM"
       },
@@ -181,6 +183,6 @@
     "day4": [],
     "fim": null,
     "ic": null,
-    "updated": "2026-05-31T16:48:59Z"
+    "updated": "2026-05-31T16:49:03Z"
   }
 }
