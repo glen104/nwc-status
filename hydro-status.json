@@ -168,7 +168,7 @@
     "day3": [],
     "day4": []
   },
-  "lastUpdated": "2026-05-31T16:11:15Z",
+  "lastUpdated": "2026-05-31T16:11:36Z",
   "nwco": {
     "opsLevel": "Level 1 (Full Activation)",
     "reason": "This is a test of level one",
@@ -284,7 +284,7 @@
         ]
       }
     ],
-    "updated": "2026-05-31T16:11:15Z",
+    "updated": "2026-05-31T16:11:36Z",
     "preferences": {
       "defaultHours": "5:00 AM - 8:30 PM CT",
       "displayName": "",
