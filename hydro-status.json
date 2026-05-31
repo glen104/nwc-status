@@ -240,7 +240,7 @@
     "roster": [],
     "updated": ""
   },
-  "lastUpdated": "2026-05-31T14:40:41Z",
+  "lastUpdated": "2026-05-31T14:44:08Z",
   "owp": {
     "opsLevel": "Level 1 (Full Activation)",
     "reason": "This",
@@ -253,7 +253,7 @@
     "updated": "2026-05-26T12:51:30Z"
   },
   "nwco": {
-    "opsLevel": "Level 2 (Partial Activation)",
+    "opsLevel": "Level 3 (Enhanced Operations)",
     "reason": "Testr",
     "hours": "24-Hour Operations",
     "shifts": [
@@ -350,6 +350,6 @@
         ]
       }
     ],
-    "updated": "2026-05-31T14:40:41Z"
+    "updated": "2026-05-31T14:44:08Z"
   }
 }
