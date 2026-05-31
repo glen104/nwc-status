@@ -168,7 +168,7 @@
     "day3": [],
     "day4": []
   },
-  "lastUpdated": "2026-05-31T16:08:01Z",
+  "lastUpdated": "2026-05-31T16:08:13Z",
   "nwco": {
     "opsLevel": "Level 1 (Full Activation)",
     "reason": "This is a test",
@@ -208,7 +208,7 @@
     "ic": {
       "end": "",
       "name": "Russ",
-      "start": "10"
+      "start": "10:00 "
     },
     "roster": [
       {
@@ -284,7 +284,7 @@
         ]
       }
     ],
-    "updated": "2026-05-31T16:08:01Z",
+    "updated": "2026-05-31T16:08:13Z",
     "preferences": {
       "defaultHours": "5:00 AM - 8:30 PM CT",
       "displayName": "",
