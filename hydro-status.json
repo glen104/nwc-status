@@ -168,7 +168,7 @@
     "day3": [],
     "day4": []
   },
-  "lastUpdated": "2026-05-31T16:07:05Z",
+  "lastUpdated": "2026-05-31T16:07:20Z",
   "nwco": {
     "opsLevel": "Level 1 (Full Activation)",
     "reason": "This is a test",
@@ -176,8 +176,10 @@
     "shifts": [
       {
         "end": "01:00 PM",
-        "forecasters": [],
-        "lead": "Jam",
+        "forecasters": [
+          "Rose"
+        ],
+        "lead": "Glen",
         "start": "5:00 AM"
       },
       {
@@ -272,7 +274,7 @@
         ]
       }
     ],
-    "updated": "2026-05-31T16:07:05Z",
+    "updated": "2026-05-31T16:07:20Z",
     "preferences": {
       "defaultHours": "5:00 AM - 8:30 PM CT",
       "displayName": "",
