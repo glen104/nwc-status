@@ -155,17 +155,17 @@
     "day3": [],
     "day4": []
   },
-  "lastUpdated": "",
+  "lastUpdated": "2026-05-31T16:41:49Z",
   "nwco": {
     "opsLevel": "Level 4 (Normal Operations)",
     "reason": "",
-    "hours": "5:00 AM - 8:30 PM CT",
+    "hours": "24-Hour Operations",
     "shifts": [],
     "tomorrow": [],
+    "day3": [],
+    "day4": [],
     "fim": null,
     "ic": null,
-    "updated": "",
-    "day3": [],
-    "day4": []
+    "updated": "2026-05-31T16:41:49Z"
   }
 }
