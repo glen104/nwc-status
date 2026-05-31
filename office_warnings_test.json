@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-31T22:03:25Z",
+  "updated": "2026-05-31T23:12:14Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -29,89 +29,9 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "SV.W.45.KHUN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "SV",
-            "significance": "W",
-            "event": "Severe Thunderstorm Warning",
-            "action": "NEW",
-            "office": "KHUN",
-            "wfo": "HUN",
-            "etn": "0045",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KHUN",
-              "phenomena": "SV",
-              "significance": "W",
-              "etn": "0045",
-              "start": "260531T2148Z",
-              "end": "260531T2230Z"
-            },
-            "issued": "2026-05-31T16:48:00-05:00",
-            "expires": "2026-05-31T17:30:00-05:00",
-            "areaDesc": "Colbert, AL; Lauderdale, AL; Lawrence, AL",
-            "ugcZones": [
-              "ALC033",
-              "ALC077",
-              "ALC079"
-            ],
-            "sameCodes": [
-              "001033",
-              "001077",
-              "001079"
-            ],
-            "polygon": [
-              [
-                35,
-                -87.5
-              ],
-              [
-                34.76,
-                -87.29
-              ],
-              [
-                34.68,
-                -87.79
-              ],
-              [
-                35,
-                -87.91
-              ],
-              [
-                35,
-                -87.5
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": {
-              "direction": "SOUTHEAST",
-              "speed_mph": 25,
-              "bearing": 135
-            },
-            "motionStr": "Southeast at 25 MPH",
-            "hailSize": "0.75\"",
-            "windSpeed": "60 MPH",
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Severe Thunderstorm Warning issued May 31 at 4:48PM CDT until May 31 at 5:30PM CDT by NWS Huntsville AL",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Observed",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     }
   }
 }
