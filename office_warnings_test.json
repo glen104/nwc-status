@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-01T20:39:52Z",
+  "updated": "2026-06-01T22:50:16Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,11 +8,11 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
+      "apiCount": 3,
+      "comparisonCount": 3,
       "comparison": [
         {
-          "key": "SV.W.191.KJAN",
+          "key": "SV.W.193.KJAN",
           "iem": null,
           "api": {
             "source": "api",
@@ -22,64 +22,62 @@
             "action": "NEW",
             "office": "KJAN",
             "wfo": "JAN",
-            "etn": "0191",
+            "etn": "0193",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KJAN",
               "phenomena": "SV",
               "significance": "W",
-              "etn": "0191",
-              "start": "260601T2003Z",
-              "end": "260601T2045Z"
+              "etn": "0193",
+              "start": "260601T2225Z",
+              "end": "260601T2330Z"
             },
-            "issued": "2026-06-01T15:03:00-05:00",
-            "expires": "2026-06-01T15:45:00-05:00",
-            "areaDesc": "Noxubee, MS",
+            "issued": "2026-06-01T17:25:00-05:00",
+            "expires": "2026-06-01T18:30:00-05:00",
+            "areaDesc": "Madison, MS; Rankin, MS",
             "ugcZones": [
-              "MSC103"
+              "MSC089",
+              "MSC121"
             ],
             "sameCodes": [
-              "028103"
+              "028089",
+              "028121"
             ],
             "polygon": [
               [
-                32.93,
-                -88.35
+                32.52,
+                -89.93
               ],
               [
-                32.93,
-                -88.39
+                32.39,
+                -89.99
               ],
               [
-                33.26,
-                -88.56
+                32.43,
+                -90.16
               ],
               [
-                33.29,
-                -88.41
+                32.57,
+                -90.11
               ],
               [
-                33.29,
-                -88.3
-              ],
-              [
-                32.93,
-                -88.35
+                32.52,
+                -89.93
               ]
             ],
             "threatLevel": "STANDARD",
             "stormMotion": {
-              "direction": "SOUTHEAST",
-              "speed_mph": 20,
-              "bearing": 135
+              "direction": "NORTHWEST",
+              "speed_mph": 5,
+              "bearing": 315
             },
-            "motionStr": "Southeast at 20 MPH",
-            "hailSize": "1.00\"",
+            "motionStr": "Northwest at 5 MPH",
+            "hailSize": "Up to .75\"",
             "windSpeed": "60 MPH",
             "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Pickensville",
-            "headline": "Severe Thunderstorm Warning issued June 1 at 3:03PM CDT until June 1 at 3:45PM CDT by NWS Jackson MS",
+            "nearestLocation": "Madison",
+            "headline": "Severe Thunderstorm Warning issued June 1 at 5:25PM CDT until June 1 at 6:30PM CDT by NWS Jackson MS",
             "nwsHeadline": null,
             "urgency": "Immediate",
             "severity": "Severe",
@@ -149,432 +147,177 @@
           "inBoth": false,
           "iemOnly": false,
           "apiOnly": true
+        },
+        {
+          "key": "FF.W.27.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FF",
+            "significance": "W",
+            "event": "Flash Flood Warning",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0027",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "FF",
+              "significance": "W",
+              "etn": "0027",
+              "start": "260601T2142Z",
+              "end": "260602T0045Z"
+            },
+            "issued": "2026-06-01T16:42:00-05:00",
+            "expires": "2026-06-01T19:45:00-05:00",
+            "areaDesc": "Lincoln, MS",
+            "ugcZones": [
+              "MSC085"
+            ],
+            "sameCodes": [
+              "028085"
+            ],
+            "polygon": [
+              [
+                31.51,
+                -90.51
+              ],
+              [
+                31.64,
+                -90.51
+              ],
+              [
+                31.64,
+                -90.37
+              ],
+              [
+                31.5,
+                -90.37
+              ],
+              [
+                31.51,
+                -90.51
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": "Brookhaven",
+            "headline": "Flash Flood Warning issued June 1 at 4:42PM CDT until June 1 at 7:45PM CDT by NWS Jackson MS",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
         }
       ]
     },
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 4,
-      "comparisonCount": 4,
+      "apiCount": 1,
+      "comparisonCount": 1,
       "comparison": [
         {
-          "key": "SV.W.85.KBMX",
+          "key": "FA.Y.31.KBMX",
           "iem": null,
           "api": {
             "source": "api",
-            "phenomena": "SV",
-            "significance": "W",
-            "event": "Severe Thunderstorm Warning",
+            "phenomena": "FA",
+            "significance": "Y",
+            "event": "Flood Advisory",
             "action": "NEW",
             "office": "KBMX",
             "wfo": "BMX",
-            "etn": "0085",
+            "etn": "0031",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KBMX",
-              "phenomena": "SV",
-              "significance": "W",
-              "etn": "0085",
-              "start": "260601T2038Z",
-              "end": "260601T2200Z"
+              "phenomena": "FA",
+              "significance": "Y",
+              "etn": "0031",
+              "start": "260601T2141Z",
+              "end": "260602T0045Z"
             },
-            "issued": "2026-06-01T15:38:00-05:00",
-            "expires": "2026-06-01T17:00:00-05:00",
-            "areaDesc": "Autauga, AL; Chilton, AL; Coosa, AL; Elmore, AL; Tallapoosa, AL",
+            "issued": "2026-06-01T16:41:00-05:00",
+            "expires": "2026-06-01T19:45:00-05:00",
+            "areaDesc": "Elmore, AL; Montgomery, AL",
             "ugcZones": [
-              "ALC001",
-              "ALC021",
-              "ALC037",
               "ALC051",
-              "ALC123"
+              "ALC101"
             ],
             "sameCodes": [
-              "001001",
-              "001021",
-              "001037",
               "001051",
-              "001123"
+              "001101"
             ],
             "polygon": [
               [
-                32.7,
-                -85.7
+                32.43,
+                -86.41
               ],
               [
-                32.6,
-                -85.7
-              ],
-              [
-                32.58,
-                -85.8
-              ],
-              [
-                32.45,
-                -85.92
-              ],
-              [
-                32.41,
-                -86.06
-              ],
-              [
-                32.5,
-                -86.26
+                32.47,
+                -86.41
               ],
               [
                 32.49,
-                -86.31
+                -86.41
+              ],
+              [
+                32.51,
+                -86.32
+              ],
+              [
+                32.47,
+                -86.1
+              ],
+              [
+                32.28,
+                -86.15
+              ],
+              [
+                32.27,
+                -86.43
+              ],
+              [
+                32.4,
+                -86.43
               ],
               [
                 32.41,
-                -86.31
+                -86.42
               ],
               [
                 32.41,
-                -86.46
+                -86.41
               ],
               [
-                32.35,
-                -86.49
-              ],
-              [
-                32.41,
-                -86.62
-              ],
-              [
-                32.36,
-                -86.81
-              ],
-              [
-                32.54,
-                -86.91
-              ],
-              [
-                32.66,
-                -86.92
-              ],
-              [
-                32.66,
-                -87.02
-              ],
-              [
-                32.84,
-                -87.02
-              ],
-              [
-                32.95,
-                -86.26
-              ],
-              [
-                33.11,
-                -85.95
-              ],
-              [
-                33.11,
-                -85.59
-              ],
-              [
-                32.73,
-                -85.59
-              ],
-              [
-                32.7,
-                -85.7
+                32.43,
+                -86.41
               ]
             ],
-            "threatLevel": "STANDARD",
-            "stormMotion": {
-              "direction": "SOUTHEAST",
-              "speed_mph": 40,
-              "bearing": 135
-            },
-            "motionStr": "Southeast at 40 MPH",
-            "hailSize": "1.00\"",
-            "windSpeed": "60 MPH",
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Severe Thunderstorm Warning issued June 1 at 3:38PM CDT until June 1 at 5:00PM CDT by NWS Birmingham AL",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Observed",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "SV.W.84.KBMX",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "SV",
-            "significance": "W",
-            "event": "Severe Thunderstorm Warning",
-            "action": "NEW",
-            "office": "KBMX",
-            "wfo": "BMX",
-            "etn": "0084",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KBMX",
-              "phenomena": "SV",
-              "significance": "W",
-              "etn": "0084",
-              "start": "260601T2019Z",
-              "end": "260601T2100Z"
-            },
-            "issued": "2026-06-01T15:19:00-05:00",
-            "expires": "2026-06-01T16:00:00-05:00",
-            "areaDesc": "Randolph, AL",
-            "ugcZones": [
-              "ALC111"
-            ],
-            "sameCodes": [
-              "001111"
-            ],
-            "polygon": [
-              [
-                33.11,
-                -85.64
-              ],
-              [
-                33.23,
-                -85.65
-              ],
-              [
-                33.29,
-                -85.65
-              ],
-              [
-                33.31,
-                -85.64
-              ],
-              [
-                33.32,
-                -85.65
-              ],
-              [
-                33.32,
-                -85.64
-              ],
-              [
-                33.33,
-                -85.65
-              ],
-              [
-                33.49,
-                -85.64
-              ],
-              [
-                33.49,
-                -85.36
-              ],
-              [
-                33.5,
-                -85.35
-              ],
-              [
-                33.49,
-                -85.34
-              ],
-              [
-                33.48,
-                -85.3
-              ],
-              [
-                33.11,
-                -85.23
-              ],
-              [
-                33.11,
-                -85.64
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": {
-              "direction": "SOUTHEAST",
-              "speed_mph": 45,
-              "bearing": 135
-            },
-            "motionStr": "Southeast at 45 MPH",
-            "hailSize": "1.00\"",
-            "windSpeed": "60 MPH",
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Corinth",
-            "headline": "Severe Thunderstorm Warning issued June 1 at 3:19PM CDT until June 1 at 4:00PM CDT by NWS Birmingham AL",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Observed",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "SV.W.83.KBMX",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "SV",
-            "significance": "W",
-            "event": "Severe Thunderstorm Warning",
-            "action": "NEW",
-            "office": "KBMX",
-            "wfo": "BMX",
-            "etn": "0083",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KBMX",
-              "phenomena": "SV",
-              "significance": "W",
-              "etn": "0083",
-              "start": "260601T2008Z",
-              "end": "260601T2100Z"
-            },
-            "issued": "2026-06-01T15:08:00-05:00",
-            "expires": "2026-06-01T16:00:00-05:00",
-            "areaDesc": "Calhoun, AL; Cleburne, AL",
-            "ugcZones": [
-              "ALC015",
-              "ALC029"
-            ],
-            "sameCodes": [
-              "001015",
-              "001029"
-            ],
-            "polygon": [
-              [
-                33.49,
-                -85.4
-              ],
-              [
-                33.5,
-                -85.65
-              ],
-              [
-                33.89,
-                -85.88
-              ],
-              [
-                33.94,
-                -85.76
-              ],
-              [
-                33.93,
-                -85.74
-              ],
-              [
-                33.95,
-                -85.74
-              ],
-              [
-                33.97,
-                -85.69
-              ],
-              [
-                33.96,
-                -85.54
-              ],
-              [
-                33.94,
-                -85.53
-              ],
-              [
-                33.94,
-                -85.5
-              ],
-              [
-                33.7,
-                -85.35
-              ],
-              [
-                33.51,
-                -85.31
-              ],
-              [
-                33.49,
-                -85.4
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": {
-              "direction": "SOUTHEAST",
-              "speed_mph": 40,
-              "bearing": 135
-            },
-            "motionStr": "Southeast at 40 MPH",
-            "hailSize": "1.00\"",
-            "windSpeed": "60 MPH",
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Jacksonville",
-            "headline": "Severe Thunderstorm Warning issued June 1 at 3:08PM CDT until June 1 at 4:00PM CDT by NWS Birmingham AL",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Observed",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "SV.A.261.KBMX",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "SV",
-            "significance": "A",
-            "event": "Severe Thunderstorm Watch",
-            "action": "EXA",
-            "office": "KBMX",
-            "wfo": "BMX",
-            "etn": "0261",
-            "vtec": {
-              "productClass": "O",
-              "action": "EXA",
-              "office": "KBMX",
-              "phenomena": "SV",
-              "significance": "A",
-              "etn": "0261",
-              "start": "000000T0000Z",
-              "end": "260602T0000Z"
-            },
-            "issued": "2026-06-01T15:35:00-05:00",
-            "expires": "2026-06-01T19:00:00-05:00",
-            "areaDesc": "Barbour, AL; Bullock, AL; Pike, AL; Russell, AL",
-            "ugcZones": [
-              "ALC005",
-              "ALC011",
-              "ALC109",
-              "ALC113"
-            ],
-            "sameCodes": [
-              "001005",
-              "001011",
-              "001109",
-              "001113"
-            ],
-            "polygon": null,
             "threatLevel": "STANDARD",
             "stormMotion": null,
             "motionStr": "",
             "hailSize": null,
             "windSpeed": null,
-            "detectionSource": null,
+            "detectionSource": "RADAR INDICATED",
             "nearestLocation": null,
-            "headline": "Severe Thunderstorm Watch issued June 1 at 3:35PM CDT until June 1 at 7:00PM CDT by NWS Birmingham AL",
-            "nwsHeadline": null,
-            "urgency": "Future",
-            "severity": "Severe",
-            "certainty": "Possible",
+            "headline": "Flood Advisory issued June 1 at 4:41PM CDT until June 1 at 7:45PM CDT by NWS Birmingham AL",
+            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 745 PM CDT THIS EVENING",
+            "urgency": "Expected",
+            "severity": "Minor",
+            "certainty": "Likely",
             "messageType": "Alert"
           },
           "inBoth": false,
@@ -586,9 +329,154 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
+      "apiCount": 3,
+      "comparisonCount": 3,
       "comparison": [
+        {
+          "key": "SV.W.63.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "W",
+            "event": "Severe Thunderstorm Warning",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0063",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "SV",
+              "significance": "W",
+              "etn": "0063",
+              "start": "260601T2249Z",
+              "end": "260601T2330Z"
+            },
+            "issued": "2026-06-01T17:49:00-05:00",
+            "expires": "2026-06-01T18:30:00-05:00",
+            "areaDesc": "Clarke, AL; Monroe, AL",
+            "ugcZones": [
+              "ALC025",
+              "ALC099"
+            ],
+            "sameCodes": [
+              "001025",
+              "001099"
+            ],
+            "polygon": [
+              [
+                31.37,
+                -87.37
+              ],
+              [
+                31.25,
+                -87.65
+              ],
+              [
+                31.25,
+                -87.66
+              ],
+              [
+                31.29,
+                -87.7
+              ],
+              [
+                31.5,
+                -87.74
+              ],
+              [
+                31.55,
+                -87.63
+              ],
+              [
+                31.37,
+                -87.37
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": {
+              "direction": "SOUTHEAST",
+              "speed_mph": 10,
+              "bearing": 135
+            },
+            "motionStr": "Southeast at 10 MPH",
+            "hailSize": "1.25\"",
+            "windSpeed": "60 MPH",
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Severe Thunderstorm Warning issued June 1 at 5:49PM CDT until June 1 at 6:30PM CDT by NWS Mobile AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "SV.A.266.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "A",
+            "event": "Severe Thunderstorm Watch",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0266",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "SV",
+              "significance": "A",
+              "etn": "0266",
+              "start": "260601T2210Z",
+              "end": "260602T0300Z"
+            },
+            "issued": "2026-06-01T17:07:00-05:00",
+            "expires": "2026-06-01T22:00:00-05:00",
+            "areaDesc": "Butler, AL; Conecuh, AL; Covington, AL; Crenshaw, AL; Monroe, AL; Wilcox, AL",
+            "ugcZones": [
+              "ALC013",
+              "ALC035",
+              "ALC039",
+              "ALC041",
+              "ALC099",
+              "ALC131"
+            ],
+            "sameCodes": [
+              "001013",
+              "001035",
+              "001039",
+              "001041",
+              "001099",
+              "001131"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Severe Thunderstorm Watch issued June 1 at 5:07PM CDT until June 1 at 10:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": null,
+            "urgency": "Future",
+            "severity": "Severe",
+            "certainty": "Possible",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
         {
           "key": "FL.W.17.KMOB",
           "iem": null,
