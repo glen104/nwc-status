@@ -1,4 +1,102 @@
 {
+  "nwc": {
+    "opsLevel": "Level 4 (Normal Operations)",
+    "reason": "",
+    "hours": "5:00 AM - 8:30 PM CDT",
+    "shifts": [
+      {
+        "end": "01:00 PM",
+        "forecasters": [
+          "Caroline"
+        ],
+        "lead": "Jam",
+        "start": "5:00 AM"
+      },
+      {
+        "end": "08:30 PM",
+        "forecasters": [
+          "John"
+        ],
+        "lead": "Rose",
+        "start": "8:30 PM"
+      }
+    ],
+    "tomorrow": [],
+    "fim": {
+      "end": "",
+      "name": "Charlie",
+      "start": ""
+    },
+    "ic": null,
+    "roster": [
+      {
+        "name": "Charlie",
+        "role": "Shift Lead",
+        "roles": [
+          "Shift Lead",
+          "FIM Coordinator"
+        ]
+      },
+      {
+        "name": "John",
+        "role": "Forecaster",
+        "roles": [
+          "Forecaster"
+        ]
+      },
+      {
+        "name": "Kat",
+        "role": "Forecaster",
+        "roles": [
+          "Forecaster"
+        ]
+      },
+      {
+        "name": "Rose",
+        "role": "Forecaster",
+        "roles": [
+          "Forecaster",
+          "Shift Lead"
+        ]
+      },
+      {
+        "name": "Jam",
+        "role": "Shift Lead",
+        "roles": [
+          "Shift Lead"
+        ]
+      },
+      {
+        "name": "Joe",
+        "role": "Shift Lead",
+        "roles": [
+          "Shift Lead"
+        ]
+      },
+      {
+        "name": "Royce",
+        "role": "Shift Lead",
+        "roles": [
+          "Shift Lead"
+        ]
+      },
+      {
+        "name": "Russ",
+        "role": "IC",
+        "roles": [
+          "IC"
+        ]
+      },
+      {
+        "name": "Caroline",
+        "role": "Forecaster",
+        "roles": [
+          "Forecaster"
+        ]
+      }
+    ],
+    "updated": "2026-05-31T12:04:07Z"
+  },
   "abrfc": {
     "opsLevel": "Level 4 (Normal Operations)",
     "reason": "",
@@ -7,9 +105,8 @@
     "tomorrow": [],
     "fim": null,
     "ic": null,
-    "updated": "",
-    "day3": [],
-    "day4": []
+    "roster": [],
+    "updated": ""
   },
   "akrfc": {
     "opsLevel": "Level 4 (Normal Operations)",
@@ -19,9 +116,8 @@
     "tomorrow": [],
     "fim": null,
     "ic": null,
-    "updated": "",
-    "day3": [],
-    "day4": []
+    "roster": [],
+    "updated": ""
   },
   "cbrfc": {
     "opsLevel": "Level 4 (Normal Operations)",
@@ -31,9 +127,8 @@
     "tomorrow": [],
     "fim": null,
     "ic": null,
-    "updated": "",
-    "day3": [],
-    "day4": []
+    "roster": [],
+    "updated": ""
   },
   "cnrfc": {
     "opsLevel": "Level 4 (Normal Operations)",
@@ -43,21 +138,19 @@
     "tomorrow": [],
     "fim": null,
     "ic": null,
-    "updated": "",
-    "day3": [],
-    "day4": []
+    "roster": [],
+    "updated": ""
   },
   "lmrfc": {
-    "opsLevel": "Level 4 (Normal Operations)",
-    "reason": "",
-    "hours": "8:00 AM - 5:00 PM CT",
+    "opsLevel": "Level 1 (Full Activation)",
+    "reason": "Things going crazy",
+    "hours": "24-Hour Operations",
     "shifts": [],
     "tomorrow": [],
     "fim": null,
     "ic": null,
-    "updated": "",
-    "day3": [],
-    "day4": []
+    "roster": [],
+    "updated": "2026-05-25T18:27:08Z"
   },
   "marfc": {
     "opsLevel": "Level 4 (Normal Operations)",
@@ -67,9 +160,8 @@
     "tomorrow": [],
     "fim": null,
     "ic": null,
-    "updated": "",
-    "day3": [],
-    "day4": []
+    "roster": [],
+    "updated": ""
   },
   "mbrfc": {
     "opsLevel": "Level 4 (Normal Operations)",
@@ -79,9 +171,8 @@
     "tomorrow": [],
     "fim": null,
     "ic": null,
-    "updated": "",
-    "day3": [],
-    "day4": []
+    "roster": [],
+    "updated": ""
   },
   "ncrfc": {
     "opsLevel": "Level 4 (Normal Operations)",
@@ -91,9 +182,8 @@
     "tomorrow": [],
     "fim": null,
     "ic": null,
-    "updated": "",
-    "day3": [],
-    "day4": []
+    "roster": [],
+    "updated": ""
   },
   "nerfc": {
     "opsLevel": "Level 4 (Normal Operations)",
@@ -103,9 +193,8 @@
     "tomorrow": [],
     "fim": null,
     "ic": null,
-    "updated": "",
-    "day3": [],
-    "day4": []
+    "roster": [],
+    "updated": ""
   },
   "nwrfc": {
     "opsLevel": "Level 4 (Normal Operations)",
@@ -115,21 +204,19 @@
     "tomorrow": [],
     "fim": null,
     "ic": null,
-    "updated": "",
-    "day3": [],
-    "day4": []
+    "roster": [],
+    "updated": ""
   },
   "ohrfc": {
-    "opsLevel": "Level 4 (Normal Operations)",
-    "reason": "",
-    "hours": "8:00 AM - 5:00 PM CT",
+    "opsLevel": "Level 2 (Partial Activation)",
+    "reason": "Because",
+    "hours": "24-Hour Operations",
     "shifts": [],
     "tomorrow": [],
     "fim": null,
     "ic": null,
-    "updated": "",
-    "day3": [],
-    "day4": []
+    "roster": [],
+    "updated": "2026-05-25T18:26:30Z"
   },
   "serfc": {
     "opsLevel": "Level 4 (Normal Operations)",
@@ -139,9 +226,8 @@
     "tomorrow": [],
     "fim": null,
     "ic": null,
-    "updated": "",
-    "day3": [],
-    "day4": []
+    "roster": [],
+    "updated": ""
   },
   "wgrfc": {
     "opsLevel": "Level 4 (Normal Operations)",
@@ -151,38 +237,119 @@
     "tomorrow": [],
     "fim": null,
     "ic": null,
-    "updated": "",
-    "day3": [],
-    "day4": []
+    "roster": [],
+    "updated": ""
   },
-  "lastUpdated": "2026-05-31T16:49:03Z",
+  "lastUpdated": "2026-05-31T14:45:14Z",
+  "owp": {
+    "opsLevel": "Level 1 (Full Activation)",
+    "reason": "This",
+    "hours": "5:00 AM - 8:30 PM CDT",
+    "shifts": [],
+    "tomorrow": [],
+    "fim": null,
+    "ic": null,
+    "roster": [],
+    "updated": "2026-05-26T12:51:30Z"
+  },
   "nwco": {
-    "opsLevel": "Level 2 (Partial Activation)",
-    "reason": "This is a test of level 2",
-    "hours": "24-Hour Operations",
+    "opsLevel": "Level 3 (Enhanced Operations)",
+    "reason": "Testr",
+    "hours": "5:00 AM - 8:30 PM CDT",
     "shifts": [
       {
-        "end": "1:00 PM",
-        "forecasters": [
-          "Rose"
-        ],
-        "lead": "Glen",
-        "start": "5:00 PM"
-      },
-      {
-        "end": "8:30 PM",
+        "end": "01:00 PM",
         "forecasters": [
           "Caroline"
         ],
         "lead": "Jam",
-        "start": "11:30 AM"
+        "start": "5:00 AM"
+      },
+      {
+        "end": "08:30 PM",
+        "forecasters": [
+          "John"
+        ],
+        "lead": "Rose",
+        "start": "8:30 PM"
       }
     ],
     "tomorrow": [],
     "day3": [],
     "day4": [],
-    "fim": null,
+    "fim": {
+      "end": "",
+      "name": "Charlie",
+      "start": ""
+    },
     "ic": null,
+    "roster": [
+      {
+        "name": "Charlie",
+        "role": "Shift Lead",
+        "roles": [
+          "Shift Lead",
+          "FIM Coordinator"
+        ]
+      },
+      {
+        "name": "John",
+        "role": "Forecaster",
+        "roles": [
+          "Forecaster"
+        ]
+      },
+      {
+        "name": "Kat",
+        "role": "Forecaster",
+        "roles": [
+          "Forecaster"
+        ]
+      },
+      {
+        "name": "Rose",
+        "role": "Forecaster",
+        "roles": [
+          "Forecaster",
+          "Shift Lead"
+        ]
+      },
+      {
+        "name": "Jam",
+        "role": "Shift Lead",
+        "roles": [
+          "Shift Lead"
+        ]
+      },
+      {
+        "name": "Joe",
+        "role": "Shift Lead",
+        "roles": [
+          "Shift Lead"
+        ]
+      },
+      {
+        "name": "Royce",
+        "role": "Shift Lead",
+        "roles": [
+          "Shift Lead"
+        ]
+      },
+      {
+        "name": "Russ",
+        "role": "IC",
+        "roles": [
+          "IC"
+        ]
+      },
+      {
+        "name": "Caroline",
+        "role": "Forecaster",
+        "roles": [
+          "Forecaster"
+        ]
+      }
+    ],
     "updated": "2026-05-31T16:49:03Z"
   }
 }
