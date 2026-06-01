@@ -240,7 +240,7 @@
     "roster": [],
     "updated": ""
   },
-  "lastUpdated": "2026-05-31T14:45:14Z",
+  "lastUpdated": "2026-06-01T12:49:49Z",
   "owp": {
     "opsLevel": "Level 1 (Full Activation)",
     "reason": "This",
@@ -253,25 +253,25 @@
     "updated": "2026-05-26T12:51:30Z"
   },
   "nwco": {
-    "opsLevel": "Level 3 (Enhanced Operations)",
-    "reason": "Testr",
-    "hours": "5:00 AM - 8:30 PM CDT",
+    "opsLevel": "Level 2 (Partial Activation)",
+    "reason": "This is a test of level 2",
+    "hours": "24-Hour Operations",
     "shifts": [
       {
-        "end": "01:00 PM",
+        "end": "1:00 PM",
+        "forecasters": [
+          "Rose"
+        ],
+        "lead": "Glen",
+        "start": "5:00 PM"
+      },
+      {
+        "end": "8:30 PM",
         "forecasters": [
           "Caroline"
         ],
         "lead": "Jam",
-        "start": "5:00 AM"
-      },
-      {
-        "end": "08:30 PM",
-        "forecasters": [
-          "John"
-        ],
-        "lead": "Rose",
-        "start": "8:30 PM"
+        "start": "11:30 AM"
       }
     ],
     "tomorrow": [],
@@ -283,73 +283,6 @@
       "start": ""
     },
     "ic": null,
-    "roster": [
-      {
-        "name": "Charlie",
-        "role": "Shift Lead",
-        "roles": [
-          "Shift Lead",
-          "FIM Coordinator"
-        ]
-      },
-      {
-        "name": "John",
-        "role": "Forecaster",
-        "roles": [
-          "Forecaster"
-        ]
-      },
-      {
-        "name": "Kat",
-        "role": "Forecaster",
-        "roles": [
-          "Forecaster"
-        ]
-      },
-      {
-        "name": "Rose",
-        "role": "Forecaster",
-        "roles": [
-          "Forecaster",
-          "Shift Lead"
-        ]
-      },
-      {
-        "name": "Jam",
-        "role": "Shift Lead",
-        "roles": [
-          "Shift Lead"
-        ]
-      },
-      {
-        "name": "Joe",
-        "role": "Shift Lead",
-        "roles": [
-          "Shift Lead"
-        ]
-      },
-      {
-        "name": "Royce",
-        "role": "Shift Lead",
-        "roles": [
-          "Shift Lead"
-        ]
-      },
-      {
-        "name": "Russ",
-        "role": "IC",
-        "roles": [
-          "IC"
-        ]
-      },
-      {
-        "name": "Caroline",
-        "role": "Forecaster",
-        "roles": [
-          "Forecaster"
-        ]
-      }
-    ],
-    "updated": "2026-05-31T16:49:03Z"
+    "updated": "2026-06-01T12:49:49Z"
   }
 }
