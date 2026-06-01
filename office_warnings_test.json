@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-01T10:33:54Z",
+  "updated": "2026-06-01T16:23:38Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -22,16 +22,228 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "FL.W.17.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0017",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KMOB",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0017",
+              "start": "000000T0000Z",
+              "end": "260602T0345Z"
+            },
+            "issued": "2026-06-01T08:31:00-05:00",
+            "expires": "2026-06-01T20:45:00-05:00",
+            "areaDesc": "George, MS; Greene, MS",
+            "ugcZones": [
+              "MSC039",
+              "MSC041"
+            ],
+            "sameCodes": [
+              "028039",
+              "028041"
+            ],
+            "polygon": [
+              [
+                31.43,
+                -88.57
+              ],
+              [
+                31.43,
+                -88.46
+              ],
+              [
+                31.08,
+                -88.54
+              ],
+              [
+                30.98,
+                -88.73
+              ],
+              [
+                31,
+                -88.75
+              ],
+              [
+                31.1,
+                -88.58
+              ],
+              [
+                31.43,
+                -88.57
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 1 at 8:31AM CDT until June 1 at 10:45PM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL THIS EVENING",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "SV.W.51.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "W",
+            "event": "Severe Thunderstorm Warning",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0051",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "SV",
+              "significance": "W",
+              "etn": "0051",
+              "start": "260601T1617Z",
+              "end": "260601T1645Z"
+            },
+            "issued": "2026-06-01T11:17:00-05:00",
+            "expires": "2026-06-01T11:45:00-05:00",
+            "areaDesc": "Jackson, AL; Franklin, TN; Lincoln, TN; Moore, TN",
+            "ugcZones": [
+              "ALC071",
+              "TNC051",
+              "TNC103",
+              "TNC127"
+            ],
+            "sameCodes": [
+              "001071",
+              "047051",
+              "047103",
+              "047127"
+            ],
+            "polygon": [
+              [
+                35.34,
+                -86.24
+              ],
+              [
+                35.35,
+                -86.22
+              ],
+              [
+                35.19,
+                -85.86
+              ],
+              [
+                35.07,
+                -85.86
+              ],
+              [
+                34.86,
+                -86.01
+              ],
+              [
+                35.32,
+                -86.63
+              ],
+              [
+                35.33,
+                -86.6
+              ],
+              [
+                35.34,
+                -86.61
+              ],
+              [
+                35.36,
+                -86.56
+              ],
+              [
+                35.35,
+                -86.54
+              ],
+              [
+                35.36,
+                -86.49
+              ],
+              [
+                35.33,
+                -86.46
+              ],
+              [
+                35.32,
+                -86.42
+              ],
+              [
+                35.35,
+                -86.41
+              ],
+              [
+                35.36,
+                -86.33
+              ],
+              [
+                35.39,
+                -86.3
+              ],
+              [
+                35.34,
+                -86.24
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": {
+              "direction": "SOUTHEAST",
+              "speed_mph": 35,
+              "bearing": 135
+            },
+            "motionStr": "Southeast at 35 MPH",
+            "hailSize": "0.88\"",
+            "windSpeed": "60 MPH",
+            "detectionSource": null,
+            "nearestLocation": "Lynchburg",
+            "headline": "Severe Thunderstorm Warning issued June 1 at 11:17AM CDT until June 1 at 11:45AM CDT by NWS Huntsville AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     }
   }
 }
