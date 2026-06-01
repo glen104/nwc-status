@@ -155,34 +155,17 @@
     "day3": [],
     "day4": []
   },
-  "lastUpdated": "2026-06-01T13:47:35Z",
+  "lastUpdated": "",
   "nwco": {
-    "opsLevel": "Level 2 (Partial Activation)",
-    "reason": "This is a test of level 2",
-    "hours": "24-Hour Operations",
-    "shifts": [
-      {
-        "end": "1:00 PM",
-        "forecasters": [
-          "Rose"
-        ],
-        "lead": "Glen",
-        "start": "5:00 PM"
-      },
-      {
-        "end": "8:30 PM",
-        "forecasters": [
-          "Caroline"
-        ],
-        "lead": "Jam",
-        "start": "11:30 AM"
-      }
-    ],
+    "opsLevel": "Level 4 (Normal Operations)",
+    "reason": "",
+    "hours": "5:00 AM - 8:30 PM CT",
+    "shifts": [],
     "tomorrow": [],
-    "day3": [],
-    "day4": [],
     "fim": null,
     "ic": null,
-    "updated": "2026-06-01T13:47:35Z"
+    "updated": "",
+    "day3": [],
+    "day4": []
   }
 }
