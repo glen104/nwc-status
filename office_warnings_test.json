@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-02T04:28:21Z",
+  "updated": "2026-06-02T08:52:28Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -22,16 +22,152 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "RP.S.17.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "RP",
+            "significance": "S",
+            "event": "Rip Current Statement",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0017",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "RP",
+              "significance": "S",
+              "etn": "0017",
+              "start": "260603T1200Z",
+              "end": "260607T0000Z"
+            },
+            "issued": "2026-06-02T03:13:00-05:00",
+            "expires": "2026-06-02T12:00:00-05:00",
+            "areaDesc": "Mobile Coastal; Baldwin Coastal; Escambia Coastal; Santa Rosa Coastal; Okaloosa Coastal",
+            "ugcZones": [
+              "ALZ265",
+              "ALZ266",
+              "FLZ202",
+              "FLZ204",
+              "FLZ206"
+            ],
+            "sameCodes": [
+              "001097",
+              "001003",
+              "012033",
+              "012113",
+              "012091"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Rip Current Statement issued June 2 at 3:13AM CDT until June 6 at 7:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "HIGH RIP CURRENT RISK IN EFFECT FROM WEDNESDAY MORNING THROUGH SATURDAY EVENING",
+            "urgency": "Expected",
+            "severity": "Moderate",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "FG.Y.10.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FG",
+            "significance": "Y",
+            "event": "Dense Fog Advisory",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0010",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "FG",
+              "significance": "Y",
+              "etn": "0010",
+              "start": "260602T0601Z",
+              "end": "260602T1400Z"
+            },
+            "issued": "2026-06-02T01:01:00-05:00",
+            "expires": "2026-06-02T09:00:00-05:00",
+            "areaDesc": "Lauderdale; Colbert; Franklin; Lawrence; Limestone; Madison; Morgan; Marshall; Jackson; DeKalb; Cullman; Moore; Lincoln; Franklin",
+            "ugcZones": [
+              "ALZ001",
+              "ALZ002",
+              "ALZ003",
+              "ALZ004",
+              "ALZ005",
+              "ALZ006",
+              "ALZ007",
+              "ALZ008",
+              "ALZ009",
+              "ALZ010",
+              "ALZ016",
+              "TNZ076",
+              "TNZ096",
+              "TNZ097"
+            ],
+            "sameCodes": [
+              "001077",
+              "001033",
+              "001059",
+              "001079",
+              "001083",
+              "001089",
+              "001103",
+              "001095",
+              "001071",
+              "001049",
+              "001043",
+              "047127",
+              "047103",
+              "047051"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Dense Fog Advisory issued June 2 at 1:01AM CDT until June 2 at 9:00AM CDT by NWS Huntsville AL",
+            "nwsHeadline": "DENSE FOG ADVISORY IN EFFECT UNTIL 9 AM CDT THIS MORNING",
+            "urgency": "Expected",
+            "severity": "Moderate",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     }
   }
 }
