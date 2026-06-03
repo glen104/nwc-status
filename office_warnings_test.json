@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03T14:57:11Z",
+  "updated": "2026-06-03T18:41:34Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -22,68 +22,9 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "SU.Y.3.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "SU",
-            "significance": "Y",
-            "event": "High Surf Advisory",
-            "action": "NEW",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0003",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KMOB",
-              "phenomena": "SU",
-              "significance": "Y",
-              "etn": "0003",
-              "start": "260604T0400Z",
-              "end": "260606T0900Z"
-            },
-            "issued": "2026-06-03T03:24:00-05:00",
-            "expires": "2026-06-03T12:00:00-05:00",
-            "areaDesc": "Mobile Coastal; Baldwin Coastal; Escambia Coastal; Santa Rosa Coastal; Okaloosa Coastal",
-            "ugcZones": [
-              "ALZ265",
-              "ALZ266",
-              "FLZ202",
-              "FLZ204",
-              "FLZ206"
-            ],
-            "sameCodes": [
-              "001097",
-              "001003",
-              "012033",
-              "012113",
-              "012091"
-            ],
-            "polygon": null,
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "High Surf Advisory issued June 3 at 3:24AM CDT until June 6 at 4:00AM CDT by NWS Mobile AL",
-            "nwsHeadline": "HIGH RIP CURRENT RISK NOW IN EFFECT FROM 7 AM CDT THIS MORNING THROUGH SUNDAY MORNING... ...HIGH SURF ADVISORY IN EFFECT FROM 11 PM THIS EVENING TO 4 AM CDT SATURDAY",
-            "urgency": "Expected",
-            "severity": "Minor",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "HUN": {
       "name": "Huntsville, AL",
