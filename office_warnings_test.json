@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03T00:10:38Z",
+  "updated": "2026-06-03T05:12:41Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -47,8 +47,8 @@
               "start": "260603T1200Z",
               "end": "260607T0000Z"
             },
-            "issued": "2026-06-02T12:23:00-05:00",
-            "expires": "2026-06-02T21:00:00-05:00",
+            "issued": "2026-06-02T22:33:00-05:00",
+            "expires": "2026-06-03T06:00:00-05:00",
             "areaDesc": "Mobile Coastal; Baldwin Coastal; Escambia Coastal; Santa Rosa Coastal; Okaloosa Coastal",
             "ugcZones": [
               "ALZ265",
@@ -72,8 +72,8 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Rip Current Statement issued June 2 at 12:23PM CDT until June 6 at 7:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": "HIGH RIP CURRENT RISK REMAINS IN EFFECT FROM WEDNESDAY MORNING THROUGH SATURDAY EVENING",
+            "headline": "Rip Current Statement issued June 2 at 10:33PM CDT until June 6 at 7:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "HIGH RIP CURRENT RISK REMAINS IN EFFECT FROM 7 AM CDT WEDNESDAY THROUGH SATURDAY EVENING",
             "urgency": "Expected",
             "severity": "Moderate",
             "certainty": "Likely",
