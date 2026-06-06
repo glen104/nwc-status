@@ -1,13 +1,7 @@
 {
   "status": "NORMAL",
-  "outlookText": "Critical Weather Day is not expected in the next 3 days.",
+  "outlookText": "Critical Weather Day is not expected in the next 3 days. However the need for CWD to support Fire Weather Operations is being monitored.",
   "days": [
-    {
-      "weekday": "Fri",
-      "date": "Jun 05",
-      "status": "Normal",
-      "hazards": []
-    },
     {
       "weekday": "Sat",
       "date": "Jun 06",
@@ -19,7 +13,13 @@
       "date": "Jun 07",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Mon",
+      "date": "Jun 08",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-06-06T08:08:44Z"
+  "updated": "2026-06-06T10:17:52Z"
 }
