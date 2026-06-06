@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-06T01:31:56Z",
+  "updated": "2026-06-06T05:33:37Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -22,126 +22,9 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
-      "comparison": [
-        {
-          "key": "SU.Y.3.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "SU",
-            "significance": "Y",
-            "event": "High Surf Advisory",
-            "action": "CON",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0003",
-            "vtec": {
-              "productClass": "O",
-              "action": "CON",
-              "office": "KMOB",
-              "phenomena": "SU",
-              "significance": "Y",
-              "etn": "0003",
-              "start": "000000T0000Z",
-              "end": "260606T0900Z"
-            },
-            "issued": "2026-06-05T13:12:00-05:00",
-            "expires": "2026-06-05T21:00:00-05:00",
-            "areaDesc": "Mobile Coastal; Baldwin Coastal; Escambia Coastal; Santa Rosa Coastal; Okaloosa Coastal",
-            "ugcZones": [
-              "ALZ265",
-              "ALZ266",
-              "FLZ202",
-              "FLZ204",
-              "FLZ206"
-            ],
-            "sameCodes": [
-              "001097",
-              "001003",
-              "012033",
-              "012113",
-              "012091"
-            ],
-            "polygon": null,
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "High Surf Advisory issued June 5 at 1:12PM CDT until June 6 at 4:00AM CDT by NWS Mobile AL",
-            "nwsHeadline": "HIGH SURF ADVISORY REMAINS IN EFFECT UNTIL 4 AM CDT SATURDAY... ...HIGH RIP CURRENT RISK REMAINS IN EFFECT THROUGH SUNDAY MORNING",
-            "urgency": "Expected",
-            "severity": "Minor",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "RP.S.17.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "RP",
-            "significance": "S",
-            "event": "Rip Current Statement",
-            "action": "CON",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0017",
-            "vtec": {
-              "productClass": "O",
-              "action": "CON",
-              "office": "KMOB",
-              "phenomena": "RP",
-              "significance": "S",
-              "etn": "0017",
-              "start": "000000T0000Z",
-              "end": "260607T1200Z"
-            },
-            "issued": "2026-06-05T13:12:00-05:00",
-            "expires": "2026-06-05T21:00:00-05:00",
-            "areaDesc": "Mobile Coastal; Baldwin Coastal; Escambia Coastal; Santa Rosa Coastal; Okaloosa Coastal",
-            "ugcZones": [
-              "ALZ265",
-              "ALZ266",
-              "FLZ202",
-              "FLZ204",
-              "FLZ206"
-            ],
-            "sameCodes": [
-              "001097",
-              "001003",
-              "012033",
-              "012113",
-              "012091"
-            ],
-            "polygon": null,
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Rip Current Statement issued June 5 at 1:12PM CDT until June 7 at 7:00AM CDT by NWS Mobile AL",
-            "nwsHeadline": "HIGH SURF ADVISORY REMAINS IN EFFECT UNTIL 4 AM CDT SATURDAY... ...HIGH RIP CURRENT RISK REMAINS IN EFFECT THROUGH SUNDAY MORNING",
-            "urgency": "Expected",
-            "severity": "Moderate",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "HUN": {
       "name": "Huntsville, AL",
