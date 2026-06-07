@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-07T17:20:15Z",
+  "updated": "2026-06-07T18:42:45Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -88,9 +88,165 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 2,
+      "comparisonCount": 2,
+      "comparison": [
+        {
+          "key": "FF.W.10.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FF",
+            "significance": "W",
+            "event": "Flash Flood Warning",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0010",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "FF",
+              "significance": "W",
+              "etn": "0010",
+              "start": "260607T1747Z",
+              "end": "260607T2100Z"
+            },
+            "issued": "2026-06-07T12:47:00-05:00",
+            "expires": "2026-06-07T16:00:00-05:00",
+            "areaDesc": "DeKalb, AL; Jackson, AL; Marshall, AL; Franklin, TN",
+            "ugcZones": [
+              "ALC049",
+              "ALC071",
+              "ALC095",
+              "TNC051"
+            ],
+            "sameCodes": [
+              "001049",
+              "001071",
+              "001095",
+              "047051"
+            ],
+            "polygon": [
+              [
+                34.62,
+                -86.24
+              ],
+              [
+                35.15,
+                -86.23
+              ],
+              [
+                35.13,
+                -85.86
+              ],
+              [
+                34.99,
+                -85.86
+              ],
+              [
+                34.98,
+                -85.6
+              ],
+              [
+                34.68,
+                -85.55
+              ],
+              [
+                34.39,
+                -86.11
+              ],
+              [
+                34.39,
+                -86.37
+              ],
+              [
+                34.62,
+                -86.24
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flash Flood Warning issued June 7 at 12:47PM CDT until June 7 at 4:00PM CDT by NWS Huntsville AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FA.A.5.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "A",
+            "event": "Flood Watch",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0005",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "FA",
+              "significance": "A",
+              "etn": "0005",
+              "start": "260608T1100Z",
+              "end": "260609T0100Z"
+            },
+            "issued": "2026-06-07T13:12:00-05:00",
+            "expires": "2026-06-08T10:00:00-05:00",
+            "areaDesc": "Lauderdale; Limestone; Madison; Jackson; Moore; Lincoln; Franklin",
+            "ugcZones": [
+              "ALZ001",
+              "ALZ005",
+              "ALZ006",
+              "ALZ009",
+              "TNZ076",
+              "TNZ096",
+              "TNZ097"
+            ],
+            "sameCodes": [
+              "001077",
+              "001083",
+              "001089",
+              "001071",
+              "047127",
+              "047103",
+              "047051"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Watch issued June 7 at 1:12PM CDT until June 8 at 8:00PM CDT by NWS Huntsville AL",
+            "nwsHeadline": "FLOOD WATCH IN EFFECT FROM MONDAY MORNING THROUGH MONDAY EVENING",
+            "urgency": "Future",
+            "severity": "Severe",
+            "certainty": "Possible",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     }
   }
 }
