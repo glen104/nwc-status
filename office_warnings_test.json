@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-07T22:32:11Z",
+  "updated": "2026-06-07T23:38:38Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -15,9 +15,220 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 2,
+      "comparisonCount": 2,
+      "comparison": [
+        {
+          "key": "FF.W.10.KBMX",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FF",
+            "significance": "W",
+            "event": "Flash Flood Warning",
+            "action": "NEW",
+            "office": "KBMX",
+            "wfo": "BMX",
+            "etn": "0010",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KBMX",
+              "phenomena": "FF",
+              "significance": "W",
+              "etn": "0010",
+              "start": "260607T2305Z",
+              "end": "260608T0215Z"
+            },
+            "issued": "2026-06-07T18:05:00-05:00",
+            "expires": "2026-06-07T21:15:00-05:00",
+            "areaDesc": "Etowah, AL",
+            "ugcZones": [
+              "ALC055"
+            ],
+            "sameCodes": [
+              "001055"
+            ],
+            "polygon": [
+              [
+                33.93,
+                -86.06
+              ],
+              [
+                34.04,
+                -86.16
+              ],
+              [
+                34.16,
+                -85.93
+              ],
+              [
+                34.05,
+                -85.84
+              ],
+              [
+                33.93,
+                -86.06
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flash Flood Warning issued June 7 at 6:05PM CDT until June 7 at 9:15PM CDT by NWS Birmingham AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FA.Y.32.KBMX",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "Y",
+            "event": "Flood Advisory",
+            "action": "NEW",
+            "office": "KBMX",
+            "wfo": "BMX",
+            "etn": "0032",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KBMX",
+              "phenomena": "FA",
+              "significance": "Y",
+              "etn": "0032",
+              "start": "260607T2308Z",
+              "end": "260608T0215Z"
+            },
+            "issued": "2026-06-07T18:08:00-05:00",
+            "expires": "2026-06-07T21:15:00-05:00",
+            "areaDesc": "Blount, AL; Etowah, AL; St. Clair, AL",
+            "ugcZones": [
+              "ALC009",
+              "ALC055",
+              "ALC115"
+            ],
+            "sameCodes": [
+              "001009",
+              "001055",
+              "001115"
+            ],
+            "polygon": [
+              [
+                33.97,
+                -86.77
+              ],
+              [
+                34.04,
+                -86.7
+              ],
+              [
+                34.06,
+                -86.7
+              ],
+              [
+                34.05,
+                -86.68
+              ],
+              [
+                34.08,
+                -86.7
+              ],
+              [
+                34.09,
+                -86.69
+              ],
+              [
+                34.08,
+                -86.69
+              ],
+              [
+                34.08,
+                -86.67
+              ],
+              [
+                34.11,
+                -86.65
+              ],
+              [
+                34.12,
+                -86.6
+              ],
+              [
+                34.18,
+                -86.55
+              ],
+              [
+                34.21,
+                -86.55
+              ],
+              [
+                34.24,
+                -86.52
+              ],
+              [
+                34.22,
+                -86.42
+              ],
+              [
+                34.1,
+                -86.3
+              ],
+              [
+                34.18,
+                -86.2
+              ],
+              [
+                34.16,
+                -86.13
+              ],
+              [
+                33.91,
+                -86.14
+              ],
+              [
+                33.88,
+                -86.33
+              ],
+              [
+                33.96,
+                -86.79
+              ],
+              [
+                33.97,
+                -86.77
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flood Advisory issued June 7 at 6:08PM CDT until June 7 at 9:15PM CDT by NWS Birmingham AL",
+            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 915 PM CDT THIS EVENING",
+            "urgency": "Expected",
+            "severity": "Minor",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "MOB": {
       "name": "Mobile, AL",
@@ -167,78 +378,118 @@
           "apiOnly": true
         },
         {
-          "key": "FF.W.12.KHUN",
+          "key": "FA.W.8.KHUN",
           "iem": null,
           "api": {
             "source": "api",
-            "phenomena": "FF",
+            "phenomena": "FA",
             "significance": "W",
-            "event": "Flash Flood Warning",
+            "event": "Flood Warning",
             "action": "NEW",
             "office": "KHUN",
             "wfo": "HUN",
-            "etn": "0012",
+            "etn": "0008",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KHUN",
-              "phenomena": "FF",
+              "phenomena": "FA",
               "significance": "W",
-              "etn": "0012",
-              "start": "260607T2006Z",
-              "end": "260607T2300Z"
+              "etn": "0008",
+              "start": "260607T2300Z",
+              "end": "260608T0300Z"
             },
-            "issued": "2026-06-07T15:06:00-05:00",
-            "expires": "2026-06-07T18:00:00-05:00",
-            "areaDesc": "Jackson, AL; Madison, AL",
+            "issued": "2026-06-07T18:00:00-05:00",
+            "expires": "2026-06-07T22:00:00-05:00",
+            "areaDesc": "DeKalb, AL; Jackson, AL; Limestone, AL; Madison, AL; Marshall, AL; Morgan, AL; Franklin, TN; Lincoln, TN",
             "ugcZones": [
+              "ALC049",
               "ALC071",
-              "ALC089"
+              "ALC083",
+              "ALC089",
+              "ALC095",
+              "ALC103",
+              "TNC051",
+              "TNC103"
             ],
             "sameCodes": [
+              "001049",
               "001071",
-              "001089"
+              "001083",
+              "001089",
+              "001095",
+              "001103",
+              "047051",
+              "047103"
             ],
             "polygon": [
               [
+                35.16,
+                -86.37
+              ],
+              [
+                35.12,
+                -86.36
+              ],
+              [
+                35.15,
+                -86.35
+              ],
+              [
+                35.13,
+                -86.32
+              ],
+              [
+                35.15,
+                -86.33
+              ],
+              [
+                35.16,
+                -86.32
+              ],
+              [
+                35.15,
+                -85.86
+              ],
+              [
                 34.99,
-                -86.62
+                -85.86
               ],
               [
-                34.95,
-                -86.27
-              ],
-              [
-                34.92,
-                -85.95
+                34.98,
+                -85.6
               ],
               [
                 34.66,
-                -86.08
+                -85.54
               ],
               [
-                34.72,
-                -86.46
+                34.35,
+                -86.09
               ],
               [
-                34.76,
-                -86.61
+                34.56,
+                -86.82
               ],
               [
-                34.99,
-                -86.62
+                35.17,
+                -86.83
+              ],
+              [
+                35.16,
+                -86.37
               ]
             ],
-            "threatLevel": "CATASTROPHIC",
+            "threatLevel": "STANDARD",
             "stormMotion": null,
             "motionStr": "",
             "hailSize": null,
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Flash Flood Warning issued June 7 at 3:06PM CDT until June 7 at 6:00PM CDT by NWS Huntsville AL",
-            "nwsHeadline": "FLASH FLOOD EMERGENCY FOR NEW MARKET, NORTH HUNTSVILLE, AND SKYLINE",
-            "urgency": "Immediate",
+            "headline": "Flood Warning issued June 7 at 6:00PM CDT until June 7 at 10:00PM CDT by NWS Huntsville AL",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT UNTIL 10 PM CDT THIS EVENING",
+            "urgency": "Expected",
             "severity": "Severe",
             "certainty": "Likely",
             "messageType": "Alert"
