@@ -8,6 +8,7 @@
       "status": "Critical",
       "hazards": [
         "lightning",
+        "tsunami",
         "flood"
       ]
     },
@@ -24,5 +25,5 @@
       "hazards": []
     }
   ],
-  "updated": "2026-06-07T23:40:16Z"
+  "updated": "2026-06-08T02:01:27Z"
 }
