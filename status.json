@@ -1,12 +1,14 @@
 {
-  "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day is in effect until 08/12Z, in support severe weather across parts of Montana and the Dakotas. Enhanced Caution is in effect until 08/12Z, in support of WPC's Moderate Risk of Excessive Rain and NWC's Considerable Flood Outlook. The need for CWD to support Fire Weather in the southwest and for severe weather in the Northern Plains and Upper Midwest on Tuesday and Wednesday continues to be monitored.",
+  "status": "NORMAL",
+  "outlookText": "The need for CWD to support flooding ops in northern Alabama is being monitored today and to support fire weather ops in the southwest for the next few days. In addition, the need for CWD to support severe weather ops in the Northern Plains and Upper Midwest on Tuesday and Wednesday continues to be monitored.",
   "days": [
     {
       "weekday": "Mon",
       "date": "Jun 08",
-      "status": "Normal",
-      "hazards": []
+      "status": "Enhanced Caution",
+      "hazards": [
+        "flood"
+      ]
     },
     {
       "weekday": "Tue",
@@ -21,5 +23,5 @@
       "hazards": []
     }
   ],
-  "updated": "2026-06-08T11:51:12Z"
+  "updated": "2026-06-08T15:24:35Z"
 }
