@@ -1,17 +1,7 @@
 {
   "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day is in effect until 08/12Z, in support of SPC's Day-1 moderate risk convective outlook across parts of Montana and the Dakotas. Enhanced Caution is in effect until 08/12Z, in support of WPC's Moderate Risk of Excessive Rain and NWC's Considerable Flood Outlook. The need for CWD to support Fire Weather and Space Weather Operations continues to be monitored.",
+  "outlookText": "Critical Weather Day is in effect until 08/12Z, in support severe weather across parts of Montana and the Dakotas. Enhanced Caution is in effect until 08/12Z, in support of WPC's Moderate Risk of Excessive Rain and NWC's Considerable Flood Outlook. The need for CWD to support Fire Weather in the southwest and for severe weather in the Northern Plains and Upper Midwest on Tuesday and Wednesday continues to be monitored.",
   "days": [
-    {
-      "weekday": "Sun",
-      "date": "Jun 07",
-      "status": "Critical",
-      "hazards": [
-        "lightning",
-        "tsunami",
-        "flood"
-      ]
-    },
     {
       "weekday": "Mon",
       "date": "Jun 08",
@@ -23,7 +13,13 @@
       "date": "Jun 09",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Wed",
+      "date": "Jun 10",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-06-08T06:56:38Z"
+  "updated": "2026-06-08T11:51:12Z"
 }
