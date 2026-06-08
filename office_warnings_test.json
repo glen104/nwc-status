@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-08T17:46:49Z",
+  "updated": "2026-06-08T19:54:01Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -15,9 +15,140 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
+      "apiCount": 2,
+      "comparisonCount": 2,
       "comparison": [
+        {
+          "key": "FA.Y.35.KBMX",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "Y",
+            "event": "Flood Advisory",
+            "action": "NEW",
+            "office": "KBMX",
+            "wfo": "BMX",
+            "etn": "0035",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KBMX",
+              "phenomena": "FA",
+              "significance": "Y",
+              "etn": "0035",
+              "start": "260608T1848Z",
+              "end": "260608T2200Z"
+            },
+            "issued": "2026-06-08T13:48:00-05:00",
+            "expires": "2026-06-08T17:00:00-05:00",
+            "areaDesc": "Jefferson, AL",
+            "ugcZones": [
+              "ALC073"
+            ],
+            "sameCodes": [
+              "001073"
+            ],
+            "polygon": [
+              [
+                33.66,
+                -86.53
+              ],
+              [
+                33.62,
+                -86.55
+              ],
+              [
+                33.56,
+                -86.55
+              ],
+              [
+                33.55,
+                -86.52
+              ],
+              [
+                33.54,
+                -86.52
+              ],
+              [
+                33.47,
+                -86.64
+              ],
+              [
+                33.47,
+                -86.67
+              ],
+              [
+                33.45,
+                -86.67
+              ],
+              [
+                33.45,
+                -86.69
+              ],
+              [
+                33.42,
+                -86.72
+              ],
+              [
+                33.42,
+                -86.75
+              ],
+              [
+                33.39,
+                -86.76
+              ],
+              [
+                33.36,
+                -86.83
+              ],
+              [
+                33.33,
+                -86.85
+              ],
+              [
+                33.33,
+                -86.88
+              ],
+              [
+                33.27,
+                -86.95
+              ],
+              [
+                33.25,
+                -87.06
+              ],
+              [
+                33.51,
+                -87.1
+              ],
+              [
+                33.77,
+                -86.54
+              ],
+              [
+                33.66,
+                -86.53
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flood Advisory issued June 8 at 1:48PM CDT until June 8 at 5:00PM CDT by NWS Birmingham AL",
+            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 5 PM CDT THIS AFTERNOON",
+            "urgency": "Expected",
+            "severity": "Minor",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
         {
           "key": "FA.A.5.KBMX",
           "iem": null,
@@ -26,44 +157,28 @@
             "phenomena": "FA",
             "significance": "A",
             "event": "Flood Watch",
-            "action": "NEW",
+            "action": "EXA",
             "office": "KBMX",
             "wfo": "BMX",
             "etn": "0005",
             "vtec": {
               "productClass": "O",
-              "action": "NEW",
+              "action": "EXA",
               "office": "KBMX",
               "phenomena": "FA",
               "significance": "A",
               "etn": "0005",
-              "start": "260608T1200Z",
+              "start": "000000T0000Z",
               "end": "260609T0100Z"
             },
-            "issued": "2026-06-08T03:09:00-05:00",
-            "expires": "2026-06-08T13:00:00-05:00",
-            "areaDesc": "Blount; Etowah; Calhoun; Cherokee; Cleburne; Jefferson; Shelby; St. Clair; Talladega",
+            "issued": "2026-06-08T12:55:00-05:00",
+            "expires": "2026-06-08T20:00:00-05:00",
+            "areaDesc": "Tuscaloosa",
             "ugcZones": [
-              "ALZ017",
-              "ALZ018",
-              "ALZ019",
-              "ALZ020",
-              "ALZ021",
-              "ALZ024",
-              "ALZ025",
-              "ALZ026",
-              "ALZ027"
+              "ALZ023"
             ],
             "sameCodes": [
-              "001009",
-              "001055",
-              "001015",
-              "001019",
-              "001029",
-              "001073",
-              "001117",
-              "001115",
-              "001121"
+              "001125"
             ],
             "polygon": null,
             "threatLevel": "STANDARD",
@@ -73,8 +188,8 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Flood Watch issued June 8 at 3:09AM CDT until June 8 at 8:00PM CDT by NWS Birmingham AL",
-            "nwsHeadline": "FLOOD WATCH IN EFFECT FROM 7 AM CDT THIS MORNING THROUGH THIS EVENING",
+            "headline": "Flood Watch issued June 8 at 12:55PM CDT until June 8 at 8:00PM CDT by NWS Birmingham AL",
+            "nwsHeadline": "FLOOD WATCH IN EFFECT UNTIL 8 PM CDT THIS EVENING",
             "urgency": "Future",
             "severity": "Severe",
             "certainty": "Possible",
