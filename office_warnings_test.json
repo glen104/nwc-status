@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-09T04:18:35Z",
+  "updated": "2026-06-09T08:04:14Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -29,9 +29,85 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "FL.W.4.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0004",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KHUN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0004",
+              "start": "000000T0000Z",
+              "end": "000000T0000Z"
+            },
+            "issued": "2026-06-09T02:29:00-05:00",
+            "expires": "2026-06-09T14:30:00-05:00",
+            "areaDesc": "Jackson, AL; Madison, AL; Marshall, AL",
+            "ugcZones": [
+              "ALC071",
+              "ALC089",
+              "ALC095"
+            ],
+            "sameCodes": [
+              "001071",
+              "001089",
+              "001095"
+            ],
+            "polygon": [
+              [
+                34.91,
+                -86.28
+              ],
+              [
+                34.89,
+                -86.06
+              ],
+              [
+                34.42,
+                -86.37
+              ],
+              [
+                34.5,
+                -86.53
+              ],
+              [
+                34.91,
+                -86.28
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": "Woodville Affecting Marshall",
+            "headline": "Flood Warning issued June 9 at 2:29AM CDT by NWS Huntsville AL",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL FURTHER NOTICE",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     }
   }
 }
