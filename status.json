@@ -1,27 +1,27 @@
 {
   "status": "NORMAL",
-  "outlookText": "The need for CWD to support flooding ops in northern Alabama is being monitored today and to support fire weather ops in the southwest for the next few days. In addition, the need for CWD to support severe weather ops in the Northern Plains and Upper Midwest on Tuesday and Wednesday continues to be monitored.",
+  "outlookText": "The need for CWD to support severe weather ops in the Northern Plains and Upper Midwest for the next few days is being monitored. In addition, the need for CWD to support fire weather ops in the southwest is being monitored for Tuesday and Wednesday.",
   "days": [
-    {
-      "weekday": "Mon",
-      "date": "Jun 08",
-      "status": "Enhanced Caution",
-      "hazards": [
-        "flood"
-      ]
-    },
     {
       "weekday": "Tue",
       "date": "Jun 09",
-      "status": "Normal",
-      "hazards": []
+      "status": "Enhanced Caution",
+      "hazards": [
+        "lightning"
+      ]
     },
     {
       "weekday": "Wed",
       "date": "Jun 10",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Thu",
+      "date": "Jun 11",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-06-09T08:49:45Z"
+  "updated": "2026-06-09T11:47:48Z"
 }
