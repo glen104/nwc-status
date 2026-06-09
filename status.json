@@ -13,8 +13,10 @@
     {
       "weekday": "Wed",
       "date": "Jun 10",
-      "status": "Normal",
-      "hazards": []
+      "status": "Enhanced Caution",
+      "hazards": [
+        "lightning"
+      ]
     },
     {
       "weekday": "Thu",
@@ -23,5 +25,5 @@
       "hazards": []
     }
   ],
-  "updated": "2026-06-09T18:59:13Z"
+  "updated": "2026-06-09T20:57:54Z"
 }
