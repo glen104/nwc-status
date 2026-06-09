@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-08T22:57:53Z",
+  "updated": "2026-06-09T00:02:53Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -15,8 +15,8 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 5,
-      "comparisonCount": 5,
+      "apiCount": 3,
+      "comparisonCount": 3,
       "comparison": [
         {
           "key": "FA.Y.39.KBMX",
@@ -267,216 +267,6 @@
           "apiOnly": true
         },
         {
-          "key": "FA.Y.37.KBMX",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FA",
-            "significance": "Y",
-            "event": "Flood Advisory",
-            "action": "NEW",
-            "office": "KBMX",
-            "wfo": "BMX",
-            "etn": "0037",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KBMX",
-              "phenomena": "FA",
-              "significance": "Y",
-              "etn": "0037",
-              "start": "260608T2021Z",
-              "end": "260608T2330Z"
-            },
-            "issued": "2026-06-08T15:21:00-05:00",
-            "expires": "2026-06-08T18:30:00-05:00",
-            "areaDesc": "Tuscaloosa, AL",
-            "ugcZones": [
-              "ALC125"
-            ],
-            "sameCodes": [
-              "001125"
-            ],
-            "polygon": [
-              [
-                33.24,
-                -87.12
-              ],
-              [
-                33.23,
-                -87.15
-              ],
-              [
-                33.2,
-                -87.2
-              ],
-              [
-                33.13,
-                -87.2
-              ],
-              [
-                33.13,
-                -87.29
-              ],
-              [
-                33.07,
-                -87.5
-              ],
-              [
-                33.19,
-                -87.61
-              ],
-              [
-                33.23,
-                -87.54
-              ],
-              [
-                33.25,
-                -87.07
-              ],
-              [
-                33.22,
-                -87.12
-              ],
-              [
-                33.24,
-                -87.12
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Tuscaloosa",
-            "headline": "Flood Advisory issued June 8 at 3:21PM CDT until June 8 at 6:30PM CDT by NWS Birmingham AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 630 PM CDT THIS EVENING",
-            "urgency": "Expected",
-            "severity": "Minor",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "FA.Y.36.KBMX",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FA",
-            "significance": "Y",
-            "event": "Flood Advisory",
-            "action": "NEW",
-            "office": "KBMX",
-            "wfo": "BMX",
-            "etn": "0036",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KBMX",
-              "phenomena": "FA",
-              "significance": "Y",
-              "etn": "0036",
-              "start": "260608T2008Z",
-              "end": "260608T2315Z"
-            },
-            "issued": "2026-06-08T15:08:00-05:00",
-            "expires": "2026-06-08T18:15:00-05:00",
-            "areaDesc": "Calhoun, AL; St. Clair, AL; Talladega, AL",
-            "ugcZones": [
-              "ALC015",
-              "ALC115",
-              "ALC121"
-            ],
-            "sameCodes": [
-              "001015",
-              "001115",
-              "001121"
-            ],
-            "polygon": [
-              [
-                33.63,
-                -86.53
-              ],
-              [
-                33.66,
-                -86.53
-              ],
-              [
-                33.71,
-                -86.52
-              ],
-              [
-                33.72,
-                -86.53
-              ],
-              [
-                33.77,
-                -86.53
-              ],
-              [
-                33.76,
-                -85.89
-              ],
-              [
-                33.58,
-                -85.84
-              ],
-              [
-                33.52,
-                -86.22
-              ],
-              [
-                33.5,
-                -86.48
-              ],
-              [
-                33.55,
-                -86.48
-              ],
-              [
-                33.55,
-                -86.52
-              ],
-              [
-                33.55,
-                -86.54
-              ],
-              [
-                33.56,
-                -86.55
-              ],
-              [
-                33.63,
-                -86.54
-              ],
-              [
-                33.63,
-                -86.53
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flood Advisory issued June 8 at 3:08PM CDT until June 8 at 6:15PM CDT by NWS Birmingham AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 615 PM CDT THIS EVENING",
-            "urgency": "Expected",
-            "severity": "Minor",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
           "key": "FA.A.5.KBMX",
           "iem": null,
           "api": {
@@ -538,11 +328,11 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
+      "apiCount": 3,
+      "comparisonCount": 3,
       "comparison": [
         {
-          "key": "FF.W.14.KHUN",
+          "key": "FF.W.16.KHUN",
           "iem": null,
           "api": {
             "source": "api",
@@ -552,78 +342,66 @@
             "action": "NEW",
             "office": "KHUN",
             "wfo": "HUN",
-            "etn": "0014",
+            "etn": "0016",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KHUN",
               "phenomena": "FF",
               "significance": "W",
-              "etn": "0014",
-              "start": "260608T2225Z",
-              "end": "260609T0130Z"
+              "etn": "0016",
+              "start": "260608T2333Z",
+              "end": "260609T0245Z"
             },
-            "issued": "2026-06-08T17:25:00-05:00",
-            "expires": "2026-06-08T20:30:00-05:00",
-            "areaDesc": "Cullman, AL; Marshall, AL; Morgan, AL",
+            "issued": "2026-06-08T18:33:00-05:00",
+            "expires": "2026-06-08T21:45:00-05:00",
+            "areaDesc": "Jackson, AL; Madison, AL; Marshall, AL",
             "ugcZones": [
-              "ALC043",
-              "ALC095",
-              "ALC103"
+              "ALC071",
+              "ALC089",
+              "ALC095"
             ],
             "sameCodes": [
-              "001043",
-              "001095",
-              "001103"
+              "001071",
+              "001089",
+              "001095"
             ],
             "polygon": [
               [
-                34.45,
-                -86.69
+                34.52,
+                -86.53
               ],
               [
-                34.33,
-                -86.22
+                34.54,
+                -86.54
               ],
               [
-                34.3,
-                -86.17
+                34.57,
+                -86.55
               ],
               [
-                34.2,
-                -86.4
-              ],
-              [
-                34.26,
+                34.75,
                 -86.44
               ],
               [
-                34.25,
-                -86.51
+                34.74,
+                -85.99
               ],
               [
-                34.19,
-                -86.55
+                34.68,
+                -85.9
               ],
               [
-                34.18,
-                -86.55
+                34.53,
+                -85.93
               ],
               [
-                34.12,
-                -86.6
+                34.52,
+                -86.33
               ],
               [
-                34.05,
-                -87.11
-              ],
-              [
-                34.47,
-                -87.11
-              ],
-              [
-                34.45,
-                -86.69
+                34.52,
+                -86.53
               ]
             ],
             "threatLevel": "STANDARD",
@@ -633,7 +411,110 @@
             "windSpeed": null,
             "detectionSource": "RADAR INDICATED",
             "nearestLocation": null,
-            "headline": "Flash Flood Warning issued June 8 at 5:25PM CDT until June 8 at 8:30PM CDT by NWS Huntsville AL",
+            "headline": "Flash Flood Warning issued June 8 at 6:33PM CDT until June 8 at 9:45PM CDT by NWS Huntsville AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FF.W.15.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FF",
+            "significance": "W",
+            "event": "Flash Flood Warning",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0015",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "FF",
+              "significance": "W",
+              "etn": "0015",
+              "start": "260608T2319Z",
+              "end": "260609T0230Z"
+            },
+            "issued": "2026-06-08T18:19:00-05:00",
+            "expires": "2026-06-08T21:30:00-05:00",
+            "areaDesc": "DeKalb, AL",
+            "ugcZones": [
+              "ALC049"
+            ],
+            "sameCodes": [
+              "001049"
+            ],
+            "polygon": [
+              [
+                34.5,
+                -85.56
+              ],
+              [
+                34.49,
+                -85.56
+              ],
+              [
+                34.49,
+                -85.57
+              ],
+              [
+                34.48,
+                -85.57
+              ],
+              [
+                34.47,
+                -85.57
+              ],
+              [
+                34.47,
+                -85.58
+              ],
+              [
+                34.46,
+                -85.58
+              ],
+              [
+                34.46,
+                -85.74
+              ],
+              [
+                34.54,
+                -85.69
+              ],
+              [
+                34.55,
+                -85.62
+              ],
+              [
+                34.53,
+                -85.54
+              ],
+              [
+                34.5,
+                -85.55
+              ],
+              [
+                34.5,
+                -85.56
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flash Flood Warning issued June 8 at 6:19PM CDT until June 8 at 9:30PM CDT by NWS Huntsville AL",
             "nwsHeadline": null,
             "urgency": "Immediate",
             "severity": "Severe",
