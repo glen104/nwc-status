@@ -1,15 +1,7 @@
 {
   "status": "NORMAL",
-  "outlookText": "The need for CWD to support severe weather ops in the Northern Plains and Upper Midwest for the next few days is being monitored. In addition, the need for CWD to support fire weather ops in the Southwest is being monitored for Tuesday and Wednesday.",
+  "outlookText": "The need for CWD to support severe weather ops in the Northern Plains and Upper Midwest is being monitored. In addition, the need for CWD to support fire weather ops in eastern Wyoming is being monitored.",
   "days": [
-    {
-      "weekday": "Tue",
-      "date": "Jun 09",
-      "status": "Enhanced Caution",
-      "hazards": [
-        "lightning"
-      ]
-    },
     {
       "weekday": "Wed",
       "date": "Jun 10",
@@ -21,9 +13,17 @@
     {
       "weekday": "Thu",
       "date": "Jun 11",
+      "status": "Enhanced Caution",
+      "hazards": [
+        "lightning"
+      ]
+    },
+    {
+      "weekday": "Fri",
+      "date": "Jun 12",
       "status": "Normal",
       "hazards": []
     }
   ],
-  "updated": "2026-06-10T01:54:09Z"
+  "updated": "2026-06-10T10:33:16Z"
 }
