@@ -1,11 +1,11 @@
 {
-  "status": "NORMAL",
-  "outlookText": "The need for CWD to support severe weather ops across a portion of the Midwest/Great Lakes region is being monitored.",
+  "status": "Critical Weather Day",
+  "outlookText": "Critical Weather Day is in effect until 12Z Fri Jun 12 in support of severe thunderstorm operations across portions of the Midwest and Great Lakes region.",
   "days": [
     {
       "weekday": "Thu",
       "date": "Jun 11",
-      "status": "Enhanced Caution",
+      "status": "Critical",
       "hazards": [
         "lightning"
       ]
@@ -25,5 +25,5 @@
       ]
     }
   ],
-  "updated": "2026-06-11T11:07:37Z"
+  "updated": "2026-06-11T14:51:39Z"
 }
