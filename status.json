@@ -1,15 +1,7 @@
 {
   "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day is in effect until 12Z Fri Jun 12 in support of severe thunderstorm operations across portions of the Midwest and Great Lakes region.",
+  "outlookText": "The current Critical Weather Day (CWD) expires at 12Z Fri Jun 12 for severe thunderstorm operations across portions of the Midwest and Great Lakes region. The need for CWD for Day-2 to support severe weather and IDSS operations is closely being monitored.",
   "days": [
-    {
-      "weekday": "Thu",
-      "date": "Jun 11",
-      "status": "Critical",
-      "hazards": [
-        "lightning"
-      ]
-    },
     {
       "weekday": "Fri",
       "date": "Jun 12",
@@ -23,7 +15,15 @@
       "hazards": [
         "idss"
       ]
+    },
+    {
+      "weekday": "Sun",
+      "date": "Jun 14",
+      "status": "Enhanced Caution",
+      "hazards": [
+        "idss"
+      ]
     }
   ],
-  "updated": "2026-06-12T08:09:55Z"
+  "updated": "2026-06-12T11:51:16Z"
 }
