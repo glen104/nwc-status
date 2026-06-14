@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T16:01:32Z",
+  "updated": "2026-06-14T17:25:23Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
