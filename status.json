@@ -1,13 +1,14 @@
 {
   "status": "NORMAL",
-  "outlookText": "Critical Weather Day is not expected in the next 3 days. However, the need for CWD is being monitored to support excessive rainfall and severe weather operations.",
+  "outlookText": "Critical Weather Day is not expected in the next 3 days. However, the need for CWD is being monitored to support excessive rainfall, flooding, and severe weather operations.",
   "days": [
     {
       "weekday": "Mon",
       "date": "Jun 15",
       "status": "Enhanced Caution",
       "hazards": [
-        "rainstorm"
+        "rainstorm",
+        "flood"
       ]
     },
     {
@@ -15,15 +16,20 @@
       "date": "Jun 16",
       "status": "Enhanced Caution",
       "hazards": [
-        "rainstorm"
+        "rainstorm",
+        "flood"
       ]
     },
     {
       "weekday": "Wed",
       "date": "Jun 17",
-      "status": "Normal",
-      "hazards": []
+      "status": "Enhanced Caution",
+      "hazards": [
+        "lightning",
+        "rainstorm",
+        "flood"
+      ]
     }
   ],
-  "updated": "2026-06-15T10:43:03Z"
+  "updated": "2026-06-15T16:09:34Z"
 }
