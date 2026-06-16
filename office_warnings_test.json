@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T17:26:02Z",
+  "updated": "2026-06-16T20:22:25Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,278 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
+      "apiCount": 4,
+      "comparisonCount": 4,
       "comparison": [
+        {
+          "key": "FL.W.17.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0017",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0017",
+              "start": "260616T2354Z",
+              "end": "260618T0130Z"
+            },
+            "issued": "2026-06-16T14:31:00-05:00",
+            "expires": "2026-06-17T02:45:00-05:00",
+            "areaDesc": "Franklin, MS",
+            "ugcZones": [
+              "MSC037"
+            ],
+            "sameCodes": [
+              "028037"
+            ],
+            "polygon": [
+              [
+                31.4,
+                -91.41
+              ],
+              [
+                31.39,
+                -91.09
+              ],
+              [
+                31.48,
+                -90.93
+              ],
+              [
+                31.38,
+                -90.84
+              ],
+              [
+                31.28,
+                -91.07
+              ],
+              [
+                31.3,
+                -91.47
+              ],
+              [
+                31.4,
+                -91.41
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 16 at 2:31PM CDT until June 17 at 8:30PM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM THIS EVENING TO TOMORROW EVENING",
+            "urgency": "Expected",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.16.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0016",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0016",
+              "start": "260617T1415Z",
+              "end": "260618T2300Z"
+            },
+            "issued": "2026-06-16T14:10:00-05:00",
+            "expires": "2026-06-17T02:15:00-05:00",
+            "areaDesc": "Forrest, MS",
+            "ugcZones": [
+              "MSC035"
+            ],
+            "sameCodes": [
+              "028035"
+            ],
+            "polygon": [
+              [
+                31,
+                -89.15
+              ],
+              [
+                31.03,
+                -89.25
+              ],
+              [
+                31.21,
+                -89.51
+              ],
+              [
+                31.27,
+                -89.43
+              ],
+              [
+                31.13,
+                -89.24
+              ],
+              [
+                31.1,
+                -89.15
+              ],
+              [
+                31,
+                -89.15
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 16 at 2:10PM CDT until June 18 at 6:00PM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM WEDNESDAY MORNING TO THURSDAY EVENING",
+            "urgency": "Expected",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FF.W.29.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FF",
+            "significance": "W",
+            "event": "Flash Flood Warning",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0029",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "FF",
+              "significance": "W",
+              "etn": "0029",
+              "start": "260616T1858Z",
+              "end": "260616T2300Z"
+            },
+            "issued": "2026-06-16T13:58:00-05:00",
+            "expires": "2026-06-16T18:00:00-05:00",
+            "areaDesc": "Forrest, MS; Lamar, MS; Marion, MS",
+            "ugcZones": [
+              "MSC035",
+              "MSC073",
+              "MSC091"
+            ],
+            "sameCodes": [
+              "028035",
+              "028073",
+              "028091"
+            ],
+            "polygon": [
+              [
+                31.07,
+                -89.84
+              ],
+              [
+                31.07,
+                -89.92
+              ],
+              [
+                31.11,
+                -89.94
+              ],
+              [
+                31.3,
+                -89.15
+              ],
+              [
+                30.91,
+                -89.14
+              ],
+              [
+                30.92,
+                -89.34
+              ],
+              [
+                31.01,
+                -89.35
+              ],
+              [
+                31.01,
+                -89.42
+              ],
+              [
+                30.98,
+                -89.43
+              ],
+              [
+                30.98,
+                -89.48
+              ],
+              [
+                31,
+                -89.48
+              ],
+              [
+                31.01,
+                -89.5
+              ],
+              [
+                31,
+                -89.84
+              ],
+              [
+                31.07,
+                -89.84
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": "A Few Roads",
+            "headline": "Flash Flood Warning issued June 16 at 1:58PM CDT until June 16 at 6:00PM CDT by NWS Jackson MS",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
         {
           "key": "FA.A.3.KJAN",
           "iem": null,
@@ -74,15 +343,126 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "FA.A.6.KBMX",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "A",
+            "event": "Flood Watch",
+            "action": "NEW",
+            "office": "KBMX",
+            "wfo": "BMX",
+            "etn": "0006",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KBMX",
+              "phenomena": "FA",
+              "significance": "A",
+              "etn": "0006",
+              "start": "260618T1200Z",
+              "end": "260620T0000Z"
+            },
+            "issued": "2026-06-16T15:06:00-05:00",
+            "expires": "2026-06-17T07:00:00-05:00",
+            "areaDesc": "Calhoun; Cleburne; Pickens; Tuscaloosa; Jefferson; Shelby; St. Clair; Talladega; Clay; Randolph; Sumter; Greene; Hale; Perry; Bibb; Chilton; Coosa; Tallapoosa; Chambers; Marengo; Dallas; Autauga; Lowndes; Elmore; Montgomery; Macon; Bullock; Lee; Russell; Pike; Barbour",
+            "ugcZones": [
+              "ALZ019",
+              "ALZ021",
+              "ALZ022",
+              "ALZ023",
+              "ALZ024",
+              "ALZ025",
+              "ALZ026",
+              "ALZ027",
+              "ALZ028",
+              "ALZ029",
+              "ALZ030",
+              "ALZ031",
+              "ALZ032",
+              "ALZ033",
+              "ALZ034",
+              "ALZ035",
+              "ALZ036",
+              "ALZ037",
+              "ALZ038",
+              "ALZ039",
+              "ALZ040",
+              "ALZ041",
+              "ALZ042",
+              "ALZ043",
+              "ALZ044",
+              "ALZ045",
+              "ALZ046",
+              "ALZ047",
+              "ALZ048",
+              "ALZ049",
+              "ALZ050"
+            ],
+            "sameCodes": [
+              "001015",
+              "001029",
+              "001107",
+              "001125",
+              "001073",
+              "001117",
+              "001115",
+              "001121",
+              "001027",
+              "001111",
+              "001119",
+              "001063",
+              "001065",
+              "001105",
+              "001007",
+              "001021",
+              "001037",
+              "001123",
+              "001017",
+              "001091",
+              "001047",
+              "001001",
+              "001085",
+              "001051",
+              "001101",
+              "001087",
+              "001011",
+              "001081",
+              "001113",
+              "001109",
+              "001005"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Watch issued June 16 at 3:06PM CDT until June 19 at 7:00PM CDT by NWS Birmingham AL",
+            "nwsHeadline": "FLOOD WATCH IN EFFECT FROM THURSDAY MORNING THROUGH FRIDAY EVENING",
+            "urgency": "Future",
+            "severity": "Severe",
+            "certainty": "Possible",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 3,
-      "comparisonCount": 3,
+      "apiCount": 2,
+      "comparisonCount": 2,
       "comparison": [
         {
           "key": "FL.W.23.KMOB",
@@ -166,89 +546,6 @@
           "apiOnly": true
         },
         {
-          "key": "FA.Y.32.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FA",
-            "significance": "Y",
-            "event": "Flood Advisory",
-            "action": "NEW",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0032",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KMOB",
-              "phenomena": "FA",
-              "significance": "Y",
-              "etn": "0032",
-              "start": "260616T1658Z",
-              "end": "260616T1800Z"
-            },
-            "issued": "2026-06-16T11:58:00-05:00",
-            "expires": "2026-06-16T13:00:00-05:00",
-            "areaDesc": "Stone, MS",
-            "ugcZones": [
-              "MSC131"
-            ],
-            "sameCodes": [
-              "028131"
-            ],
-            "polygon": [
-              [
-                30.91,
-                -89.31
-              ],
-              [
-                30.91,
-                -89.07
-              ],
-              [
-                30.68,
-                -89.11
-              ],
-              [
-                30.68,
-                -89.24
-              ],
-              [
-                30.65,
-                -89.24
-              ],
-              [
-                30.65,
-                -89.34
-              ],
-              [
-                30.91,
-                -89.34
-              ],
-              [
-                30.91,
-                -89.31
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flood Advisory issued June 16 at 11:58AM CDT until June 16 at 1:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 1 PM CDT THIS AFTERNOON",
-            "urgency": "Expected",
-            "severity": "Minor",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
           "key": "FA.A.3.KMOB",
           "iem": null,
           "api": {
@@ -256,36 +553,63 @@
             "phenomena": "FA",
             "significance": "A",
             "event": "Flood Watch",
-            "action": "CON",
+            "action": "EXB",
             "office": "KMOB",
             "wfo": "MOB",
             "etn": "0003",
             "vtec": {
               "productClass": "O",
-              "action": "CON",
+              "action": "EXB",
               "office": "KMOB",
               "phenomena": "FA",
               "significance": "A",
               "etn": "0003",
               "start": "000000T0000Z",
-              "end": "260618T2300Z"
+              "end": "260620T0000Z"
             },
-            "issued": "2026-06-16T08:17:00-05:00",
-            "expires": "2026-06-16T16:30:00-05:00",
-            "areaDesc": "Wayne; Perry; Greene; Stone; George",
+            "issued": "2026-06-16T15:04:00-05:00",
+            "expires": "2026-06-16T23:15:00-05:00",
+            "areaDesc": "Choctaw; Washington; Clarke; Wilcox; Monroe; Conecuh; Butler; Crenshaw; Escambia; Covington; Mobile Inland; Baldwin Inland; Mobile Central; Baldwin Central; Mobile Coastal; Baldwin Coastal; Escambia Inland; Escambia Coastal; Santa Rosa Inland; Santa Rosa Coastal; Okaloosa Inland; Okaloosa Coastal",
             "ugcZones": [
-              "MSZ067",
-              "MSZ075",
-              "MSZ076",
-              "MSZ078",
-              "MSZ079"
+              "ALZ051",
+              "ALZ052",
+              "ALZ053",
+              "ALZ054",
+              "ALZ055",
+              "ALZ056",
+              "ALZ057",
+              "ALZ058",
+              "ALZ059",
+              "ALZ060",
+              "ALZ261",
+              "ALZ262",
+              "ALZ263",
+              "ALZ264",
+              "ALZ265",
+              "ALZ266",
+              "FLZ201",
+              "FLZ202",
+              "FLZ203",
+              "FLZ204",
+              "FLZ205",
+              "FLZ206"
             ],
             "sameCodes": [
-              "028153",
-              "028111",
-              "028041",
-              "028131",
-              "028039"
+              "001023",
+              "001129",
+              "001025",
+              "001131",
+              "001099",
+              "001035",
+              "001013",
+              "001041",
+              "001053",
+              "001039",
+              "001097",
+              "001003",
+              "012033",
+              "012113",
+              "012091"
             ],
             "polygon": null,
             "threatLevel": "STANDARD",
@@ -295,8 +619,8 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Flood Watch issued June 16 at 8:17AM CDT until June 18 at 6:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD WATCH REMAINS IN EFFECT THROUGH THURSDAY AFTERNOON",
+            "headline": "Flood Watch issued June 16 at 3:04PM CDT until June 19 at 7:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WATCH IN EFFECT THROUGH FRIDAY EVENING",
             "urgency": "Future",
             "severity": "Severe",
             "certainty": "Possible",
