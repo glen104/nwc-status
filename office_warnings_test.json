@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T12:20:58Z",
+  "updated": "2026-06-16T17:26:02Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -31,30 +31,24 @@
               "significance": "A",
               "etn": "0003",
               "start": "000000T0000Z",
-              "end": "260618T1200Z"
+              "end": "260619T0000Z"
             },
-            "issued": "2026-06-15T20:58:00-05:00",
-            "expires": "2026-06-16T05:00:00-05:00",
-            "areaDesc": "Scott; Newton; Smith; Jasper; Covington; Jones; Lamar; Forrest",
+            "issued": "2026-06-16T11:42:00-05:00",
+            "expires": "2026-06-16T23:00:00-05:00",
+            "areaDesc": "Leake; Neshoba; Kemper; Lauderdale; Clarke",
             "ugcZones": [
-              "MSZ050",
-              "MSZ051",
-              "MSZ056",
-              "MSZ057",
-              "MSZ065",
-              "MSZ066",
-              "MSZ073",
-              "MSZ074"
+              "MSZ044",
+              "MSZ045",
+              "MSZ046",
+              "MSZ052",
+              "MSZ058"
             ],
             "sameCodes": [
-              "028123",
-              "028101",
-              "028129",
-              "028061",
-              "028031",
-              "028067",
-              "028073",
-              "028035"
+              "028079",
+              "028099",
+              "028069",
+              "028075",
+              "028023"
             ],
             "polygon": null,
             "threatLevel": "STANDARD",
@@ -64,8 +58,8 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Flood Watch issued June 15 at 8:58PM CDT until June 18 at 7:00AM CDT by NWS Jackson MS",
-            "nwsHeadline": "FLOOD WATCH IN EFFECT THROUGH THURSDAY MORNING",
+            "headline": "Flood Watch issued June 16 at 11:42AM CDT until June 18 at 7:00PM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WATCH IN EFFECT THROUGH THURSDAY EVENING",
             "urgency": "Future",
             "severity": "Severe",
             "certainty": "Possible",
@@ -87,49 +81,72 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
+      "apiCount": 3,
+      "comparisonCount": 3,
       "comparison": [
         {
-          "key": "RP.S.19.KMOB",
+          "key": "FL.W.23.KMOB",
           "iem": null,
           "api": {
             "source": "api",
-            "phenomena": "RP",
-            "significance": "S",
-            "event": "Rip Current Statement",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
             "action": "NEW",
             "office": "KMOB",
             "wfo": "MOB",
-            "etn": "0019",
+            "etn": "0023",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KMOB",
-              "phenomena": "RP",
-              "significance": "S",
-              "etn": "0019",
-              "start": "260617T1800Z",
-              "end": "260620T0700Z"
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0023",
+              "start": "260619T1617Z",
+              "end": "000000T0000Z"
             },
-            "issued": "2026-06-16T01:52:00-05:00",
-            "expires": "2026-06-16T10:00:00-05:00",
-            "areaDesc": "Mobile Coastal; Baldwin Coastal; Escambia Coastal; Santa Rosa Coastal; Okaloosa Coastal",
+            "issued": "2026-06-16T09:39:00-05:00",
+            "expires": "2026-06-16T21:45:00-05:00",
+            "areaDesc": "George, MS; Greene, MS",
             "ugcZones": [
-              "ALZ265",
-              "ALZ266",
-              "FLZ202",
-              "FLZ204",
-              "FLZ206"
+              "MSC039",
+              "MSC041"
             ],
             "sameCodes": [
-              "001097",
-              "001003",
-              "012033",
-              "012113",
-              "012091"
+              "028039",
+              "028041"
             ],
-            "polygon": null,
+            "polygon": [
+              [
+                31.43,
+                -88.57
+              ],
+              [
+                31.43,
+                -88.46
+              ],
+              [
+                31.08,
+                -88.54
+              ],
+              [
+                30.98,
+                -88.73
+              ],
+              [
+                31,
+                -88.75
+              ],
+              [
+                31.1,
+                -88.58
+              ],
+              [
+                31.43,
+                -88.57
+              ]
+            ],
             "threatLevel": "STANDARD",
             "stormMotion": null,
             "motionStr": "",
@@ -137,10 +154,93 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Rip Current Statement issued June 16 at 1:52AM CDT until June 20 at 2:00AM CDT by NWS Mobile AL",
-            "nwsHeadline": "HIGH RIP CURRENT RISK IN EFFECT FROM WEDNESDAY AFTERNOON THROUGH LATE FRIDAY NIGHT",
+            "headline": "Flood Warning issued June 16 at 9:39AM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM FRIDAY MORNING UNTIL FURTHER NOTICE",
             "urgency": "Expected",
-            "severity": "Moderate",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FA.Y.32.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "Y",
+            "event": "Flood Advisory",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0032",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "FA",
+              "significance": "Y",
+              "etn": "0032",
+              "start": "260616T1658Z",
+              "end": "260616T1800Z"
+            },
+            "issued": "2026-06-16T11:58:00-05:00",
+            "expires": "2026-06-16T13:00:00-05:00",
+            "areaDesc": "Stone, MS",
+            "ugcZones": [
+              "MSC131"
+            ],
+            "sameCodes": [
+              "028131"
+            ],
+            "polygon": [
+              [
+                30.91,
+                -89.31
+              ],
+              [
+                30.91,
+                -89.07
+              ],
+              [
+                30.68,
+                -89.11
+              ],
+              [
+                30.68,
+                -89.24
+              ],
+              [
+                30.65,
+                -89.24
+              ],
+              [
+                30.65,
+                -89.34
+              ],
+              [
+                30.91,
+                -89.34
+              ],
+              [
+                30.91,
+                -89.31
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flood Advisory issued June 16 at 11:58AM CDT until June 16 at 1:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 1 PM CDT THIS AFTERNOON",
+            "urgency": "Expected",
+            "severity": "Minor",
             "certainty": "Likely",
             "messageType": "Alert"
           },
@@ -156,22 +256,22 @@
             "phenomena": "FA",
             "significance": "A",
             "event": "Flood Watch",
-            "action": "NEW",
+            "action": "CON",
             "office": "KMOB",
             "wfo": "MOB",
             "etn": "0003",
             "vtec": {
               "productClass": "O",
-              "action": "NEW",
+              "action": "CON",
               "office": "KMOB",
               "phenomena": "FA",
               "significance": "A",
               "etn": "0003",
-              "start": "260616T0500Z",
+              "start": "000000T0000Z",
               "end": "260618T2300Z"
             },
-            "issued": "2026-06-16T00:00:00-05:00",
-            "expires": "2026-06-16T08:00:00-05:00",
+            "issued": "2026-06-16T08:17:00-05:00",
+            "expires": "2026-06-16T16:30:00-05:00",
             "areaDesc": "Wayne; Perry; Greene; Stone; George",
             "ugcZones": [
               "MSZ067",
@@ -195,8 +295,8 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Flood Watch issued June 16 at 12:00AM CDT until June 18 at 6:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD WATCH IN EFFECT THROUGH THURSDAY AFTERNOON",
+            "headline": "Flood Watch issued June 16 at 8:17AM CDT until June 18 at 6:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WATCH REMAINS IN EFFECT THROUGH THURSDAY AFTERNOON",
             "urgency": "Future",
             "severity": "Severe",
             "certainty": "Possible",
