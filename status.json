@@ -1,6 +1,6 @@
 {
   "status": "NORMAL",
-  "outlookText": "Critical Weather Day is expected on Day-2 for severe thunderstorm ops across parts of central Illinois into northwest Indiana. The need for CWD to support excessive rainfall and flooding ops along the Gulf Coast continues to be monitored.",
+  "outlookText": "Critical Weather Day is expected on Day-2 for severe thunderstorm ops across parts of central Illinois into northwest Indiana. The need for CWD to support excessive rainfall, flooding, and tropical cyclone ops along the Gulf Coast continues to be monitored.",
   "days": [
     {
       "weekday": "Tue",
@@ -8,7 +8,8 @@
       "status": "Enhanced Caution",
       "hazards": [
         "rainstorm",
-        "flood"
+        "flood",
+        "tropical"
       ]
     },
     {
@@ -18,7 +19,8 @@
       "hazards": [
         "lightning",
         "rainstorm",
-        "flood"
+        "flood",
+        "tropical"
       ]
     },
     {
@@ -31,5 +33,5 @@
       ]
     }
   ],
-  "updated": "2026-06-16T14:32:22Z"
+  "updated": "2026-06-16T18:44:51Z"
 }
