@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T01:46:54Z",
+  "updated": "2026-06-16T07:08:39Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,74 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "FA.A.3.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "A",
+            "event": "Flood Watch",
+            "action": "EXB",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0003",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXB",
+              "office": "KJAN",
+              "phenomena": "FA",
+              "significance": "A",
+              "etn": "0003",
+              "start": "000000T0000Z",
+              "end": "260618T1200Z"
+            },
+            "issued": "2026-06-15T20:58:00-05:00",
+            "expires": "2026-06-16T05:00:00-05:00",
+            "areaDesc": "Scott; Newton; Smith; Jasper; Covington; Jones; Lamar; Forrest",
+            "ugcZones": [
+              "MSZ050",
+              "MSZ051",
+              "MSZ056",
+              "MSZ057",
+              "MSZ065",
+              "MSZ066",
+              "MSZ073",
+              "MSZ074"
+            ],
+            "sameCodes": [
+              "028123",
+              "028101",
+              "028129",
+              "028061",
+              "028031",
+              "028067",
+              "028073",
+              "028035"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Watch issued June 15 at 8:58PM CDT until June 18 at 7:00AM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WATCH IN EFFECT THROUGH THURSDAY MORNING",
+            "urgency": "Future",
+            "severity": "Severe",
+            "certainty": "Possible",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "BMX": {
       "name": "Birmingham, AL",
@@ -22,9 +87,126 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 2,
+      "comparisonCount": 2,
+      "comparison": [
+        {
+          "key": "RP.S.19.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "RP",
+            "significance": "S",
+            "event": "Rip Current Statement",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0019",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "RP",
+              "significance": "S",
+              "etn": "0019",
+              "start": "260617T1800Z",
+              "end": "260620T0700Z"
+            },
+            "issued": "2026-06-16T01:52:00-05:00",
+            "expires": "2026-06-16T10:00:00-05:00",
+            "areaDesc": "Mobile Coastal; Baldwin Coastal; Escambia Coastal; Santa Rosa Coastal; Okaloosa Coastal",
+            "ugcZones": [
+              "ALZ265",
+              "ALZ266",
+              "FLZ202",
+              "FLZ204",
+              "FLZ206"
+            ],
+            "sameCodes": [
+              "001097",
+              "001003",
+              "012033",
+              "012113",
+              "012091"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Rip Current Statement issued June 16 at 1:52AM CDT until June 20 at 2:00AM CDT by NWS Mobile AL",
+            "nwsHeadline": "HIGH RIP CURRENT RISK IN EFFECT FROM WEDNESDAY AFTERNOON THROUGH LATE FRIDAY NIGHT",
+            "urgency": "Expected",
+            "severity": "Moderate",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FA.A.3.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "A",
+            "event": "Flood Watch",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0003",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "FA",
+              "significance": "A",
+              "etn": "0003",
+              "start": "260616T0500Z",
+              "end": "260618T2300Z"
+            },
+            "issued": "2026-06-16T00:00:00-05:00",
+            "expires": "2026-06-16T08:00:00-05:00",
+            "areaDesc": "Wayne; Perry; Greene; Stone; George",
+            "ugcZones": [
+              "MSZ067",
+              "MSZ075",
+              "MSZ076",
+              "MSZ078",
+              "MSZ079"
+            ],
+            "sameCodes": [
+              "028153",
+              "028111",
+              "028041",
+              "028131",
+              "028039"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Watch issued June 16 at 12:00AM CDT until June 18 at 6:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WATCH IN EFFECT THROUGH THURSDAY AFTERNOON",
+            "urgency": "Future",
+            "severity": "Severe",
+            "certainty": "Possible",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "HUN": {
       "name": "Huntsville, AL",
