@@ -1,16 +1,7 @@
 {
   "status": "NORMAL",
-  "outlookText": "Critical Weather Day is not expected in the next 3 days. However, the need for CWD is being monitored to support excessive rainfall, flooding, and severe weather operations.",
+  "outlookText": "Critical Weather Day is expected on Day-2 for severe thunderstorm ops across parts of central Illinois into northwest Indiana. The need for CWD to support excessive rainfall and flooding ops along the Gulf Coast continues to be monitored.",
   "days": [
-    {
-      "weekday": "Mon",
-      "date": "Jun 15",
-      "status": "Enhanced Caution",
-      "hazards": [
-        "rainstorm",
-        "flood"
-      ]
-    },
     {
       "weekday": "Tue",
       "date": "Jun 16",
@@ -23,13 +14,19 @@
     {
       "weekday": "Wed",
       "date": "Jun 17",
-      "status": "Enhanced Caution",
+      "status": "Critical",
       "hazards": [
         "lightning",
         "rainstorm",
         "flood"
       ]
+    },
+    {
+      "weekday": "Thu",
+      "date": "Jun 18",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-06-16T04:21:09Z"
+  "updated": "2026-06-16T09:38:33Z"
 }
