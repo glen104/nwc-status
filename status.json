@@ -25,9 +25,12 @@
     {
       "weekday": "Fri",
       "date": "Jun 19",
-      "status": "Normal",
-      "hazards": []
+      "status": "Enhanced Caution",
+      "hazards": [
+        "rainstorm",
+        "flood"
+      ]
     }
   ],
-  "updated": "2026-06-17T19:30:55Z"
+  "updated": "2026-06-17T21:30:57Z"
 }
