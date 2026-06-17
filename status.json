@@ -1,5 +1,5 @@
 {
-  "status": "NORMAL",
+  "status": "Critical Weather Day",
   "outlookText": "Critical Weather Day will be in effect today for severe thunderstorm ops across parts of central Illinois into northwest Indiana. Meanwhile, the need for CWD to support excessive rainfall, flooding, and tropical cyclone ops along the Gulf Coast continues to be monitored.",
   "days": [
     {
@@ -29,5 +29,5 @@
       "hazards": []
     }
   ],
-  "updated": "2026-06-17T10:11:16Z"
+  "updated": "2026-06-17T14:01:35Z"
 }
