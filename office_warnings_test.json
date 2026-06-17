@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T12:01:31Z",
+  "updated": "2026-06-17T15:50:35Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,247 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 3,
+      "comparisonCount": 3,
+      "comparison": [
+        {
+          "key": "FL.W.19.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0019",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0019",
+              "start": "260619T1042Z",
+              "end": "260622T2009Z"
+            },
+            "issued": "2026-06-17T10:34:00-05:00",
+            "expires": "2026-06-17T22:45:00-05:00",
+            "areaDesc": "Clarke, MS",
+            "ugcZones": [
+              "MSC023"
+            ],
+            "sameCodes": [
+              "028023"
+            ],
+            "polygon": [
+              [
+                32,
+                -88.78
+              ],
+              [
+                32.08,
+                -88.83
+              ],
+              [
+                32.16,
+                -88.9
+              ],
+              [
+                32.2,
+                -88.79
+              ],
+              [
+                32.11,
+                -88.73
+              ],
+              [
+                32.05,
+                -88.68
+              ],
+              [
+                32,
+                -88.78
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 17 at 10:34AM CDT until June 22 at 3:09PM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM LATE THURSDAY NIGHT TO MONDAY AFTERNOON",
+            "urgency": "Expected",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.18.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0018",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0018",
+              "start": "260618T1817Z",
+              "end": "260622T0600Z"
+            },
+            "issued": "2026-06-17T10:31:00-05:00",
+            "expires": "2026-06-17T22:45:00-05:00",
+            "areaDesc": "Jones, MS",
+            "ugcZones": [
+              "MSC067"
+            ],
+            "sameCodes": [
+              "028067"
+            ],
+            "polygon": [
+              [
+                31.37,
+                -89.15
+              ],
+              [
+                31.56,
+                -89.23
+              ],
+              [
+                31.81,
+                -89.13
+              ],
+              [
+                31.82,
+                -89.02
+              ],
+              [
+                31.56,
+                -89.11
+              ],
+              [
+                31.4,
+                -89.14
+              ],
+              [
+                31.37,
+                -89.15
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": "Old Sandersville\nRoad",
+            "headline": "Flood Warning issued June 17 at 10:31AM CDT until June 22 at 1:00AM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM THURSDAY AFTERNOON TO EARLY MONDAY MORNING",
+            "urgency": "Expected",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.16.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0016",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0016",
+              "start": "000000T0000Z",
+              "end": "260622T0949Z"
+            },
+            "issued": "2026-06-17T10:29:00-05:00",
+            "expires": "2026-06-17T22:30:00-05:00",
+            "areaDesc": "Forrest, MS",
+            "ugcZones": [
+              "MSC035"
+            ],
+            "sameCodes": [
+              "028035"
+            ],
+            "polygon": [
+              [
+                31,
+                -89.15
+              ],
+              [
+                31.03,
+                -89.25
+              ],
+              [
+                31.21,
+                -89.51
+              ],
+              [
+                31.27,
+                -89.43
+              ],
+              [
+                31.13,
+                -89.24
+              ],
+              [
+                31.1,
+                -89.15
+              ],
+              [
+                31,
+                -89.15
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 17 at 10:29AM CDT until June 22 at 4:49AM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL EARLY MONDAY MORNING",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "BMX": {
       "name": "Birmingham, AL",
@@ -22,8 +260,8 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
+      "apiCount": 2,
+      "comparisonCount": 2,
       "comparison": [
         {
           "key": "SU.Y.4.KMOB",
@@ -33,13 +271,13 @@
             "phenomena": "SU",
             "significance": "Y",
             "event": "High Surf Advisory",
-            "action": "NEW",
+            "action": "CON",
             "office": "KMOB",
             "wfo": "MOB",
             "etn": "0004",
             "vtec": {
               "productClass": "O",
-              "action": "NEW",
+              "action": "CON",
               "office": "KMOB",
               "phenomena": "SU",
               "significance": "Y",
@@ -47,8 +285,8 @@
               "start": "260618T0500Z",
               "end": "260619T2300Z"
             },
-            "issued": "2026-06-17T01:15:00-05:00",
-            "expires": "2026-06-17T09:00:00-05:00",
+            "issued": "2026-06-17T09:39:00-05:00",
+            "expires": "2026-06-17T17:45:00-05:00",
             "areaDesc": "Mobile Coastal; Baldwin Coastal; Escambia Coastal; Santa Rosa Coastal; Okaloosa Coastal",
             "ugcZones": [
               "ALZ265",
@@ -72,10 +310,68 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "High Surf Advisory issued June 17 at 1:15AM CDT until June 19 at 6:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": "HIGH RIP CURRENT RISK NOW IN EFFECT THROUGH SATURDAY AFTERNOON... ...HIGH SURF ADVISORY IN EFFECT FROM MIDNIGHT TONIGHT TO 6 PM CDT FRIDAY",
+            "headline": "High Surf Advisory issued June 17 at 9:39AM CDT until June 19 at 6:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "HIGH RIP CURRENT RISK REMAINS IN EFFECT THROUGH SATURDAY AFTERNOON... ...HIGH SURF ADVISORY REMAINS IN EFFECT FROM MIDNIGHT TONIGHT TO 6 PM CDT FRIDAY",
             "urgency": "Expected",
             "severity": "Minor",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "RP.S.19.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "RP",
+            "significance": "S",
+            "event": "Rip Current Statement",
+            "action": "CON",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0019",
+            "vtec": {
+              "productClass": "O",
+              "action": "CON",
+              "office": "KMOB",
+              "phenomena": "RP",
+              "significance": "S",
+              "etn": "0019",
+              "start": "000000T0000Z",
+              "end": "260620T2300Z"
+            },
+            "issued": "2026-06-17T09:39:00-05:00",
+            "expires": "2026-06-17T17:45:00-05:00",
+            "areaDesc": "Mobile Coastal; Baldwin Coastal; Escambia Coastal; Santa Rosa Coastal; Okaloosa Coastal",
+            "ugcZones": [
+              "ALZ265",
+              "ALZ266",
+              "FLZ202",
+              "FLZ204",
+              "FLZ206"
+            ],
+            "sameCodes": [
+              "001097",
+              "001003",
+              "012033",
+              "012113",
+              "012091"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Rip Current Statement issued June 17 at 9:39AM CDT until June 20 at 6:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "HIGH RIP CURRENT RISK REMAINS IN EFFECT THROUGH SATURDAY AFTERNOON... ...HIGH SURF ADVISORY REMAINS IN EFFECT FROM MIDNIGHT TONIGHT TO 6 PM CDT FRIDAY",
+            "urgency": "Expected",
+            "severity": "Moderate",
             "certainty": "Likely",
             "messageType": "Alert"
           },
