@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T14:24:02Z",
+  "updated": "2026-06-18T17:38:14Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,8 +8,8 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 3,
-      "comparisonCount": 3,
+      "apiCount": 4,
+      "comparisonCount": 4,
       "comparison": [
         {
           "key": "TO.A.351.KJAN",
@@ -68,7 +68,86 @@
           "apiOnly": true
         },
         {
-          "key": "FF.W.32.KJAN",
+          "key": "FL.W.20.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0020",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0020",
+              "start": "260619T0345Z",
+              "end": "260621T2011Z"
+            },
+            "issued": "2026-06-18T12:29:00-05:00",
+            "expires": "2026-06-19T00:30:00-05:00",
+            "areaDesc": "Simpson, MS",
+            "ugcZones": [
+              "MSC127"
+            ],
+            "sameCodes": [
+              "028127"
+            ],
+            "polygon": [
+              [
+                31.92,
+                -90.09
+              ],
+              [
+                32,
+                -89.97
+              ],
+              [
+                32.05,
+                -89.88
+              ],
+              [
+                32.05,
+                -89.73
+              ],
+              [
+                31.89,
+                -89.89
+              ],
+              [
+                31.82,
+                -90.05
+              ],
+              [
+                31.92,
+                -90.09
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 18 at 12:29PM CDT until June 21 at 3:11PM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM THIS EVENING TO SUNDAY AFTERNOON",
+            "urgency": "Expected",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FF.W.33.KJAN",
           "iem": null,
           "api": {
             "source": "api",
@@ -78,76 +157,92 @@
             "action": "NEW",
             "office": "KJAN",
             "wfo": "JAN",
-            "etn": "0032",
+            "etn": "0033",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KJAN",
               "phenomena": "FF",
               "significance": "W",
-              "etn": "0032",
-              "start": "260618T1352Z",
-              "end": "260618T1745Z"
+              "etn": "0033",
+              "start": "260618T1454Z",
+              "end": "260618T1845Z"
             },
-            "issued": "2026-06-18T08:52:00-05:00",
-            "expires": "2026-06-18T12:45:00-05:00",
-            "areaDesc": "Rankin, MS; Scott, MS; Simpson, MS; Smith, MS",
+            "issued": "2026-06-18T09:54:00-05:00",
+            "expires": "2026-06-18T13:45:00-05:00",
+            "areaDesc": "Forrest, MS; Lamar, MS",
             "ugcZones": [
-              "MSC121",
-              "MSC123",
-              "MSC127",
-              "MSC129"
+              "MSC035",
+              "MSC073"
             ],
             "sameCodes": [
-              "028121",
-              "028123",
-              "028127",
-              "028129"
+              "028035",
+              "028073"
             ],
             "polygon": [
               [
-                32.53,
-                -89.77
+                30.91,
+                -89.14
               ],
               [
-                32.49,
-                -89.32
+                30.91,
+                -89.34
               ],
               [
-                32.46,
-                -89.32
+                31,
+                -89.34
               ],
               [
-                32.44,
-                -89.32
+                31.01,
+                -89.35
               ],
               [
-                32.42,
-                -89.32
+                31.01,
+                -89.42
               ],
               [
-                31.97,
-                -89.45
+                30.98,
+                -89.43
               ],
               [
-                31.92,
+                30.98,
+                -89.48
+              ],
+              [
+                31,
+                -89.48
+              ],
+              [
+                31,
+                -89.5
+              ],
+              [
+                31.01,
+                -89.5
+              ],
+              [
+                31.01,
+                -89.55
+              ],
+              [
+                31,
+                -89.55
+              ],
+              [
+                31,
                 -89.65
               ],
               [
-                31.87,
-                -89.87
+                31.02,
+                -89.65
               ],
               [
-                32.04,
-                -90.06
+                31.33,
+                -89.15
               ],
               [
-                32.05,
-                -90.05
-              ],
-              [
-                32.53,
-                -89.77
+                30.91,
+                -89.14
               ]
             ],
             "threatLevel": "STANDARD",
@@ -157,7 +252,7 @@
             "windSpeed": null,
             "detectionSource": "RADAR INDICATED",
             "nearestLocation": null,
-            "headline": "Flash Flood Warning issued June 18 at 8:52AM CDT until June 18 at 12:45PM CDT by NWS Jackson MS",
+            "headline": "Flash Flood Warning issued June 18 at 9:54AM CDT until June 18 at 1:45PM CDT by NWS Jackson MS",
             "nwsHeadline": null,
             "urgency": "Immediate",
             "severity": "Severe",
@@ -316,8 +411,8 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
+      "apiCount": 6,
+      "comparisonCount": 6,
       "comparison": [
         {
           "key": "TO.A.351.KBMX",
@@ -327,40 +422,30 @@
             "phenomena": "TO",
             "significance": "A",
             "event": "Tornado Watch",
-            "action": "NEW",
+            "action": "EXA",
             "office": "KBMX",
             "wfo": "BMX",
             "etn": "0351",
             "vtec": {
               "productClass": "O",
-              "action": "NEW",
+              "action": "EXA",
               "office": "KBMX",
               "phenomena": "TO",
               "significance": "A",
               "etn": "0351",
-              "start": "260618T1255Z",
+              "start": "000000T0000Z",
               "end": "260618T2200Z"
             },
-            "issued": "2026-06-18T07:55:00-05:00",
+            "issued": "2026-06-18T12:19:00-05:00",
             "expires": "2026-06-18T17:00:00-05:00",
-            "areaDesc": "Dallas, AL; Greene, AL; Hale, AL; Lowndes, AL; Marengo, AL; Perry, AL; Sumter, AL",
+            "areaDesc": "Montgomery, AL; Pike, AL",
             "ugcZones": [
-              "ALC047",
-              "ALC063",
-              "ALC065",
-              "ALC085",
-              "ALC091",
-              "ALC105",
-              "ALC119"
+              "ALC101",
+              "ALC109"
             ],
             "sameCodes": [
-              "001047",
-              "001063",
-              "001065",
-              "001085",
-              "001091",
-              "001105",
-              "001119"
+              "001101",
+              "001109"
             ],
             "polygon": null,
             "threatLevel": "STANDARD",
@@ -370,7 +455,7 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Tornado Watch issued June 18 at 7:55AM CDT until June 18 at 5:00PM CDT by NWS Birmingham AL",
+            "headline": "Tornado Watch issued June 18 at 12:19PM CDT until June 18 at 5:00PM CDT by NWS Birmingham AL",
             "nwsHeadline": null,
             "urgency": "Future",
             "severity": "Extreme",
@@ -382,7 +467,199 @@
           "apiOnly": true
         },
         {
-          "key": "FA.Y.41.KBMX",
+          "key": "FL.W.8.KBMX",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "NEW",
+            "office": "KBMX",
+            "wfo": "BMX",
+            "etn": "0008",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KBMX",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0008",
+              "start": "260619T1712Z",
+              "end": "260620T1931Z"
+            },
+            "issued": "2026-06-18T09:46:00-05:00",
+            "expires": "2026-06-19T01:00:00-05:00",
+            "areaDesc": "Sumter, AL",
+            "ugcZones": [
+              "ALC119"
+            ],
+            "sameCodes": [
+              "001119"
+            ],
+            "polygon": [
+              [
+                32.63,
+                -88.19
+              ],
+              [
+                32.5,
+                -88.12
+              ],
+              [
+                32.44,
+                -88.05
+              ],
+              [
+                32.42,
+                -88.08
+              ],
+              [
+                32.47,
+                -88.2
+              ],
+              [
+                32.61,
+                -88.23
+              ],
+              [
+                32.63,
+                -88.19
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 18 at 9:46AM CDT until June 20 at 2:31PM CDT by NWS Birmingham AL",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM FRIDAY AFTERNOON TO EARLY SATURDAY AFTERNOON",
+            "urgency": "Expected",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FF.W.13.KBMX",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FF",
+            "significance": "W",
+            "event": "Flash Flood Warning",
+            "action": "NEW",
+            "office": "KBMX",
+            "wfo": "BMX",
+            "etn": "0013",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KBMX",
+              "phenomena": "FF",
+              "significance": "W",
+              "etn": "0013",
+              "start": "260618T1619Z",
+              "end": "260618T1745Z"
+            },
+            "issued": "2026-06-18T11:19:00-05:00",
+            "expires": "2026-06-18T12:45:00-05:00",
+            "areaDesc": "Jefferson, AL; Shelby, AL",
+            "ugcZones": [
+              "ALC073",
+              "ALC117"
+            ],
+            "sameCodes": [
+              "001073",
+              "001117"
+            ],
+            "polygon": [
+              [
+                33.76,
+                -86.54
+              ],
+              [
+                33.74,
+                -86.54
+              ],
+              [
+                33.72,
+                -86.53
+              ],
+              [
+                33.63,
+                -86.54
+              ],
+              [
+                33.62,
+                -86.55
+              ],
+              [
+                33.56,
+                -86.55
+              ],
+              [
+                33.55,
+                -86.54
+              ],
+              [
+                33.07,
+                -86.57
+              ],
+              [
+                33.08,
+                -86.95
+              ],
+              [
+                33.1,
+                -86.95
+              ],
+              [
+                33.1,
+                -86.97
+              ],
+              [
+                33.16,
+                -86.97
+              ],
+              [
+                33.16,
+                -86.98
+              ],
+              [
+                33.79,
+                -86.84
+              ],
+              [
+                33.76,
+                -86.54
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flash Flood Warning issued June 18 at 11:19AM CDT until June 18 at 12:45PM CDT by NWS Birmingham AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FA.Y.44.KBMX",
           "iem": null,
           "api": {
             "source": "api",
@@ -392,56 +669,249 @@
             "action": "NEW",
             "office": "KBMX",
             "wfo": "BMX",
-            "etn": "0041",
+            "etn": "0044",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KBMX",
               "phenomena": "FA",
               "significance": "Y",
-              "etn": "0041",
-              "start": "260618T1414Z",
-              "end": "260618T1715Z"
+              "etn": "0044",
+              "start": "260618T1733Z",
+              "end": "260618T1930Z"
             },
-            "issued": "2026-06-18T09:14:00-05:00",
-            "expires": "2026-06-18T12:15:00-05:00",
-            "areaDesc": "Greene, AL; Sumter, AL",
+            "issued": "2026-06-18T12:33:00-05:00",
+            "expires": "2026-06-18T14:30:00-05:00",
+            "areaDesc": "Pike, AL",
             "ugcZones": [
-              "ALC063",
-              "ALC119"
+              "ALC109"
             ],
             "sameCodes": [
-              "001063",
-              "001119"
+              "001109"
             ],
             "polygon": [
               [
-                32.42,
-                -88.04
+                31.97,
+                -86
               ],
               [
-                32.31,
-                -88.06
+                32.05,
+                -86
               ],
               [
-                32.32,
-                -88.42
+                32.05,
+                -85.98
               ],
               [
-                32.99,
-                -88.34
+                32.04,
+                -85.98
               ],
               [
-                32.99,
-                -87.86
+                32.04,
+                -85.96
               ],
               [
-                32.44,
-                -88.03
+                32.02,
+                -85.89
               ],
               [
-                32.42,
-                -88.04
+                31.97,
+                -85.88
+              ],
+              [
+                31.97,
+                -85.79
+              ],
+              [
+                31.62,
+                -85.77
+              ],
+              [
+                31.62,
+                -86.18
+              ],
+              [
+                31.65,
+                -86.16
+              ],
+              [
+                31.66,
+                -86.16
+              ],
+              [
+                31.66,
+                -86.15
+              ],
+              [
+                31.77,
+                -86.15
+              ],
+              [
+                31.79,
+                -86.15
+              ],
+              [
+                31.79,
+                -86.2
+              ],
+              [
+                31.81,
+                -86.2
+              ],
+              [
+                31.83,
+                -86.18
+              ],
+              [
+                31.89,
+                -86.17
+              ],
+              [
+                31.97,
+                -86.19
+              ],
+              [
+                31.97,
+                -86
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": "The Next Hour",
+            "headline": "Flood Advisory issued June 18 at 12:33PM CDT until June 18 at 2:30PM CDT by NWS Birmingham AL",
+            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 230 PM CDT THIS AFTERNOON",
+            "urgency": "Expected",
+            "severity": "Minor",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FA.Y.43.KBMX",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "Y",
+            "event": "Flood Advisory",
+            "action": "NEW",
+            "office": "KBMX",
+            "wfo": "BMX",
+            "etn": "0043",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KBMX",
+              "phenomena": "FA",
+              "significance": "Y",
+              "etn": "0043",
+              "start": "260618T1634Z",
+              "end": "260618T1930Z"
+            },
+            "issued": "2026-06-18T11:34:00-05:00",
+            "expires": "2026-06-18T14:30:00-05:00",
+            "areaDesc": "Blount, AL; Etowah, AL; St. Clair, AL",
+            "ugcZones": [
+              "ALC009",
+              "ALC055",
+              "ALC115"
+            ],
+            "sameCodes": [
+              "001009",
+              "001055",
+              "001115"
+            ],
+            "polygon": [
+              [
+                34.05,
+                -86.71
+              ],
+              [
+                34.05,
+                -86.68
+              ],
+              [
+                34.08,
+                -86.7
+              ],
+              [
+                34.09,
+                -86.69
+              ],
+              [
+                34.08,
+                -86.67
+              ],
+              [
+                34.11,
+                -86.65
+              ],
+              [
+                34.12,
+                -86.6
+              ],
+              [
+                34.18,
+                -86.55
+              ],
+              [
+                34.25,
+                -86.51
+              ],
+              [
+                34.26,
+                -86.44
+              ],
+              [
+                34.1,
+                -86.3
+              ],
+              [
+                34.18,
+                -86.19
+              ],
+              [
+                34.19,
+                -86.11
+              ],
+              [
+                34.2,
+                -86.1
+              ],
+              [
+                33.51,
+                -86.24
+              ],
+              [
+                33.53,
+                -86.48
+              ],
+              [
+                33.55,
+                -86.48
+              ],
+              [
+                33.55,
+                -86.54
+              ],
+              [
+                33.76,
+                -86.53
+              ],
+              [
+                33.77,
+                -86.61
+              ],
+              [
+                34.05,
+                -86.71
               ]
             ],
             "threatLevel": "STANDARD",
@@ -450,12 +920,66 @@
             "hailSize": null,
             "windSpeed": null,
             "detectionSource": null,
-            "nearestLocation": "The Area",
-            "headline": "Flood Advisory issued June 18 at 9:14AM CDT until June 18 at 12:15PM CDT by NWS Birmingham AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 1215 PM CDT THIS AFTERNOON",
+            "nearestLocation": null,
+            "headline": "Flood Advisory issued June 18 at 11:34AM CDT until June 18 at 2:30PM CDT by NWS Birmingham AL",
+            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 230 PM CDT THIS AFTERNOON",
             "urgency": "Expected",
             "severity": "Minor",
             "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FA.A.6.KBMX",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "A",
+            "event": "Flood Watch",
+            "action": "EXA",
+            "office": "KBMX",
+            "wfo": "BMX",
+            "etn": "0006",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXA",
+              "office": "KBMX",
+              "phenomena": "FA",
+              "significance": "A",
+              "etn": "0006",
+              "start": "000000T0000Z",
+              "end": "260620T0000Z"
+            },
+            "issued": "2026-06-18T11:14:00-05:00",
+            "expires": "2026-06-18T19:00:00-05:00",
+            "areaDesc": "Blount; Etowah; Cherokee",
+            "ugcZones": [
+              "ALZ017",
+              "ALZ018",
+              "ALZ020"
+            ],
+            "sameCodes": [
+              "001009",
+              "001055",
+              "001019"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Watch issued June 18 at 11:14AM CDT until June 19 at 7:00PM CDT by NWS Birmingham AL",
+            "nwsHeadline": "FLOOD WATCH IN EFFECT THROUGH FRIDAY EVENING",
+            "urgency": "Future",
+            "severity": "Severe",
+            "certainty": "Possible",
             "messageType": "Alert"
           },
           "inBoth": false,
@@ -467,90 +991,9 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 3,
-      "comparisonCount": 3,
+      "apiCount": 16,
+      "comparisonCount": 16,
       "comparison": [
-        {
-          "key": "TO.W.29.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "TO",
-            "significance": "W",
-            "event": "Tornado Warning",
-            "action": "NEW",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0029",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KMOB",
-              "phenomena": "TO",
-              "significance": "W",
-              "etn": "0029",
-              "start": "260618T1411Z",
-              "end": "260618T1500Z"
-            },
-            "issued": "2026-06-18T09:11:00-05:00",
-            "expires": "2026-06-18T10:00:00-05:00",
-            "areaDesc": "George, MS; Greene, MS; Perry, MS; Stone, MS",
-            "ugcZones": [
-              "MSC039",
-              "MSC041",
-              "MSC111",
-              "MSC131"
-            ],
-            "sameCodes": [
-              "028039",
-              "028041",
-              "028111",
-              "028131"
-            ],
-            "polygon": [
-              [
-                30.77,
-                -88.92
-              ],
-              [
-                30.88,
-                -89.09
-              ],
-              [
-                31.38,
-                -88.73
-              ],
-              [
-                31.22,
-                -88.48
-              ],
-              [
-                30.77,
-                -88.92
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": {
-              "direction": "NORTHEAST",
-              "speed_mph": 40,
-              "bearing": 45
-            },
-            "motionStr": "Northeast at 40 MPH",
-            "hailSize": "Up to .75\"",
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Tornado Warning issued June 18 at 9:11AM CDT until June 18 at 10:00AM CDT by NWS Mobile AL",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Extreme",
-            "certainty": "Observed",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
         {
           "key": "TO.A.351.KMOB",
           "iem": null,
@@ -636,29 +1079,997 @@
           "apiOnly": true
         },
         {
-          "key": "FL.W.23.KMOB",
+          "key": "SV.W.69.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "W",
+            "event": "Severe Thunderstorm Warning",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0069",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "SV",
+              "significance": "W",
+              "etn": "0069",
+              "start": "260618T1715Z",
+              "end": "260618T1815Z"
+            },
+            "issued": "2026-06-18T12:15:00-05:00",
+            "expires": "2026-06-18T13:15:00-05:00",
+            "areaDesc": "Mobile, AL; George, MS",
+            "ugcZones": [
+              "ALC097",
+              "MSC039"
+            ],
+            "sameCodes": [
+              "001097",
+              "028039"
+            ],
+            "polygon": [
+              [
+                30.9,
+                -88.64
+              ],
+              [
+                30.98,
+                -87.98
+              ],
+              [
+                30.66,
+                -88.41
+              ],
+              [
+                30.74,
+                -88.41
+              ],
+              [
+                30.74,
+                -88.88
+              ],
+              [
+                30.9,
+                -88.64
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": {
+              "direction": "EAST",
+              "speed_mph": 20,
+              "bearing": 90
+            },
+            "motionStr": "East at 20 MPH",
+            "hailSize": "Up to .75\"",
+            "windSpeed": "60 MPH",
+            "detectionSource": "POSSIBLE",
+            "nearestLocation": null,
+            "headline": "Severe Thunderstorm Warning issued June 18 at 12:15PM CDT until June 18 at 1:15PM CDT by NWS Mobile AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.36.KMOB",
           "iem": null,
           "api": {
             "source": "api",
             "phenomena": "FL",
             "significance": "W",
             "event": "Flood Warning",
-            "action": "CON",
+            "action": "NEW",
             "office": "KMOB",
             "wfo": "MOB",
-            "etn": "0023",
+            "etn": "0036",
             "vtec": {
               "productClass": "O",
-              "action": "CON",
+              "action": "NEW",
               "office": "KMOB",
               "phenomena": "FL",
               "significance": "W",
-              "etn": "0023",
-              "start": "000000T0000Z",
+              "etn": "0036",
+              "start": "260618T2000Z",
+              "end": "260620T0900Z"
+            },
+            "issued": "2026-06-18T10:25:00-05:00",
+            "expires": "2026-06-18T22:30:00-05:00",
+            "areaDesc": "Mobile, AL",
+            "ugcZones": [
+              "ALC097"
+            ],
+            "sameCodes": [
+              "001097"
+            ],
+            "polygon": [
+              [
+                30.83,
+                -88.07
+              ],
+              [
+                30.83,
+                -88.05
+              ],
+              [
+                30.85,
+                -88.05
+              ],
+              [
+                30.87,
+                -88.03
+              ],
+              [
+                30.87,
+                -88.02
+              ],
+              [
+                30.82,
+                -88.04
+              ],
+              [
+                30.81,
+                -88.06
+              ],
+              [
+                30.82,
+                -88.07
+              ],
+              [
+                30.83,
+                -88.07
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 18 at 10:25AM CDT until June 20 at 4:00AM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM THIS AFTERNOON TO LATE FRIDAY NIGHT",
+            "urgency": "Expected",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.35.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0035",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0035",
+              "start": "260620T0325Z",
+              "end": "260622T1900Z"
+            },
+            "issued": "2026-06-18T10:23:00-05:00",
+            "expires": "2026-06-18T22:30:00-05:00",
+            "areaDesc": "Clarke, AL; Washington, AL",
+            "ugcZones": [
+              "ALC025",
+              "ALC129"
+            ],
+            "sameCodes": [
+              "001025",
+              "001129"
+            ],
+            "polygon": [
+              [
+                31.6,
+                -88.1
+              ],
+              [
+                31.6,
+                -88.04
+              ],
+              [
+                31.49,
+                -87.86
+              ],
+              [
+                31.14,
+                -87.92
+              ],
+              [
+                31.14,
+                -88.02
+              ],
+              [
+                31.49,
+                -87.93
+              ],
+              [
+                31.6,
+                -88.1
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 18 at 10:23AM CDT until June 22 at 2:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM FRIDAY EVENING TO MONDAY AFTERNOON",
+            "urgency": "Expected",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.34.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0034",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0034",
+              "start": "260619T0313Z",
+              "end": "260620T1500Z"
+            },
+            "issued": "2026-06-18T10:21:00-05:00",
+            "expires": "2026-06-18T22:30:00-05:00",
+            "areaDesc": "Baldwin, AL",
+            "ugcZones": [
+              "ALC003"
+            ],
+            "sameCodes": [
+              "001003"
+            ],
+            "polygon": [
+              [
+                30.62,
+                -87.79
+              ],
+              [
+                30.44,
+                -87.78
+              ],
+              [
+                30.44,
+                -87.83
+              ],
+              [
+                30.62,
+                -87.84
+              ],
+              [
+                30.62,
+                -87.79
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 18 at 10:21AM CDT until June 20 at 10:00AM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM THIS EVENING TO SATURDAY MORNING",
+            "urgency": "Expected",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.33.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0033",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0033",
+              "start": "260620T0325Z",
+              "end": "260621T0900Z"
+            },
+            "issued": "2026-06-18T10:19:00-05:00",
+            "expires": "2026-06-18T22:30:00-05:00",
+            "areaDesc": "Escambia, AL",
+            "ugcZones": [
+              "ALC053"
+            ],
+            "sameCodes": [
+              "001053"
+            ],
+            "polygon": [
+              [
+                31.14,
+                -87.04
+              ],
+              [
+                31.13,
+                -87.01
+              ],
+              [
+                31.07,
+                -87.09
+              ],
+              [
+                31.08,
+                -87.13
+              ],
+              [
+                31.14,
+                -87.04
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 18 at 10:19AM CDT until June 21 at 4:00AM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM FRIDAY EVENING TO LATE SATURDAY NIGHT",
+            "urgency": "Expected",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.31.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0031",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0031",
+              "start": "260619T1800Z",
+              "end": "260622T0200Z"
+            },
+            "issued": "2026-06-18T09:59:00-05:00",
+            "expires": "2026-06-18T22:00:00-05:00",
+            "areaDesc": "Covington, AL; Okaloosa, FL; Santa Rosa, FL",
+            "ugcZones": [
+              "ALC039",
+              "FLC091",
+              "FLC113"
+            ],
+            "sameCodes": [
+              "001039",
+              "012091",
+              "012113"
+            ],
+            "polygon": [
+              [
+                30.99,
+                -86.58
+              ],
+              [
+                30.99,
+                -86.52
+              ],
+              [
+                30.69,
+                -86.63
+              ],
+              [
+                30.69,
+                -86.67
+              ],
+              [
+                30.99,
+                -86.58
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 18 at 9:59AM CDT until June 21 at 9:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM FRIDAY AFTERNOON TO SUNDAY EVENING",
+            "urgency": "Expected",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.30.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0030",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KMOB",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0030",
+              "start": "260620T0200Z",
               "end": "000000T0000Z"
             },
-            "issued": "2026-06-18T09:22:00-05:00",
+            "issued": "2026-06-18T09:45:00-05:00",
+            "expires": "2026-06-18T21:45:00-05:00",
+            "areaDesc": "George, MS; Greene, MS; Jackson, MS",
+            "ugcZones": [
+              "MSC039",
+              "MSC041",
+              "MSC059"
+            ],
+            "sameCodes": [
+              "028039",
+              "028041",
+              "028059"
+            ],
+            "polygon": [
+              [
+                30.98,
+                -88.77
+              ],
+              [
+                30.98,
+                -88.72
+              ],
+              [
+                30.82,
+                -88.71
+              ],
+              [
+                30.74,
+                -88.64
+              ],
+              [
+                30.74,
+                -88.68
+              ],
+              [
+                30.82,
+                -88.79
+              ],
+              [
+                30.98,
+                -88.77
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 18 at 9:45AM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT FROM FRIDAY EVENING UNTIL FURTHER NOTICE",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.29.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0029",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KMOB",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0029",
+              "start": "260619T0236Z",
+              "end": "260621T1424Z"
+            },
+            "issued": "2026-06-18T09:50:00-05:00",
+            "expires": "2026-06-18T22:00:00-05:00",
+            "areaDesc": "Baldwin, AL",
+            "ugcZones": [
+              "ALC003"
+            ],
+            "sameCodes": [
+              "001003"
+            ],
+            "polygon": [
+              [
+                30.67,
+                -87.61
+              ],
+              [
+                30.6,
+                -87.47
+              ],
+              [
+                30.5,
+                -87.42
+              ],
+              [
+                30.5,
+                -87.46
+              ],
+              [
+                30.53,
+                -87.52
+              ],
+              [
+                30.57,
+                -87.53
+              ],
+              [
+                30.65,
+                -87.64
+              ],
+              [
+                30.67,
+                -87.61
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 18 at 9:50AM CDT until June 21 at 9:24AM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT FROM THIS EVENING TO SUNDAY MORNING",
+            "urgency": "Expected",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.28.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0028",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KMOB",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0028",
+              "start": "260619T0817Z",
+              "end": "260622T1434Z"
+            },
+            "issued": "2026-06-18T09:29:00-05:00",
             "expires": "2026-06-18T21:30:00-05:00",
+            "areaDesc": "Baldwin, AL; Escambia, FL",
+            "ugcZones": [
+              "ALC003",
+              "FLC033"
+            ],
+            "sameCodes": [
+              "001003",
+              "012033"
+            ],
+            "polygon": [
+              [
+                30.8,
+                -87.61
+              ],
+              [
+                30.8,
+                -87.56
+              ],
+              [
+                30.65,
+                -87.37
+              ],
+              [
+                30.51,
+                -87.44
+              ],
+              [
+                30.52,
+                -87.46
+              ],
+              [
+                30.64,
+                -87.4
+              ],
+              [
+                30.8,
+                -87.61
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 18 at 9:29AM CDT until June 22 at 9:34AM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT FROM LATE TONIGHT TO MONDAY MORNING",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.27.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0027",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KMOB",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0027",
+              "start": "260619T1017Z",
+              "end": "260622T0400Z"
+            },
+            "issued": "2026-06-18T09:37:00-05:00",
+            "expires": "2026-06-18T21:45:00-05:00",
+            "areaDesc": "Covington, AL; Escambia, AL; Okaloosa, FL; Santa Rosa, FL",
+            "ugcZones": [
+              "ALC039",
+              "ALC053",
+              "FLC091",
+              "FLC113"
+            ],
+            "sameCodes": [
+              "001039",
+              "001053",
+              "012091",
+              "012113"
+            ],
+            "polygon": [
+              [
+                30.99,
+                -86.74
+              ],
+              [
+                30.99,
+                -86.71
+              ],
+              [
+                30.75,
+                -86.72
+              ],
+              [
+                30.68,
+                -86.88
+              ],
+              [
+                30.7,
+                -86.9
+              ],
+              [
+                30.82,
+                -86.75
+              ],
+              [
+                30.99,
+                -86.74
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": "Baker Affecting Okaloosa",
+            "headline": "Flood Warning issued June 18 at 9:37AM CDT until June 21 at 11:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT FROM LATE TONIGHT TO SUNDAY EVENING",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.25.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0025",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KMOB",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0025",
+              "start": "260619T2300Z",
+              "end": "000000T0000Z"
+            },
+            "issued": "2026-06-18T09:51:00-05:00",
+            "expires": "2026-06-18T22:00:00-05:00",
+            "areaDesc": "Escambia, AL; Escambia, FL; Santa Rosa, FL",
+            "ugcZones": [
+              "ALC053",
+              "FLC033",
+              "FLC113"
+            ],
+            "sameCodes": [
+              "001053",
+              "012033",
+              "012113"
+            ],
+            "polygon": [
+              [
+                31,
+                -87.18
+              ],
+              [
+                31,
+                -87.15
+              ],
+              [
+                30.9,
+                -87.28
+              ],
+              [
+                30.77,
+                -87.29
+              ],
+              [
+                30.77,
+                -87.33
+              ],
+              [
+                30.93,
+                -87.31
+              ],
+              [
+                31,
+                -87.18
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 18 at 9:51AM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT FROM FRIDAY EVENING UNTIL FURTHER NOTICE",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FF.W.19.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FF",
+            "significance": "W",
+            "event": "Flash Flood Warning",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0019",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "FF",
+              "significance": "W",
+              "etn": "0019",
+              "start": "260618T1555Z",
+              "end": "260618T2200Z"
+            },
+            "issued": "2026-06-18T10:55:00-05:00",
+            "expires": "2026-06-18T17:00:00-05:00",
+            "areaDesc": "Perry, MS",
+            "ugcZones": [
+              "MSC111"
+            ],
+            "sameCodes": [
+              "028111"
+            ],
+            "polygon": [
+              [
+                31.25,
+                -89.15
+              ],
+              [
+                31.3,
+                -88.84
+              ],
+              [
+                31,
+                -88.84
+              ],
+              [
+                31,
+                -88.83
+              ],
+              [
+                30.91,
+                -88.83
+              ],
+              [
+                30.91,
+                -89.14
+              ],
+              [
+                31,
+                -89.14
+              ],
+              [
+                31,
+                -89.15
+              ],
+              [
+                31.25,
+                -89.15
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flash Flood Warning issued June 18 at 10:55AM CDT until June 18 at 5:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FF.W.18.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FF",
+            "significance": "W",
+            "event": "Flash Flood Warning",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0018",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "FF",
+              "significance": "W",
+              "etn": "0018",
+              "start": "260618T1531Z",
+              "end": "260618T2130Z"
+            },
+            "issued": "2026-06-18T10:31:00-05:00",
+            "expires": "2026-06-18T16:30:00-05:00",
             "areaDesc": "George, MS; Greene, MS",
             "ugcZones": [
               "MSC039",
@@ -671,31 +2082,39 @@
             "polygon": [
               [
                 31.43,
-                -88.57
+                -88.84
               ],
               [
                 31.43,
-                -88.46
+                -88.45
               ],
               [
-                31.08,
-                -88.54
+                30.85,
+                -88.42
               ],
               [
-                30.98,
-                -88.73
+                30.84,
+                -88.88
+              ],
+              [
+                30.91,
+                -88.88
+              ],
+              [
+                30.91,
+                -88.83
               ],
               [
                 31,
-                -88.75
+                -88.83
               ],
               [
-                31.1,
-                -88.58
+                31,
+                -88.84
               ],
               [
                 31.43,
-                -88.57
+                -88.84
               ]
             ],
             "threatLevel": "STANDARD",
@@ -703,13 +2122,189 @@
             "motionStr": "",
             "hailSize": null,
             "windSpeed": null,
-            "detectionSource": null,
+            "detectionSource": "RADAR INDICATED",
             "nearestLocation": null,
-            "headline": "Flood Warning issued June 18 at 9:22AM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD WARNING REMAINS IN EFFECT UNTIL FURTHER NOTICE",
+            "headline": "Flash Flood Warning issued June 18 at 10:31AM CDT until June 18 at 4:30PM CDT by NWS Mobile AL",
+            "nwsHeadline": null,
             "urgency": "Immediate",
             "severity": "Severe",
-            "certainty": "Observed",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FA.Y.35.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "Y",
+            "event": "Flood Advisory",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0035",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "FA",
+              "significance": "Y",
+              "etn": "0035",
+              "start": "260618T1725Z",
+              "end": "260618T2030Z"
+            },
+            "issued": "2026-06-18T12:25:00-05:00",
+            "expires": "2026-06-18T15:30:00-05:00",
+            "areaDesc": "Escambia, AL; Santa Rosa, FL",
+            "ugcZones": [
+              "ALC053",
+              "FLC113"
+            ],
+            "sameCodes": [
+              "001053",
+              "012113"
+            ],
+            "polygon": [
+              [
+                31,
+                -87.15
+              ],
+              [
+                31.23,
+                -87.02
+              ],
+              [
+                31.17,
+                -86.76
+              ],
+              [
+                30.82,
+                -86.94
+              ],
+              [
+                30.85,
+                -87.25
+              ],
+              [
+                30.85,
+                -87.24
+              ],
+              [
+                31,
+                -87.15
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": "The Area",
+            "headline": "Flood Advisory issued June 18 at 12:25PM CDT until June 18 at 3:30PM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 330 PM CDT THIS AFTERNOON",
+            "urgency": "Expected",
+            "severity": "Minor",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FA.A.3.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "A",
+            "event": "Flood Watch",
+            "action": "CON",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0003",
+            "vtec": {
+              "productClass": "O",
+              "action": "CON",
+              "office": "KMOB",
+              "phenomena": "FA",
+              "significance": "A",
+              "etn": "0003",
+              "start": "000000T0000Z",
+              "end": "260619T2300Z"
+            },
+            "issued": "2026-06-18T10:47:00-05:00",
+            "expires": "2026-06-18T19:00:00-05:00",
+            "areaDesc": "Choctaw; Washington; Clarke; Wilcox; Monroe; Conecuh; Butler; Crenshaw; Escambia; Covington; Mobile Inland; Baldwin Inland; Mobile Central; Baldwin Central; Mobile Coastal; Baldwin Coastal; Escambia Inland; Escambia Coastal; Santa Rosa Inland; Santa Rosa Coastal; Okaloosa Inland; Okaloosa Coastal; Wayne; Perry; Greene; Stone; George",
+            "ugcZones": [
+              "ALZ051",
+              "ALZ052",
+              "ALZ053",
+              "ALZ054",
+              "ALZ055",
+              "ALZ056",
+              "ALZ057",
+              "ALZ058",
+              "ALZ059",
+              "ALZ060",
+              "ALZ261",
+              "ALZ262",
+              "ALZ263",
+              "ALZ264",
+              "ALZ265",
+              "ALZ266",
+              "FLZ201",
+              "FLZ202",
+              "FLZ203",
+              "FLZ204",
+              "FLZ205",
+              "FLZ206",
+              "MSZ067",
+              "MSZ075",
+              "MSZ076",
+              "MSZ078",
+              "MSZ079"
+            ],
+            "sameCodes": [
+              "001023",
+              "001129",
+              "001025",
+              "001131",
+              "001099",
+              "001035",
+              "001013",
+              "001041",
+              "001053",
+              "001039",
+              "001097",
+              "001003",
+              "012033",
+              "012113",
+              "012091",
+              "028153",
+              "028111",
+              "028041",
+              "028131",
+              "028039"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": "The Coast",
+            "headline": "Flood Watch issued June 18 at 10:47AM CDT until June 19 at 6:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "THIS IS A PARTICULARLY DANGEROUS AND LIFE THREATENING SITUATION... ...FLOOD WATCH REMAINS IN EFFECT THROUGH FRIDAY AFTERNOON",
+            "urgency": "Future",
+            "severity": "Severe",
+            "certainty": "Possible",
             "messageType": "Alert"
           },
           "inBoth": false,
