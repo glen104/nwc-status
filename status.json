@@ -1,6 +1,6 @@
 {
-  "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day remains in effect through 1200Z this morning for excessive rainfall and flooding ops across portions of the Deep South and central Gulf Coast. While CWD is not currently expected through the next 3 days, conditions are being monitored for possible CWD today (Friday) due to continued excessive rainfall and flooding potential across portions of the Gulf Coast region, as well as tomorrow (Saturday) due to severe thunderstorm and excessive rainfall threats from the Central Plains into the Middle Mississippi Valley and critical wildfire risk across the Four Corners region.",
+  "status": "NORMAL",
+  "outlookText": "CWD is not expected in the next three days, however NCO continues to monitor excessive rainfall and flood concerns through the weekend along with severe thunderstorm and fire wx threats on Saturday.",
   "days": [
     {
       "weekday": "Fri",
@@ -28,5 +28,5 @@
       "hazards": []
     }
   ],
-  "updated": "2026-06-19T11:12:20Z"
+  "updated": "2026-06-19T14:21:48Z"
 }
