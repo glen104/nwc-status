@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T21:39:46Z",
+  "updated": "2026-06-19T22:35:03Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -97,123 +97,15 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "FA.Y.57.KBMX",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FA",
-            "significance": "Y",
-            "event": "Flood Advisory",
-            "action": "NEW",
-            "office": "KBMX",
-            "wfo": "BMX",
-            "etn": "0057",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KBMX",
-              "phenomena": "FA",
-              "significance": "Y",
-              "etn": "0057",
-              "start": "260619T1903Z",
-              "end": "260619T2215Z"
-            },
-            "issued": "2026-06-19T14:03:00-05:00",
-            "expires": "2026-06-19T17:15:00-05:00",
-            "areaDesc": "Pike, AL",
-            "ugcZones": [
-              "ALC109"
-            ],
-            "sameCodes": [
-              "001109"
-            ],
-            "polygon": [
-              [
-                31.67,
-                -85.72
-              ],
-              [
-                31.67,
-                -85.84
-              ],
-              [
-                31.62,
-                -85.89
-              ],
-              [
-                31.62,
-                -86.18
-              ],
-              [
-                31.66,
-                -86.16
-              ],
-              [
-                31.66,
-                -86.15
-              ],
-              [
-                31.77,
-                -86.15
-              ],
-              [
-                31.79,
-                -86.15
-              ],
-              [
-                31.79,
-                -86.2
-              ],
-              [
-                31.89,
-                -86.17
-              ],
-              [
-                31.96,
-                -86.19
-              ],
-              [
-                31.97,
-                -86
-              ],
-              [
-                31.74,
-                -85.72
-              ],
-              [
-                31.67,
-                -85.72
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": "Roadways",
-            "headline": "Flood Advisory issued June 19 at 2:03PM CDT until June 19 at 5:15PM CDT by NWS Birmingham AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 515 PM CDT THIS AFTERNOON",
-            "urgency": "Expected",
-            "severity": "Minor",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 10,
-      "comparisonCount": 10,
+      "apiCount": 11,
+      "comparisonCount": 11,
       "comparison": [
         {
           "key": "SU.Y.4.KMOB",
@@ -1054,6 +946,91 @@
             "nwsHeadline": null,
             "urgency": "Immediate",
             "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FA.Y.40.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "Y",
+            "event": "Flood Advisory",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0040",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "FA",
+              "significance": "Y",
+              "etn": "0040",
+              "start": "260619T2149Z",
+              "end": "260620T0045Z"
+            },
+            "issued": "2026-06-19T16:49:00-05:00",
+            "expires": "2026-06-19T19:45:00-05:00",
+            "areaDesc": "Clarke, AL; Washington, AL",
+            "ugcZones": [
+              "ALC025",
+              "ALC129"
+            ],
+            "sameCodes": [
+              "001025",
+              "001129"
+            ],
+            "polygon": [
+              [
+                31.3,
+                -88.44
+              ],
+              [
+                31.49,
+                -88.41
+              ],
+              [
+                31.61,
+                -88.09
+              ],
+              [
+                31.61,
+                -87.99
+              ],
+              [
+                31.47,
+                -87.88
+              ],
+              [
+                31.31,
+                -87.86
+              ],
+              [
+                31.25,
+                -88.44
+              ],
+              [
+                31.3,
+                -88.44
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": "The Area",
+            "headline": "Flood Advisory issued June 19 at 4:49PM CDT until June 19 at 7:45PM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 745 PM CDT THIS EVENING",
+            "urgency": "Expected",
+            "severity": "Minor",
             "certainty": "Likely",
             "messageType": "Alert"
           },
