@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T22:35:03Z",
+  "updated": "2026-06-19T23:43:02Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,94 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
+      "apiCount": 2,
+      "comparisonCount": 2,
       "comparison": [
+        {
+          "key": "SV.W.205.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "W",
+            "event": "Severe Thunderstorm Warning",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0205",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "SV",
+              "significance": "W",
+              "etn": "0205",
+              "start": "260619T2325Z",
+              "end": "260620T0030Z"
+            },
+            "issued": "2026-06-19T18:25:00-05:00",
+            "expires": "2026-06-19T19:30:00-05:00",
+            "areaDesc": "Jasper, MS; Jones, MS",
+            "ugcZones": [
+              "MSC061",
+              "MSC067"
+            ],
+            "sameCodes": [
+              "028061",
+              "028067"
+            ],
+            "polygon": [
+              [
+                31.64,
+                -89.4
+              ],
+              [
+                31.69,
+                -89.4
+              ],
+              [
+                31.88,
+                -89.25
+              ],
+              [
+                31.8,
+                -88.94
+              ],
+              [
+                31.43,
+                -88.94
+              ],
+              [
+                31.43,
+                -88.97
+              ],
+              [
+                31.64,
+                -89.4
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": {
+              "direction": "SOUTHEAST",
+              "speed_mph": 20,
+              "bearing": 135
+            },
+            "motionStr": "Southeast at 20 MPH",
+            "hailSize": "Up to .75\"",
+            "windSpeed": "60 MPH",
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": "Laurel",
+            "headline": "Severe Thunderstorm Warning issued June 19 at 6:25PM CDT until June 19 at 7:30PM CDT by NWS Jackson MS",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
         {
           "key": "FL.W.22.KJAN",
           "iem": null,
@@ -104,67 +189,9 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 11,
-      "comparisonCount": 11,
+      "apiCount": 8,
+      "comparisonCount": 8,
       "comparison": [
-        {
-          "key": "SU.Y.4.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "SU",
-            "significance": "Y",
-            "event": "High Surf Advisory",
-            "action": "CON",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0004",
-            "vtec": {
-              "productClass": "O",
-              "action": "CON",
-              "office": "KMOB",
-              "phenomena": "SU",
-              "significance": "Y",
-              "etn": "0004",
-              "start": "000000T0000Z",
-              "end": "260619T2300Z"
-            },
-            "issued": "2026-06-19T15:03:00-05:00",
-            "expires": "2026-06-20T01:00:00-05:00",
-            "areaDesc": "Mobile Coastal; Baldwin Coastal; Escambia Coastal; Santa Rosa Coastal; Okaloosa Coastal",
-            "ugcZones": [
-              "ALZ265",
-              "ALZ266",
-              "FLZ202",
-              "FLZ204",
-              "FLZ206"
-            ],
-            "sameCodes": [
-              "001097",
-              "001003",
-              "012033",
-              "012113",
-              "012091"
-            ],
-            "polygon": null,
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "High Surf Advisory issued June 19 at 3:03PM CDT until June 19 at 6:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": "HIGH SURF ADVISORY REMAINS IN EFFECT UNTIL 6 PM CDT THIS EVENING... ...HIGH RIP CURRENT RISK REMAINS IN EFFECT THROUGH SATURDAY AFTERNOON",
-            "urgency": "Expected",
-            "severity": "Minor",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
         {
           "key": "RP.S.19.KMOB",
           "iem": null,
@@ -214,71 +241,6 @@
             "nearestLocation": null,
             "headline": "Rip Current Statement issued June 19 at 3:03PM CDT until June 20 at 6:00PM CDT by NWS Mobile AL",
             "nwsHeadline": "HIGH SURF ADVISORY REMAINS IN EFFECT UNTIL 6 PM CDT THIS EVENING... ...HIGH RIP CURRENT RISK REMAINS IN EFFECT THROUGH SATURDAY AFTERNOON",
-            "urgency": "Expected",
-            "severity": "Moderate",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "HT.Y.1.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "HT",
-            "significance": "Y",
-            "event": "Heat Advisory",
-            "action": "NEW",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0001",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KMOB",
-              "phenomena": "HT",
-              "significance": "Y",
-              "etn": "0001",
-              "start": "260619T1613Z",
-              "end": "260619T2300Z"
-            },
-            "issued": "2026-06-19T11:13:00-05:00",
-            "expires": "2026-06-19T18:00:00-05:00",
-            "areaDesc": "Mobile Inland; Mobile Central; Baldwin Central; Mobile Coastal; Baldwin Coastal; Escambia Coastal; Santa Rosa Coastal; Okaloosa Coastal; Stone; George",
-            "ugcZones": [
-              "ALZ261",
-              "ALZ263",
-              "ALZ264",
-              "ALZ265",
-              "ALZ266",
-              "FLZ202",
-              "FLZ204",
-              "FLZ206",
-              "MSZ078",
-              "MSZ079"
-            ],
-            "sameCodes": [
-              "001097",
-              "001003",
-              "012033",
-              "012113",
-              "012091",
-              "028131",
-              "028039"
-            ],
-            "polygon": null,
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Heat Advisory issued June 19 at 11:13AM CDT until June 19 at 6:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": "HEAT ADVISORY IN EFFECT UNTIL 6 PM CDT THIS EVENING",
             "urgency": "Expected",
             "severity": "Moderate",
             "certainty": "Likely",
@@ -816,133 +778,6 @@
             "detectionSource": "RADAR INDICATED",
             "nearestLocation": null,
             "headline": "Flash Flood Warning issued June 19 at 3:37PM CDT until June 19 at 7:30PM CDT by NWS Mobile AL",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "FF.W.29.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FF",
-            "significance": "W",
-            "event": "Flash Flood Warning",
-            "action": "NEW",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0029",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KMOB",
-              "phenomena": "FF",
-              "significance": "W",
-              "etn": "0029",
-              "start": "260619T1911Z",
-              "end": "260619T2315Z"
-            },
-            "issued": "2026-06-19T14:11:00-05:00",
-            "expires": "2026-06-19T18:15:00-05:00",
-            "areaDesc": "Butler, AL; Conecuh, AL; Covington, AL; Crenshaw, AL; Escambia, AL; Monroe, AL; Okaloosa, FL",
-            "ugcZones": [
-              "ALC013",
-              "ALC035",
-              "ALC039",
-              "ALC041",
-              "ALC053",
-              "ALC099",
-              "FLC091"
-            ],
-            "sameCodes": [
-              "001013",
-              "001035",
-              "001039",
-              "001041",
-              "001053",
-              "001099",
-              "012091"
-            ],
-            "polygon": [
-              [
-                31.63,
-                -87.49
-              ],
-              [
-                31.83,
-                -87.39
-              ],
-              [
-                31.71,
-                -87.02
-              ],
-              [
-                31.75,
-                -86.91
-              ],
-              [
-                31.67,
-                -86.91
-              ],
-              [
-                31.48,
-                -86.19
-              ],
-              [
-                31.44,
-                -86.19
-              ],
-              [
-                31.42,
-                -86.2
-              ],
-              [
-                31.25,
-                -86.19
-              ],
-              [
-                30.99,
-                -86.19
-              ],
-              [
-                30.99,
-                -86.39
-              ],
-              [
-                30.8,
-                -86.39
-              ],
-              [
-                30.98,
-                -86.77
-              ],
-              [
-                31.14,
-                -86.83
-              ],
-              [
-                31.24,
-                -86.94
-              ],
-              [
-                31.63,
-                -87.49
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flash Flood Warning issued June 19 at 2:11PM CDT until June 19 at 6:15PM CDT by NWS Mobile AL",
             "nwsHeadline": null,
             "urgency": "Immediate",
             "severity": "Severe",
