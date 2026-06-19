@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T02:14:08Z",
+  "updated": "2026-06-19T07:28:31Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -104,189 +104,11 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 3,
-      "comparisonCount": 3,
+      "apiCount": 1,
+      "comparisonCount": 1,
       "comparison": [
         {
-          "key": "FF.W.26.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FF",
-            "significance": "W",
-            "event": "Flash Flood Warning",
-            "action": "NEW",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0026",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KMOB",
-              "phenomena": "FF",
-              "significance": "W",
-              "etn": "0026",
-              "start": "260619T0050Z",
-              "end": "260619T0345Z"
-            },
-            "issued": "2026-06-18T19:50:00-05:00",
-            "expires": "2026-06-18T22:45:00-05:00",
-            "areaDesc": "Baldwin, AL; Escambia, AL; Mobile, AL; Escambia, FL",
-            "ugcZones": [
-              "ALC003",
-              "ALC053",
-              "ALC097",
-              "FLC033"
-            ],
-            "sameCodes": [
-              "001003",
-              "001053",
-              "001097",
-              "012033"
-            ],
-            "polygon": [
-              [
-                30.61,
-                -88.11
-              ],
-              [
-                30.45,
-                -88.4
-              ],
-              [
-                30.93,
-                -88.42
-              ],
-              [
-                31.24,
-                -87.18
-              ],
-              [
-                31.17,
-                -87.14
-              ],
-              [
-                30.61,
-                -88.11
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flash Flood Warning issued June 18 at 7:50PM CDT until June 18 at 10:45PM CDT by NWS Mobile AL",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "FF.W.25.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FF",
-            "significance": "W",
-            "event": "Flash Flood Warning",
-            "action": "NEW",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0025",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KMOB",
-              "phenomena": "FF",
-              "significance": "W",
-              "etn": "0025",
-              "start": "260618T2327Z",
-              "end": "260619T0230Z"
-            },
-            "issued": "2026-06-18T18:27:00-05:00",
-            "expires": "2026-06-18T21:30:00-05:00",
-            "areaDesc": "George, MS; Stone, MS",
-            "ugcZones": [
-              "MSC039",
-              "MSC131"
-            ],
-            "sameCodes": [
-              "028039",
-              "028131"
-            ],
-            "polygon": [
-              [
-                30.81,
-                -88.88
-              ],
-              [
-                30.99,
-                -88.43
-              ],
-              [
-                30.8,
-                -88.42
-              ],
-              [
-                30.74,
-                -88.41
-              ],
-              [
-                30.73,
-                -88.65
-              ],
-              [
-                30.74,
-                -88.89
-              ],
-              [
-                30.68,
-                -88.89
-              ],
-              [
-                30.68,
-                -89.2
-              ],
-              [
-                30.69,
-                -89.19
-              ],
-              [
-                30.7,
-                -89.16
-              ],
-              [
-                30.81,
-                -88.88
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flash Flood Warning issued June 18 at 6:27PM CDT until June 18 at 9:30PM CDT by NWS Mobile AL",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "FA.Y.36.KMOB",
+          "key": "FA.Y.37.KMOB",
           "iem": null,
           "api": {
             "source": "api",
@@ -296,88 +118,46 @@
             "action": "NEW",
             "office": "KMOB",
             "wfo": "MOB",
-            "etn": "0036",
+            "etn": "0037",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KMOB",
               "phenomena": "FA",
               "significance": "Y",
-              "etn": "0036",
-              "start": "260619T0141Z",
-              "end": "260619T0345Z"
+              "etn": "0037",
+              "start": "260619T0604Z",
+              "end": "260619T0900Z"
             },
-            "issued": "2026-06-18T20:41:00-05:00",
-            "expires": "2026-06-18T22:45:00-05:00",
-            "areaDesc": "Covington, AL; Escambia, AL",
+            "issued": "2026-06-19T01:04:00-05:00",
+            "expires": "2026-06-19T04:00:00-05:00",
+            "areaDesc": "Wayne, MS",
             "ugcZones": [
-              "ALC039",
-              "ALC053"
+              "MSC153"
             ],
             "sameCodes": [
-              "001039",
-              "001053"
+              "028153"
             ],
             "polygon": [
               [
-                31.24,
-                -86.7
+                31.64,
+                -88.94
               ],
               [
-                31.4,
-                -86.2
+                31.59,
+                -88.68
               ],
               [
-                30.99,
-                -86.19
+                31.43,
+                -88.75
               ],
               [
-                30.99,
-                -86.67
+                31.43,
+                -88.94
               ],
               [
-                31.2,
-                -86.81
-              ],
-              [
-                31.21,
-                -86.77
-              ],
-              [
-                31.2,
-                -86.76
-              ],
-              [
-                31.18,
-                -86.77
-              ],
-              [
-                31.2,
-                -86.74
-              ],
-              [
-                31.19,
-                -86.73
-              ],
-              [
-                31.19,
-                -86.74
-              ],
-              [
-                31.18,
-                -86.72
-              ],
-              [
-                31.19,
-                -86.72
-              ],
-              [
-                31.19,
-                -86.7
-              ],
-              [
-                31.24,
-                -86.7
+                31.64,
+                -88.94
               ]
             ],
             "threatLevel": "STANDARD",
@@ -387,8 +167,8 @@
             "windSpeed": null,
             "detectionSource": "RADAR INDICATED",
             "nearestLocation": "The Area",
-            "headline": "Flood Advisory issued June 18 at 8:41PM CDT until June 18 at 10:45PM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 1045 PM CDT THIS EVENING",
+            "headline": "Flood Advisory issued June 19 at 1:04AM CDT until June 19 at 4:00AM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 4 AM CDT EARLY THIS MORNING",
             "urgency": "Expected",
             "severity": "Minor",
             "certainty": "Likely",
