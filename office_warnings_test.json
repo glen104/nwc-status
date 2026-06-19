@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T07:28:31Z",
+  "updated": "2026-06-19T11:47:56Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,180 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
+      "apiCount": 4,
+      "comparisonCount": 4,
       "comparison": [
+        {
+          "key": "HT.Y.2.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "HT",
+            "significance": "Y",
+            "event": "Heat Advisory",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0002",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "HT",
+              "significance": "Y",
+              "etn": "0002",
+              "start": "260619T1600Z",
+              "end": "260620T0000Z"
+            },
+            "issued": "2026-06-19T04:10:00-05:00",
+            "expires": "2026-06-19T12:15:00-05:00",
+            "areaDesc": "Franklin; Catahoula; Tensas; Concordia; Claiborne; Copiah; Jefferson; Adams; Franklin; Lincoln; Lawrence; Jefferson Davis; Marion; Lamar",
+            "ugcZones": [
+              "LAZ023",
+              "LAZ024",
+              "LAZ025",
+              "LAZ026",
+              "MSZ053",
+              "MSZ054",
+              "MSZ059",
+              "MSZ060",
+              "MSZ061",
+              "MSZ062",
+              "MSZ063",
+              "MSZ064",
+              "MSZ072",
+              "MSZ073"
+            ],
+            "sameCodes": [
+              "022041",
+              "022025",
+              "022107",
+              "022029",
+              "028021",
+              "028029",
+              "028063",
+              "028001",
+              "028037",
+              "028085",
+              "028077",
+              "028065",
+              "028091",
+              "028073"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": "Or Just",
+            "headline": "Heat Advisory issued June 19 at 4:10AM CDT until June 19 at 7:00PM CDT by NWS Jackson MS",
+            "nwsHeadline": "HEAT ADVISORY IN EFFECT FROM 11 AM THIS MORNING TO 7 PM CDT THIS EVENING",
+            "urgency": "Expected",
+            "severity": "Moderate",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FA.W.2.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0002",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "FA",
+              "significance": "W",
+              "etn": "0002",
+              "start": "260619T1036Z",
+              "end": "260619T1700Z"
+            },
+            "issued": "2026-06-19T05:36:00-05:00",
+            "expires": "2026-06-19T12:00:00-05:00",
+            "areaDesc": "Covington, MS",
+            "ugcZones": [
+              "MSC031"
+            ],
+            "sameCodes": [
+              "028031"
+            ],
+            "polygon": [
+              [
+                31.46,
+                -89.4
+              ],
+              [
+                31.46,
+                -89.59
+              ],
+              [
+                31.51,
+                -89.59
+              ],
+              [
+                31.51,
+                -89.6
+              ],
+              [
+                31.54,
+                -89.6
+              ],
+              [
+                31.56,
+                -89.64
+              ],
+              [
+                31.57,
+                -89.67
+              ],
+              [
+                31.59,
+                -89.68
+              ],
+              [
+                31.63,
+                -89.6
+              ],
+              [
+                31.63,
+                -89.4
+              ],
+              [
+                31.46,
+                -89.4
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "LAW ENFORCEMENT CONFIRMED",
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 19 at 5:36AM CDT until June 19 at 12:00PM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT UNTIL NOON CDT TODAY",
+            "urgency": "Expected",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
         {
           "key": "FA.W.1.KJAN",
           "iem": null,
@@ -91,6 +262,128 @@
           "inBoth": false,
           "iemOnly": false,
           "apiOnly": true
+        },
+        {
+          "key": "FA.A.3.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "A",
+            "event": "Flood Watch",
+            "action": "CON",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0003",
+            "vtec": {
+              "productClass": "O",
+              "action": "CON",
+              "office": "KJAN",
+              "phenomena": "FA",
+              "significance": "A",
+              "etn": "0003",
+              "start": "000000T0000Z",
+              "end": "260620T0000Z"
+            },
+            "issued": "2026-06-19T05:38:00-05:00",
+            "expires": "2026-06-19T13:45:00-05:00",
+            "areaDesc": "East Carroll; Richland; Madison; Franklin; Catahoula; Tensas; Concordia; Issaquena; Sharkey; Yazoo; Madison; Leake; Neshoba; Kemper; Warren; Hinds; Rankin; Scott; Newton; Lauderdale; Claiborne; Copiah; Simpson; Smith; Jasper; Clarke; Jefferson; Adams; Franklin; Lincoln; Lawrence; Jefferson Davis; Covington; Jones; Marion; Lamar; Forrest",
+            "ugcZones": [
+              "LAZ009",
+              "LAZ015",
+              "LAZ016",
+              "LAZ023",
+              "LAZ024",
+              "LAZ025",
+              "LAZ026",
+              "MSZ040",
+              "MSZ041",
+              "MSZ042",
+              "MSZ043",
+              "MSZ044",
+              "MSZ045",
+              "MSZ046",
+              "MSZ047",
+              "MSZ048",
+              "MSZ049",
+              "MSZ050",
+              "MSZ051",
+              "MSZ052",
+              "MSZ053",
+              "MSZ054",
+              "MSZ055",
+              "MSZ056",
+              "MSZ057",
+              "MSZ058",
+              "MSZ059",
+              "MSZ060",
+              "MSZ061",
+              "MSZ062",
+              "MSZ063",
+              "MSZ064",
+              "MSZ065",
+              "MSZ066",
+              "MSZ072",
+              "MSZ073",
+              "MSZ074"
+            ],
+            "sameCodes": [
+              "022035",
+              "022083",
+              "022065",
+              "022041",
+              "022025",
+              "022107",
+              "022029",
+              "028055",
+              "028125",
+              "028163",
+              "028089",
+              "028079",
+              "028099",
+              "028069",
+              "028149",
+              "028049",
+              "028121",
+              "028123",
+              "028101",
+              "028075",
+              "028021",
+              "028029",
+              "028127",
+              "028129",
+              "028061",
+              "028023",
+              "028063",
+              "028001",
+              "028037",
+              "028085",
+              "028077",
+              "028065",
+              "028031",
+              "028067",
+              "028091",
+              "028073",
+              "028035"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Watch issued June 19 at 5:38AM CDT until June 19 at 7:00PM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WATCH REMAINS IN EFFECT THROUGH THIS EVENING",
+            "urgency": "Future",
+            "severity": "Severe",
+            "certainty": "Possible",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
         }
       ]
     },
@@ -104,81 +397,9 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "FA.Y.37.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FA",
-            "significance": "Y",
-            "event": "Flood Advisory",
-            "action": "NEW",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0037",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KMOB",
-              "phenomena": "FA",
-              "significance": "Y",
-              "etn": "0037",
-              "start": "260619T0604Z",
-              "end": "260619T0900Z"
-            },
-            "issued": "2026-06-19T01:04:00-05:00",
-            "expires": "2026-06-19T04:00:00-05:00",
-            "areaDesc": "Wayne, MS",
-            "ugcZones": [
-              "MSC153"
-            ],
-            "sameCodes": [
-              "028153"
-            ],
-            "polygon": [
-              [
-                31.64,
-                -88.94
-              ],
-              [
-                31.59,
-                -88.68
-              ],
-              [
-                31.43,
-                -88.75
-              ],
-              [
-                31.43,
-                -88.94
-              ],
-              [
-                31.64,
-                -88.94
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "The Area",
-            "headline": "Flood Advisory issued June 19 at 1:04AM CDT until June 19 at 4:00AM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 4 AM CDT EARLY THIS MORNING",
-            "urgency": "Expected",
-            "severity": "Minor",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "HUN": {
       "name": "Huntsville, AL",
