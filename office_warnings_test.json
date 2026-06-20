@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T11:31:30Z",
+  "updated": "2026-06-20T13:07:14Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -347,8 +347,8 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
+      "apiCount": 1,
+      "comparisonCount": 1,
       "comparison": [
         {
           "key": "RP.S.19.KMOB",
@@ -401,79 +401,6 @@
             "nwsHeadline": "HIGH RIP CURRENT RISK REMAINS IN EFFECT THROUGH THIS AFTERNOON",
             "urgency": "Expected",
             "severity": "Moderate",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "FL.W.39.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FL",
-            "significance": "W",
-            "event": "Flood Warning",
-            "action": "NEW",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0039",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KMOB",
-              "phenomena": "FL",
-              "significance": "W",
-              "etn": "0039",
-              "start": "260620T2000Z",
-              "end": "260622T2100Z"
-            },
-            "issued": "2026-06-19T20:49:00-05:00",
-            "expires": "2026-06-20T09:00:00-05:00",
-            "areaDesc": "Covington, AL; Escambia, AL",
-            "ugcZones": [
-              "ALC039",
-              "ALC053"
-            ],
-            "sameCodes": [
-              "001039",
-              "001053"
-            ],
-            "polygon": [
-              [
-                31.18,
-                -86.8
-              ],
-              [
-                31.11,
-                -86.76
-              ],
-              [
-                31.03,
-                -87.09
-              ],
-              [
-                31.07,
-                -87.12
-              ],
-              [
-                31.18,
-                -86.8
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Flood Warning issued June 19 at 8:49PM CDT until June 22 at 4:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM SATURDAY AFTERNOON TO MONDAY AFTERNOON",
-            "urgency": "Expected",
-            "severity": "Severe",
             "certainty": "Likely",
             "messageType": "Alert"
           },
