@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T13:07:14Z",
+  "updated": "2026-06-20T15:09:31Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,90 +8,9 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
+      "apiCount": 1,
+      "comparisonCount": 1,
       "comparison": [
-        {
-          "key": "FL.W.23.KJAN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FL",
-            "significance": "W",
-            "event": "Flood Warning",
-            "action": "NEW",
-            "office": "KJAN",
-            "wfo": "JAN",
-            "etn": "0023",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KJAN",
-              "phenomena": "FL",
-              "significance": "W",
-              "etn": "0023",
-              "start": "260620T0415Z",
-              "end": "260621T1000Z"
-            },
-            "issued": "2026-06-19T23:15:00-05:00",
-            "expires": "2026-06-20T11:15:00-05:00",
-            "areaDesc": "Covington, MS; Forrest, MS",
-            "ugcZones": [
-              "MSC031",
-              "MSC035"
-            ],
-            "sameCodes": [
-              "028031",
-              "028035"
-            ],
-            "polygon": [
-              [
-                31.33,
-                -89.29
-              ],
-              [
-                31.46,
-                -89.53
-              ],
-              [
-                31.53,
-                -89.66
-              ],
-              [
-                31.59,
-                -89.6
-              ],
-              [
-                31.51,
-                -89.48
-              ],
-              [
-                31.43,
-                -89.32
-              ],
-              [
-                31.33,
-                -89.29
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Flood Warning issued June 19 at 11:15PM CDT until June 21 at 5:00AM CDT by NWS Jackson MS",
-            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM THIS EVENING TO SUNDAY MORNING",
-            "urgency": "Expected",
-            "severity": "Severe",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
         {
           "key": "FA.A.4.KJAN",
           "iem": null,
@@ -347,8 +266,8 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
+      "apiCount": 2,
+      "comparisonCount": 2,
       "comparison": [
         {
           "key": "RP.S.19.KMOB",
@@ -401,6 +320,77 @@
             "nwsHeadline": "HIGH RIP CURRENT RISK REMAINS IN EFFECT THROUGH THIS AFTERNOON",
             "urgency": "Expected",
             "severity": "Moderate",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.40.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0040",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0040",
+              "start": "260620T2200Z",
+              "end": "260621T0900Z"
+            },
+            "issued": "2026-06-20T09:29:00-05:00",
+            "expires": "2026-06-20T21:30:00-05:00",
+            "areaDesc": "Escambia, AL",
+            "ugcZones": [
+              "ALC053"
+            ],
+            "sameCodes": [
+              "001053"
+            ],
+            "polygon": [
+              [
+                31.17,
+                -87.13
+              ],
+              [
+                31.18,
+                -87.07
+              ],
+              [
+                31.11,
+                -87.05
+              ],
+              [
+                31.08,
+                -87.09
+              ],
+              [
+                31.17,
+                -87.13
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 20 at 9:29AM CDT until June 21 at 4:00AM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM THIS AFTERNOON TO LATE TONIGHT",
+            "urgency": "Expected",
+            "severity": "Severe",
             "certainty": "Likely",
             "messageType": "Alert"
           },
