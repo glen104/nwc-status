@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T22:02:06Z",
+  "updated": "2026-06-20T23:17:40Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -176,8 +176,8 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 5,
-      "comparisonCount": 5,
+      "apiCount": 3,
+      "comparisonCount": 3,
       "comparison": [
         {
           "key": "FA.Y.67.KBMX",
@@ -307,68 +307,82 @@
           "apiOnly": true
         },
         {
-          "key": "FA.Y.66.KBMX",
+          "key": "FA.W.1.KBMX",
           "iem": null,
           "api": {
             "source": "api",
             "phenomena": "FA",
-            "significance": "Y",
-            "event": "Flood Advisory",
+            "significance": "W",
+            "event": "Flood Warning",
             "action": "NEW",
             "office": "KBMX",
             "wfo": "BMX",
-            "etn": "0066",
+            "etn": "0001",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KBMX",
               "phenomena": "FA",
-              "significance": "Y",
-              "etn": "0066",
-              "start": "260620T2015Z",
-              "end": "260620T2330Z"
+              "significance": "W",
+              "etn": "0001",
+              "start": "260620T2209Z",
+              "end": "260621T0115Z"
             },
-            "issued": "2026-06-20T15:15:00-05:00",
-            "expires": "2026-06-20T18:30:00-05:00",
-            "areaDesc": "Randolph, AL",
+            "issued": "2026-06-20T17:09:00-05:00",
+            "expires": "2026-06-20T20:15:00-05:00",
+            "areaDesc": "Jefferson, AL; Shelby, AL",
             "ugcZones": [
-              "ALC111"
+              "ALC073",
+              "ALC117"
             ],
             "sameCodes": [
-              "001111"
+              "001073",
+              "001117"
             ],
             "polygon": [
               [
-                33.38,
-                -85.47
+                33.36,
+                -86.86
               ],
               [
-                33.39,
-                -85.29
+                33.3,
+                -86.96
+              ],
+              [
+                33.31,
+                -87
+              ],
+              [
+                33.41,
+                -86.92
+              ],
+              [
+                33.44,
+                -87
+              ],
+              [
+                33.64,
+                -86.8
+              ],
+              [
+                33.5,
+                -86.56
+              ],
+              [
+                33.49,
+                -86.51
               ],
               [
                 33.35,
-                -85.28
+                -86.7
               ],
               [
-                33.24,
-                -85.26
+                33.36,
+                -86.82
               ],
               [
-                33.23,
-                -85.26
-              ],
-              [
-                33.21,
-                -85.25
-              ],
-              [
-                33.21,
-                -85.41
-              ],
-              [
-                33.38,
-                -85.47
+                33.36,
+                -86.86
               ]
             ],
             "threatLevel": "STANDARD",
@@ -376,202 +390,12 @@
             "motionStr": "",
             "hailSize": null,
             "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
+            "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Flood Advisory issued June 20 at 3:15PM CDT until June 20 at 6:30PM CDT by NWS Birmingham AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 630 PM CDT THIS EVENING",
+            "headline": "Flood Warning issued June 20 at 5:09PM CDT until June 20 at 8:15PM CDT by NWS Birmingham AL",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT UNTIL 815 PM CDT THIS EVENING... ...REPLACES FLASH FLOOD WARNING",
             "urgency": "Expected",
-            "severity": "Minor",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "FA.Y.65.KBMX",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FA",
-            "significance": "Y",
-            "event": "Flood Advisory",
-            "action": "NEW",
-            "office": "KBMX",
-            "wfo": "BMX",
-            "etn": "0065",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KBMX",
-              "phenomena": "FA",
-              "significance": "Y",
-              "etn": "0065",
-              "start": "260620T2015Z",
-              "end": "260620T2315Z"
-            },
-            "issued": "2026-06-20T15:15:00-05:00",
-            "expires": "2026-06-20T18:15:00-05:00",
-            "areaDesc": "Marion, AL; Walker, AL; Winston, AL",
-            "ugcZones": [
-              "ALC093",
-              "ALC127",
-              "ALC133"
-            ],
-            "sameCodes": [
-              "001093",
-              "001127",
-              "001133"
-            ],
-            "polygon": [
-              [
-                34.31,
-                -87.88
-              ],
-              [
-                34.3,
-                -87.11
-              ],
-              [
-                33.99,
-                -87.11
-              ],
-              [
-                33.99,
-                -87.15
-              ],
-              [
-                33.97,
-                -87.14
-              ],
-              [
-                33.96,
-                -87.11
-              ],
-              [
-                33.91,
-                -87.08
-              ],
-              [
-                33.91,
-                -87.43
-              ],
-              [
-                34.06,
-                -87.77
-              ],
-              [
-                34.31,
-                -87.88
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flood Advisory issued June 20 at 3:15PM CDT until June 20 at 6:15PM CDT by NWS Birmingham AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 615 PM CDT THIS EVENING",
-            "urgency": "Expected",
-            "severity": "Minor",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "FA.Y.64.KBMX",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FA",
-            "significance": "Y",
-            "event": "Flood Advisory",
-            "action": "NEW",
-            "office": "KBMX",
-            "wfo": "BMX",
-            "etn": "0064",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KBMX",
-              "phenomena": "FA",
-              "significance": "Y",
-              "etn": "0064",
-              "start": "260620T2009Z",
-              "end": "260620T2315Z"
-            },
-            "issued": "2026-06-20T15:09:00-05:00",
-            "expires": "2026-06-20T18:15:00-05:00",
-            "areaDesc": "Clay, AL",
-            "ugcZones": [
-              "ALC027"
-            ],
-            "sameCodes": [
-              "001027"
-            ],
-            "polygon": [
-              [
-                33.37,
-                -85.91
-              ],
-              [
-                33.38,
-                -85.65
-              ],
-              [
-                33.32,
-                -85.65
-              ],
-              [
-                33.32,
-                -85.64
-              ],
-              [
-                33.31,
-                -85.64
-              ],
-              [
-                33.31,
-                -85.65
-              ],
-              [
-                33.23,
-                -85.65
-              ],
-              [
-                33.21,
-                -85.65
-              ],
-              [
-                33.11,
-                -85.65
-              ],
-              [
-                33.11,
-                -85.97
-              ],
-              [
-                33.37,
-                -85.91
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flood Advisory issued June 20 at 3:09PM CDT until June 20 at 6:15PM CDT by NWS Birmingham AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 615 PM CDT THIS EVENING",
-            "urgency": "Expected",
-            "severity": "Minor",
+            "severity": "Severe",
             "certainty": "Likely",
             "messageType": "Alert"
           },
@@ -696,67 +520,9 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
+      "apiCount": 1,
+      "comparisonCount": 1,
       "comparison": [
-        {
-          "key": "RP.S.19.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "RP",
-            "significance": "S",
-            "event": "Rip Current Statement",
-            "action": "CON",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0019",
-            "vtec": {
-              "productClass": "O",
-              "action": "CON",
-              "office": "KMOB",
-              "phenomena": "RP",
-              "significance": "S",
-              "etn": "0019",
-              "start": "000000T0000Z",
-              "end": "260620T2300Z"
-            },
-            "issued": "2026-06-20T12:47:00-05:00",
-            "expires": "2026-06-20T18:00:00-05:00",
-            "areaDesc": "Mobile Coastal; Baldwin Coastal; Escambia Coastal; Santa Rosa Coastal; Okaloosa Coastal",
-            "ugcZones": [
-              "ALZ265",
-              "ALZ266",
-              "FLZ202",
-              "FLZ204",
-              "FLZ206"
-            ],
-            "sameCodes": [
-              "001097",
-              "001003",
-              "012033",
-              "012113",
-              "012091"
-            ],
-            "polygon": null,
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Rip Current Statement issued June 20 at 12:47PM CDT until June 20 at 6:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": "HIGH RIP CURRENT RISK REMAINS IN EFFECT UNTIL 6 PM CDT THIS EVENING",
-            "urgency": "Expected",
-            "severity": "Moderate",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
         {
           "key": "FL.W.40.KMOB",
           "iem": null,
