@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T17:55:07Z",
+  "updated": "2026-06-21T19:11:23Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,8 +8,8 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 5,
-      "comparisonCount": 5,
+      "apiCount": 4,
+      "comparisonCount": 4,
       "comparison": [
         {
           "key": "FL.W.27.KJAN",
@@ -162,87 +162,6 @@
             "nearestLocation": null,
             "headline": "Flood Warning issued June 21 at 9:35AM CDT until June 23 at 7:00PM CDT by NWS Jackson MS",
             "nwsHeadline": "FLOOD WARNING NOW IN EFFECT FROM LATE MONDAY NIGHT TO TUESDAY EVENING",
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Observed",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "FL.W.24.KJAN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FL",
-            "significance": "W",
-            "event": "Flood Warning",
-            "action": "EXT",
-            "office": "KJAN",
-            "wfo": "JAN",
-            "etn": "0024",
-            "vtec": {
-              "productClass": "O",
-              "action": "EXT",
-              "office": "KJAN",
-              "phenomena": "FL",
-              "significance": "W",
-              "etn": "0024",
-              "start": "260621T1435Z",
-              "end": "260624T1000Z"
-            },
-            "issued": "2026-06-21T09:35:00-05:00",
-            "expires": "2026-06-21T21:45:00-05:00",
-            "areaDesc": "Copiah, MS; Simpson, MS",
-            "ugcZones": [
-              "MSC029",
-              "MSC127"
-            ],
-            "sameCodes": [
-              "028029",
-              "028127"
-            ],
-            "polygon": [
-              [
-                31.68,
-                -90.19
-              ],
-              [
-                31.78,
-                -90.19
-              ],
-              [
-                31.93,
-                -90.25
-              ],
-              [
-                31.98,
-                -90.12
-              ],
-              [
-                31.82,
-                -90.05
-              ],
-              [
-                31.69,
-                -90.05
-              ],
-              [
-                31.68,
-                -90.19
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Flood Warning issued June 21 at 9:35AM CDT until June 24 at 5:00AM CDT by NWS Jackson MS",
-            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT FROM THIS MORNING TO EARLY WEDNESDAY MORNING",
             "urgency": "Immediate",
             "severity": "Severe",
             "certainty": "Observed",
