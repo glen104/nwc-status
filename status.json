@@ -1,18 +1,7 @@
 {
   "status": "NORMAL",
-  "outlookText": "CWD is not expected in the next three days, however NCO continues to monitor excessive rainfall and flood concerns through the weekend along with severe thunderstorm and fire wx threats on Saturday.",
+  "outlookText": "CWD is not expected in the next three days, however NCO continues to monitor excessive rainfall and flood concerns today through tonight.",
   "days": [
-    {
-      "weekday": "Sat",
-      "date": "Jun 20",
-      "status": "Enhanced Caution",
-      "hazards": [
-        "lightning",
-        "rainstorm",
-        "flood",
-        "wildfire"
-      ]
-    },
     {
       "weekday": "Sun",
       "date": "Jun 21",
@@ -27,7 +16,13 @@
       "date": "Jun 22",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Tue",
+      "date": "Jun 23",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-06-21T07:00:26Z"
+  "updated": "2026-06-21T10:38:56Z"
 }
