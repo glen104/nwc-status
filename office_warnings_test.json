@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T10:11:11Z",
+  "updated": "2026-06-21T12:21:02Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,89 +8,9 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "FL.W.26.KJAN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FL",
-            "significance": "W",
-            "event": "Flood Warning",
-            "action": "NEW",
-            "office": "KJAN",
-            "wfo": "JAN",
-            "etn": "0026",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KJAN",
-              "phenomena": "FL",
-              "significance": "W",
-              "etn": "0026",
-              "start": "260621T0623Z",
-              "end": "260623T1800Z"
-            },
-            "issued": "2026-06-21T01:23:00-05:00",
-            "expires": "2026-06-21T13:30:00-05:00",
-            "areaDesc": "Neshoba, MS",
-            "ugcZones": [
-              "MSC099"
-            ],
-            "sameCodes": [
-              "028099"
-            ],
-            "polygon": [
-              [
-                32.89,
-                -89.22
-              ],
-              [
-                32.91,
-                -89.15
-              ],
-              [
-                32.93,
-                -89.02
-              ],
-              [
-                32.92,
-                -88.93
-              ],
-              [
-                32.84,
-                -88.92
-              ],
-              [
-                32.77,
-                -89.18
-              ],
-              [
-                32.89,
-                -89.22
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Flood Warning issued June 21 at 1:23AM CDT until June 23 at 1:00PM CDT by NWS Jackson MS",
-            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM EARLY THIS MORNING TO TUESDAY AFTERNOON",
-            "urgency": "Expected",
-            "severity": "Severe",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "BMX": {
       "name": "Birmingham, AL",
@@ -578,9 +498,70 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "FG.Y.11.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FG",
+            "significance": "Y",
+            "event": "Dense Fog Advisory",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0011",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "FG",
+              "significance": "Y",
+              "etn": "0011",
+              "start": "260621T1037Z",
+              "end": "260621T1400Z"
+            },
+            "issued": "2026-06-21T05:37:00-05:00",
+            "expires": "2026-06-21T09:00:00-05:00",
+            "areaDesc": "Lawrence; Limestone; Madison; Morgan; Moore; Lincoln",
+            "ugcZones": [
+              "ALZ004",
+              "ALZ005",
+              "ALZ006",
+              "ALZ007",
+              "TNZ076",
+              "TNZ096"
+            ],
+            "sameCodes": [
+              "001079",
+              "001083",
+              "001089",
+              "001103",
+              "047127",
+              "047103"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Dense Fog Advisory issued June 21 at 5:37AM CDT until June 21 at 9:00AM CDT by NWS Huntsville AL",
+            "nwsHeadline": "DENSE FOG ADVISORY IN EFFECT UNTIL 9 AM CDT THIS MORNING",
+            "urgency": "Expected",
+            "severity": "Moderate",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     }
   }
 }
