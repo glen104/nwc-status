@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T20:46:55Z",
+  "updated": "2026-06-21T22:03:05Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -421,8 +421,8 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 9,
-      "comparisonCount": 9,
+      "apiCount": 8,
+      "comparisonCount": 8,
       "comparison": [
         {
           "key": "RP.S.20.KMOB",
@@ -556,89 +556,6 @@
             "nearestLocation": null,
             "headline": "Flood Warning issued June 21 at 11:35AM CDT until June 23 at 9:00AM CDT by NWS Mobile AL",
             "nwsHeadline": "FLOOD WARNING IN EFFECT FROM THIS EVENING TO TUESDAY MORNING",
-            "urgency": "Expected",
-            "severity": "Severe",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "FL.W.41.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FL",
-            "significance": "W",
-            "event": "Flood Warning",
-            "action": "NEW",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0041",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KMOB",
-              "phenomena": "FL",
-              "significance": "W",
-              "etn": "0041",
-              "start": "260621T1537Z",
-              "end": "260621T2100Z"
-            },
-            "issued": "2026-06-21T10:37:00-05:00",
-            "expires": "2026-06-21T16:00:00-05:00",
-            "areaDesc": "Baldwin, AL",
-            "ugcZones": [
-              "ALC003"
-            ],
-            "sameCodes": [
-              "001003"
-            ],
-            "polygon": [
-              [
-                30.67,
-                -87.61
-              ],
-              [
-                30.6,
-                -87.47
-              ],
-              [
-                30.5,
-                -87.42
-              ],
-              [
-                30.5,
-                -87.46
-              ],
-              [
-                30.53,
-                -87.52
-              ],
-              [
-                30.57,
-                -87.53
-              ],
-              [
-                30.65,
-                -87.64
-              ],
-              [
-                30.67,
-                -87.61
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Flood Warning issued June 21 at 10:37AM CDT until June 21 at 4:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM THIS MORNING TO THIS AFTERNOON",
             "urgency": "Expected",
             "severity": "Severe",
             "certainty": "Likely",
