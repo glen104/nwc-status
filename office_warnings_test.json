@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T12:57:47Z",
+  "updated": "2026-06-22T17:28:18Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,100 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 3,
-      "comparisonCount": 3,
+      "apiCount": 10,
+      "comparisonCount": 10,
       "comparison": [
+        {
+          "key": "SV.W.212.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "W",
+            "event": "Severe Thunderstorm Warning",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0212",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "SV",
+              "significance": "W",
+              "etn": "0212",
+              "start": "260622T1716Z",
+              "end": "260622T1800Z"
+            },
+            "issued": "2026-06-22T12:16:00-05:00",
+            "expires": "2026-06-22T13:00:00-05:00",
+            "areaDesc": "Madison, LA; Hinds, MS; Madison, MS; Warren, MS; Yazoo, MS",
+            "ugcZones": [
+              "LAC065",
+              "MSC049",
+              "MSC089",
+              "MSC149",
+              "MSC163"
+            ],
+            "sameCodes": [
+              "022065",
+              "028049",
+              "028089",
+              "028149",
+              "028163"
+            ],
+            "polygon": [
+              [
+                32.33,
+                -91.11
+              ],
+              [
+                32.44,
+                -90.86
+              ],
+              [
+                32.87,
+                -90.4
+              ],
+              [
+                32.88,
+                -89.73
+              ],
+              [
+                32.54,
+                -90.03
+              ],
+              [
+                32.17,
+                -90.51
+              ],
+              [
+                32.33,
+                -91.11
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": {
+              "direction": "EAST",
+              "speed_mph": 35,
+              "bearing": 90
+            },
+            "motionStr": "East at 35 MPH",
+            "hailSize": "Up to .75\"",
+            "windSpeed": "60 MPH",
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": "Yazoo City To Near Mound",
+            "headline": "Severe Thunderstorm Warning issued June 22 at 12:16PM CDT until June 22 at 1:00PM CDT by NWS Jackson MS",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
         {
           "key": "FL.W.29.KJAN",
           "iem": null,
@@ -19,22 +110,22 @@
             "phenomena": "FL",
             "significance": "W",
             "event": "Flood Warning",
-            "action": "NEW",
+            "action": "EXT",
             "office": "KJAN",
             "wfo": "JAN",
             "etn": "0029",
             "vtec": {
               "productClass": "O",
-              "action": "NEW",
+              "action": "EXT",
               "office": "KJAN",
               "phenomena": "FL",
               "significance": "W",
               "etn": "0029",
-              "start": "260622T0119Z",
-              "end": "260624T0652Z"
+              "start": "000000T0000Z",
+              "end": "260626T1536Z"
             },
-            "issued": "2026-06-21T20:19:00-05:00",
-            "expires": "2026-06-22T08:30:00-05:00",
+            "issued": "2026-06-22T10:38:00-05:00",
+            "expires": "2026-06-22T22:45:00-05:00",
             "areaDesc": "Madison, MS; Yazoo, MS",
             "ugcZones": [
               "MSC089",
@@ -81,11 +172,11 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Flood Warning issued June 21 at 8:19PM CDT until June 24 at 1:52AM CDT by NWS Jackson MS",
-            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM THIS EVENING TO EARLY WEDNESDAY MORNING",
-            "urgency": "Expected",
+            "headline": "Flood Warning issued June 22 at 10:38AM CDT until June 26 at 10:36AM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL LATE FRIDAY MORNING",
+            "urgency": "Immediate",
             "severity": "Severe",
-            "certainty": "Likely",
+            "certainty": "Observed",
             "messageType": "Alert"
           },
           "inBoth": false,
@@ -100,22 +191,22 @@
             "phenomena": "FL",
             "significance": "W",
             "event": "Flood Warning",
-            "action": "NEW",
+            "action": "EXT",
             "office": "KJAN",
             "wfo": "JAN",
             "etn": "0028",
             "vtec": {
               "productClass": "O",
-              "action": "NEW",
+              "action": "EXT",
               "office": "KJAN",
               "phenomena": "FL",
               "significance": "W",
               "etn": "0028",
-              "start": "260622T0600Z",
-              "end": "260626T1200Z"
+              "start": "000000T0000Z",
+              "end": "000000T0000Z"
             },
-            "issued": "2026-06-21T20:06:00-05:00",
-            "expires": "2026-06-22T08:15:00-05:00",
+            "issued": "2026-06-22T10:47:00-05:00",
+            "expires": "2026-06-22T23:00:00-05:00",
             "areaDesc": "Hinds, MS; Rankin, MS",
             "ugcZones": [
               "MSC049",
@@ -162,11 +253,11 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": "The River",
-            "headline": "Flood Warning issued June 21 at 8:06PM CDT until June 26 at 7:00AM CDT by NWS Jackson MS",
-            "nwsHeadline": "FLOOD WARNING IN EFFECT FROM LATE TONIGHT TO FRIDAY MORNING",
-            "urgency": "Expected",
+            "headline": "Flood Warning issued June 22 at 10:47AM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL FURTHER NOTICE",
+            "urgency": "Immediate",
             "severity": "Severe",
-            "certainty": "Likely",
+            "certainty": "Observed",
             "messageType": "Alert"
           },
           "inBoth": false,
@@ -192,11 +283,11 @@
               "phenomena": "FL",
               "significance": "W",
               "etn": "0027",
-              "start": "260622T1017Z",
-              "end": "260625T1048Z"
+              "start": "000000T0000Z",
+              "end": "260626T1800Z"
             },
-            "issued": "2026-06-21T20:19:00-05:00",
-            "expires": "2026-06-22T08:30:00-05:00",
+            "issued": "2026-06-22T10:38:00-05:00",
+            "expires": "2026-06-22T22:45:00-05:00",
             "areaDesc": "Hinds, MS; Warren, MS",
             "ugcZones": [
               "MSC049",
@@ -243,8 +334,484 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Flood Warning issued June 21 at 8:19PM CDT until June 25 at 5:48AM CDT by NWS Jackson MS",
-            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT FROM LATE TONIGHT TO EARLY THURSDAY MORNING",
+            "headline": "Flood Warning issued June 22 at 10:38AM CDT until June 26 at 1:00PM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL EARLY FRIDAY AFTERNOON",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.26.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0026",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0026",
+              "start": "000000T0000Z",
+              "end": "260625T1200Z"
+            },
+            "issued": "2026-06-22T10:47:00-05:00",
+            "expires": "2026-06-22T23:00:00-05:00",
+            "areaDesc": "Neshoba, MS",
+            "ugcZones": [
+              "MSC099"
+            ],
+            "sameCodes": [
+              "028099"
+            ],
+            "polygon": [
+              [
+                32.89,
+                -89.22
+              ],
+              [
+                32.91,
+                -89.15
+              ],
+              [
+                32.93,
+                -89.02
+              ],
+              [
+                32.92,
+                -88.93
+              ],
+              [
+                32.84,
+                -88.92
+              ],
+              [
+                32.77,
+                -89.18
+              ],
+              [
+                32.89,
+                -89.22
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 22 at 10:47AM CDT until June 25 at 7:00AM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL THURSDAY MORNING",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.25.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0025",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0025",
+              "start": "260623T1500Z",
+              "end": "260624T1800Z"
+            },
+            "issued": "2026-06-22T11:06:00-05:00",
+            "expires": "2026-06-22T23:15:00-05:00",
+            "areaDesc": "Lawrence, MS",
+            "ugcZones": [
+              "MSC077"
+            ],
+            "sameCodes": [
+              "028077"
+            ],
+            "polygon": [
+              [
+                31.4,
+                -90.08
+              ],
+              [
+                31.55,
+                -90.17
+              ],
+              [
+                31.68,
+                -90.19
+              ],
+              [
+                31.69,
+                -90.05
+              ],
+              [
+                31.55,
+                -90.02
+              ],
+              [
+                31.4,
+                -89.92
+              ],
+              [
+                31.4,
+                -90.08
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 22 at 11:06AM CDT until June 24 at 1:00PM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT FROM TUESDAY MORNING TO EARLY WEDNESDAY AFTERNOON",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.24.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0024",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0024",
+              "start": "000000T0000Z",
+              "end": "000000T0000Z"
+            },
+            "issued": "2026-06-22T11:06:00-05:00",
+            "expires": "2026-06-22T23:15:00-05:00",
+            "areaDesc": "Copiah, MS; Simpson, MS",
+            "ugcZones": [
+              "MSC029",
+              "MSC127"
+            ],
+            "sameCodes": [
+              "028029",
+              "028127"
+            ],
+            "polygon": [
+              [
+                31.68,
+                -90.19
+              ],
+              [
+                31.78,
+                -90.19
+              ],
+              [
+                31.93,
+                -90.25
+              ],
+              [
+                31.98,
+                -90.12
+              ],
+              [
+                31.82,
+                -90.05
+              ],
+              [
+                31.69,
+                -90.05
+              ],
+              [
+                31.68,
+                -90.19
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 22 at 11:06AM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL FURTHER NOTICE",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.21.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0021",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0021",
+              "start": "000000T0000Z",
+              "end": "260625T1000Z"
+            },
+            "issued": "2026-06-22T10:47:00-05:00",
+            "expires": "2026-06-22T23:00:00-05:00",
+            "areaDesc": "Leake, MS",
+            "ugcZones": [
+              "MSC079"
+            ],
+            "sameCodes": [
+              "028079"
+            ],
+            "polygon": [
+              [
+                32.66,
+                -89.53
+              ],
+              [
+                32.61,
+                -89.45
+              ],
+              [
+                32.57,
+                -89.35
+              ],
+              [
+                32.5,
+                -89.42
+              ],
+              [
+                32.58,
+                -89.53
+              ],
+              [
+                32.63,
+                -89.6
+              ],
+              [
+                32.66,
+                -89.53
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 22 at 10:47AM CDT until June 25 at 5:00AM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL EARLY THURSDAY MORNING",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.19.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0019",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0019",
+              "start": "000000T0000Z",
+              "end": "260624T0025Z"
+            },
+            "issued": "2026-06-22T11:22:00-05:00",
+            "expires": "2026-06-22T23:30:00-05:00",
+            "areaDesc": "Clarke, MS",
+            "ugcZones": [
+              "MSC023"
+            ],
+            "sameCodes": [
+              "028023"
+            ],
+            "polygon": [
+              [
+                32,
+                -88.78
+              ],
+              [
+                32.08,
+                -88.83
+              ],
+              [
+                32.16,
+                -88.9
+              ],
+              [
+                32.2,
+                -88.79
+              ],
+              [
+                32.11,
+                -88.73
+              ],
+              [
+                32.05,
+                -88.68
+              ],
+              [
+                32,
+                -88.78
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 22 at 11:22AM CDT until June 23 at 7:25PM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL TOMORROW EVENING",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.18.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0018",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0018",
+              "start": "000000T0000Z",
+              "end": "260624T1200Z"
+            },
+            "issued": "2026-06-22T11:22:00-05:00",
+            "expires": "2026-06-22T23:30:00-05:00",
+            "areaDesc": "Jones, MS",
+            "ugcZones": [
+              "MSC067"
+            ],
+            "sameCodes": [
+              "028067"
+            ],
+            "polygon": [
+              [
+                31.37,
+                -89.15
+              ],
+              [
+                31.56,
+                -89.23
+              ],
+              [
+                31.81,
+                -89.13
+              ],
+              [
+                31.82,
+                -89.02
+              ],
+              [
+                31.56,
+                -89.11
+              ],
+              [
+                31.4,
+                -89.14
+              ],
+              [
+                31.37,
+                -89.15
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": "The Creek",
+            "headline": "Flood Warning issued June 22 at 11:22AM CDT until June 24 at 7:00AM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL WEDNESDAY MORNING",
             "urgency": "Immediate",
             "severity": "Severe",
             "certainty": "Observed",
@@ -259,9 +826,96 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "SV.A.374.KBMX",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "A",
+            "event": "Severe Thunderstorm Watch",
+            "action": "NEW",
+            "office": "KBMX",
+            "wfo": "BMX",
+            "etn": "0374",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KBMX",
+              "phenomena": "SV",
+              "significance": "A",
+              "etn": "0374",
+              "start": "260622T1720Z",
+              "end": "260623T0000Z"
+            },
+            "issued": "2026-06-22T12:20:00-05:00",
+            "expires": "2026-06-22T19:00:00-05:00",
+            "areaDesc": "Bibb, AL; Blount, AL; Calhoun, AL; Cherokee, AL; Etowah, AL; Fayette, AL; Greene, AL; Hale, AL; Jefferson, AL; Lamar, AL; Marion, AL; Pickens, AL; St. Clair, AL; Shelby, AL; Sumter, AL; Talladega, AL; Tuscaloosa, AL; Walker, AL; Winston, AL",
+            "ugcZones": [
+              "ALC007",
+              "ALC009",
+              "ALC015",
+              "ALC019",
+              "ALC055",
+              "ALC057",
+              "ALC063",
+              "ALC065",
+              "ALC073",
+              "ALC075",
+              "ALC093",
+              "ALC107",
+              "ALC115",
+              "ALC117",
+              "ALC119",
+              "ALC121",
+              "ALC125",
+              "ALC127",
+              "ALC133"
+            ],
+            "sameCodes": [
+              "001007",
+              "001009",
+              "001015",
+              "001019",
+              "001055",
+              "001057",
+              "001063",
+              "001065",
+              "001073",
+              "001075",
+              "001093",
+              "001107",
+              "001115",
+              "001117",
+              "001119",
+              "001121",
+              "001125",
+              "001127",
+              "001133"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Severe Thunderstorm Watch issued June 22 at 12:20PM CDT until June 22 at 7:00PM CDT by NWS Birmingham AL",
+            "nwsHeadline": null,
+            "urgency": "Future",
+            "severity": "Severe",
+            "certainty": "Possible",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "MOB": {
       "name": "Mobile, AL",
@@ -270,82 +924,45 @@
       "comparisonCount": 1,
       "comparison": [
         {
-          "key": "FA.W.2.KMOB",
+          "key": "RP.S.21.KMOB",
           "iem": null,
           "api": {
             "source": "api",
-            "phenomena": "FA",
-            "significance": "W",
-            "event": "Flood Warning",
+            "phenomena": "RP",
+            "significance": "S",
+            "event": "Rip Current Statement",
             "action": "NEW",
             "office": "KMOB",
             "wfo": "MOB",
-            "etn": "0002",
+            "etn": "0021",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KMOB",
-              "phenomena": "FA",
-              "significance": "W",
-              "etn": "0002",
-              "start": "260622T0413Z",
-              "end": "260622T1615Z"
+              "phenomena": "RP",
+              "significance": "S",
+              "etn": "0021",
+              "start": "260622T1516Z",
+              "end": "260623T0000Z"
             },
-            "issued": "2026-06-21T23:13:00-05:00",
-            "expires": "2026-06-22T11:15:00-05:00",
-            "areaDesc": "Conecuh, AL; Covington, AL; Escambia, AL",
+            "issued": "2026-06-22T10:16:00-05:00",
+            "expires": "2026-06-22T19:00:00-05:00",
+            "areaDesc": "Mobile Coastal; Baldwin Coastal; Escambia Coastal; Santa Rosa Coastal; Okaloosa Coastal",
             "ugcZones": [
-              "ALC035",
-              "ALC039",
-              "ALC053"
+              "ALZ265",
+              "ALZ266",
+              "FLZ202",
+              "FLZ204",
+              "FLZ206"
             ],
             "sameCodes": [
-              "001035",
-              "001039",
-              "001053"
+              "001097",
+              "001003",
+              "012033",
+              "012113",
+              "012091"
             ],
-            "polygon": [
-              [
-                31.17,
-                -86.7
-              ],
-              [
-                31.13,
-                -86.8
-              ],
-              [
-                31.18,
-                -86.82
-              ],
-              [
-                31.23,
-                -86.69
-              ],
-              [
-                31.31,
-                -86.57
-              ],
-              [
-                31.36,
-                -86.54
-              ],
-              [
-                31.35,
-                -86.5
-              ],
-              [
-                31.29,
-                -86.53
-              ],
-              [
-                31.18,
-                -86.66
-              ],
-              [
-                31.17,
-                -86.7
-              ]
-            ],
+            "polygon": null,
             "threatLevel": "STANDARD",
             "stormMotion": null,
             "motionStr": "",
@@ -353,10 +970,10 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Flood Warning issued June 21 at 11:13PM CDT until June 22 at 11:15AM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD WARNING FOR THE UPSTREAM RELEASE OF POINT A DAM ON THE CONECUH RIVER IN EFFECT UNTIL 1115 AM CDT MONDAY",
+            "headline": "Rip Current Statement issued June 22 at 10:16AM CDT until June 22 at 7:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "HIGH RIP CURRENT RISK IN EFFECT UNTIL 7 PM CDT THIS EVENING",
             "urgency": "Expected",
-            "severity": "Severe",
+            "severity": "Moderate",
             "certainty": "Likely",
             "messageType": "Alert"
           },
@@ -369,9 +986,86 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "SV.A.374.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "A",
+            "event": "Severe Thunderstorm Watch",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0374",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "SV",
+              "significance": "A",
+              "etn": "0374",
+              "start": "260622T1723Z",
+              "end": "260623T0000Z"
+            },
+            "issued": "2026-06-22T12:23:00-05:00",
+            "expires": "2026-06-22T19:00:00-05:00",
+            "areaDesc": "Colbert, AL; Cullman, AL; DeKalb, AL; Franklin, AL; Jackson, AL; Lauderdale, AL; Lawrence, AL; Limestone, AL; Madison, AL; Marshall, AL; Morgan, AL; Franklin, TN; Lincoln, TN; Moore, TN",
+            "ugcZones": [
+              "ALC033",
+              "ALC043",
+              "ALC049",
+              "ALC059",
+              "ALC071",
+              "ALC077",
+              "ALC079",
+              "ALC083",
+              "ALC089",
+              "ALC095",
+              "ALC103",
+              "TNC051",
+              "TNC103",
+              "TNC127"
+            ],
+            "sameCodes": [
+              "001033",
+              "001043",
+              "001049",
+              "001059",
+              "001071",
+              "001077",
+              "001079",
+              "001083",
+              "001089",
+              "001095",
+              "001103",
+              "047051",
+              "047103",
+              "047127"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Severe Thunderstorm Watch issued June 22 at 12:23PM CDT until June 22 at 7:00PM CDT by NWS Huntsville AL",
+            "nwsHeadline": null,
+            "urgency": "Future",
+            "severity": "Severe",
+            "certainty": "Possible",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     }
   }
 }
