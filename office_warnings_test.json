@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T22:18:42Z",
+  "updated": "2026-06-22T23:45:18Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -735,62 +735,9 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "SV.A.374.KBMX",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "SV",
-            "significance": "A",
-            "event": "Severe Thunderstorm Watch",
-            "action": "EXA",
-            "office": "KBMX",
-            "wfo": "BMX",
-            "etn": "0374",
-            "vtec": {
-              "productClass": "O",
-              "action": "EXA",
-              "office": "KBMX",
-              "phenomena": "SV",
-              "significance": "A",
-              "etn": "0374",
-              "start": "000000T0000Z",
-              "end": "260623T0000Z"
-            },
-            "issued": "2026-06-22T13:33:00-05:00",
-            "expires": "2026-06-22T19:00:00-05:00",
-            "areaDesc": "Marengo, AL; Perry, AL",
-            "ugcZones": [
-              "ALC091",
-              "ALC105"
-            ],
-            "sameCodes": [
-              "001091",
-              "001105"
-            ],
-            "polygon": null,
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Severe Thunderstorm Watch issued June 22 at 1:33PM CDT until June 22 at 7:00PM CDT by NWS Birmingham AL",
-            "nwsHeadline": null,
-            "urgency": "Future",
-            "severity": "Severe",
-            "certainty": "Possible",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "MOB": {
       "name": "Mobile, AL",
@@ -861,86 +808,9 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "SV.A.374.KHUN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "SV",
-            "significance": "A",
-            "event": "Severe Thunderstorm Watch",
-            "action": "NEW",
-            "office": "KHUN",
-            "wfo": "HUN",
-            "etn": "0374",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KHUN",
-              "phenomena": "SV",
-              "significance": "A",
-              "etn": "0374",
-              "start": "260622T1723Z",
-              "end": "260623T0000Z"
-            },
-            "issued": "2026-06-22T12:23:00-05:00",
-            "expires": "2026-06-22T19:00:00-05:00",
-            "areaDesc": "Colbert, AL; Cullman, AL; DeKalb, AL; Franklin, AL; Jackson, AL; Lauderdale, AL; Lawrence, AL; Limestone, AL; Madison, AL; Marshall, AL; Morgan, AL; Franklin, TN; Lincoln, TN; Moore, TN",
-            "ugcZones": [
-              "ALC033",
-              "ALC043",
-              "ALC049",
-              "ALC059",
-              "ALC071",
-              "ALC077",
-              "ALC079",
-              "ALC083",
-              "ALC089",
-              "ALC095",
-              "ALC103",
-              "TNC051",
-              "TNC103",
-              "TNC127"
-            ],
-            "sameCodes": [
-              "001033",
-              "001043",
-              "001049",
-              "001059",
-              "001071",
-              "001077",
-              "001079",
-              "001083",
-              "001089",
-              "001095",
-              "001103",
-              "047051",
-              "047103",
-              "047127"
-            ],
-            "polygon": null,
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Severe Thunderstorm Watch issued June 22 at 12:23PM CDT until June 22 at 7:00PM CDT by NWS Huntsville AL",
-            "nwsHeadline": null,
-            "urgency": "Future",
-            "severity": "Severe",
-            "certainty": "Possible",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     }
   }
 }
