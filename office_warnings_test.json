@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T01:35:22Z",
+  "updated": "2026-06-23T05:50:05Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -29,9 +29,109 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "FA.W.12.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0012",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "FA",
+              "significance": "W",
+              "etn": "0012",
+              "start": "260623T0526Z",
+              "end": "260623T0830Z"
+            },
+            "issued": "2026-06-23T00:26:00-05:00",
+            "expires": "2026-06-23T03:30:00-05:00",
+            "areaDesc": "Madison, AL",
+            "ugcZones": [
+              "ALC089"
+            ],
+            "sameCodes": [
+              "001089"
+            ],
+            "polygon": [
+              [
+                34.58,
+                -86.68
+              ],
+              [
+                34.59,
+                -86.69
+              ],
+              [
+                34.59,
+                -86.7
+              ],
+              [
+                34.59,
+                -86.71
+              ],
+              [
+                34.59,
+                -86.72
+              ],
+              [
+                34.58,
+                -86.72
+              ],
+              [
+                34.58,
+                -86.73
+              ],
+              [
+                34.57,
+                -86.74
+              ],
+              [
+                34.86,
+                -86.73
+              ],
+              [
+                34.86,
+                -86.67
+              ],
+              [
+                34.57,
+                -86.67
+              ],
+              [
+                34.58,
+                -86.68
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 23 at 12:26AM CDT until June 23 at 3:30AM CDT by NWS Huntsville AL",
+            "nwsHeadline": "FLOOD WARNING IN EFFECT UNTIL 330 AM CDT EARLY THIS MORNING",
+            "urgency": "Expected",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     }
   }
 }
