@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T07:56:34Z",
+  "updated": "2026-06-24T10:42:33Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -29,9 +29,66 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "FG.Y.12.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FG",
+            "significance": "Y",
+            "event": "Dense Fog Advisory",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0012",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "FG",
+              "significance": "Y",
+              "etn": "0012",
+              "start": "260624T0919Z",
+              "end": "260624T1400Z"
+            },
+            "issued": "2026-06-24T04:19:00-05:00",
+            "expires": "2026-06-24T09:00:00-05:00",
+            "areaDesc": "Marshall; Jackson; DeKalb; Franklin",
+            "ugcZones": [
+              "ALZ008",
+              "ALZ009",
+              "ALZ010",
+              "TNZ097"
+            ],
+            "sameCodes": [
+              "001095",
+              "001071",
+              "001049",
+              "047051"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Dense Fog Advisory issued June 24 at 4:19AM CDT until June 24 at 9:00AM CDT by NWS Huntsville AL",
+            "nwsHeadline": "DENSE FOG ADVISORY IN EFFECT UNTIL 9 AM CDT THIS MORNING",
+            "urgency": "Expected",
+            "severity": "Moderate",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     }
   }
 }
