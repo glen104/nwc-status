@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T19:05:07Z",
+  "updated": "2026-06-24T20:53:41Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -264,9 +264,84 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 4,
-      "comparisonCount": 4,
+      "apiCount": 6,
+      "comparisonCount": 6,
       "comparison": [
+        {
+          "key": "SV.W.85.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "W",
+            "event": "Severe Thunderstorm Warning",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0085",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "SV",
+              "significance": "W",
+              "etn": "0085",
+              "start": "260624T2042Z",
+              "end": "260624T2130Z"
+            },
+            "issued": "2026-06-24T15:42:00-05:00",
+            "expires": "2026-06-24T16:30:00-05:00",
+            "areaDesc": "George, MS",
+            "ugcZones": [
+              "MSC039"
+            ],
+            "sameCodes": [
+              "028039"
+            ],
+            "polygon": [
+              [
+                30.79,
+                -88.88
+              ],
+              [
+                30.88,
+                -88.83
+              ],
+              [
+                30.74,
+                -88.45
+              ],
+              [
+                30.73,
+                -88.88
+              ],
+              [
+                30.79,
+                -88.88
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": {
+              "direction": "SOUTHEAST",
+              "speed_mph": 30,
+              "bearing": 135
+            },
+            "motionStr": "Southeast at 30 MPH",
+            "hailSize": "0.75\"",
+            "windSpeed": "60 MPH",
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Severe Thunderstorm Warning issued June 24 at 3:42PM CDT until June 24 at 4:30PM CDT by NWS Mobile AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
         {
           "key": "FL.W.30.KMOB",
           "iem": null,
@@ -591,6 +666,85 @@
             "urgency": "Immediate",
             "severity": "Severe",
             "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FA.Y.46.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "Y",
+            "event": "Flood Advisory",
+            "action": "NEW",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0046",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KMOB",
+              "phenomena": "FA",
+              "significance": "Y",
+              "etn": "0046",
+              "start": "260624T2007Z",
+              "end": "260624T2300Z"
+            },
+            "issued": "2026-06-24T15:07:00-05:00",
+            "expires": "2026-06-24T18:00:00-05:00",
+            "areaDesc": "Stone, MS",
+            "ugcZones": [
+              "MSC131"
+            ],
+            "sameCodes": [
+              "028131"
+            ],
+            "polygon": [
+              [
+                30.87,
+                -89.34
+              ],
+              [
+                30.77,
+                -88.88
+              ],
+              [
+                30.68,
+                -88.88
+              ],
+              [
+                30.68,
+                -89.24
+              ],
+              [
+                30.66,
+                -89.24
+              ],
+              [
+                30.66,
+                -89.34
+              ],
+              [
+                30.87,
+                -89.34
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": "The Area",
+            "headline": "Flood Advisory issued June 24 at 3:07PM CDT until June 24 at 6:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 6 PM CDT THIS EVENING",
+            "urgency": "Expected",
+            "severity": "Minor",
+            "certainty": "Likely",
             "messageType": "Alert"
           },
           "inBoth": false,
