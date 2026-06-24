@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T15:22:00Z",
+  "updated": "2026-06-24T17:23:17Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,251 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 3,
+      "comparisonCount": 3,
+      "comparison": [
+        {
+          "key": "FL.W.28.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0028",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0028",
+              "start": "000000T0000Z",
+              "end": "260625T2136Z"
+            },
+            "issued": "2026-06-24T10:39:00-05:00",
+            "expires": "2026-06-24T22:45:00-05:00",
+            "areaDesc": "Hinds, MS; Rankin, MS",
+            "ugcZones": [
+              "MSC049",
+              "MSC121"
+            ],
+            "sameCodes": [
+              "028049",
+              "028121"
+            ],
+            "polygon": [
+              [
+                31.93,
+                -90.25
+              ],
+              [
+                32.12,
+                -90.34
+              ],
+              [
+                32.43,
+                -90.13
+              ],
+              [
+                32.37,
+                -90.02
+              ],
+              [
+                32.13,
+                -90.2
+              ],
+              [
+                31.98,
+                -90.12
+              ],
+              [
+                31.93,
+                -90.25
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": "The River",
+            "headline": "Flood Warning issued June 24 at 10:39AM CDT until June 25 at 4:36PM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL TOMORROW AFTERNOON",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.25.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0025",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0025",
+              "start": "000000T0000Z",
+              "end": "260629T0130Z"
+            },
+            "issued": "2026-06-24T10:36:00-05:00",
+            "expires": "2026-06-24T22:45:00-05:00",
+            "areaDesc": "Lawrence, MS",
+            "ugcZones": [
+              "MSC077"
+            ],
+            "sameCodes": [
+              "028077"
+            ],
+            "polygon": [
+              [
+                31.4,
+                -90.08
+              ],
+              [
+                31.55,
+                -90.17
+              ],
+              [
+                31.68,
+                -90.19
+              ],
+              [
+                31.69,
+                -90.05
+              ],
+              [
+                31.55,
+                -90.02
+              ],
+              [
+                31.4,
+                -89.92
+              ],
+              [
+                31.4,
+                -90.08
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 24 at 10:36AM CDT until June 28 at 8:30PM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL SUNDAY EVENING",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.24.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0024",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0024",
+              "start": "000000T0000Z",
+              "end": "260628T2024Z"
+            },
+            "issued": "2026-06-24T10:36:00-05:00",
+            "expires": "2026-06-24T22:45:00-05:00",
+            "areaDesc": "Copiah, MS; Simpson, MS",
+            "ugcZones": [
+              "MSC029",
+              "MSC127"
+            ],
+            "sameCodes": [
+              "028029",
+              "028127"
+            ],
+            "polygon": [
+              [
+                31.68,
+                -90.19
+              ],
+              [
+                31.78,
+                -90.19
+              ],
+              [
+                31.93,
+                -90.25
+              ],
+              [
+                31.98,
+                -90.12
+              ],
+              [
+                31.82,
+                -90.05
+              ],
+              [
+                31.69,
+                -90.05
+              ],
+              [
+                31.68,
+                -90.19
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 24 at 10:36AM CDT until June 28 at 3:24PM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL SUNDAY AFTERNOON",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "BMX": {
       "name": "Birmingham, AL",
