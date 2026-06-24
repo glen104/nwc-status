@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T12:36:47Z",
+  "updated": "2026-06-24T15:22:00Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -22,54 +22,74 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
-    },
-    "HUN": {
-      "name": "Huntsville, AL",
-      "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
+      "apiCount": 4,
+      "comparisonCount": 4,
       "comparison": [
         {
-          "key": "FG.Y.12.KHUN",
+          "key": "FL.W.30.KMOB",
           "iem": null,
           "api": {
             "source": "api",
-            "phenomena": "FG",
-            "significance": "Y",
-            "event": "Dense Fog Advisory",
-            "action": "NEW",
-            "office": "KHUN",
-            "wfo": "HUN",
-            "etn": "0012",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0030",
             "vtec": {
               "productClass": "O",
-              "action": "NEW",
-              "office": "KHUN",
-              "phenomena": "FG",
-              "significance": "Y",
-              "etn": "0012",
-              "start": "260624T0919Z",
-              "end": "260624T1400Z"
+              "action": "EXT",
+              "office": "KMOB",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0030",
+              "start": "000000T0000Z",
+              "end": "260629T0600Z"
             },
-            "issued": "2026-06-24T04:19:00-05:00",
-            "expires": "2026-06-24T09:00:00-05:00",
-            "areaDesc": "Marshall; Jackson; DeKalb; Franklin",
+            "issued": "2026-06-24T10:08:00-05:00",
+            "expires": "2026-06-24T22:15:00-05:00",
+            "areaDesc": "George, MS; Greene, MS; Jackson, MS",
             "ugcZones": [
-              "ALZ008",
-              "ALZ009",
-              "ALZ010",
-              "TNZ097"
+              "MSC039",
+              "MSC041",
+              "MSC059"
             ],
             "sameCodes": [
-              "001095",
-              "001071",
-              "001049",
-              "047051"
+              "028039",
+              "028041",
+              "028059"
             ],
-            "polygon": null,
+            "polygon": [
+              [
+                30.98,
+                -88.77
+              ],
+              [
+                30.98,
+                -88.72
+              ],
+              [
+                30.82,
+                -88.71
+              ],
+              [
+                30.74,
+                -88.64
+              ],
+              [
+                30.74,
+                -88.68
+              ],
+              [
+                30.82,
+                -88.79
+              ],
+              [
+                30.98,
+                -88.77
+              ]
+            ],
             "threatLevel": "STANDARD",
             "stormMotion": null,
             "motionStr": "",
@@ -77,11 +97,258 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Dense Fog Advisory issued June 24 at 4:19AM CDT until June 24 at 9:00AM CDT by NWS Huntsville AL",
-            "nwsHeadline": "DENSE FOG ADVISORY IN EFFECT UNTIL 9 AM CDT THIS MORNING",
-            "urgency": "Expected",
-            "severity": "Moderate",
-            "certainty": "Likely",
+            "headline": "Flood Warning issued June 24 at 10:08AM CDT until June 29 at 1:00AM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL LATE SUNDAY NIGHT",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.25.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0025",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KMOB",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0025",
+              "start": "000000T0000Z",
+              "end": "260628T1500Z"
+            },
+            "issued": "2026-06-24T10:03:00-05:00",
+            "expires": "2026-06-25T00:15:00-05:00",
+            "areaDesc": "Escambia, AL; Escambia, FL; Santa Rosa, FL",
+            "ugcZones": [
+              "ALC053",
+              "FLC033",
+              "FLC113"
+            ],
+            "sameCodes": [
+              "001053",
+              "012033",
+              "012113"
+            ],
+            "polygon": [
+              [
+                31,
+                -87.18
+              ],
+              [
+                31,
+                -87.15
+              ],
+              [
+                30.9,
+                -87.28
+              ],
+              [
+                30.77,
+                -87.29
+              ],
+              [
+                30.77,
+                -87.33
+              ],
+              [
+                30.93,
+                -87.31
+              ],
+              [
+                31,
+                -87.18
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 24 at 10:03AM CDT until June 28 at 10:00AM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL SUNDAY MORNING",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.24.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "EXT",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0024",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KMOB",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0024",
+              "start": "000000T0000Z",
+              "end": "260627T2300Z"
+            },
+            "issued": "2026-06-24T10:07:00-05:00",
+            "expires": "2026-06-24T22:15:00-05:00",
+            "areaDesc": "George, MS; Greene, MS; Perry, MS",
+            "ugcZones": [
+              "MSC039",
+              "MSC041",
+              "MSC111"
+            ],
+            "sameCodes": [
+              "028039",
+              "028041",
+              "028111"
+            ],
+            "polygon": [
+              [
+                31.16,
+                -88.92
+              ],
+              [
+                31.23,
+                -88.92
+              ],
+              [
+                31.16,
+                -88.77
+              ],
+              [
+                31,
+                -88.71
+              ],
+              [
+                30.98,
+                -88.79
+              ],
+              [
+                31.09,
+                -88.84
+              ],
+              [
+                31.16,
+                -88.92
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": "Mclain Affecting George",
+            "headline": "Flood Warning issued June 24 at 10:07AM CDT until June 27 at 6:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL SATURDAY EVENING",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FL.W.23.KMOB",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "W",
+            "event": "Flood Warning",
+            "action": "CON",
+            "office": "KMOB",
+            "wfo": "MOB",
+            "etn": "0023",
+            "vtec": {
+              "productClass": "O",
+              "action": "CON",
+              "office": "KMOB",
+              "phenomena": "FL",
+              "significance": "W",
+              "etn": "0023",
+              "start": "000000T0000Z",
+              "end": "000000T0000Z"
+            },
+            "issued": "2026-06-24T10:05:00-05:00",
+            "expires": "2026-06-25T00:15:00-05:00",
+            "areaDesc": "George, MS; Greene, MS",
+            "ugcZones": [
+              "MSC039",
+              "MSC041"
+            ],
+            "sameCodes": [
+              "028039",
+              "028041"
+            ],
+            "polygon": [
+              [
+                31.43,
+                -88.57
+              ],
+              [
+                31.43,
+                -88.46
+              ],
+              [
+                31.08,
+                -88.54
+              ],
+              [
+                30.98,
+                -88.73
+              ],
+              [
+                31,
+                -88.75
+              ],
+              [
+                31.1,
+                -88.58
+              ],
+              [
+                31.43,
+                -88.57
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Warning issued June 24 at 10:05AM CDT by NWS Mobile AL",
+            "nwsHeadline": "FLOOD WARNING REMAINS IN EFFECT UNTIL FURTHER NOTICE",
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
             "messageType": "Alert"
           },
           "inBoth": false,
@@ -89,6 +356,13 @@
           "apiOnly": true
         }
       ]
+    },
+    "HUN": {
+      "name": "Huntsville, AL",
+      "iemCount": 0,
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     }
   }
 }
