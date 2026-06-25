@@ -3,12 +3,6 @@
   "outlookText": "Critical Weather Day will start 12Z Fri Jun 26 and continue through 12Z Sat Jun 27 in support of fire wx ops for portions of the Southwest.",
   "days": [
     {
-      "weekday": "Wed",
-      "date": "Jun 24",
-      "status": "Normal",
-      "hazards": []
-    },
-    {
       "weekday": "Thu",
       "date": "Jun 25",
       "status": "Normal",
@@ -21,7 +15,13 @@
       "hazards": [
         "wildfire"
       ]
+    },
+    {
+      "weekday": "Sat",
+      "date": "Jun 27",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-06-25T08:40:01Z"
+  "updated": "2026-06-25T11:19:54Z"
 }
