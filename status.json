@@ -1,13 +1,7 @@
 {
   "status": "NORMAL",
-  "outlookText": "Critical Weather Day will start 12Z Fri Jun 26 and continue through 12Z Sat Jun 27 in support of fire wx ops for portions of the Southwest.",
+  "outlookText": "Critical Weather Day is in effect 12Z Fri Jun 26 through 12Z Sat Jun 27 in support of fire wx ops for portions of the Southwest. NCO continues to monitor fire wx conditions in the Southwest for potential CWD.",
   "days": [
-    {
-      "weekday": "Thu",
-      "date": "Jun 25",
-      "status": "Normal",
-      "hazards": []
-    },
     {
       "weekday": "Fri",
       "date": "Jun 26",
@@ -21,7 +15,13 @@
       "date": "Jun 27",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Sun",
+      "date": "Jun 28",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-06-26T08:47:48Z"
+  "updated": "2026-06-26T11:33:46Z"
 }
