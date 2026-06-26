@@ -1,5 +1,5 @@
 {
-  "status": "NORMAL",
+  "status": "Critical Weather Day",
   "outlookText": "Critical Weather Day is in effect 12Z Fri Jun 26 through 12Z Sat Jun 27 in support of fire wx ops for portions of the Southwest. NCO continues to monitor fire wx conditions in the Southwest for potential CWD.",
   "days": [
     {
@@ -23,5 +23,5 @@
       "hazards": []
     }
   ],
-  "updated": "2026-06-26T11:33:46Z"
+  "updated": "2026-06-26T13:33:57Z"
 }
