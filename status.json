@@ -1,15 +1,7 @@
 {
   "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day is in effect from 12Z Fri Jun 26 through 12Z Sun Jun 28 in support of fire wx ops for portions of the Southwest and Great Basin. NCO continues to monitor fire wx conditions across the region for the potential need for CWD on Sunday and Monday, as well.",
+  "outlookText": "Critical Weather Day is in effect from 12Z Fri Jun 26 through 12Z Sun Jun 28 in support of fire wx ops for portions of the Southwest and Great Basin. NCO continues to monitor fire wx conditions across the region for the potential need for CWD on Monday.",
   "days": [
-    {
-      "weekday": "Fri",
-      "date": "Jun 26",
-      "status": "Critical",
-      "hazards": [
-        "wildfire"
-      ]
-    },
     {
       "weekday": "Sat",
       "date": "Jun 27",
@@ -23,7 +15,13 @@
       "date": "Jun 28",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Mon",
+      "date": "Jun 29",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-06-27T05:06:33Z"
+  "updated": "2026-06-27T10:19:13Z"
 }
