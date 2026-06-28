@@ -1,18 +1,22 @@
 {
-  "status": "NORMAL",
-  "outlookText": "CWD is not expected during the next three days. However, NCO is monitoring fire weather conditions across the Southwest and excessive rainfall ops in the Ohio and Tennessee Valleys for the potential need for CWD.",
+  "status": "Critical Weather Day",
+  "outlookText": "Critical Weather Day is in effect from 1745Z on Sunday 28 June 2026 to 12Z on Monday 29 June 2026 in support of fire wx ops across parts of the Southwest and Four Corners region.",
   "days": [
     {
       "weekday": "Sun",
       "date": "Jun 28",
-      "status": "Normal",
-      "hazards": []
+      "status": "Critical",
+      "hazards": [
+        "wildfire"
+      ]
     },
     {
       "weekday": "Mon",
       "date": "Jun 29",
-      "status": "Normal",
-      "hazards": []
+      "status": "Critical",
+      "hazards": [
+        "wildfire"
+      ]
     },
     {
       "weekday": "Tue",
@@ -21,5 +25,5 @@
       "hazards": []
     }
   ],
-  "updated": "2026-06-28T16:45:43Z"
+  "updated": "2026-06-28T17:49:44Z"
 }
