@@ -13,10 +13,8 @@
     {
       "weekday": "Mon",
       "date": "Jun 29",
-      "status": "Critical",
-      "hazards": [
-        "wildfire"
-      ]
+      "status": "Normal",
+      "hazards": []
     },
     {
       "weekday": "Tue",
@@ -25,5 +23,5 @@
       "hazards": []
     }
   ],
-  "updated": "2026-06-28T17:49:44Z"
+  "updated": "2026-06-28T18:54:27Z"
 }
