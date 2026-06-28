@@ -1,6 +1,6 @@
 {
-  "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day ends at 12Z Sun Jun 28 in support of fire wx ops for portions of the Southwest and Great Basin. NCO continues to monitor fire wx conditions across the region.",
+  "status": "NORMAL",
+  "outlookText": "CWD is not expected during the next three days. However, NCO is monitoring fire weather conditions across the Southwest and excessive rainfall ops in the Ohio and Tennessee Valleys for the potential need for CWD.",
   "days": [
     {
       "weekday": "Sun",
@@ -21,5 +21,5 @@
       "hazards": []
     }
   ],
-  "updated": "2026-06-28T10:35:15Z"
+  "updated": "2026-06-28T12:06:04Z"
 }
