@@ -1,6 +1,6 @@
 {
-  "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day ends at 1200Z on Monday 29 June 2026. NCO continues to monitor fire wx concerns across parts of the Southwest and Four Corners region.",
+  "status": "NORMAL",
+  "outlookText": "Critical Weather Day for fire weather ops ended at 29/1200Z. NCO continues to monitor the need for CWD to support fire weather concerns across parts of the Southwest/Four Corners region.",
   "days": [
     {
       "weekday": "Mon",
@@ -21,5 +21,5 @@
       "hazards": []
     }
   ],
-  "updated": "2026-06-29T11:28:47Z"
+  "updated": "2026-06-29T14:57:40Z"
 }
