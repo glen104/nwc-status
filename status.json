@@ -1,15 +1,7 @@
 {
   "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day is in effect from 1745Z on Sunday 28 June 2026 to 12Z on Monday 29 June 2026 in support of fire wx ops across parts of the Southwest and Four Corners region.",
+  "outlookText": "Critical Weather Day ends at 1200Z on Monday 29 June 2026. NCO continues to monitor fire wx concerns across parts of the Southwest and Four Corners region.",
   "days": [
-    {
-      "weekday": "Sun",
-      "date": "Jun 28",
-      "status": "Critical",
-      "hazards": [
-        "wildfire"
-      ]
-    },
     {
       "weekday": "Mon",
       "date": "Jun 29",
@@ -21,7 +13,13 @@
       "date": "Jun 30",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Wed",
+      "date": "Jul 01",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-06-29T06:21:15Z"
+  "updated": "2026-06-29T11:28:47Z"
 }
