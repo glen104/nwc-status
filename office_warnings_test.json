@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T01:34:42Z",
+  "updated": "2026-06-29T06:21:11Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -19,13 +19,13 @@
             "phenomena": "HT",
             "significance": "Y",
             "event": "Heat Advisory",
-            "action": "EXB",
+            "action": "CON",
             "office": "KJAN",
             "wfo": "JAN",
             "etn": "0003",
             "vtec": {
               "productClass": "O",
-              "action": "EXB",
+              "action": "CON",
               "office": "KJAN",
               "phenomena": "HT",
               "significance": "Y",
@@ -33,8 +33,8 @@
               "start": "260629T1600Z",
               "end": "260701T0200Z"
             },
-            "issued": "2026-06-28T12:00:00-05:00",
-            "expires": "2026-06-28T21:00:00-05:00",
+            "issued": "2026-06-28T22:08:00-05:00",
+            "expires": "2026-06-29T07:00:00-05:00",
             "areaDesc": "Grenada; Carroll; Montgomery; Webster; Clay; Lowndes; Choctaw; Oktibbeha; Holmes; Attala; Winston; Noxubee; Madison; Leake; Neshoba; Kemper; Rankin; Scott; Newton; Lauderdale; Smith; Jasper; Clarke",
             "ugcZones": [
               "MSZ026",
@@ -94,8 +94,8 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Heat Advisory issued June 28 at 12:00PM CDT until June 30 at 9:00PM CDT by NWS Jackson MS",
-            "nwsHeadline": "HEAT ADVISORY IN EFFECT FROM 11 AM MONDAY TO 9 PM CDT TUESDAY",
+            "headline": "Heat Advisory issued June 28 at 10:08PM CDT until June 30 at 9:00PM CDT by NWS Jackson MS",
+            "nwsHeadline": "HEAT ADVISORY REMAINS IN EFFECT FROM 11 AM MONDAY TO 9 PM CDT TUESDAY",
             "urgency": "Expected",
             "severity": "Moderate",
             "certainty": "Likely",
@@ -117,93 +117,9 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "FL.W.25.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FL",
-            "significance": "W",
-            "event": "Flood Warning",
-            "action": "EXT",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0025",
-            "vtec": {
-              "productClass": "O",
-              "action": "EXT",
-              "office": "KMOB",
-              "phenomena": "FL",
-              "significance": "W",
-              "etn": "0025",
-              "start": "000000T0000Z",
-              "end": "260629T0200Z"
-            },
-            "issued": "2026-06-28T09:20:00-05:00",
-            "expires": "2026-06-28T21:00:00-05:00",
-            "areaDesc": "Escambia, AL; Escambia, FL; Santa Rosa, FL",
-            "ugcZones": [
-              "ALC053",
-              "FLC033",
-              "FLC113"
-            ],
-            "sameCodes": [
-              "001053",
-              "012033",
-              "012113"
-            ],
-            "polygon": [
-              [
-                31,
-                -87.18
-              ],
-              [
-                31,
-                -87.15
-              ],
-              [
-                30.9,
-                -87.28
-              ],
-              [
-                30.77,
-                -87.29
-              ],
-              [
-                30.77,
-                -87.33
-              ],
-              [
-                30.93,
-                -87.31
-              ],
-              [
-                31,
-                -87.18
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Flood Warning issued June 28 at 9:20AM CDT until June 28 at 9:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD WARNING NOW IN EFFECT UNTIL THIS EVENING",
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Observed",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "HUN": {
       "name": "Huntsville, AL",
