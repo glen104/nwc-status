@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T15:54:11Z",
+  "updated": "2026-07-01T17:44:02Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,93 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "FL.Y.1.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "Y",
+            "event": "Flood Advisory",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0001",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "Y",
+              "etn": "0001",
+              "start": "260701T1627Z",
+              "end": "260714T0000Z"
+            },
+            "issued": "2026-07-01T11:27:00-05:00",
+            "expires": "2026-07-02T11:30:00-05:00",
+            "areaDesc": "Concordia, LA; Adams, MS; Wilkinson, MS",
+            "ugcZones": [
+              "LAC029",
+              "MSC001",
+              "MSC157"
+            ],
+            "sameCodes": [
+              "022029",
+              "028001",
+              "028157"
+            ],
+            "polygon": [
+              [
+                31.01,
+                -91.7
+              ],
+              [
+                31.3,
+                -91.67
+              ],
+              [
+                31.93,
+                -91.29
+              ],
+              [
+                31.87,
+                -91.14
+              ],
+              [
+                31.3,
+                -91.47
+              ],
+              [
+                31,
+                -91.54
+              ],
+              [
+                31.01,
+                -91.7
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Advisory issued July 1 at 11:27AM CDT until July 13 at 7:00PM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD ADVISORY IN EFFECT FROM THIS MORNING TO MONDAY, JULY 13",
+            "urgency": "Expected",
+            "severity": "Minor",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "BMX": {
       "name": "Birmingham, AL",
@@ -157,9 +241,165 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 2,
+      "comparisonCount": 2,
+      "comparison": [
+        {
+          "key": "SV.W.69.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "W",
+            "event": "Severe Thunderstorm Warning",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0069",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "SV",
+              "significance": "W",
+              "etn": "0069",
+              "start": "260701T1742Z",
+              "end": "260701T1845Z"
+            },
+            "issued": "2026-07-01T12:42:00-05:00",
+            "expires": "2026-07-01T13:45:00-05:00",
+            "areaDesc": "Cullman, AL; Marshall, AL; Morgan, AL",
+            "ugcZones": [
+              "ALC043",
+              "ALC095",
+              "ALC103"
+            ],
+            "sameCodes": [
+              "001043",
+              "001095",
+              "001103"
+            ],
+            "polygon": [
+              [
+                34.3,
+                -86.98
+              ],
+              [
+                34.5,
+                -86.66
+              ],
+              [
+                34.33,
+                -86.44
+              ],
+              [
+                34.07,
+                -86.71
+              ],
+              [
+                34.3,
+                -86.98
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": {
+              "direction": "SOUTHWEST",
+              "speed_mph": 10,
+              "bearing": 225
+            },
+            "motionStr": "Southwest at 10 MPH",
+            "hailSize": "1.00\"",
+            "windSpeed": "60 MPH",
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Severe Thunderstorm Warning issued July 1 at 12:42PM CDT until July 1 at 1:45PM CDT by NWS Huntsville AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "HT.Y.3.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "HT",
+            "significance": "Y",
+            "event": "Heat Advisory",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0003",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "HT",
+              "significance": "Y",
+              "etn": "0003",
+              "start": "260703T0000Z",
+              "end": "260704T0000Z"
+            },
+            "issued": "2026-07-01T12:17:00-05:00",
+            "expires": "2026-07-01T20:30:00-05:00",
+            "areaDesc": "Lauderdale; Colbert; Franklin; Lawrence; Limestone; Madison; Morgan; Marshall; Jackson; DeKalb; Cullman; Moore; Lincoln; Franklin",
+            "ugcZones": [
+              "ALZ001",
+              "ALZ002",
+              "ALZ003",
+              "ALZ004",
+              "ALZ005",
+              "ALZ006",
+              "ALZ007",
+              "ALZ008",
+              "ALZ009",
+              "ALZ010",
+              "ALZ016",
+              "TNZ076",
+              "TNZ096",
+              "TNZ097"
+            ],
+            "sameCodes": [
+              "001077",
+              "001033",
+              "001059",
+              "001079",
+              "001083",
+              "001089",
+              "001103",
+              "001095",
+              "001071",
+              "001049",
+              "001043",
+              "047127",
+              "047103",
+              "047051"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Heat Advisory issued July 1 at 12:17PM CDT until July 3 at 7:00PM CDT by NWS Huntsville AL",
+            "nwsHeadline": "EXTREME HEAT WARNING NOW IN EFFECT UNTIL 7 PM CDT THURSDAY... ...HEAT ADVISORY IN EFFECT FROM 7 PM THURSDAY TO 7 PM CDT FRIDAY",
+            "urgency": "Expected",
+            "severity": "Moderate",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     }
   }
 }
