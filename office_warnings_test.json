@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T01:57:44Z",
+  "updated": "2026-07-01T06:22:33Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -15,9 +15,78 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "HT.Y.2.KBMX",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "HT",
+            "significance": "Y",
+            "event": "Heat Advisory",
+            "action": "NEW",
+            "office": "KBMX",
+            "wfo": "BMX",
+            "etn": "0002",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KBMX",
+              "phenomena": "HT",
+              "significance": "Y",
+              "etn": "0002",
+              "start": "260701T0424Z",
+              "end": "260703T0200Z"
+            },
+            "issued": "2026-06-30T23:24:00-05:00",
+            "expires": "2026-07-01T16:00:00-05:00",
+            "areaDesc": "Calhoun; Talladega; Coosa; Tallapoosa; Marengo; Dallas; Autauga; Lowndes; Elmore; Montgomery",
+            "ugcZones": [
+              "ALZ019",
+              "ALZ027",
+              "ALZ036",
+              "ALZ037",
+              "ALZ039",
+              "ALZ040",
+              "ALZ041",
+              "ALZ042",
+              "ALZ043",
+              "ALZ044"
+            ],
+            "sameCodes": [
+              "001015",
+              "001121",
+              "001037",
+              "001123",
+              "001091",
+              "001047",
+              "001001",
+              "001085",
+              "001051",
+              "001101"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Heat Advisory issued June 30 at 11:24PM CDT until July 2 at 9:00PM CDT by NWS Birmingham AL",
+            "nwsHeadline": "HEAT ADVISORY IN EFFECT UNTIL 9 PM CDT THURSDAY",
+            "urgency": "Expected",
+            "severity": "Moderate",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "MOB": {
       "name": "Mobile, AL",
@@ -33,13 +102,13 @@
             "phenomena": "HT",
             "significance": "Y",
             "event": "Heat Advisory",
-            "action": "NEW",
+            "action": "CON",
             "office": "KMOB",
             "wfo": "MOB",
             "etn": "0003",
             "vtec": {
               "productClass": "O",
-              "action": "NEW",
+              "action": "CON",
               "office": "KMOB",
               "phenomena": "HT",
               "significance": "Y",
@@ -47,8 +116,8 @@
               "start": "260701T1500Z",
               "end": "260702T0000Z"
             },
-            "issued": "2026-06-30T10:43:00-05:00",
-            "expires": "2026-06-30T18:45:00-05:00",
+            "issued": "2026-06-30T20:58:00-05:00",
+            "expires": "2026-07-01T05:00:00-05:00",
             "areaDesc": "Wayne; Perry; Greene; Stone; George",
             "ugcZones": [
               "MSZ067",
@@ -72,8 +141,8 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Heat Advisory issued June 30 at 10:43AM CDT until July 1 at 7:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": "HEAT ADVISORY IN EFFECT FROM 10 AM TO 7 PM CDT WEDNESDAY... ...HEAT ADVISORY REMAINS IN EFFECT UNTIL 6 PM CDT THIS EVENING",
+            "headline": "Heat Advisory issued June 30 at 8:58PM CDT until July 1 at 7:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "HEAT ADVISORY REMAINS IN EFFECT FROM 10 AM TO 7 PM CDT WEDNESDAY",
             "urgency": "Expected",
             "severity": "Moderate",
             "certainty": "Likely",
