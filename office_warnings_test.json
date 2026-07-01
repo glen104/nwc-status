@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T10:27:05Z",
+  "updated": "2026-07-01T13:16:06Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -116,8 +116,8 @@
               "start": "260701T1500Z",
               "end": "260702T0000Z"
             },
-            "issued": "2026-06-30T20:58:00-05:00",
-            "expires": "2026-07-01T05:00:00-05:00",
+            "issued": "2026-07-01T05:47:00-05:00",
+            "expires": "2026-07-01T14:00:00-05:00",
             "areaDesc": "Wayne; Perry; Greene; Stone; George",
             "ugcZones": [
               "MSZ067",
@@ -141,8 +141,8 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Heat Advisory issued June 30 at 8:58PM CDT until July 1 at 7:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": "HEAT ADVISORY REMAINS IN EFFECT FROM 10 AM TO 7 PM CDT WEDNESDAY",
+            "headline": "Heat Advisory issued July 1 at 5:47AM CDT until July 1 at 7:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "HEAT ADVISORY REMAINS IN EFFECT FROM 10 AM THIS MORNING TO 7 PM CDT THIS EVENING",
             "urgency": "Expected",
             "severity": "Moderate",
             "certainty": "Likely",
