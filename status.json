@@ -1,13 +1,7 @@
 {
   "status": "NORMAL",
-  "outlookText": "NCO continues to monitor the need for CWD to support fire weather concerns across parts of the Southwest/Four Corners region.",
+  "outlookText": "NCO continues to monitor fire weather conditions across parts of the Southwest/Four Corners region along with severe storm concerns over portions of the Midwest and High Plains.",
   "days": [
-    {
-      "weekday": "Tue",
-      "date": "Jun 30",
-      "status": "Normal",
-      "hazards": []
-    },
     {
       "weekday": "Wed",
       "date": "Jul 01",
@@ -19,7 +13,13 @@
       "date": "Jul 02",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Fri",
+      "date": "Jul 03",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-07-01T06:44:41Z"
+  "updated": "2026-07-01T10:32:51Z"
 }
