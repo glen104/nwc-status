@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T19:23:55Z",
+  "updated": "2026-07-01T20:58:58Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,153 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
+      "apiCount": 3,
+      "comparisonCount": 3,
       "comparison": [
+        {
+          "key": "SV.A.431.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "A",
+            "event": "Severe Thunderstorm Watch",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0431",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "SV",
+              "significance": "A",
+              "etn": "0431",
+              "start": "260701T2006Z",
+              "end": "260702T0300Z"
+            },
+            "issued": "2026-07-01T15:06:00-05:00",
+            "expires": "2026-07-01T22:00:00-05:00",
+            "areaDesc": "Catahoula, LA; Concordia, LA; East Carroll, LA; Franklin, LA; Madison, LA; Richland, LA; Tensas, LA; West Carroll, LA; Adams, MS; Attala, MS; Bolivar, MS; Carroll, MS; Choctaw, MS; Claiborne, MS; Clarke, MS; Clay, MS; Copiah, MS; Franklin, MS; Grenada, MS; Hinds, MS; Holmes, MS; Humphreys, MS; Issaquena, MS; Jasper, MS; Jefferson, MS; Kemper, MS; Lauderdale, MS; Leake, MS; Leflore, MS; Lincoln, MS; Lowndes, MS; Madison, MS; Montgomery, MS; Neshoba, MS; Newton, MS; Noxubee, MS; Oktibbeha, MS; Rankin, MS; Scott, MS; Sharkey, MS; Simpson, MS; Smith, MS; Sunflower, MS; Warren, MS; Washington, MS; Webster, MS; Winston, MS; Yazoo, MS",
+            "ugcZones": [
+              "LAC025",
+              "LAC029",
+              "LAC035",
+              "LAC041",
+              "LAC065",
+              "LAC083",
+              "LAC107",
+              "LAC123",
+              "MSC001",
+              "MSC007",
+              "MSC011",
+              "MSC015",
+              "MSC019",
+              "MSC021",
+              "MSC023",
+              "MSC025",
+              "MSC029",
+              "MSC037",
+              "MSC043",
+              "MSC049",
+              "MSC051",
+              "MSC053",
+              "MSC055",
+              "MSC061",
+              "MSC063",
+              "MSC069",
+              "MSC075",
+              "MSC079",
+              "MSC083",
+              "MSC085",
+              "MSC087",
+              "MSC089",
+              "MSC097",
+              "MSC099",
+              "MSC101",
+              "MSC103",
+              "MSC105",
+              "MSC121",
+              "MSC123",
+              "MSC125",
+              "MSC127",
+              "MSC129",
+              "MSC133",
+              "MSC149",
+              "MSC151",
+              "MSC155",
+              "MSC159",
+              "MSC163"
+            ],
+            "sameCodes": [
+              "022025",
+              "022029",
+              "022035",
+              "022041",
+              "022065",
+              "022083",
+              "022107",
+              "022123",
+              "028001",
+              "028007",
+              "028011",
+              "028015",
+              "028019",
+              "028021",
+              "028023",
+              "028025",
+              "028029",
+              "028037",
+              "028043",
+              "028049",
+              "028051",
+              "028053",
+              "028055",
+              "028061",
+              "028063",
+              "028069",
+              "028075",
+              "028079",
+              "028083",
+              "028085",
+              "028087",
+              "028089",
+              "028097",
+              "028099",
+              "028101",
+              "028103",
+              "028105",
+              "028121",
+              "028123",
+              "028125",
+              "028127",
+              "028129",
+              "028133",
+              "028149",
+              "028151",
+              "028155",
+              "028159",
+              "028163"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Severe Thunderstorm Watch issued July 1 at 3:06PM CDT until July 1 at 10:00PM CDT by NWS Jackson MS",
+            "nwsHeadline": null,
+            "urgency": "Future",
+            "severity": "Severe",
+            "certainty": "Possible",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
         {
           "key": "HT.Y.4.KJAN",
           "iem": null,
@@ -165,7 +309,7 @@
       "comparisonCount": 4,
       "comparison": [
         {
-          "key": "SV.W.101.KBMX",
+          "key": "SV.W.108.KBMX",
           "iem": null,
           "api": {
             "source": "api",
@@ -175,60 +319,124 @@
             "action": "NEW",
             "office": "KBMX",
             "wfo": "BMX",
-            "etn": "0101",
+            "etn": "0108",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KBMX",
               "phenomena": "SV",
               "significance": "W",
-              "etn": "0101",
-              "start": "260701T1904Z",
-              "end": "260701T1945Z"
+              "etn": "0108",
+              "start": "260701T2049Z",
+              "end": "260701T2130Z"
             },
-            "issued": "2026-07-01T14:04:00-05:00",
-            "expires": "2026-07-01T14:45:00-05:00",
-            "areaDesc": "Winston, AL",
+            "issued": "2026-07-01T15:49:00-05:00",
+            "expires": "2026-07-01T16:30:00-05:00",
+            "areaDesc": "Blount, AL; Jefferson, AL; Walker, AL",
             "ugcZones": [
-              "ALC133"
+              "ALC009",
+              "ALC073",
+              "ALC127"
             ],
             "sameCodes": [
-              "001133"
+              "001009",
+              "001073",
+              "001127"
             ],
             "polygon": [
               [
-                34.3,
+                33.6,
+                -86.6
+              ],
+              [
+                33.6,
+                -87.12
+              ],
+              [
+                33.89,
                 -87.11
               ],
               [
-                34.11,
-                -87.11
+                33.89,
+                -87.01
               ],
               [
-                34.04,
-                -87.63
+                33.87,
+                -87
               ],
               [
-                34.31,
-                -87.63
+                33.86,
+                -86.96
               ],
               [
-                34.3,
-                -87.11
+                33.87,
+                -86.96
+              ],
+              [
+                33.87,
+                -86.92
+              ],
+              [
+                33.9,
+                -86.93
+              ],
+              [
+                33.92,
+                -86.92
+              ],
+              [
+                33.92,
+                -86.89
+              ],
+              [
+                33.94,
+                -86.88
+              ],
+              [
+                33.93,
+                -86.86
+              ],
+              [
+                33.95,
+                -86.84
+              ],
+              [
+                33.94,
+                -86.82
+              ],
+              [
+                33.96,
+                -86.82
+              ],
+              [
+                33.95,
+                -86.79
+              ],
+              [
+                34,
+                -86.75
+              ],
+              [
+                34.02,
+                -86.7
+              ],
+              [
+                33.6,
+                -86.6
               ]
             ],
             "threatLevel": "STANDARD",
             "stormMotion": {
-              "direction": "WEST",
-              "speed_mph": 20,
-              "bearing": 270
+              "direction": "NORTHWEST",
+              "speed_mph": 15,
+              "bearing": 315
             },
-            "motionStr": "West at 20 MPH",
-            "hailSize": "1.00\"",
+            "motionStr": "Northwest at 15 MPH",
+            "hailSize": "Up to .75\"",
             "windSpeed": "60 MPH",
             "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Sardis",
-            "headline": "Severe Thunderstorm Warning issued July 1 at 2:04PM CDT until July 1 at 2:45PM CDT by NWS Birmingham AL",
+            "nearestLocation": "Pinson To Near Sumiton",
+            "headline": "Severe Thunderstorm Warning issued July 1 at 3:49PM CDT until July 1 at 4:30PM CDT by NWS Birmingham AL",
             "nwsHeadline": null,
             "urgency": "Immediate",
             "severity": "Severe",
@@ -623,11 +831,11 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 3,
-      "comparisonCount": 3,
+      "apiCount": 4,
+      "comparisonCount": 4,
       "comparison": [
         {
-          "key": "SV.W.72.KHUN",
+          "key": "SV.W.77.KHUN",
           "iem": null,
           "api": {
             "source": "api",
@@ -637,84 +845,64 @@
             "action": "NEW",
             "office": "KHUN",
             "wfo": "HUN",
-            "etn": "0072",
+            "etn": "0077",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KHUN",
               "phenomena": "SV",
               "significance": "W",
-              "etn": "0072",
-              "start": "260701T1922Z",
-              "end": "260701T2030Z"
+              "etn": "0077",
+              "start": "260701T2050Z",
+              "end": "260701T2115Z"
             },
-            "issued": "2026-07-01T14:22:00-05:00",
-            "expires": "2026-07-01T15:30:00-05:00",
-            "areaDesc": "DeKalb, AL",
+            "issued": "2026-07-01T15:50:00-05:00",
+            "expires": "2026-07-01T16:15:00-05:00",
+            "areaDesc": "Franklin, AL",
             "ugcZones": [
-              "ALC049"
+              "ALC059"
             ],
             "sameCodes": [
-              "001049"
+              "001059"
             ],
             "polygon": [
               [
-                34.26,
-                -85.77
+                34.47,
+                -88.16
               ],
               [
-                34.26,
-                -85.81
+                34.58,
+                -88.14
               ],
               [
-                34.24,
-                -85.81
+                34.43,
+                -87.84
               ],
               [
-                34.24,
-                -85.84
+                34.31,
+                -87.94
               ],
               [
-                34.2,
-                -85.85
+                34.32,
+                -88.17
               ],
               [
-                34.2,
-                -86.11
-              ],
-              [
-                34.35,
-                -86.11
-              ],
-              [
-                34.41,
-                -85.93
-              ],
-              [
-                34.36,
-                -85.81
-              ],
-              [
-                34.27,
-                -85.77
-              ],
-              [
-                34.26,
-                -85.77
+                34.47,
+                -88.16
               ]
             ],
             "threatLevel": "STANDARD",
             "stormMotion": {
-              "direction": "SOUTH",
-              "speed_mph": 5,
-              "bearing": 180
+              "direction": "WEST",
+              "speed_mph": 25,
+              "bearing": 270
             },
-            "motionStr": "South at 5 MPH",
-            "hailSize": "1.00\"",
+            "motionStr": "West at 25 MPH",
+            "hailSize": "0.88\"",
             "windSpeed": "60 MPH",
             "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Geraldine",
-            "headline": "Severe Thunderstorm Warning issued July 1 at 2:22PM CDT until July 1 at 3:30PM CDT by NWS Huntsville AL",
+            "nearestLocation": "Red Bay",
+            "headline": "Severe Thunderstorm Warning issued July 1 at 3:50PM CDT until July 1 at 4:15PM CDT by NWS Huntsville AL",
             "nwsHeadline": null,
             "urgency": "Immediate",
             "severity": "Severe",
@@ -726,7 +914,7 @@
           "apiOnly": true
         },
         {
-          "key": "SV.W.71.KHUN",
+          "key": "SV.W.76.KHUN",
           "iem": null,
           "api": {
             "source": "api",
@@ -736,58 +924,183 @@
             "action": "NEW",
             "office": "KHUN",
             "wfo": "HUN",
-            "etn": "0071",
+            "etn": "0076",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KHUN",
               "phenomena": "SV",
               "significance": "W",
-              "etn": "0071",
-              "start": "260701T1842Z",
-              "end": "260701T1945Z"
+              "etn": "0076",
+              "start": "260701T2050Z",
+              "end": "260701T2130Z"
             },
-            "issued": "2026-07-01T13:42:00-05:00",
-            "expires": "2026-07-01T14:45:00-05:00",
-            "areaDesc": "Cullman, AL; Lawrence, AL; Morgan, AL",
+            "issued": "2026-07-01T15:50:00-05:00",
+            "expires": "2026-07-01T16:30:00-05:00",
+            "areaDesc": "Cullman, AL",
             "ugcZones": [
-              "ALC043",
+              "ALC043"
+            ],
+            "sameCodes": [
+              "001043"
+            ],
+            "polygon": [
+              [
+                33.89,
+                -87.01
+              ],
+              [
+                33.9,
+                -87.1
+              ],
+              [
+                33.92,
+                -87.08
+              ],
+              [
+                33.99,
+                -87.15
+              ],
+              [
+                33.99,
+                -87.11
+              ],
+              [
+                34.02,
+                -87.11
+              ],
+              [
+                34.02,
+                -86.72
+              ],
+              [
+                33.95,
+                -86.79
+              ],
+              [
+                33.96,
+                -86.82
+              ],
+              [
+                33.94,
+                -86.82
+              ],
+              [
+                33.95,
+                -86.84
+              ],
+              [
+                33.93,
+                -86.86
+              ],
+              [
+                33.94,
+                -86.88
+              ],
+              [
+                33.92,
+                -86.89
+              ],
+              [
+                33.91,
+                -86.92
+              ],
+              [
+                33.87,
+                -86.92
+              ],
+              [
+                33.86,
+                -86.96
+              ],
+              [
+                33.86,
+                -86.99
+              ],
+              [
+                33.89,
+                -87.01
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": {
+              "direction": "WEST",
+              "speed_mph": 20,
+              "bearing": 270
+            },
+            "motionStr": "West at 20 MPH",
+            "hailSize": "1.00\"",
+            "windSpeed": "60 MPH",
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": "Arkadelphia",
+            "headline": "Severe Thunderstorm Warning issued July 1 at 3:50PM CDT until July 1 at 4:30PM CDT by NWS Huntsville AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "SV.W.75.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "W",
+            "event": "Severe Thunderstorm Warning",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0075",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "SV",
+              "significance": "W",
+              "etn": "0075",
+              "start": "260701T2022Z",
+              "end": "260701T2115Z"
+            },
+            "issued": "2026-07-01T15:22:00-05:00",
+            "expires": "2026-07-01T16:15:00-05:00",
+            "areaDesc": "Lauderdale, AL; Lawrence, AL; Limestone, AL; Morgan, AL",
+            "ugcZones": [
+              "ALC077",
               "ALC079",
+              "ALC083",
               "ALC103"
             ],
             "sameCodes": [
-              "001043",
+              "001077",
               "001079",
+              "001083",
               "001103"
             ],
             "polygon": [
               [
-                34.3,
-                -87.11
+                34.76,
+                -87.08
               ],
               [
-                34.3,
-                -87.39
+                34.6,
+                -86.99
               ],
               [
-                34.53,
-                -87.43
+                34.58,
+                -87.34
               ],
               [
-                34.49,
-                -86.87
+                34.86,
+                -87.41
               ],
               [
-                34.17,
-                -86.79
-              ],
-              [
-                34.12,
-                -87.11
-              ],
-              [
-                34.3,
-                -87.11
+                34.76,
+                -87.08
               ]
             ],
             "threatLevel": "STANDARD",
@@ -800,8 +1113,8 @@
             "hailSize": "1.00\"",
             "windSpeed": "60 MPH",
             "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Falkville",
-            "headline": "Severe Thunderstorm Warning issued July 1 at 1:42PM CDT until July 1 at 2:45PM CDT by NWS Huntsville AL",
+            "nearestLocation": "Trinity",
+            "headline": "Severe Thunderstorm Warning issued July 1 at 3:22PM CDT until July 1 at 4:15PM CDT by NWS Huntsville AL",
             "nwsHeadline": null,
             "urgency": "Immediate",
             "severity": "Severe",
