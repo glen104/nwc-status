@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T22:17:05Z",
+  "updated": "2026-07-01T23:46:26Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,11 +8,11 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 6,
-      "comparisonCount": 6,
+      "apiCount": 5,
+      "comparisonCount": 5,
       "comparison": [
         {
-          "key": "SV.W.224.KJAN",
+          "key": "SV.W.229.KJAN",
           "iem": null,
           "api": {
             "source": "api",
@@ -22,80 +22,90 @@
             "action": "NEW",
             "office": "KJAN",
             "wfo": "JAN",
-            "etn": "0224",
+            "etn": "0229",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KJAN",
               "phenomena": "SV",
               "significance": "W",
-              "etn": "0224",
-              "start": "260701T2214Z",
-              "end": "260701T2300Z"
+              "etn": "0229",
+              "start": "260701T2344Z",
+              "end": "260702T0045Z"
             },
-            "issued": "2026-07-01T17:14:00-05:00",
-            "expires": "2026-07-01T18:00:00-05:00",
-            "areaDesc": "Lowndes, MS; Noxubee, MS; Oktibbeha, MS",
+            "issued": "2026-07-01T18:44:00-05:00",
+            "expires": "2026-07-01T19:45:00-05:00",
+            "areaDesc": "Carroll, MS; Grenada, MS",
             "ugcZones": [
-              "MSC087",
-              "MSC103",
-              "MSC105"
+              "MSC015",
+              "MSC043"
             ],
             "sameCodes": [
-              "028087",
-              "028103",
-              "028105"
+              "028015",
+              "028043"
             ],
             "polygon": [
               [
-                33.25,
-                -88.49
+                33.68,
+                -89.66
               ],
               [
-                33.11,
-                -88.61
+                33.68,
+                -89.78
               ],
               [
-                33.22,
-                -88.81
+                33.66,
+                -89.79
               ],
               [
-                33.29,
-                -88.81
+                33.4,
+                -89.83
               ],
               [
-                33.29,
-                -88.86
+                33.36,
+                -89.8
               ],
               [
-                33.39,
-                -88.79
+                33.37,
+                -90.07
               ],
               [
-                33.49,
-                -88.62
+                33.57,
+                -90.1
               ],
               [
-                33.26,
-                -88.66
+                33.6,
+                -90.1
               ],
               [
-                33.25,
-                -88.49
+                33.61,
+                -90.11
+              ],
+              [
+                33.75,
+                -90.06
+              ],
+              [
+                33.75,
+                -89.68
+              ],
+              [
+                33.68,
+                -89.66
               ]
             ],
             "threatLevel": "STANDARD",
             "stormMotion": {
-              "direction": "NORTHWEST",
+              "direction": "WEST",
               "speed_mph": 20,
-              "bearing": 315
+              "bearing": 270
             },
-            "motionStr": "Northwest at 20 MPH",
-            "hailSize": "0.75\"",
+            "motionStr": "West at 20 MPH",
+            "hailSize": "Up to .75\"",
             "windSpeed": "60 MPH",
             "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Brooksville",
-            "headline": "Severe Thunderstorm Warning issued July 1 at 5:14PM CDT until July 1 at 6:00PM CDT by NWS Jackson MS",
+            "nearestLocation": null,
+            "headline": "Severe Thunderstorm Warning issued July 1 at 6:44PM CDT until July 1 at 7:45PM CDT by NWS Jackson MS",
             "nwsHeadline": null,
             "urgency": "Immediate",
             "severity": "Severe",
@@ -107,7 +117,7 @@
           "apiOnly": true
         },
         {
-          "key": "SV.W.223.KJAN",
+          "key": "SV.W.228.KJAN",
           "iem": null,
           "api": {
             "source": "api",
@@ -117,147 +127,74 @@
             "action": "NEW",
             "office": "KJAN",
             "wfo": "JAN",
-            "etn": "0223",
+            "etn": "0228",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KJAN",
               "phenomena": "SV",
               "significance": "W",
-              "etn": "0223",
-              "start": "260701T2145Z",
-              "end": "260701T2230Z"
+              "etn": "0228",
+              "start": "260701T2331Z",
+              "end": "260702T0030Z"
             },
-            "issued": "2026-07-01T16:45:00-05:00",
-            "expires": "2026-07-01T17:30:00-05:00",
-            "areaDesc": "Clay, MS",
+            "issued": "2026-07-01T18:31:00-05:00",
+            "expires": "2026-07-01T19:30:00-05:00",
+            "areaDesc": "Holmes, MS; Humphreys, MS; Sharkey, MS; Yazoo, MS",
             "ugcZones": [
-              "MSC025"
+              "MSC051",
+              "MSC053",
+              "MSC125",
+              "MSC163"
             ],
             "sameCodes": [
-              "028025"
+              "028051",
+              "028053",
+              "028125",
+              "028163"
             ],
             "polygon": [
               [
-                33.79,
-                -88.72
+                33.15,
+                -90.53
               ],
               [
-                33.68,
-                -88.72
+                32.97,
+                -90.83
               ],
               [
-                33.68,
-                -88.68
+                32.77,
+                -90.85
               ],
               [
-                33.64,
-                -88.68
+                32.74,
+                -90.38
               ],
               [
-                33.61,
-                -88.93
+                32.93,
+                -90.36
               ],
               [
-                33.81,
-                -88.9
+                33.06,
+                -90.2
               ],
               [
-                33.79,
-                -88.72
+                33.15,
+                -90.53
               ]
             ],
             "threatLevel": "STANDARD",
             "stormMotion": {
               "direction": "WEST",
-              "speed_mph": 15,
+              "speed_mph": 25,
               "bearing": 270
             },
-            "motionStr": "West at 15 MPH",
-            "hailSize": "0.75\"",
+            "motionStr": "West at 25 MPH",
+            "hailSize": "Up to .75\"",
             "windSpeed": "60 MPH",
             "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Pala Alto",
-            "headline": "Severe Thunderstorm Warning issued July 1 at 4:45PM CDT until July 1 at 5:30PM CDT by NWS Jackson MS",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Observed",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "SV.W.222.KJAN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "SV",
-            "significance": "W",
-            "event": "Severe Thunderstorm Warning",
-            "action": "NEW",
-            "office": "KJAN",
-            "wfo": "JAN",
-            "etn": "0222",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KJAN",
-              "phenomena": "SV",
-              "significance": "W",
-              "etn": "0222",
-              "start": "260701T2137Z",
-              "end": "260701T2230Z"
-            },
-            "issued": "2026-07-01T16:37:00-05:00",
-            "expires": "2026-07-01T17:30:00-05:00",
-            "areaDesc": "Clay, MS; Lowndes, MS; Noxubee, MS",
-            "ugcZones": [
-              "MSC025",
-              "MSC087",
-              "MSC103"
-            ],
-            "sameCodes": [
-              "028025",
-              "028087",
-              "028103"
-            ],
-            "polygon": [
-              [
-                33.53,
-                -88.34
-              ],
-              [
-                33.24,
-                -88.31
-              ],
-              [
-                33.26,
-                -88.66
-              ],
-              [
-                33.61,
-                -88.6
-              ],
-              [
-                33.53,
-                -88.34
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": {
-              "direction": "WEST",
-              "speed_mph": 10,
-              "bearing": 270
-            },
-            "motionStr": "West at 10 MPH",
-            "hailSize": "0.75\"",
-            "windSpeed": "60 MPH",
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Columbus",
-            "headline": "Severe Thunderstorm Warning issued July 1 at 4:37PM CDT until July 1 at 5:30PM CDT by NWS Jackson MS",
+            "nearestLocation": "Yazoo City",
+            "headline": "Severe Thunderstorm Warning issued July 1 at 6:31PM CDT until July 1 at 7:30PM CDT by NWS Jackson MS",
             "nwsHeadline": null,
             "urgency": "Immediate",
             "severity": "Severe",
@@ -562,9 +499,94 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
+      "apiCount": 2,
+      "comparisonCount": 2,
       "comparison": [
+        {
+          "key": "SV.W.113.KBMX",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "W",
+            "event": "Severe Thunderstorm Warning",
+            "action": "NEW",
+            "office": "KBMX",
+            "wfo": "BMX",
+            "etn": "0113",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KBMX",
+              "phenomena": "SV",
+              "significance": "W",
+              "etn": "0113",
+              "start": "260701T2327Z",
+              "end": "260702T0015Z"
+            },
+            "issued": "2026-07-01T18:27:00-05:00",
+            "expires": "2026-07-01T19:15:00-05:00",
+            "areaDesc": "Chilton, AL; Shelby, AL",
+            "ugcZones": [
+              "ALC021",
+              "ALC117"
+            ],
+            "sameCodes": [
+              "001021",
+              "001117"
+            ],
+            "polygon": [
+              [
+                33.32,
+                -86.55
+              ],
+              [
+                33.06,
+                -86.51
+              ],
+              [
+                33.06,
+                -86.52
+              ],
+              [
+                33.02,
+                -86.52
+              ],
+              [
+                32.98,
+                -86.84
+              ],
+              [
+                33.25,
+                -86.88
+              ],
+              [
+                33.32,
+                -86.55
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": {
+              "direction": "WEST",
+              "speed_mph": 10,
+              "bearing": 270
+            },
+            "motionStr": "West at 10 MPH",
+            "hailSize": "Up to .75\"",
+            "windSpeed": "60 MPH",
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": "Fayetteville",
+            "headline": "Severe Thunderstorm Warning issued July 1 at 6:27PM CDT until July 1 at 7:15PM CDT by NWS Birmingham AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
         {
           "key": "SV.A.430.KBMX",
           "iem": null,
@@ -691,7 +713,7 @@
       "comparisonCount": 3,
       "comparison": [
         {
-          "key": "SV.W.79.KHUN",
+          "key": "SV.W.82.KHUN",
           "iem": null,
           "api": {
             "source": "api",
@@ -701,76 +723,118 @@
             "action": "NEW",
             "office": "KHUN",
             "wfo": "HUN",
-            "etn": "0079",
+            "etn": "0082",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KHUN",
               "phenomena": "SV",
               "significance": "W",
-              "etn": "0079",
-              "start": "260701T2155Z",
-              "end": "260701T2300Z"
+              "etn": "0082",
+              "start": "260701T2338Z",
+              "end": "260702T0030Z"
             },
-            "issued": "2026-07-01T16:55:00-05:00",
-            "expires": "2026-07-01T18:00:00-05:00",
-            "areaDesc": "Lawrence, AL; Limestone, AL; Morgan, AL",
+            "issued": "2026-07-01T18:38:00-05:00",
+            "expires": "2026-07-01T19:30:00-05:00",
+            "areaDesc": "Cullman, AL; Marshall, AL",
             "ugcZones": [
-              "ALC079",
-              "ALC083",
-              "ALC103"
+              "ALC043",
+              "ALC095"
             ],
             "sameCodes": [
-              "001079",
-              "001083",
-              "001103"
+              "001043",
+              "001095"
             ],
             "polygon": [
               [
-                34.83,
-                -86.8
+                34.31,
+                -86.67
               ],
               [
-                34.54,
-                -87.05
+                34.31,
+                -86.58
               ],
               [
-                34.59,
-                -87.18
+                34.35,
+                -86.58
               ],
               [
-                34.76,
-                -87.1
+                34.36,
+                -86.22
               ],
               [
-                34.8,
-                -87.21
+                34.42,
+                -86.22
               ],
               [
-                34.89,
-                -87.15
+                34.42,
+                -86.14
               ],
               [
-                34.92,
-                -86.93
+                34.28,
+                -86.11
               ],
               [
-                34.83,
-                -86.8
+                34.19,
+                -86.11
+              ],
+              [
+                34.18,
+                -86.19
+              ],
+              [
+                34.1,
+                -86.3
+              ],
+              [
+                34.26,
+                -86.44
+              ],
+              [
+                34.26,
+                -86.49
+              ],
+              [
+                34.25,
+                -86.52
+              ],
+              [
+                34.2,
+                -86.55
+              ],
+              [
+                34.19,
+                -86.55
+              ],
+              [
+                34.12,
+                -86.6
+              ],
+              [
+                34.12,
+                -86.63
+              ],
+              [
+                34.1,
+                -86.66
+              ],
+              [
+                34.31,
+                -86.67
               ]
             ],
             "threatLevel": "STANDARD",
             "stormMotion": {
-              "direction": "NORTHWEST",
-              "speed_mph": 20,
-              "bearing": 315
+              "direction": "WEST",
+              "speed_mph": 10,
+              "bearing": 270
             },
-            "motionStr": "Northwest at 20 MPH",
-            "hailSize": "0.75\"",
+            "motionStr": "West at 10 MPH",
+            "hailSize": "0.88\"",
             "windSpeed": "60 MPH",
             "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Tanner",
-            "headline": "Severe Thunderstorm Warning issued July 1 at 4:55PM CDT until July 1 at 6:00PM CDT by NWS Huntsville AL",
+            "nearestLocation": "Guntersville",
+            "headline": "Severe Thunderstorm Warning issued July 1 at 6:38PM CDT until July 1 at 7:30PM CDT by NWS Huntsville AL",
             "nwsHeadline": null,
             "urgency": "Immediate",
             "severity": "Severe",
@@ -782,7 +846,7 @@
           "apiOnly": true
         },
         {
-          "key": "SV.W.78.KHUN",
+          "key": "SV.W.81.KHUN",
           "iem": null,
           "api": {
             "source": "api",
@@ -792,66 +856,64 @@
             "action": "NEW",
             "office": "KHUN",
             "wfo": "HUN",
-            "etn": "0078",
+            "etn": "0081",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KHUN",
               "phenomena": "SV",
               "significance": "W",
-              "etn": "0078",
-              "start": "260701T2138Z",
-              "end": "260701T2230Z"
+              "etn": "0081",
+              "start": "260701T2323Z",
+              "end": "260702T0015Z"
             },
-            "issued": "2026-07-01T16:38:00-05:00",
-            "expires": "2026-07-01T17:30:00-05:00",
-            "areaDesc": "Colbert, AL; Lauderdale, AL; Lawrence, AL; Limestone, AL",
+            "issued": "2026-07-01T18:23:00-05:00",
+            "expires": "2026-07-01T19:15:00-05:00",
+            "areaDesc": "Madison, AL; Marshall, AL; Morgan, AL",
             "ugcZones": [
-              "ALC033",
-              "ALC077",
-              "ALC079",
-              "ALC083"
+              "ALC089",
+              "ALC095",
+              "ALC103"
             ],
             "sameCodes": [
-              "001033",
-              "001077",
-              "001079",
-              "001083"
+              "001089",
+              "001095",
+              "001103"
             ],
             "polygon": [
               [
-                34.76,
-                -87.1
+                34.54,
+                -86.22
               ],
               [
-                34.62,
-                -87.16
+                34.36,
+                -86.22
               ],
               [
-                34.66,
-                -87.49
+                34.35,
+                -86.67
               ],
               [
-                34.89,
-                -87.42
+                34.56,
+                -86.66
               ],
               [
-                34.76,
-                -87.1
+                34.54,
+                -86.22
               ]
             ],
             "threatLevel": "STANDARD",
             "stormMotion": {
               "direction": "WEST",
-              "speed_mph": 10,
+              "speed_mph": 25,
               "bearing": 270
             },
-            "motionStr": "West at 10 MPH",
-            "hailSize": "1.00\"",
+            "motionStr": "West at 25 MPH",
+            "hailSize": "0.88\"",
             "windSpeed": "60 MPH",
             "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Severe Thunderstorm Warning issued July 1 at 4:38PM CDT until July 1 at 5:30PM CDT by NWS Huntsville AL",
+            "nearestLocation": "Grant",
+            "headline": "Severe Thunderstorm Warning issued July 1 at 6:23PM CDT until July 1 at 7:15PM CDT by NWS Huntsville AL",
             "nwsHeadline": null,
             "urgency": "Immediate",
             "severity": "Severe",
