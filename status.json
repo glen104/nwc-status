@@ -1,13 +1,7 @@
 {
   "status": "NORMAL",
-  "outlookText": "NCO continues to monitor fire weather conditions across parts of the Southwest/Four Corners region along with severe storm concerns over portions of the Midwest and High Plains.",
+  "outlookText": "NCO continues to monitor fire weather conditions across parts of the Southwest/Four Corners region along with severe storm concerns over the Upper Midwest.",
   "days": [
-    {
-      "weekday": "Wed",
-      "date": "Jul 01",
-      "status": "Normal",
-      "hazards": []
-    },
     {
       "weekday": "Thu",
       "date": "Jul 02",
@@ -19,7 +13,13 @@
       "date": "Jul 03",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Sat",
+      "date": "Jul 04",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-07-02T06:23:59Z"
+  "updated": "2026-07-02T09:39:44Z"
 }
