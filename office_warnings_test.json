@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T15:27:40Z",
+  "updated": "2026-07-02T17:09:45Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,16 +8,169 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "FL.Y.1.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "Y",
+            "event": "Flood Advisory",
+            "action": "EXT",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0001",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "Y",
+              "etn": "0001",
+              "start": "000000T0000Z",
+              "end": "260713T1200Z"
+            },
+            "issued": "2026-07-02T11:56:00-05:00",
+            "expires": "2026-07-03T12:00:00-05:00",
+            "areaDesc": "Concordia, LA; Adams, MS; Wilkinson, MS",
+            "ugcZones": [
+              "LAC029",
+              "MSC001",
+              "MSC157"
+            ],
+            "sameCodes": [
+              "022029",
+              "028001",
+              "028157"
+            ],
+            "polygon": [
+              [
+                31.01,
+                -91.7
+              ],
+              [
+                31.3,
+                -91.67
+              ],
+              [
+                31.93,
+                -91.29
+              ],
+              [
+                31.87,
+                -91.14
+              ],
+              [
+                31.3,
+                -91.47
+              ],
+              [
+                31,
+                -91.54
+              ],
+              [
+                31.01,
+                -91.7
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Advisory issued July 2 at 11:56AM CDT until July 13 at 7:00AM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD ADVISORY NOW IN EFFECT UNTIL MONDAY, JULY 13",
+            "urgency": "Expected",
+            "severity": "Minor",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "HT.Y.3.KBMX",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "HT",
+            "significance": "Y",
+            "event": "Heat Advisory",
+            "action": "NEW",
+            "office": "KBMX",
+            "wfo": "BMX",
+            "etn": "0003",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KBMX",
+              "phenomena": "HT",
+              "significance": "Y",
+              "etn": "0003",
+              "start": "260704T1200Z",
+              "end": "260705T0200Z"
+            },
+            "issued": "2026-07-02T10:52:00-05:00",
+            "expires": "2026-07-03T01:00:00-05:00",
+            "areaDesc": "Cleburne; Clay; Randolph; Chambers; Macon; Bullock; Lee; Russell; Pike; Barbour",
+            "ugcZones": [
+              "ALZ021",
+              "ALZ028",
+              "ALZ029",
+              "ALZ038",
+              "ALZ045",
+              "ALZ046",
+              "ALZ047",
+              "ALZ048",
+              "ALZ049",
+              "ALZ050"
+            ],
+            "sameCodes": [
+              "001029",
+              "001027",
+              "001111",
+              "001017",
+              "001087",
+              "001011",
+              "001081",
+              "001113",
+              "001109",
+              "001005"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Heat Advisory issued July 2 at 10:52AM CDT until July 4 at 9:00PM CDT by NWS Birmingham AL",
+            "nwsHeadline": "HEAT ADVISORY IN EFFECT FROM 7 AM TO 9 PM CDT SATURDAY",
+            "urgency": "Expected",
+            "severity": "Moderate",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "MOB": {
       "name": "Mobile, AL",
