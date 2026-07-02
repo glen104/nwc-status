@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T18:46:21Z",
+  "updated": "2026-07-02T20:09:06Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,100 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
+      "apiCount": 2,
+      "comparisonCount": 2,
       "comparison": [
+        {
+          "key": "SV.W.235.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "W",
+            "event": "Severe Thunderstorm Warning",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0235",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "SV",
+              "significance": "W",
+              "etn": "0235",
+              "start": "260702T1947Z",
+              "end": "260702T2030Z"
+            },
+            "issued": "2026-07-02T14:47:00-05:00",
+            "expires": "2026-07-02T15:30:00-05:00",
+            "areaDesc": "Bolivar, MS; Leflore, MS; Sunflower, MS",
+            "ugcZones": [
+              "MSC011",
+              "MSC083",
+              "MSC133"
+            ],
+            "sameCodes": [
+              "028011",
+              "028083",
+              "028133"
+            ],
+            "polygon": [
+              [
+                33.62,
+                -90.21
+              ],
+              [
+                33.36,
+                -90.43
+              ],
+              [
+                33.5,
+                -90.76
+              ],
+              [
+                33.53,
+                -90.76
+              ],
+              [
+                33.53,
+                -90.82
+              ],
+              [
+                33.56,
+                -90.89
+              ],
+              [
+                33.88,
+                -90.63
+              ],
+              [
+                33.62,
+                -90.21
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": {
+              "direction": "NORTHWEST",
+              "speed_mph": 20,
+              "bearing": 315
+            },
+            "motionStr": "Northwest at 20 MPH",
+            "hailSize": "1.00\"",
+            "windSpeed": "60 MPH",
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": "Sunflower",
+            "headline": "Severe Thunderstorm Warning issued July 2 at 2:47PM CDT until July 2 at 3:30PM CDT by NWS Jackson MS",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
         {
           "key": "FL.Y.1.KJAN",
           "iem": null,
