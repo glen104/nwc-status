@@ -1,15 +1,7 @@
 {
   "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day is in effect from 05Z on Fri 3 July 2026 until 12Z on Tues 7 July 2026 in support of tropical cyclone ops across Guam, Rota, Tinian, and Saipan. NCO is also monitoring for the potential need for CWD in support of severe weather ops across the Midwest and fire weather ops across the Four Corners Region.",
+  "outlookText": "Critical Weather Day is in effect from 05Z on Fri 3 July 2026 until 12Z on Tues 7 July 2026 in support of tropical cyclone ops across Guam and the Northern Mariana Islands. NCO is also monitoring for the potential need for CWD in support of severe weather ops across the Midwest and fire weather ops across the Four Corners Region today.",
   "days": [
-    {
-      "weekday": "Thu",
-      "date": "Jul 02",
-      "status": "Critical",
-      "hazards": [
-        "tropical"
-      ]
-    },
     {
       "weekday": "Fri",
       "date": "Jul 03",
@@ -25,7 +17,15 @@
       "hazards": [
         "tropical"
       ]
+    },
+    {
+      "weekday": "Sun",
+      "date": "Jul 05",
+      "status": "Critical",
+      "hazards": [
+        "tropical"
+      ]
     }
   ],
-  "updated": "2026-07-03T08:10:27Z"
+  "updated": "2026-07-03T10:49:56Z"
 }
