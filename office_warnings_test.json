@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T22:29:05Z",
+  "updated": "2026-07-03T23:35:09Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -15,9 +15,86 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
+      "apiCount": 2,
+      "comparisonCount": 2,
       "comparison": [
+        {
+          "key": "SV.W.121.KBMX",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "W",
+            "event": "Severe Thunderstorm Warning",
+            "action": "NEW",
+            "office": "KBMX",
+            "wfo": "BMX",
+            "etn": "0121",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KBMX",
+              "phenomena": "SV",
+              "significance": "W",
+              "etn": "0121",
+              "start": "260703T2330Z",
+              "end": "260704T0015Z"
+            },
+            "issued": "2026-07-03T18:30:00-05:00",
+            "expires": "2026-07-03T19:15:00-05:00",
+            "areaDesc": "Jefferson, AL; Shelby, AL",
+            "ugcZones": [
+              "ALC073",
+              "ALC117"
+            ],
+            "sameCodes": [
+              "001073",
+              "001117"
+            ],
+            "polygon": [
+              [
+                33.43,
+                -86.61
+              ],
+              [
+                33.34,
+                -86.8
+              ],
+              [
+                33.55,
+                -86.95
+              ],
+              [
+                33.66,
+                -86.67
+              ],
+              [
+                33.43,
+                -86.61
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": {
+              "direction": "STATIONARY",
+              "speed_mph": 0,
+              "bearing": null
+            },
+            "motionStr": "Stationary",
+            "hailSize": "1.00\"",
+            "windSpeed": "60 MPH",
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": "Mountain\nBrook",
+            "headline": "Severe Thunderstorm Warning issued July 3 at 6:30PM CDT until July 3 at 7:15PM CDT by NWS Birmingham AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
         {
           "key": "FA.Y.72.KBMX",
           "iem": null,
