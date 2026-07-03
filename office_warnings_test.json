@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T21:20:30Z",
+  "updated": "2026-07-03T22:29:05Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -15,9 +15,97 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "FA.Y.72.KBMX",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "Y",
+            "event": "Flood Advisory",
+            "action": "NEW",
+            "office": "KBMX",
+            "wfo": "BMX",
+            "etn": "0072",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KBMX",
+              "phenomena": "FA",
+              "significance": "Y",
+              "etn": "0072",
+              "start": "260703T2134Z",
+              "end": "260704T0045Z"
+            },
+            "issued": "2026-07-03T16:34:00-05:00",
+            "expires": "2026-07-03T19:45:00-05:00",
+            "areaDesc": "Cherokee, AL",
+            "ugcZones": [
+              "ALC019"
+            ],
+            "sameCodes": [
+              "001019"
+            ],
+            "polygon": [
+              [
+                34.27,
+                -85.46
+              ],
+              [
+                33.96,
+                -85.4
+              ],
+              [
+                33.97,
+                -85.72
+              ],
+              [
+                34.11,
+                -85.8
+              ],
+              [
+                34.12,
+                -85.79
+              ],
+              [
+                34.13,
+                -85.8
+              ],
+              [
+                34.16,
+                -85.82
+              ],
+              [
+                34.3,
+                -85.58
+              ],
+              [
+                34.27,
+                -85.46
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flood Advisory issued July 3 at 4:34PM CDT until July 3 at 7:45PM CDT by NWS Birmingham AL",
+            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 745 PM CDT THIS EVENING",
+            "urgency": "Expected",
+            "severity": "Minor",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "MOB": {
       "name": "Mobile, AL",
@@ -29,101 +117,9 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "SV.W.96.KHUN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "SV",
-            "significance": "W",
-            "event": "Severe Thunderstorm Warning",
-            "action": "NEW",
-            "office": "KHUN",
-            "wfo": "HUN",
-            "etn": "0096",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KHUN",
-              "phenomena": "SV",
-              "significance": "W",
-              "etn": "0096",
-              "start": "260703T2106Z",
-              "end": "260703T2200Z"
-            },
-            "issued": "2026-07-03T16:06:00-05:00",
-            "expires": "2026-07-03T17:00:00-05:00",
-            "areaDesc": "Limestone, AL; Madison, AL; Morgan, AL",
-            "ugcZones": [
-              "ALC083",
-              "ALC089",
-              "ALC103"
-            ],
-            "sameCodes": [
-              "001083",
-              "001089",
-              "001103"
-            ],
-            "polygon": [
-              [
-                34.99,
-                -86.76
-              ],
-              [
-                34.92,
-                -86.76
-              ],
-              [
-                34.6,
-                -86.6
-              ],
-              [
-                34.4,
-                -86.95
-              ],
-              [
-                34.9,
-                -87.22
-              ],
-              [
-                34.9,
-                -87.21
-              ],
-              [
-                35,
-                -87.21
-              ],
-              [
-                34.99,
-                -86.76
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": {
-              "direction": "NORTHWEST",
-              "speed_mph": 5,
-              "bearing": 315
-            },
-            "motionStr": "Northwest at 5 MPH",
-            "hailSize": "1.00\"",
-            "windSpeed": "60 MPH",
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Madison",
-            "headline": "Severe Thunderstorm Warning issued July 3 at 4:06PM CDT until July 3 at 5:00PM CDT by NWS Huntsville AL",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Observed",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     }
   }
 }
