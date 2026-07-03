@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T23:40:35Z",
+  "updated": "2026-07-03T01:15:30Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -31,16 +31,52 @@
               "significance": "Y",
               "etn": "0004",
               "start": "000000T0000Z",
-              "end": "260703T0100Z"
+              "end": "260704T0100Z"
             },
             "issued": "2026-07-02T17:00:00-05:00",
-            "expires": "2026-07-02T20:00:00-05:00",
-            "areaDesc": "Kemper",
+            "expires": "2026-07-03T01:00:00-05:00",
+            "areaDesc": "Ashley; Chicot; Bolivar; Sunflower; Leflore; Grenada; Carroll; Montgomery; Webster; Clay; Lowndes; Choctaw; Oktibbeha; Washington; Humphreys; Holmes; Attala; Winston; Noxubee",
             "ugcZones": [
-              "MSZ046"
+              "ARZ074",
+              "ARZ075",
+              "MSZ018",
+              "MSZ019",
+              "MSZ025",
+              "MSZ026",
+              "MSZ027",
+              "MSZ028",
+              "MSZ029",
+              "MSZ030",
+              "MSZ031",
+              "MSZ032",
+              "MSZ033",
+              "MSZ034",
+              "MSZ035",
+              "MSZ036",
+              "MSZ037",
+              "MSZ038",
+              "MSZ039"
             ],
             "sameCodes": [
-              "028069"
+              "005003",
+              "005017",
+              "028011",
+              "028133",
+              "028083",
+              "028043",
+              "028015",
+              "028097",
+              "028155",
+              "028025",
+              "028087",
+              "028019",
+              "028105",
+              "028151",
+              "028053",
+              "028051",
+              "028007",
+              "028159",
+              "028103"
             ],
             "polygon": null,
             "threatLevel": "STANDARD",
@@ -50,8 +86,8 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Heat Advisory issued July 2 at 5:00PM CDT until July 2 at 8:00PM CDT by NWS Jackson MS",
-            "nwsHeadline": "HEAT ADVISORY REMAINS IN EFFECT UNTIL 8 PM CDT THIS EVENING",
+            "headline": "Heat Advisory issued July 2 at 5:00PM CDT until July 3 at 8:00PM CDT by NWS Jackson MS",
+            "nwsHeadline": "HEAT ADVISORY REMAINS IN EFFECT UNTIL 8 PM CDT FRIDAY",
             "urgency": "Expected",
             "severity": "Moderate",
             "certainty": "Likely",
@@ -149,78 +185,9 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "HT.Y.3.KBMX",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "HT",
-            "significance": "Y",
-            "event": "Heat Advisory",
-            "action": "NEW",
-            "office": "KBMX",
-            "wfo": "BMX",
-            "etn": "0003",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KBMX",
-              "phenomena": "HT",
-              "significance": "Y",
-              "etn": "0003",
-              "start": "260704T1200Z",
-              "end": "260705T0200Z"
-            },
-            "issued": "2026-07-02T10:52:00-05:00",
-            "expires": "2026-07-03T01:00:00-05:00",
-            "areaDesc": "Cleburne; Clay; Randolph; Chambers; Macon; Bullock; Lee; Russell; Pike; Barbour",
-            "ugcZones": [
-              "ALZ021",
-              "ALZ028",
-              "ALZ029",
-              "ALZ038",
-              "ALZ045",
-              "ALZ046",
-              "ALZ047",
-              "ALZ048",
-              "ALZ049",
-              "ALZ050"
-            ],
-            "sameCodes": [
-              "001029",
-              "001027",
-              "001111",
-              "001017",
-              "001087",
-              "001011",
-              "001081",
-              "001113",
-              "001109",
-              "001005"
-            ],
-            "polygon": null,
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Heat Advisory issued July 2 at 10:52AM CDT until July 4 at 9:00PM CDT by NWS Birmingham AL",
-            "nwsHeadline": "HEAT ADVISORY IN EFFECT FROM 7 AM TO 9 PM CDT SATURDAY",
-            "urgency": "Expected",
-            "severity": "Moderate",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "MOB": {
       "name": "Mobile, AL",
@@ -236,7 +203,7 @@
       "comparisonCount": 1,
       "comparison": [
         {
-          "key": "SV.W.84.KHUN",
+          "key": "SV.W.87.KHUN",
           "iem": null,
           "api": {
             "source": "api",
@@ -246,62 +213,84 @@
             "action": "NEW",
             "office": "KHUN",
             "wfo": "HUN",
-            "etn": "0084",
+            "etn": "0087",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KHUN",
               "phenomena": "SV",
               "significance": "W",
-              "etn": "0084",
-              "start": "260702T2332Z",
-              "end": "260703T0000Z"
+              "etn": "0087",
+              "start": "260703T0058Z",
+              "end": "260703T0145Z"
             },
-            "issued": "2026-07-02T18:32:00-05:00",
-            "expires": "2026-07-02T19:00:00-05:00",
-            "areaDesc": "Limestone, AL; Madison, AL",
+            "issued": "2026-07-02T19:58:00-05:00",
+            "expires": "2026-07-02T20:45:00-05:00",
+            "areaDesc": "Jackson, AL",
             "ugcZones": [
-              "ALC083",
-              "ALC089"
+              "ALC071"
             ],
             "sameCodes": [
-              "001083",
-              "001089"
+              "001071"
             ],
             "polygon": [
               [
-                34.83,
-                -86.63
+                34.61,
+                -85.8
+              ],
+              [
+                34.53,
+                -85.93
+              ],
+              [
+                34.49,
+                -85.97
+              ],
+              [
+                34.48,
+                -85.99
+              ],
+              [
+                34.52,
+                -86.11
+              ],
+              [
+                34.53,
+                -86.11
+              ],
+              [
+                34.53,
+                -86.13
+              ],
+              [
+                34.64,
+                -86.15
+              ],
+              [
+                34.72,
+                -85.83
               ],
               [
                 34.66,
-                -86.66
+                -85.76
               ],
               [
-                34.7,
-                -86.9
-              ],
-              [
-                34.87,
-                -86.87
-              ],
-              [
-                34.83,
-                -86.63
+                34.61,
+                -85.8
               ]
             ],
             "threatLevel": "STANDARD",
             "stormMotion": {
-              "direction": "STATIONARY",
-              "speed_mph": 0,
-              "bearing": null
+              "direction": "WEST",
+              "speed_mph": 20,
+              "bearing": 270
             },
-            "motionStr": "Stationary",
+            "motionStr": "West at 20 MPH",
             "hailSize": "Up to .75\"",
             "windSpeed": "60 MPH",
             "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Madison",
-            "headline": "Severe Thunderstorm Warning issued July 2 at 6:32PM CDT until July 2 at 7:00PM CDT by NWS Huntsville AL",
+            "nearestLocation": "Powell",
+            "headline": "Severe Thunderstorm Warning issued July 2 at 7:58PM CDT until July 2 at 8:45PM CDT by NWS Huntsville AL",
             "nwsHeadline": null,
             "urgency": "Immediate",
             "severity": "Severe",
