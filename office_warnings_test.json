@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T01:15:30Z",
+  "updated": "2026-07-03T04:58:02Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,95 +8,9 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
+      "apiCount": 1,
+      "comparisonCount": 1,
       "comparison": [
-        {
-          "key": "HT.Y.4.KJAN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "HT",
-            "significance": "Y",
-            "event": "Heat Advisory",
-            "action": "CON",
-            "office": "KJAN",
-            "wfo": "JAN",
-            "etn": "0004",
-            "vtec": {
-              "productClass": "O",
-              "action": "CON",
-              "office": "KJAN",
-              "phenomena": "HT",
-              "significance": "Y",
-              "etn": "0004",
-              "start": "000000T0000Z",
-              "end": "260704T0100Z"
-            },
-            "issued": "2026-07-02T17:00:00-05:00",
-            "expires": "2026-07-03T01:00:00-05:00",
-            "areaDesc": "Ashley; Chicot; Bolivar; Sunflower; Leflore; Grenada; Carroll; Montgomery; Webster; Clay; Lowndes; Choctaw; Oktibbeha; Washington; Humphreys; Holmes; Attala; Winston; Noxubee",
-            "ugcZones": [
-              "ARZ074",
-              "ARZ075",
-              "MSZ018",
-              "MSZ019",
-              "MSZ025",
-              "MSZ026",
-              "MSZ027",
-              "MSZ028",
-              "MSZ029",
-              "MSZ030",
-              "MSZ031",
-              "MSZ032",
-              "MSZ033",
-              "MSZ034",
-              "MSZ035",
-              "MSZ036",
-              "MSZ037",
-              "MSZ038",
-              "MSZ039"
-            ],
-            "sameCodes": [
-              "005003",
-              "005017",
-              "028011",
-              "028133",
-              "028083",
-              "028043",
-              "028015",
-              "028097",
-              "028155",
-              "028025",
-              "028087",
-              "028019",
-              "028105",
-              "028151",
-              "028053",
-              "028051",
-              "028007",
-              "028159",
-              "028103"
-            ],
-            "polygon": null,
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Heat Advisory issued July 2 at 5:00PM CDT until July 3 at 8:00PM CDT by NWS Jackson MS",
-            "nwsHeadline": "HEAT ADVISORY REMAINS IN EFFECT UNTIL 8 PM CDT FRIDAY",
-            "urgency": "Expected",
-            "severity": "Moderate",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
         {
           "key": "FL.Y.1.KJAN",
           "iem": null,
@@ -199,109 +113,9 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "SV.W.87.KHUN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "SV",
-            "significance": "W",
-            "event": "Severe Thunderstorm Warning",
-            "action": "NEW",
-            "office": "KHUN",
-            "wfo": "HUN",
-            "etn": "0087",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KHUN",
-              "phenomena": "SV",
-              "significance": "W",
-              "etn": "0087",
-              "start": "260703T0058Z",
-              "end": "260703T0145Z"
-            },
-            "issued": "2026-07-02T19:58:00-05:00",
-            "expires": "2026-07-02T20:45:00-05:00",
-            "areaDesc": "Jackson, AL",
-            "ugcZones": [
-              "ALC071"
-            ],
-            "sameCodes": [
-              "001071"
-            ],
-            "polygon": [
-              [
-                34.61,
-                -85.8
-              ],
-              [
-                34.53,
-                -85.93
-              ],
-              [
-                34.49,
-                -85.97
-              ],
-              [
-                34.48,
-                -85.99
-              ],
-              [
-                34.52,
-                -86.11
-              ],
-              [
-                34.53,
-                -86.11
-              ],
-              [
-                34.53,
-                -86.13
-              ],
-              [
-                34.64,
-                -86.15
-              ],
-              [
-                34.72,
-                -85.83
-              ],
-              [
-                34.66,
-                -85.76
-              ],
-              [
-                34.61,
-                -85.8
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": {
-              "direction": "WEST",
-              "speed_mph": 20,
-              "bearing": 270
-            },
-            "motionStr": "West at 20 MPH",
-            "hailSize": "Up to .75\"",
-            "windSpeed": "60 MPH",
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Powell",
-            "headline": "Severe Thunderstorm Warning issued July 2 at 7:58PM CDT until July 2 at 8:45PM CDT by NWS Huntsville AL",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Observed",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     }
   }
 }
