@@ -1,25 +1,31 @@
 {
-  "status": "NORMAL",
-  "outlookText": "NCO continues to monitor fire weather conditions across parts of the Southwest/Four Corners region along with severe storm concerns over the Upper Midwest.",
+  "status": "Critical Weather Day",
+  "outlookText": "Critical Weather Day is in effect from 05Z on Fri 3 July 2026 until 12Z on Tues 7 July 2026 in support of tropical cyclone ops across Guam, Rota, Tinian, and Saipan. NCO is also monitoring for the potential need for CWD in support of severe weather ops across the Midwest and fire weather ops across the Four Corners Region.",
   "days": [
     {
       "weekday": "Thu",
       "date": "Jul 02",
-      "status": "Normal",
-      "hazards": []
+      "status": "Critical",
+      "hazards": [
+        "tropical"
+      ]
     },
     {
       "weekday": "Fri",
       "date": "Jul 03",
-      "status": "Normal",
-      "hazards": []
+      "status": "Critical",
+      "hazards": [
+        "tropical"
+      ]
     },
     {
       "weekday": "Sat",
       "date": "Jul 04",
-      "status": "Normal",
-      "hazards": []
+      "status": "Critical",
+      "hazards": [
+        "tropical"
+      ]
     }
   ],
-  "updated": "2026-07-03T04:59:54Z"
+  "updated": "2026-07-03T08:10:27Z"
 }
