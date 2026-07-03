@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T16:13:21Z",
+  "updated": "2026-07-03T17:47:44Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,136 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "HT.Y.4.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "HT",
+            "significance": "Y",
+            "event": "Heat Advisory",
+            "action": "EXA",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0004",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXA",
+              "office": "KJAN",
+              "phenomena": "HT",
+              "significance": "Y",
+              "etn": "0004",
+              "start": "000000T0000Z",
+              "end": "260704T0100Z"
+            },
+            "issued": "2026-07-03T11:54:00-05:00",
+            "expires": "2026-07-03T20:00:00-05:00",
+            "areaDesc": "Morehouse; West Carroll; East Carroll; Richland; Madison; Franklin; Catahoula; Tensas; Concordia; Issaquena; Sharkey; Yazoo; Madison; Leake; Neshoba; Kemper; Warren; Hinds; Rankin; Scott; Newton; Lauderdale; Claiborne; Copiah; Simpson; Smith; Jasper; Clarke; Jefferson; Adams; Franklin; Lincoln; Lawrence; Jefferson Davis; Covington; Jones; Marion; Lamar; Forrest",
+            "ugcZones": [
+              "LAZ007",
+              "LAZ008",
+              "LAZ009",
+              "LAZ015",
+              "LAZ016",
+              "LAZ023",
+              "LAZ024",
+              "LAZ025",
+              "LAZ026",
+              "MSZ040",
+              "MSZ041",
+              "MSZ042",
+              "MSZ043",
+              "MSZ044",
+              "MSZ045",
+              "MSZ046",
+              "MSZ047",
+              "MSZ048",
+              "MSZ049",
+              "MSZ050",
+              "MSZ051",
+              "MSZ052",
+              "MSZ053",
+              "MSZ054",
+              "MSZ055",
+              "MSZ056",
+              "MSZ057",
+              "MSZ058",
+              "MSZ059",
+              "MSZ060",
+              "MSZ061",
+              "MSZ062",
+              "MSZ063",
+              "MSZ064",
+              "MSZ065",
+              "MSZ066",
+              "MSZ072",
+              "MSZ073",
+              "MSZ074"
+            ],
+            "sameCodes": [
+              "022067",
+              "022123",
+              "022035",
+              "022083",
+              "022065",
+              "022041",
+              "022025",
+              "022107",
+              "022029",
+              "028055",
+              "028125",
+              "028163",
+              "028089",
+              "028079",
+              "028099",
+              "028069",
+              "028149",
+              "028049",
+              "028121",
+              "028123",
+              "028101",
+              "028075",
+              "028021",
+              "028029",
+              "028127",
+              "028129",
+              "028061",
+              "028023",
+              "028063",
+              "028001",
+              "028037",
+              "028085",
+              "028077",
+              "028065",
+              "028031",
+              "028067",
+              "028091",
+              "028073",
+              "028035"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Heat Advisory issued July 3 at 11:54AM CDT until July 3 at 8:00PM CDT by NWS Jackson MS",
+            "nwsHeadline": "HEAT ADVISORY IN EFFECT UNTIL 8 PM CDT THIS EVENING",
+            "urgency": "Expected",
+            "severity": "Moderate",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "BMX": {
       "name": "Birmingham, AL",
@@ -29,9 +156,113 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "SV.W.90.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "W",
+            "event": "Severe Thunderstorm Warning",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0090",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "SV",
+              "significance": "W",
+              "etn": "0090",
+              "start": "260703T1742Z",
+              "end": "260703T1830Z"
+            },
+            "issued": "2026-07-03T12:42:00-05:00",
+            "expires": "2026-07-03T13:30:00-05:00",
+            "areaDesc": "DeKalb, AL",
+            "ugcZones": [
+              "ALC049"
+            ],
+            "sameCodes": [
+              "001049"
+            ],
+            "polygon": [
+              [
+                34.51,
+                -85.54
+              ],
+              [
+                34.5,
+                -85.55
+              ],
+              [
+                34.5,
+                -85.56
+              ],
+              [
+                34.49,
+                -85.56
+              ],
+              [
+                34.49,
+                -85.57
+              ],
+              [
+                34.48,
+                -85.57
+              ],
+              [
+                34.42,
+                -85.76
+              ],
+              [
+                34.66,
+                -85.76
+              ],
+              [
+                34.67,
+                -85.75
+              ],
+              [
+                34.67,
+                -85.73
+              ],
+              [
+                34.61,
+                -85.53
+              ],
+              [
+                34.51,
+                -85.54
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": {
+              "direction": "WEST",
+              "speed_mph": 10,
+              "bearing": 270
+            },
+            "motionStr": "West at 10 MPH",
+            "hailSize": "1.00\"",
+            "windSpeed": "60 MPH",
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Severe Thunderstorm Warning issued July 3 at 12:42PM CDT until July 3 at 1:30PM CDT by NWS Huntsville AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     }
   }
 }
