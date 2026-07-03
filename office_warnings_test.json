@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T20:06:44Z",
+  "updated": "2026-07-03T21:20:30Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -29,9 +29,101 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "SV.W.96.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "W",
+            "event": "Severe Thunderstorm Warning",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0096",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "SV",
+              "significance": "W",
+              "etn": "0096",
+              "start": "260703T2106Z",
+              "end": "260703T2200Z"
+            },
+            "issued": "2026-07-03T16:06:00-05:00",
+            "expires": "2026-07-03T17:00:00-05:00",
+            "areaDesc": "Limestone, AL; Madison, AL; Morgan, AL",
+            "ugcZones": [
+              "ALC083",
+              "ALC089",
+              "ALC103"
+            ],
+            "sameCodes": [
+              "001083",
+              "001089",
+              "001103"
+            ],
+            "polygon": [
+              [
+                34.99,
+                -86.76
+              ],
+              [
+                34.92,
+                -86.76
+              ],
+              [
+                34.6,
+                -86.6
+              ],
+              [
+                34.4,
+                -86.95
+              ],
+              [
+                34.9,
+                -87.22
+              ],
+              [
+                34.9,
+                -87.21
+              ],
+              [
+                35,
+                -87.21
+              ],
+              [
+                34.99,
+                -86.76
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": {
+              "direction": "NORTHWEST",
+              "speed_mph": 5,
+              "bearing": 315
+            },
+            "motionStr": "Northwest at 5 MPH",
+            "hailSize": "1.00\"",
+            "windSpeed": "60 MPH",
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": "Madison",
+            "headline": "Severe Thunderstorm Warning issued July 3 at 4:06PM CDT until July 3 at 5:00PM CDT by NWS Huntsville AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     }
   }
 }
