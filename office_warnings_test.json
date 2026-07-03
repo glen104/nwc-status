@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T18:52:51Z",
+  "updated": "2026-07-03T20:06:44Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -29,89 +29,9 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "SV.W.92.KHUN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "SV",
-            "significance": "W",
-            "event": "Severe Thunderstorm Warning",
-            "action": "NEW",
-            "office": "KHUN",
-            "wfo": "HUN",
-            "etn": "0092",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KHUN",
-              "phenomena": "SV",
-              "significance": "W",
-              "etn": "0092",
-              "start": "260703T1848Z",
-              "end": "260703T1930Z"
-            },
-            "issued": "2026-07-03T13:48:00-05:00",
-            "expires": "2026-07-03T14:30:00-05:00",
-            "areaDesc": "Jackson, AL",
-            "ugcZones": [
-              "ALC071"
-            ],
-            "sameCodes": [
-              "001071"
-            ],
-            "polygon": [
-              [
-                34.68,
-                -85.94
-              ],
-              [
-                34.79,
-                -86.02
-              ],
-              [
-                34.99,
-                -85.91
-              ],
-              [
-                34.99,
-                -85.75
-              ],
-              [
-                34.91,
-                -85.75
-              ],
-              [
-                34.68,
-                -85.94
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": {
-              "direction": "STATIONARY",
-              "speed_mph": 0,
-              "bearing": null
-            },
-            "motionStr": "Stationary",
-            "hailSize": "1.00\"",
-            "windSpeed": "60 MPH",
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Stevenson",
-            "headline": "Severe Thunderstorm Warning issued July 3 at 1:48PM CDT until July 3 at 2:30PM CDT by NWS Huntsville AL",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Observed",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     }
   }
 }
