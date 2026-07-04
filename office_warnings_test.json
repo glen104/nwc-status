@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T23:35:09Z",
+  "updated": "2026-07-04T01:11:48Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -19,149 +19,100 @@
       "comparisonCount": 2,
       "comparison": [
         {
-          "key": "SV.W.121.KBMX",
+          "key": "FF.W.24.KBMX",
           "iem": null,
           "api": {
             "source": "api",
-            "phenomena": "SV",
+            "phenomena": "FF",
             "significance": "W",
-            "event": "Severe Thunderstorm Warning",
+            "event": "Flash Flood Warning",
             "action": "NEW",
             "office": "KBMX",
             "wfo": "BMX",
-            "etn": "0121",
+            "etn": "0024",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KBMX",
-              "phenomena": "SV",
+              "phenomena": "FF",
               "significance": "W",
-              "etn": "0121",
-              "start": "260703T2330Z",
-              "end": "260704T0015Z"
+              "etn": "0024",
+              "start": "260704T0012Z",
+              "end": "260704T0315Z"
             },
-            "issued": "2026-07-03T18:30:00-05:00",
-            "expires": "2026-07-03T19:15:00-05:00",
-            "areaDesc": "Jefferson, AL; Shelby, AL",
+            "issued": "2026-07-03T19:12:00-05:00",
+            "expires": "2026-07-03T22:15:00-05:00",
+            "areaDesc": "Jefferson, AL",
             "ugcZones": [
-              "ALC073",
-              "ALC117"
+              "ALC073"
             ],
             "sameCodes": [
-              "001073",
-              "001117"
+              "001073"
             ],
             "polygon": [
               [
-                33.43,
-                -86.61
+                33.61,
+                -86.78
               ],
               [
-                33.34,
-                -86.8
+                33.6,
+                -86.71
               ],
               [
-                33.55,
-                -86.95
-              ],
-              [
-                33.66,
+                33.46,
                 -86.67
               ],
               [
+                33.45,
+                -86.67
+              ],
+              [
+                33.45,
+                -86.69
+              ],
+              [
+                33.44,
+                -86.69
+              ],
+              [
+                33.44,
+                -86.7
+              ],
+              [
                 33.43,
-                -86.61
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": {
-              "direction": "STATIONARY",
-              "speed_mph": 0,
-              "bearing": null
-            },
-            "motionStr": "Stationary",
-            "hailSize": "1.00\"",
-            "windSpeed": "60 MPH",
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Mountain\nBrook",
-            "headline": "Severe Thunderstorm Warning issued July 3 at 6:30PM CDT until July 3 at 7:15PM CDT by NWS Birmingham AL",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Observed",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "FA.Y.72.KBMX",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FA",
-            "significance": "Y",
-            "event": "Flood Advisory",
-            "action": "NEW",
-            "office": "KBMX",
-            "wfo": "BMX",
-            "etn": "0072",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KBMX",
-              "phenomena": "FA",
-              "significance": "Y",
-              "etn": "0072",
-              "start": "260703T2134Z",
-              "end": "260704T0045Z"
-            },
-            "issued": "2026-07-03T16:34:00-05:00",
-            "expires": "2026-07-03T19:45:00-05:00",
-            "areaDesc": "Cherokee, AL",
-            "ugcZones": [
-              "ALC019"
-            ],
-            "sameCodes": [
-              "001019"
-            ],
-            "polygon": [
-              [
-                34.27,
-                -85.46
+                -86.72
               ],
               [
-                33.96,
-                -85.4
+                33.42,
+                -86.72
               ],
               [
-                33.97,
-                -85.72
+                33.42,
+                -86.73
               ],
               [
-                34.11,
-                -85.8
+                33.42,
+                -86.75
               ],
               [
-                34.12,
-                -85.79
+                33.4,
+                -86.75
               ],
               [
-                34.13,
-                -85.8
+                33.37,
+                -86.81
               ],
               [
-                34.16,
-                -85.82
+                33.48,
+                -86.87
               ],
               [
-                34.3,
-                -85.58
+                33.56,
+                -86.86
               ],
               [
-                34.27,
-                -85.46
+                33.61,
+                -86.78
               ]
             ],
             "threatLevel": "STANDARD",
@@ -171,8 +122,131 @@
             "windSpeed": null,
             "detectionSource": "RADAR INDICATED",
             "nearestLocation": null,
-            "headline": "Flood Advisory issued July 3 at 4:34PM CDT until July 3 at 7:45PM CDT by NWS Birmingham AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 745 PM CDT THIS EVENING",
+            "headline": "Flash Flood Warning issued July 3 at 7:12PM CDT until July 3 at 10:15PM CDT by NWS Birmingham AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FA.Y.73.KBMX",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "Y",
+            "event": "Flood Advisory",
+            "action": "NEW",
+            "office": "KBMX",
+            "wfo": "BMX",
+            "etn": "0073",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KBMX",
+              "phenomena": "FA",
+              "significance": "Y",
+              "etn": "0073",
+              "start": "260703T2352Z",
+              "end": "260704T0300Z"
+            },
+            "issued": "2026-07-03T18:52:00-05:00",
+            "expires": "2026-07-03T22:00:00-05:00",
+            "areaDesc": "Jefferson, AL",
+            "ugcZones": [
+              "ALC073"
+            ],
+            "sameCodes": [
+              "001073"
+            ],
+            "polygon": [
+              [
+                33.59,
+                -86.71
+              ],
+              [
+                33.45,
+                -86.67
+              ],
+              [
+                33.45,
+                -86.69
+              ],
+              [
+                33.44,
+                -86.69
+              ],
+              [
+                33.44,
+                -86.7
+              ],
+              [
+                33.43,
+                -86.71
+              ],
+              [
+                33.43,
+                -86.72
+              ],
+              [
+                33.42,
+                -86.72
+              ],
+              [
+                33.42,
+                -86.73
+              ],
+              [
+                33.42,
+                -86.75
+              ],
+              [
+                33.4,
+                -86.75
+              ],
+              [
+                33.39,
+                -86.77
+              ],
+              [
+                33.39,
+                -86.78
+              ],
+              [
+                33.38,
+                -86.78
+              ],
+              [
+                33.37,
+                -86.8
+              ],
+              [
+                33.54,
+                -86.84
+              ],
+              [
+                33.58,
+                -86.77
+              ],
+              [
+                33.59,
+                -86.71
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flood Advisory issued July 3 at 6:52PM CDT until July 3 at 10:00PM CDT by NWS Birmingham AL",
+            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 10 PM CDT THIS EVENING",
             "urgency": "Expected",
             "severity": "Minor",
             "certainty": "Likely",
