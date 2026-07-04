@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T12:16:24Z",
+  "updated": "2026-07-04T14:00:31Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,93 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "FL.Y.1.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FL",
+            "significance": "Y",
+            "event": "Flood Advisory",
+            "action": "EXT",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0001",
+            "vtec": {
+              "productClass": "O",
+              "action": "EXT",
+              "office": "KJAN",
+              "phenomena": "FL",
+              "significance": "Y",
+              "etn": "0001",
+              "start": "000000T0000Z",
+              "end": "260714T0000Z"
+            },
+            "issued": "2026-07-03T22:16:00-05:00",
+            "expires": "2026-07-04T11:15:00-05:00",
+            "areaDesc": "Concordia, LA; Adams, MS; Wilkinson, MS",
+            "ugcZones": [
+              "LAC029",
+              "MSC001",
+              "MSC157"
+            ],
+            "sameCodes": [
+              "022029",
+              "028001",
+              "028157"
+            ],
+            "polygon": [
+              [
+                31.01,
+                -91.7
+              ],
+              [
+                31.3,
+                -91.67
+              ],
+              [
+                31.93,
+                -91.29
+              ],
+              [
+                31.87,
+                -91.14
+              ],
+              [
+                31.3,
+                -91.47
+              ],
+              [
+                31,
+                -91.54
+              ],
+              [
+                31.01,
+                -91.7
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Flood Advisory issued July 3 at 10:16PM CDT until July 13 at 7:00PM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD ADVISORY NOW IN EFFECT UNTIL MONDAY, JULY 13",
+            "urgency": "Expected",
+            "severity": "Minor",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "BMX": {
       "name": "Birmingham, AL",
