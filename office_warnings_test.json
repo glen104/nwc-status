@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T01:11:48Z",
+  "updated": "2026-07-04T04:49:49Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,234 +8,72 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
-    },
-    "BMX": {
-      "name": "Birmingham, AL",
-      "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
+      "apiCount": 1,
+      "comparisonCount": 1,
       "comparison": [
         {
-          "key": "FF.W.24.KBMX",
+          "key": "FL.Y.1.KJAN",
           "iem": null,
           "api": {
             "source": "api",
-            "phenomena": "FF",
-            "significance": "W",
-            "event": "Flash Flood Warning",
-            "action": "NEW",
-            "office": "KBMX",
-            "wfo": "BMX",
-            "etn": "0024",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KBMX",
-              "phenomena": "FF",
-              "significance": "W",
-              "etn": "0024",
-              "start": "260704T0012Z",
-              "end": "260704T0315Z"
-            },
-            "issued": "2026-07-03T19:12:00-05:00",
-            "expires": "2026-07-03T22:15:00-05:00",
-            "areaDesc": "Jefferson, AL",
-            "ugcZones": [
-              "ALC073"
-            ],
-            "sameCodes": [
-              "001073"
-            ],
-            "polygon": [
-              [
-                33.61,
-                -86.78
-              ],
-              [
-                33.6,
-                -86.71
-              ],
-              [
-                33.46,
-                -86.67
-              ],
-              [
-                33.45,
-                -86.67
-              ],
-              [
-                33.45,
-                -86.69
-              ],
-              [
-                33.44,
-                -86.69
-              ],
-              [
-                33.44,
-                -86.7
-              ],
-              [
-                33.43,
-                -86.72
-              ],
-              [
-                33.42,
-                -86.72
-              ],
-              [
-                33.42,
-                -86.73
-              ],
-              [
-                33.42,
-                -86.75
-              ],
-              [
-                33.4,
-                -86.75
-              ],
-              [
-                33.37,
-                -86.81
-              ],
-              [
-                33.48,
-                -86.87
-              ],
-              [
-                33.56,
-                -86.86
-              ],
-              [
-                33.61,
-                -86.78
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flash Flood Warning issued July 3 at 7:12PM CDT until July 3 at 10:15PM CDT by NWS Birmingham AL",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "FA.Y.73.KBMX",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FA",
+            "phenomena": "FL",
             "significance": "Y",
             "event": "Flood Advisory",
-            "action": "NEW",
-            "office": "KBMX",
-            "wfo": "BMX",
-            "etn": "0073",
+            "action": "EXT",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0001",
             "vtec": {
               "productClass": "O",
-              "action": "NEW",
-              "office": "KBMX",
-              "phenomena": "FA",
+              "action": "EXT",
+              "office": "KJAN",
+              "phenomena": "FL",
               "significance": "Y",
-              "etn": "0073",
-              "start": "260703T2352Z",
-              "end": "260704T0300Z"
+              "etn": "0001",
+              "start": "000000T0000Z",
+              "end": "260714T0000Z"
             },
-            "issued": "2026-07-03T18:52:00-05:00",
-            "expires": "2026-07-03T22:00:00-05:00",
-            "areaDesc": "Jefferson, AL",
+            "issued": "2026-07-03T22:16:00-05:00",
+            "expires": "2026-07-04T11:15:00-05:00",
+            "areaDesc": "Concordia, LA; Adams, MS; Wilkinson, MS",
             "ugcZones": [
-              "ALC073"
+              "LAC029",
+              "MSC001",
+              "MSC157"
             ],
             "sameCodes": [
-              "001073"
+              "022029",
+              "028001",
+              "028157"
             ],
             "polygon": [
               [
-                33.59,
-                -86.71
+                31.01,
+                -91.7
               ],
               [
-                33.45,
-                -86.67
+                31.3,
+                -91.67
               ],
               [
-                33.45,
-                -86.69
+                31.93,
+                -91.29
               ],
               [
-                33.44,
-                -86.69
+                31.87,
+                -91.14
               ],
               [
-                33.44,
-                -86.7
+                31.3,
+                -91.47
               ],
               [
-                33.43,
-                -86.71
+                31,
+                -91.54
               ],
               [
-                33.43,
-                -86.72
-              ],
-              [
-                33.42,
-                -86.72
-              ],
-              [
-                33.42,
-                -86.73
-              ],
-              [
-                33.42,
-                -86.75
-              ],
-              [
-                33.4,
-                -86.75
-              ],
-              [
-                33.39,
-                -86.77
-              ],
-              [
-                33.39,
-                -86.78
-              ],
-              [
-                33.38,
-                -86.78
-              ],
-              [
-                33.37,
-                -86.8
-              ],
-              [
-                33.54,
-                -86.84
-              ],
-              [
-                33.58,
-                -86.77
-              ],
-              [
-                33.59,
-                -86.71
+                31.01,
+                -91.7
               ]
             ],
             "threatLevel": "STANDARD",
@@ -243,13 +81,13 @@
             "motionStr": "",
             "hailSize": null,
             "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
+            "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Flood Advisory issued July 3 at 6:52PM CDT until July 3 at 10:00PM CDT by NWS Birmingham AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 10 PM CDT THIS EVENING",
+            "headline": "Flood Advisory issued July 3 at 10:16PM CDT until July 13 at 7:00PM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD ADVISORY NOW IN EFFECT UNTIL MONDAY, JULY 13",
             "urgency": "Expected",
             "severity": "Minor",
-            "certainty": "Likely",
+            "certainty": "Observed",
             "messageType": "Alert"
           },
           "inBoth": false,
@@ -257,6 +95,13 @@
           "apiOnly": true
         }
       ]
+    },
+    "BMX": {
+      "name": "Birmingham, AL",
+      "iemCount": 0,
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "MOB": {
       "name": "Mobile, AL",
