@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T18:49:14Z",
+  "updated": "2026-07-05T20:02:41Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,252 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 2,
+      "comparisonCount": 2,
+      "comparison": [
+        {
+          "key": "SV.W.246.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "W",
+            "event": "Severe Thunderstorm Warning",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0246",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "SV",
+              "significance": "W",
+              "etn": "0246",
+              "start": "260705T1939Z",
+              "end": "260705T2100Z"
+            },
+            "issued": "2026-07-05T14:39:00-05:00",
+            "expires": "2026-07-05T16:00:00-05:00",
+            "areaDesc": "Covington, MS; Forrest, MS; Lamar, MS; Marion, MS",
+            "ugcZones": [
+              "MSC031",
+              "MSC035",
+              "MSC073",
+              "MSC091"
+            ],
+            "sameCodes": [
+              "028031",
+              "028035",
+              "028073",
+              "028091"
+            ],
+            "polygon": [
+              [
+                31,
+                -89.48
+              ],
+              [
+                31.01,
+                -89.5
+              ],
+              [
+                31.01,
+                -89.55
+              ],
+              [
+                31,
+                -89.55
+              ],
+              [
+                31,
+                -89.83
+              ],
+              [
+                31.07,
+                -89.84
+              ],
+              [
+                31.07,
+                -89.92
+              ],
+              [
+                31.09,
+                -89.93
+              ],
+              [
+                31.21,
+                -89.86
+              ],
+              [
+                31.13,
+                -89.71
+              ],
+              [
+                31.43,
+                -89.61
+              ],
+              [
+                31.44,
+                -89.59
+              ],
+              [
+                31.51,
+                -89.58
+              ],
+              [
+                31.47,
+                -89.4
+              ],
+              [
+                31.43,
+                -89.4
+              ],
+              [
+                31.43,
+                -89.35
+              ],
+              [
+                31.01,
+                -89.35
+              ],
+              [
+                31.01,
+                -89.42
+              ],
+              [
+                30.98,
+                -89.43
+              ],
+              [
+                30.98,
+                -89.47
+              ],
+              [
+                31,
+                -89.48
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": {
+              "direction": "EAST",
+              "speed_mph": 20,
+              "bearing": 90
+            },
+            "motionStr": "East at 20 MPH",
+            "hailSize": "Up to .75\"",
+            "windSpeed": "60 MPH",
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": "Pine Burr",
+            "headline": "Severe Thunderstorm Warning issued July 5 at 2:39PM CDT until July 5 at 4:00PM CDT by NWS Jackson MS",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "SV.W.245.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "W",
+            "event": "Severe Thunderstorm Warning",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0245",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "SV",
+              "significance": "W",
+              "etn": "0245",
+              "start": "260705T1932Z",
+              "end": "260705T2030Z"
+            },
+            "issued": "2026-07-05T14:32:00-05:00",
+            "expires": "2026-07-05T15:30:00-05:00",
+            "areaDesc": "Covington, MS; Jones, MS",
+            "ugcZones": [
+              "MSC031",
+              "MSC067"
+            ],
+            "sameCodes": [
+              "028031",
+              "028067"
+            ],
+            "polygon": [
+              [
+                31.51,
+                -89.57
+              ],
+              [
+                31.51,
+                -89.6
+              ],
+              [
+                31.54,
+                -89.61
+              ],
+              [
+                31.55,
+                -89.62
+              ],
+              [
+                31.56,
+                -89.64
+              ],
+              [
+                31.56,
+                -89.67
+              ],
+              [
+                31.77,
+                -89.58
+              ],
+              [
+                31.8,
+                -89.36
+              ],
+              [
+                31.45,
+                -89.35
+              ],
+              [
+                31.51,
+                -89.57
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": {
+              "direction": "EAST",
+              "speed_mph": 10,
+              "bearing": 90
+            },
+            "motionStr": "East at 10 MPH",
+            "hailSize": "Up to .75\"",
+            "windSpeed": "60 MPH",
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": "Collins",
+            "headline": "Severe Thunderstorm Warning issued July 5 at 2:32PM CDT until July 5 at 3:30PM CDT by NWS Jackson MS",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "BMX": {
       "name": "Birmingham, AL",
@@ -29,9 +272,87 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "SV.W.101.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "W",
+            "event": "Severe Thunderstorm Warning",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0101",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "SV",
+              "significance": "W",
+              "etn": "0101",
+              "start": "260705T2002Z",
+              "end": "260705T2100Z"
+            },
+            "issued": "2026-07-05T15:02:00-05:00",
+            "expires": "2026-07-05T16:00:00-05:00",
+            "areaDesc": "Cullman, AL; Morgan, AL",
+            "ugcZones": [
+              "ALC043",
+              "ALC103"
+            ],
+            "sameCodes": [
+              "001043",
+              "001103"
+            ],
+            "polygon": [
+              [
+                34.21,
+                -87.07
+              ],
+              [
+                34.44,
+                -87.07
+              ],
+              [
+                34.43,
+                -86.59
+              ],
+              [
+                34.17,
+                -86.6
+              ],
+              [
+                34.21,
+                -87.07
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": {
+              "direction": "EAST",
+              "speed_mph": 15,
+              "bearing": 90
+            },
+            "motionStr": "East at 15 MPH",
+            "hailSize": "Up to .75\"",
+            "windSpeed": "60 MPH",
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": "Falkville",
+            "headline": "Severe Thunderstorm Warning issued July 5 at 3:02PM CDT until July 5 at 4:00PM CDT by NWS Huntsville AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     }
   }
 }
