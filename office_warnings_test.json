@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T10:28:24Z",
+  "updated": "2026-07-05T11:53:18Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,95 +8,9 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "SV.W.243.KJAN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "SV",
-            "significance": "W",
-            "event": "Severe Thunderstorm Warning",
-            "action": "NEW",
-            "office": "KJAN",
-            "wfo": "JAN",
-            "etn": "0243",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KJAN",
-              "phenomena": "SV",
-              "significance": "W",
-              "etn": "0243",
-              "start": "260705T1014Z",
-              "end": "260705T1115Z"
-            },
-            "issued": "2026-07-05T05:14:00-05:00",
-            "expires": "2026-07-05T06:15:00-05:00",
-            "areaDesc": "Kemper, MS; Neshoba, MS; Noxubee, MS; Winston, MS",
-            "ugcZones": [
-              "MSC069",
-              "MSC099",
-              "MSC103",
-              "MSC159"
-            ],
-            "sameCodes": [
-              "028069",
-              "028099",
-              "028103",
-              "028159"
-            ],
-            "polygon": [
-              [
-                32.58,
-                -88.45
-              ],
-              [
-                32.58,
-                -89.09
-              ],
-              [
-                32.75,
-                -89.13
-              ],
-              [
-                32.96,
-                -89.15
-              ],
-              [
-                33.04,
-                -88.5
-              ],
-              [
-                32.58,
-                -88.45
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": {
-              "direction": "EAST",
-              "speed_mph": 30,
-              "bearing": 90
-            },
-            "motionStr": "East at 30 MPH",
-            "hailSize": "1.00\"",
-            "windSpeed": "60 MPH",
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Nanih Waiya To Near House",
-            "headline": "Severe Thunderstorm Warning issued July 5 at 5:14AM CDT until July 5 at 6:15AM CDT by NWS Jackson MS",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Observed",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "BMX": {
       "name": "Birmingham, AL",
