@@ -1,17 +1,7 @@
 {
   "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day is in effect until 12Z on Tues 7 July 2026 in support of tropical cyclone ops across Guam and the Northern Mariana Islands. Enhanced caution is in effect until 12Z on Tues 7 July 2026 for excessive rainfall ops in the Northern Mid-Atlantic.",
+  "outlookText": "Critical Weather Day is in effect until 12Z on Tues 7 July 2026 in support of tropical cyclone ops across Guam and the Northern Mariana Islands. NCO is also monitoring excessive rainfall and flooding across portions of the Northeast.",
   "days": [
-    {
-      "weekday": "Sun",
-      "date": "Jul 05",
-      "status": "Critical",
-      "hazards": [
-        "tropical",
-        "rainstorm",
-        "flood"
-      ]
-    },
     {
       "weekday": "Mon",
       "date": "Jul 06",
@@ -27,7 +17,13 @@
       "date": "Jul 07",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Wed",
+      "date": "Jul 08",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-07-06T05:36:28Z"
+  "updated": "2026-07-06T09:37:54Z"
 }
