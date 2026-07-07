@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T05:31:44Z",
+  "updated": "2026-07-07T08:51:09Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,102 +8,9 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
+      "apiCount": 1,
+      "comparisonCount": 1,
       "comparison": [
-        {
-          "key": "SV.W.254.KJAN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "SV",
-            "significance": "W",
-            "event": "Severe Thunderstorm Warning",
-            "action": "NEW",
-            "office": "KJAN",
-            "wfo": "JAN",
-            "etn": "0254",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KJAN",
-              "phenomena": "SV",
-              "significance": "W",
-              "etn": "0254",
-              "start": "260707T0521Z",
-              "end": "260707T0615Z"
-            },
-            "issued": "2026-07-07T00:21:00-05:00",
-            "expires": "2026-07-07T01:15:00-05:00",
-            "areaDesc": "Hinds, MS; Rankin, MS",
-            "ugcZones": [
-              "MSC049",
-              "MSC121"
-            ],
-            "sameCodes": [
-              "028049",
-              "028121"
-            ],
-            "polygon": [
-              [
-                32.15,
-                -90.36
-              ],
-              [
-                32.21,
-                -90.44
-              ],
-              [
-                32.36,
-                -90.49
-              ],
-              [
-                32.46,
-                -90.41
-              ],
-              [
-                32.43,
-                -90.24
-              ],
-              [
-                32.4,
-                -90.24
-              ],
-              [
-                32.39,
-                -89.83
-              ],
-              [
-                32.14,
-                -89.83
-              ],
-              [
-                32.15,
-                -90.36
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": {
-              "direction": "EAST",
-              "speed_mph": 25,
-              "bearing": 90
-            },
-            "motionStr": "East at 25 MPH",
-            "hailSize": "1.00\"",
-            "windSpeed": "60 MPH",
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Byram",
-            "headline": "Severe Thunderstorm Warning issued July 7 at 12:21AM CDT until July 7 at 1:15AM CDT by NWS Jackson MS",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Observed",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
         {
           "key": "FL.Y.1.KJAN",
           "iem": null,
