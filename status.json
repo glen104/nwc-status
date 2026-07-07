@@ -1,17 +1,7 @@
 {
   "status": "NORMAL",
-  "outlookText": "NCO is monitoring excessive rainfall and flooding concerns across portions of the coastal Northeast today. Otherwise, CWD is not expected in the next three days.",
+  "outlookText": "Critical Weather Day is not expected in the next 3 days.",
   "days": [
-    {
-      "weekday": "Mon",
-      "date": "Jul 06",
-      "status": "Critical",
-      "hazards": [
-        "tropical",
-        "rainstorm",
-        "flood"
-      ]
-    },
     {
       "weekday": "Tue",
       "date": "Jul 07",
@@ -23,7 +13,13 @@
       "date": "Jul 08",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Thu",
+      "date": "Jul 09",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-07-07T06:28:57Z"
+  "updated": "2026-07-07T10:05:40Z"
 }
