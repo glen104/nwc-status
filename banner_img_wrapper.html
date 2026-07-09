@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  html, body { margin: 0; padding: 0; }
+  img { display: block; width: 100%; height: auto; }
+</style>
+</head>
+<body>
+  <img id="banner-img" src="" alt="NWC Ops Status Banner">
+  <script>
+    // Cache-bust on every load so the browser always fetches the current PNG,
+    // never a stale cached copy.
+    document.getElementById('banner-img').src =
+      'https://glen104.github.io/nwc-status/banner.png?cb=' + Date.now();
+  </script>
+</body>
+</html>
