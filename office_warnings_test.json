@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T23:53:43Z",
+  "updated": "2026-07-09T01:22:38Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,117 +8,9 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "SV.W.257.KJAN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "SV",
-            "significance": "W",
-            "event": "Severe Thunderstorm Warning",
-            "action": "NEW",
-            "office": "KJAN",
-            "wfo": "JAN",
-            "etn": "0257",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KJAN",
-              "phenomena": "SV",
-              "significance": "W",
-              "etn": "0257",
-              "start": "260708T2345Z",
-              "end": "260709T0045Z"
-            },
-            "issued": "2026-07-08T18:45:00-05:00",
-            "expires": "2026-07-08T19:45:00-05:00",
-            "areaDesc": "East Carroll, LA; West Carroll, LA; Issaquena, MS; Sharkey, MS; Washington, MS",
-            "ugcZones": [
-              "LAC035",
-              "LAC123",
-              "MSC055",
-              "MSC125",
-              "MSC151"
-            ],
-            "sameCodes": [
-              "022035",
-              "022123",
-              "028055",
-              "028125",
-              "028151"
-            ],
-            "polygon": [
-              [
-                32.88,
-                -91.54
-              ],
-              [
-                32.89,
-                -91.5
-              ],
-              [
-                33,
-                -91.43
-              ],
-              [
-                33.01,
-                -91.13
-              ],
-              [
-                33.31,
-                -91
-              ],
-              [
-                33.27,
-                -90.72
-              ],
-              [
-                33.22,
-                -90.72
-              ],
-              [
-                33.05,
-                -90.87
-              ],
-              [
-                32.78,
-                -91.19
-              ],
-              [
-                32.84,
-                -91.57
-              ],
-              [
-                32.88,
-                -91.54
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": {
-              "direction": "EAST",
-              "speed_mph": 15,
-              "bearing": 90
-            },
-            "motionStr": "East at 15 MPH",
-            "hailSize": "0.75\"",
-            "windSpeed": "60 MPH",
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": "Oak Grove",
-            "headline": "Severe Thunderstorm Warning issued July 8 at 6:45PM CDT until July 8 at 7:45PM CDT by NWS Jackson MS",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Observed",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "BMX": {
       "name": "Birmingham, AL",
