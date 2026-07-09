@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T18:23:06Z",
+  "updated": "2026-07-09T20:13:12Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,66 +8,9 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "HT.Y.5.KJAN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "HT",
-            "significance": "Y",
-            "event": "Heat Advisory",
-            "action": "NEW",
-            "office": "KJAN",
-            "wfo": "JAN",
-            "etn": "0005",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KJAN",
-              "phenomena": "HT",
-              "significance": "Y",
-              "etn": "0005",
-              "start": "260709T1615Z",
-              "end": "260710T0100Z"
-            },
-            "issued": "2026-07-09T11:15:00-05:00",
-            "expires": "2026-07-09T20:00:00-05:00",
-            "areaDesc": "Bolivar; Sunflower; Leflore; Washington",
-            "ugcZones": [
-              "MSZ018",
-              "MSZ019",
-              "MSZ025",
-              "MSZ034"
-            ],
-            "sameCodes": [
-              "028011",
-              "028133",
-              "028083",
-              "028151"
-            ],
-            "polygon": null,
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Heat Advisory issued July 9 at 11:15AM CDT until July 9 at 8:00PM CDT by NWS Jackson MS",
-            "nwsHeadline": "HEAT ADVISORY IN EFFECT UNTIL 8 PM CDT THIS EVENING",
-            "urgency": "Expected",
-            "severity": "Moderate",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "BMX": {
       "name": "Birmingham, AL",
