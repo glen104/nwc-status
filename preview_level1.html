@@ -199,9 +199,22 @@
     document.getElementById('level-line').innerText = cfg.label;
   }
 
+  var TEST_DATA = {
+    "nwc": {
+      "opsLevel": "Level 1 (Full Activation)",
+      "reason": "Considerable and Catastrophic flooding across the South East, for Guam, and for Hawaii",
+      "shifts": [
+        { "start": "5:00 AM", "end": "1:00 PM", "lead": "Jam", "forecasters": ["Greg"] },
+        { "start": "8:00 AM", "end": "4:00 PM", "lead": "", "forecasters": ["Caroline"] },
+        { "start": "12:30 PM", "end": "8:30 PM", "lead": "Royce", "forecasters": ["Rose"] }
+      ],
+      "fim": { "name": "Charlie", "start": "8:00 AM", "end": "5:00 PM" },
+      "ic": { "name": "Russ", "start": "8:00 AM", "end": "8:00 PM" }
+    }
+  };
+
   function fetchStatus() {
-    fetch('test_data.json?cb=' + Date.now())
-      .then(function(r) { return r.ok ? r.json() : null; })
+    Promise.resolve(TEST_DATA)
       .then(function(data) {
         if (!data || !data.nwc) return;
         var nwc = data.nwc;
