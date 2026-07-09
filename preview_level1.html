@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NWC Ops Status Banner</title>
+<style>
+  :root {
+    /* Level background colors */
+    --bg-level4: #00c853; /* Green */
+    --bg-level3: #ffca28; /* Yellow */
+    --bg-level2: #da3633; /* Red */
+    --bg-level1: #d500f9; /* Magenta */
+
+    /* Text/logo colors tuned per-level for contrast */
+    --text-level4: #ffffff;
+    --text-level3: #1a1a1a;
+    --text-level2: #ffffff;
+    --text-level1: #ffffff;
+  }
+
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0; width: 100%;
+    font-family: 'Segoe UI', Arial, sans-serif;
+  }
+
+  #banner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+    background: var(--bg-level4);
+    color: var(--text-level4);
+    transition: background 0.6s ease, color 0.6s ease;
+    gap: 16px;
+  }
+
+  .badge-wrap {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-self: flex-start;
+    margin-top: 2px;
+  }
+
+  .badge-pill {
+    background: rgba(255,255,255,0.92);
+    border-radius: 10px;
+    padding: 6px 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+
+  .badge-pill img { height: 42px; display: block; }
+
+  #center-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    min-width: 0;
+  }
+
+  #level-line {
+    font-size: clamp(1.1rem, 2.4vw, 1.9rem);
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.25);
+  }
+
+  #reason-line {
+    font-size: clamp(0.75rem, 1.4vw, 1rem);
+    font-weight: 700;
+    opacity: 0.95;
+    max-width: 100%;
+    white-space: normal;
+    word-wrap: break-word;
+    line-height: 1.4;
+  }
+
+  #assignments-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px 14px;
+    font-size: clamp(0.7rem, 1.15vw, 0.9rem);
+    font-weight: 600;
+    opacity: 0.9;
+    letter-spacing: 0.3px;
+    max-width: 100%;
+    line-height: 1.5;
+  }
+
+  #assignments-line span.shift-chip {
+    white-space: nowrap;
+  }
+
+  #assignments-line span.role-chip {
+    font-weight: 800;
+    background: rgba(255,255,255,0.18);
+    padding: 2px 10px;
+    border-radius: 12px;
+  }
+
+  #updated-line {
+    font-size: 0.6rem;
+    font-weight: 600;
+    opacity: 0.7;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+
+  @media (max-width: 700px) {
+    #banner { flex-wrap: wrap; padding: 10px 12px; }
+    .badge-pill img { height: 32px; }
+    #center-content { order: 3; width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<div id="banner">
+  <div class="badge-wrap">
+    <div class="badge-pill">
+      <img src="https://water.noaa.gov/assets/styles/public/images/nav-logo-blue.png" alt="OWP">
+    </div>
+  </div>
+
+  <div id="center-content">
+    <div id="level-line">Loading Status…</div>
+    <div id="reason-line" style="display:none;"></div>
+    <div id="assignments-line"></div>
+    <div id="updated-line"></div>
+  </div>
+
+  <div class="badge-wrap">
+    <div class="badge-pill">
+      <img src="https://water.noaa.gov/assets/styles/public/images/nws-logo.svg" alt="NWS">
+      <img src="https://water.noaa.gov/assets/styles/public/images/noaa-logo.svg" alt="NOAA">
+    </div>
+  </div>
+</div>
+
+<script>
+  var LEVEL_CONFIG = {
+    'Level 4': { bg: 'var(--bg-level4)', text: 'var(--text-level4)', label: 'LEVEL 4 — NORMAL OPERATIONS' },
+    'Level 3': { bg: 'var(--bg-level3)', text: 'var(--text-level3)', label: 'LEVEL 3 — ENHANCED OPERATIONS' },
+    'Level 2': { bg: 'var(--bg-level2)', text: 'var(--text-level2)', label: 'LEVEL 2 — PARTIAL ACTIVATION' },
+    'Level 1': { bg: 'var(--bg-level1)', text: 'var(--text-level1)', label: 'LEVEL 1 — FULL ACTIVATION' }
+  };
+
+  function extractLevelKey(opsLevelStr) {
+    if (!opsLevelStr) return 'Level 4';
+    if (opsLevelStr.indexOf('Level 1') !== -1) return 'Level 1';
+    if (opsLevelStr.indexOf('Level 2') !== -1) return 'Level 2';
+    if (opsLevelStr.indexOf('Level 3') !== -1) return 'Level 3';
+    return 'Level 4';
+  }
+
+  function buildAssignmentsSummary(nwc) {
+    var chips = [];
+    if (nwc && nwc.shifts && nwc.shifts.length) {
+      nwc.shifts.forEach(function(s) {
+        if (!s.start && !s.end && !s.lead && (!s.forecasters || !s.forecasters.length)) return;
+        var who = [];
+        if (s.lead) who.push(s.lead + ' (Lead)');
+        if (s.forecasters && s.forecasters.length) who = who.concat(s.forecasters);
+        if (!who.length) return;
+        var timeRange = (s.start && s.end) ? (s.start + '–' + s.end + ': ') : '';
+        chips.push('<span class="shift-chip">' + timeRange + who.join(', ') + '</span>');
+      });
+    }
+    if (nwc && nwc.fim && nwc.fim.name) {
+      var fimRange = (nwc.fim.start && nwc.fim.end) ? (nwc.fim.start + '–' + nwc.fim.end + ': ') : '';
+      chips.push('<span class="shift-chip role-chip">🛰 FIM Coordinator — ' + fimRange + nwc.fim.name + '</span>');
+    }
+    if (nwc && nwc.ic && nwc.ic.name) {
+      var icRange = (nwc.ic.start && nwc.ic.end) ? (nwc.ic.start + '–' + nwc.ic.end + ': ') : '';
+      chips.push('<span class="shift-chip role-chip">⭐ Incident Commander — ' + icRange + nwc.ic.name + '</span>');
+    }
+    return chips.join('');
+  }
+
+  function applyLevel(levelKey) {
+    var cfg = LEVEL_CONFIG[levelKey] || LEVEL_CONFIG['Level 4'];
+    var banner = document.getElementById('banner');
+    banner.style.background = cfg.bg;
+    banner.style.color = cfg.text;
+    document.getElementById('level-line').innerText = cfg.label;
+  }
+
+  function fetchStatus() {
+    fetch('test_data.json?cb=' + Date.now())
+      .then(function(r) { return r.ok ? r.json() : null; })
+      .then(function(data) {
+        if (!data || !data.nwc) return;
+        var nwc = data.nwc;
+        var levelKey = extractLevelKey(nwc.opsLevel);
+        applyLevel(levelKey);
+
+        var reasonEl = document.getElementById('reason-line');
+        if (levelKey !== 'Level 4' && nwc.reason) {
+          reasonEl.innerText = nwc.reason;
+          reasonEl.style.display = 'block';
+        } else {
+          reasonEl.style.display = 'none';
+        }
+
+        document.getElementById('assignments-line').innerHTML = buildAssignmentsSummary(nwc);
+
+        var now = new Date();
+        var ts = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', timeZoneName: 'short' });
+        document.getElementById('updated-line').innerText = 'Updated ' + ts;
+      })
+      .catch(function(e) { console.log('Status fetch failed:', e); });
+  }
+
+  fetchStatus();
+  setInterval(fetchStatus, 120000); // refresh every 2 min
+
+  // Report actual rendered height to parent frame whenever content changes size.
+  // Some embed contexts (custom iframes, pym.js-style listeners) will auto-resize
+  // using this; Google Sites' native embed may ignore it, but it's harmless either way.
+  function reportHeight() {
+    var h = document.getElementById('banner').offsetHeight;
+    try {
+      window.parent.postMessage({ type: 'nwc-banner-resize', height: h }, '*');
+    } catch (e) {}
+  }
+
+  if (window.ResizeObserver) {
+    var ro = new ResizeObserver(function() { reportHeight(); });
+    ro.observe(document.getElementById('banner'));
+  } else {
+    setInterval(reportHeight, 2000);
+  }
+  window.addEventListener('load', reportHeight);
+</script>
+
+</body>
+</html>
