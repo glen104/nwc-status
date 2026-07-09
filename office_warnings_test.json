@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T22:56:15Z",
+  "updated": "2026-07-09T23:58:48Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -29,9 +29,113 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "FF.W.18.KHUN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FF",
+            "significance": "W",
+            "event": "Flash Flood Warning",
+            "action": "NEW",
+            "office": "KHUN",
+            "wfo": "HUN",
+            "etn": "0018",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KHUN",
+              "phenomena": "FF",
+              "significance": "W",
+              "etn": "0018",
+              "start": "260709T2339Z",
+              "end": "260710T0245Z"
+            },
+            "issued": "2026-07-09T18:39:00-05:00",
+            "expires": "2026-07-09T21:45:00-05:00",
+            "areaDesc": "Lauderdale, AL",
+            "ugcZones": [
+              "ALC077"
+            ],
+            "sameCodes": [
+              "001077"
+            ],
+            "polygon": [
+              [
+                34.93,
+                -87.3
+              ],
+              [
+                34.92,
+                -87.46
+              ],
+              [
+                35,
+                -87.55
+              ],
+              [
+                35,
+                -87.52
+              ],
+              [
+                35,
+                -87.5
+              ],
+              [
+                35,
+                -87.48
+              ],
+              [
+                35,
+                -87.43
+              ],
+              [
+                35,
+                -87.4
+              ],
+              [
+                35,
+                -87.39
+              ],
+              [
+                35,
+                -87.37
+              ],
+              [
+                35,
+                -87.28
+              ],
+              [
+                34.98,
+                -87.28
+              ],
+              [
+                34.93,
+                -87.3
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flash Flood Warning issued July 9 at 6:39PM CDT until July 9 at 9:45PM CDT by NWS Huntsville AL",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     }
   }
 }
