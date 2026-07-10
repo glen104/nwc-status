@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T02:52:35Z",
+  "updated": "2026-07-10T06:29:51Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,70 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "HT.Y.6.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "HT",
+            "significance": "Y",
+            "event": "Heat Advisory",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0006",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "HT",
+              "significance": "Y",
+              "etn": "0006",
+              "start": "260710T1600Z",
+              "end": "260711T0100Z"
+            },
+            "issued": "2026-07-10T01:23:00-05:00",
+            "expires": "2026-07-10T11:00:00-05:00",
+            "areaDesc": "Chicot; Bolivar; Sunflower; Leflore; Washington; Humphreys",
+            "ugcZones": [
+              "ARZ075",
+              "MSZ018",
+              "MSZ019",
+              "MSZ025",
+              "MSZ034",
+              "MSZ035"
+            ],
+            "sameCodes": [
+              "005017",
+              "028011",
+              "028133",
+              "028083",
+              "028151",
+              "028053"
+            ],
+            "polygon": null,
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": null,
+            "nearestLocation": null,
+            "headline": "Heat Advisory issued July 10 at 1:23AM CDT until July 10 at 8:00PM CDT by NWS Jackson MS",
+            "nwsHeadline": "HEAT ADVISORY IN EFFECT FROM 11 AM THIS MORNING TO 8 PM CDT THIS EVENING",
+            "urgency": "Expected",
+            "severity": "Moderate",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "BMX": {
       "name": "Birmingham, AL",
