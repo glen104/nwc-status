@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T17:05:54Z",
+  "updated": "2026-07-10T18:40:44Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -19,22 +19,22 @@
             "phenomena": "HT",
             "significance": "Y",
             "event": "Heat Advisory",
-            "action": "NEW",
+            "action": "CON",
             "office": "KJAN",
             "wfo": "JAN",
             "etn": "0006",
             "vtec": {
               "productClass": "O",
-              "action": "NEW",
+              "action": "CON",
               "office": "KJAN",
               "phenomena": "HT",
               "significance": "Y",
               "etn": "0006",
-              "start": "260710T1600Z",
+              "start": "000000T0000Z",
               "end": "260711T0100Z"
             },
-            "issued": "2026-07-10T01:23:00-05:00",
-            "expires": "2026-07-10T11:00:00-05:00",
+            "issued": "2026-07-10T12:42:00-05:00",
+            "expires": "2026-07-10T20:00:00-05:00",
             "areaDesc": "Chicot; Bolivar; Sunflower; Leflore; Washington; Humphreys",
             "ugcZones": [
               "ARZ075",
@@ -60,8 +60,8 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Heat Advisory issued July 10 at 1:23AM CDT until July 10 at 8:00PM CDT by NWS Jackson MS",
-            "nwsHeadline": "HEAT ADVISORY IN EFFECT FROM 11 AM THIS MORNING TO 8 PM CDT THIS EVENING",
+            "headline": "Heat Advisory issued July 10 at 12:42PM CDT until July 10 at 8:00PM CDT by NWS Jackson MS",
+            "nwsHeadline": "HEAT ADVISORY REMAINS IN EFFECT UNTIL 8 PM CDT THIS EVENING",
             "urgency": "Expected",
             "severity": "Moderate",
             "certainty": "Likely",
@@ -173,85 +173,9 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "SV.W.104.KHUN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "SV",
-            "significance": "W",
-            "event": "Severe Thunderstorm Warning",
-            "action": "NEW",
-            "office": "KHUN",
-            "wfo": "HUN",
-            "etn": "0104",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KHUN",
-              "phenomena": "SV",
-              "significance": "W",
-              "etn": "0104",
-              "start": "260710T1647Z",
-              "end": "260710T1730Z"
-            },
-            "issued": "2026-07-10T11:47:00-05:00",
-            "expires": "2026-07-10T12:30:00-05:00",
-            "areaDesc": "Jackson, AL",
-            "ugcZones": [
-              "ALC071"
-            ],
-            "sameCodes": [
-              "001071"
-            ],
-            "polygon": [
-              [
-                34.89,
-                -86.33
-              ],
-              [
-                34.99,
-                -86.12
-              ],
-              [
-                34.8,
-                -85.64
-              ],
-              [
-                34.53,
-                -85.97
-              ],
-              [
-                34.89,
-                -86.33
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": {
-              "direction": "SOUTHEAST",
-              "speed_mph": 25,
-              "bearing": 135
-            },
-            "motionStr": "Southeast at 25 MPH",
-            "hailSize": "Up to .75\"",
-            "windSpeed": "60 MPH",
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Severe Thunderstorm Warning issued July 10 at 11:47AM CDT until July 10 at 12:30PM CDT by NWS Huntsville AL",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Observed",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     }
   }
 }
