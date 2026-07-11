@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T00:10:15Z",
+  "updated": "2026-07-11T03:38:07Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,69 +8,9 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
+      "apiCount": 1,
+      "comparisonCount": 1,
       "comparison": [
-        {
-          "key": "HT.Y.6.KJAN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "HT",
-            "significance": "Y",
-            "event": "Heat Advisory",
-            "action": "CON",
-            "office": "KJAN",
-            "wfo": "JAN",
-            "etn": "0006",
-            "vtec": {
-              "productClass": "O",
-              "action": "CON",
-              "office": "KJAN",
-              "phenomena": "HT",
-              "significance": "Y",
-              "etn": "0006",
-              "start": "000000T0000Z",
-              "end": "260711T0100Z"
-            },
-            "issued": "2026-07-10T12:42:00-05:00",
-            "expires": "2026-07-10T20:00:00-05:00",
-            "areaDesc": "Chicot; Bolivar; Sunflower; Leflore; Washington; Humphreys",
-            "ugcZones": [
-              "ARZ075",
-              "MSZ018",
-              "MSZ019",
-              "MSZ025",
-              "MSZ034",
-              "MSZ035"
-            ],
-            "sameCodes": [
-              "005017",
-              "028011",
-              "028133",
-              "028083",
-              "028151",
-              "028053"
-            ],
-            "polygon": null,
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Heat Advisory issued July 10 at 12:42PM CDT until July 10 at 8:00PM CDT by NWS Jackson MS",
-            "nwsHeadline": "HEAT ADVISORY REMAINS IN EFFECT UNTIL 8 PM CDT THIS EVENING",
-            "urgency": "Expected",
-            "severity": "Moderate",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
         {
           "key": "FL.Y.1.KJAN",
           "iem": null,
