@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T19:18:21Z",
+  "updated": "2026-07-11T20:11:56Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -81,101 +81,9 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "FA.Y.48.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FA",
-            "significance": "Y",
-            "event": "Flood Advisory",
-            "action": "NEW",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0048",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KMOB",
-              "phenomena": "FA",
-              "significance": "Y",
-              "etn": "0048",
-              "start": "260711T1752Z",
-              "end": "260711T1945Z"
-            },
-            "issued": "2026-07-11T12:52:00-05:00",
-            "expires": "2026-07-11T14:45:00-05:00",
-            "areaDesc": "Mobile, AL",
-            "ugcZones": [
-              "ALC097"
-            ],
-            "sameCodes": [
-              "001097"
-            ],
-            "polygon": [
-              [
-                30.59,
-                -88.12
-              ],
-              [
-                30.56,
-                -88.14
-              ],
-              [
-                30.5,
-                -88.25
-              ],
-              [
-                30.55,
-                -88.31
-              ],
-              [
-                30.7,
-                -88.3
-              ],
-              [
-                30.75,
-                -88.17
-              ],
-              [
-                30.74,
-                -88.03
-              ],
-              [
-                30.67,
-                -88.05
-              ],
-              [
-                30.59,
-                -88.12
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": {
-              "direction": "STATIONARY",
-              "speed_mph": 0,
-              "bearing": null
-            },
-            "motionStr": "Stationary",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flood Advisory issued July 11 at 12:52PM CDT until July 11 at 2:45PM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 245 PM CDT THIS AFTERNOON",
-            "urgency": "Expected",
-            "severity": "Minor",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "HUN": {
       "name": "Huntsville, AL",
