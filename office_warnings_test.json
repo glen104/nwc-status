@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T22:55:54Z",
+  "updated": "2026-07-12T23:43:17Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,8 +8,8 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
+      "apiCount": 1,
+      "comparisonCount": 1,
       "comparison": [
         {
           "key": "FL.Y.1.KJAN",
@@ -88,121 +88,6 @@
             "urgency": "Expected",
             "severity": "Minor",
             "certainty": "Observed",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "FF.W.42.KJAN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FF",
-            "significance": "W",
-            "event": "Flash Flood Warning",
-            "action": "NEW",
-            "office": "KJAN",
-            "wfo": "JAN",
-            "etn": "0042",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KJAN",
-              "phenomena": "FF",
-              "significance": "W",
-              "etn": "0042",
-              "start": "260712T2215Z",
-              "end": "260713T0115Z"
-            },
-            "issued": "2026-07-12T17:15:00-05:00",
-            "expires": "2026-07-12T20:15:00-05:00",
-            "areaDesc": "Forrest, MS; Jones, MS; Lamar, MS",
-            "ugcZones": [
-              "MSC035",
-              "MSC067",
-              "MSC073"
-            ],
-            "sameCodes": [
-              "028035",
-              "028067",
-              "028073"
-            ],
-            "polygon": [
-              [
-                31.43,
-                -89.4
-              ],
-              [
-                31.46,
-                -89.4
-              ],
-              [
-                31.63,
-                -89.12
-              ],
-              [
-                31.64,
-                -88.94
-              ],
-              [
-                31.43,
-                -88.94
-              ],
-              [
-                31.43,
-                -89.15
-              ],
-              [
-                31.23,
-                -89.15
-              ],
-              [
-                31.01,
-                -89.37
-              ],
-              [
-                31.01,
-                -89.42
-              ],
-              [
-                30.98,
-                -89.43
-              ],
-              [
-                30.98,
-                -89.48
-              ],
-              [
-                31.01,
-                -89.5
-              ],
-              [
-                31,
-                -89.65
-              ],
-              [
-                31.43,
-                -89.45
-              ],
-              [
-                31.43,
-                -89.4
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flash Flood Warning issued July 12 at 5:15PM CDT until July 12 at 8:15PM CDT by NWS Jackson MS",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Likely",
             "messageType": "Alert"
           },
           "inBoth": false,
