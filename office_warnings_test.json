@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T04:36:21Z",
+  "updated": "2026-07-12T07:11:02Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -15,145 +15,9 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "FA.Y.74.KBMX",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FA",
-            "significance": "Y",
-            "event": "Flood Advisory",
-            "action": "NEW",
-            "office": "KBMX",
-            "wfo": "BMX",
-            "etn": "0074",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KBMX",
-              "phenomena": "FA",
-              "significance": "Y",
-              "etn": "0074",
-              "start": "260712T0255Z",
-              "end": "260712T0500Z"
-            },
-            "issued": "2026-07-11T21:55:00-05:00",
-            "expires": "2026-07-12T00:00:00-05:00",
-            "areaDesc": "Etowah, AL",
-            "ugcZones": [
-              "ALC055"
-            ],
-            "sameCodes": [
-              "001055"
-            ],
-            "polygon": [
-              [
-                33.92,
-                -85.93
-              ],
-              [
-                33.91,
-                -85.97
-              ],
-              [
-                33.9,
-                -85.97
-              ],
-              [
-                33.89,
-                -85.99
-              ],
-              [
-                33.85,
-                -86.04
-              ],
-              [
-                33.85,
-                -86.05
-              ],
-              [
-                33.84,
-                -86.05
-              ],
-              [
-                33.86,
-                -86.06
-              ],
-              [
-                33.86,
-                -86.09
-              ],
-              [
-                33.87,
-                -86.1
-              ],
-              [
-                33.89,
-                -86.11
-              ],
-              [
-                33.9,
-                -86.11
-              ],
-              [
-                33.9,
-                -86.13
-              ],
-              [
-                33.92,
-                -86.16
-              ],
-              [
-                33.96,
-                -86.17
-              ],
-              [
-                33.97,
-                -86.19
-              ],
-              [
-                33.99,
-                -86.2
-              ],
-              [
-                34.05,
-                -86.1
-              ],
-              [
-                34.05,
-                -85.99
-              ],
-              [
-                34,
-                -85.91
-              ],
-              [
-                33.92,
-                -85.93
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flood Advisory issued July 11 at 9:55PM CDT until July 12 at 12:00AM CDT by NWS Birmingham AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL MIDNIGHT CDT TONIGHT",
-            "urgency": "Expected",
-            "severity": "Minor",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "MOB": {
       "name": "Mobile, AL",
@@ -165,81 +29,9 @@
     "HUN": {
       "name": "Huntsville, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "FF.W.19.KHUN",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FF",
-            "significance": "W",
-            "event": "Flash Flood Warning",
-            "action": "NEW",
-            "office": "KHUN",
-            "wfo": "HUN",
-            "etn": "0019",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KHUN",
-              "phenomena": "FF",
-              "significance": "W",
-              "etn": "0019",
-              "start": "260712T0334Z",
-              "end": "260712T0645Z"
-            },
-            "issued": "2026-07-11T22:34:00-05:00",
-            "expires": "2026-07-12T01:45:00-05:00",
-            "areaDesc": "Cullman, AL",
-            "ugcZones": [
-              "ALC043"
-            ],
-            "sameCodes": [
-              "001043"
-            ],
-            "polygon": [
-              [
-                34.15,
-                -87.04
-              ],
-              [
-                34.31,
-                -87.08
-              ],
-              [
-                34.29,
-                -86.56
-              ],
-              [
-                34.13,
-                -86.63
-              ],
-              [
-                34.15,
-                -87.04
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flash Flood Warning issued July 11 at 10:34PM CDT until July 12 at 1:45AM CDT by NWS Huntsville AL",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     }
   }
 }
