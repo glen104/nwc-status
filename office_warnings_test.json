@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T01:13:53Z",
+  "updated": "2026-07-13T04:46:01Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,8 +8,8 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
+      "apiCount": 3,
+      "comparisonCount": 3,
       "comparison": [
         {
           "key": "FL.Y.1.KJAN",
@@ -95,7 +95,7 @@
           "apiOnly": true
         },
         {
-          "key": "FF.W.44.KJAN",
+          "key": "FF.W.46.KJAN",
           "iem": null,
           "api": {
             "source": "api",
@@ -105,102 +105,56 @@
             "action": "NEW",
             "office": "KJAN",
             "wfo": "JAN",
-            "etn": "0044",
+            "etn": "0046",
             "vtec": {
               "productClass": "O",
               "action": "NEW",
               "office": "KJAN",
               "phenomena": "FF",
               "significance": "W",
-              "etn": "0044",
-              "start": "260713T0052Z",
-              "end": "260713T0345Z"
+              "etn": "0046",
+              "start": "260713T0240Z",
+              "end": "260713T0545Z"
             },
-            "issued": "2026-07-12T19:52:00-05:00",
-            "expires": "2026-07-12T22:45:00-05:00",
-            "areaDesc": "Rankin, MS",
+            "issued": "2026-07-12T21:40:00-05:00",
+            "expires": "2026-07-13T00:45:00-05:00",
+            "areaDesc": "Lauderdale, MS; Newton, MS",
             "ugcZones": [
-              "MSC121"
+              "MSC075",
+              "MSC101"
             ],
             "sameCodes": [
-              "028121"
+              "028075",
+              "028101"
             ],
             "polygon": [
               [
-                32.49,
-                -89.96
+                32.32,
+                -89.32
               ],
               [
-                32.51,
-                -89.94
+                32.58,
+                -89.32
               ],
               [
-                32.49,
-                -89.8
+                32.5,
+                -88.64
               ],
               [
-                32.43,
-                -89.78
-              ],
-              [
-                32.29,
-                -89.84
+                32.32,
+                -88.52
               ],
               [
                 32.23,
-                -89.96
+                -88.59
               ],
               [
-                32.25,
-                -90.1
+                32.23,
+                -89.2
               ],
               [
-                32.35,
-                -90.11
-              ],
-              [
-                32.36,
-                -90.11
-              ],
-              [
-                32.39,
-                -90.09
-              ],
-              [
-                32.39,
-                -90.07
-              ],
-              [
-                32.4,
-                -90.06
-              ],
-              [
-                32.42,
-                -90.07
-              ],
-              [
-                32.43,
-                -90.07
-              ],
-              [
-                32.44,
-                -90.06
-              ],
-              [
-                32.44,
-                -90.04
-              ],
-              [
-                32.46,
-                -90.03
-              ],
-              [
-                32.49,
-                -89.97
-              ],
-              [
-                32.49,
-                -89.96
+                32.32,
+                -89.32
               ]
             ],
             "threatLevel": "STANDARD",
@@ -210,7 +164,124 @@
             "windSpeed": null,
             "detectionSource": "RADAR INDICATED",
             "nearestLocation": null,
-            "headline": "Flash Flood Warning issued July 12 at 7:52PM CDT until July 12 at 10:45PM CDT by NWS Jackson MS",
+            "headline": "Flash Flood Warning issued July 12 at 9:40PM CDT until July 13 at 12:45AM CDT by NWS Jackson MS",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FF.W.45.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FF",
+            "significance": "W",
+            "event": "Flash Flood Warning",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0045",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "FF",
+              "significance": "W",
+              "etn": "0045",
+              "start": "260713T0201Z",
+              "end": "260713T0500Z"
+            },
+            "issued": "2026-07-12T21:01:00-05:00",
+            "expires": "2026-07-13T00:00:00-05:00",
+            "areaDesc": "East Carroll, LA; Franklin, LA; Madison, LA; Morehouse, LA; Richland, LA; Tensas, LA; West Carroll, LA; Warren, MS",
+            "ugcZones": [
+              "LAC035",
+              "LAC041",
+              "LAC065",
+              "LAC067",
+              "LAC083",
+              "LAC107",
+              "LAC123",
+              "MSC149"
+            ],
+            "sameCodes": [
+              "022035",
+              "022041",
+              "022065",
+              "022067",
+              "022083",
+              "022107",
+              "022123",
+              "028149"
+            ],
+            "polygon": [
+              [
+                32.52,
+                -91.9
+              ],
+              [
+                32.59,
+                -91.93
+              ],
+              [
+                32.63,
+                -91.15
+              ],
+              [
+                32.59,
+                -91.14
+              ],
+              [
+                32.59,
+                -91.11
+              ],
+              [
+                32.1,
+                -91.01
+              ],
+              [
+                32.11,
+                -91.03
+              ],
+              [
+                32.07,
+                -91.08
+              ],
+              [
+                32.08,
+                -91.14
+              ],
+              [
+                32.07,
+                -91.16
+              ],
+              [
+                32.1,
+                -91.87
+              ],
+              [
+                32.39,
+                -92
+              ],
+              [
+                32.52,
+                -91.9
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flash Flood Warning issued July 12 at 9:01PM CDT until July 13 at 12:00AM CDT by NWS Jackson MS",
             "nwsHeadline": null,
             "urgency": "Immediate",
             "severity": "Severe",
@@ -233,174 +304,9 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
-      "comparison": [
-        {
-          "key": "FF.W.35.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FF",
-            "significance": "W",
-            "event": "Flash Flood Warning",
-            "action": "NEW",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0035",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KMOB",
-              "phenomena": "FF",
-              "significance": "W",
-              "etn": "0035",
-              "start": "260712T2355Z",
-              "end": "260713T0300Z"
-            },
-            "issued": "2026-07-12T18:55:00-05:00",
-            "expires": "2026-07-12T22:00:00-05:00",
-            "areaDesc": "Choctaw, AL; Clarke, AL; Washington, AL; Wayne, MS",
-            "ugcZones": [
-              "ALC023",
-              "ALC025",
-              "ALC129",
-              "MSC153"
-            ],
-            "sameCodes": [
-              "001023",
-              "001025",
-              "001129",
-              "028153"
-            ],
-            "polygon": [
-              [
-                31.83,
-                -88.47
-              ],
-              [
-                31.86,
-                -88.47
-              ],
-              [
-                31.87,
-                -88
-              ],
-              [
-                31.56,
-                -87.95
-              ],
-              [
-                31.55,
-                -88.46
-              ],
-              [
-                31.74,
-                -88.47
-              ],
-              [
-                31.83,
-                -88.47
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flash Flood Warning issued July 12 at 6:55PM CDT until July 12 at 10:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": null,
-            "urgency": "Immediate",
-            "severity": "Severe",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        },
-        {
-          "key": "FA.Y.53.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FA",
-            "significance": "Y",
-            "event": "Flood Advisory",
-            "action": "NEW",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0053",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KMOB",
-              "phenomena": "FA",
-              "significance": "Y",
-              "etn": "0053",
-              "start": "260712T2227Z",
-              "end": "260713T0130Z"
-            },
-            "issued": "2026-07-12T17:27:00-05:00",
-            "expires": "2026-07-12T20:30:00-05:00",
-            "areaDesc": "Wayne, MS",
-            "ugcZones": [
-              "MSC153"
-            ],
-            "sameCodes": [
-              "028153"
-            ],
-            "polygon": [
-              [
-                31.43,
-                -88.94
-              ],
-              [
-                31.72,
-                -88.93
-              ],
-              [
-                31.81,
-                -88.5
-              ],
-              [
-                31.81,
-                -88.47
-              ],
-              [
-                31.44,
-                -88.45
-              ],
-              [
-                31.43,
-                -88.75
-              ],
-              [
-                31.43,
-                -88.94
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flood Advisory issued July 12 at 5:27PM CDT until July 12 at 8:30PM CDT by NWS Mobile AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 830 PM CDT THIS EVENING",
-            "urgency": "Expected",
-            "severity": "Minor",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "HUN": {
       "name": "Huntsville, AL",
