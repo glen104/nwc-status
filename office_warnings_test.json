@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T17:45:20Z",
+  "updated": "2026-07-13T19:05:08Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -31,10 +31,10 @@
               "significance": "Y",
               "etn": "0001",
               "start": "000000T0000Z",
-              "end": "260714T0600Z"
+              "end": "260722T1200Z"
             },
-            "issued": "2026-07-12T09:32:00-05:00",
-            "expires": "2026-07-13T10:45:00-05:00",
+            "issued": "2026-07-13T12:57:00-05:00",
+            "expires": "2026-07-14T12:45:00-05:00",
             "areaDesc": "Concordia, LA; Adams, MS; Wilkinson, MS",
             "ugcZones": [
               "LAC029",
@@ -82,9 +82,9 @@
             "hailSize": null,
             "windSpeed": null,
             "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Flood Advisory issued July 12 at 9:32AM CDT until July 14 at 1:00AM CDT by NWS Jackson MS",
-            "nwsHeadline": "FLOOD ADVISORY NOW IN EFFECT UNTIL EARLY TUESDAY MORNING",
+            "nearestLocation": "The Next\nWeek",
+            "headline": "Flood Advisory issued July 13 at 12:57PM CDT until July 22 at 7:00AM CDT by NWS Jackson MS",
+            "nwsHeadline": "FLOOD ADVISORY NOW IN EFFECT UNTIL WEDNESDAY, JULY 22",
             "urgency": "Expected",
             "severity": "Minor",
             "certainty": "Observed",
