@@ -1,18 +1,23 @@
 {
   "status": "NORMAL",
-  "outlookText": "Critical Weather Day is not expected in the next 3 days.",
+  "outlookText": "NCO is monitoring excessive rainfall and flood concerns for portions of South Central Texas through the next three days along with severe storm concerns across Northern New England on Tuesday.",
   "days": [
     {
       "weekday": "Mon",
       "date": "Jul 13",
-      "status": "Normal",
-      "hazards": []
+      "status": "Enhanced Caution",
+      "hazards": [
+        "rainstorm",
+        "flood"
+      ]
     },
     {
       "weekday": "Tue",
       "date": "Jul 14",
       "status": "Enhanced Caution",
       "hazards": [
+        "rainstorm",
+        "flood",
         "idss"
       ]
     },
@@ -21,9 +26,11 @@
       "date": "Jul 15",
       "status": "Enhanced Caution",
       "hazards": [
+        "rainstorm",
+        "flood",
         "idss"
       ]
     }
   ],
-  "updated": "2026-07-13T20:06:20Z"
+  "updated": "2026-07-13T21:09:09Z"
 }
