@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T22:12:23Z",
+  "updated": "2026-07-13T23:11:55Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,86 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
+      "apiCount": 2,
+      "comparisonCount": 2,
       "comparison": [
+        {
+          "key": "SV.W.261.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "SV",
+            "significance": "W",
+            "event": "Severe Thunderstorm Warning",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0261",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "SV",
+              "significance": "W",
+              "etn": "0261",
+              "start": "260713T2232Z",
+              "end": "260713T2315Z"
+            },
+            "issued": "2026-07-13T17:32:00-05:00",
+            "expires": "2026-07-13T18:15:00-05:00",
+            "areaDesc": "Issaquena, MS; Sharkey, MS",
+            "ugcZones": [
+              "MSC055",
+              "MSC125"
+            ],
+            "sameCodes": [
+              "028055",
+              "028125"
+            ],
+            "polygon": [
+              [
+                32.96,
+                -91.04
+              ],
+              [
+                32.91,
+                -90.91
+              ],
+              [
+                32.77,
+                -90.93
+              ],
+              [
+                32.79,
+                -91.11
+              ],
+              [
+                32.96,
+                -91.04
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": {
+              "direction": "STATIONARY",
+              "speed_mph": 0,
+              "bearing": null
+            },
+            "motionStr": "Stationary",
+            "hailSize": "0.75\"",
+            "windSpeed": "60 MPH",
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": "Mayersville",
+            "headline": "Severe Thunderstorm Warning issued July 13 at 5:32PM CDT until July 13 at 6:15PM CDT by NWS Jackson MS",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Observed",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
         {
           "key": "FL.Y.1.KJAN",
           "iem": null,
