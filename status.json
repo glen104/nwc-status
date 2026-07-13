@@ -11,15 +11,19 @@
     {
       "weekday": "Tue",
       "date": "Jul 14",
-      "status": "Normal",
-      "hazards": []
+      "status": "Enhanced Caution",
+      "hazards": [
+        "idss"
+      ]
     },
     {
       "weekday": "Wed",
       "date": "Jul 15",
-      "status": "Normal",
-      "hazards": []
+      "status": "Enhanced Caution",
+      "hazards": [
+        "idss"
+      ]
     }
   ],
-  "updated": "2026-07-13T12:31:54Z"
+  "updated": "2026-07-13T15:29:14Z"
 }
