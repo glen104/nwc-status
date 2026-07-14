@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T20:03:12Z",
+  "updated": "2026-07-14T21:08:47Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -8,9 +8,117 @@
     "JAN": {
       "name": "Jackson, MS",
       "iemCount": 0,
-      "apiCount": 0,
-      "comparisonCount": 0,
-      "comparison": []
+      "apiCount": 1,
+      "comparisonCount": 1,
+      "comparison": [
+        {
+          "key": "FF.W.48.KJAN",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FF",
+            "significance": "W",
+            "event": "Flash Flood Warning",
+            "action": "NEW",
+            "office": "KJAN",
+            "wfo": "JAN",
+            "etn": "0048",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KJAN",
+              "phenomena": "FF",
+              "significance": "W",
+              "etn": "0048",
+              "start": "260714T2107Z",
+              "end": "260714T2315Z"
+            },
+            "issued": "2026-07-14T16:07:00-05:00",
+            "expires": "2026-07-14T18:15:00-05:00",
+            "areaDesc": "Humphreys, MS; Sharkey, MS; Washington, MS",
+            "ugcZones": [
+              "MSC053",
+              "MSC125",
+              "MSC151"
+            ],
+            "sameCodes": [
+              "028053",
+              "028125",
+              "028151"
+            ],
+            "polygon": [
+              [
+                33.25,
+                -90.99
+              ],
+              [
+                33.32,
+                -90.92
+              ],
+              [
+                33.21,
+                -90.69
+              ],
+              [
+                33.09,
+                -90.58
+              ],
+              [
+                33.05,
+                -90.5
+              ],
+              [
+                32.98,
+                -90.45
+              ],
+              [
+                32.97,
+                -90.45
+              ],
+              [
+                32.92,
+                -90.46
+              ],
+              [
+                32.92,
+                -90.51
+              ],
+              [
+                32.92,
+                -90.55
+              ],
+              [
+                33.04,
+                -90.73
+              ],
+              [
+                33.19,
+                -90.93
+              ],
+              [
+                33.25,
+                -90.99
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flash Flood Warning issued July 14 at 4:07PM CDT until July 14 at 6:15PM CDT by NWS Jackson MS",
+            "nwsHeadline": null,
+            "urgency": "Immediate",
+            "severity": "Severe",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        }
+      ]
     },
     "BMX": {
       "name": "Birmingham, AL",
