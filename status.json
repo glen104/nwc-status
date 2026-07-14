@@ -1,5 +1,5 @@
 {
-  "status": "NORMAL",
+  "status": "Critical Weather Day",
   "outlookText": "Critical Weather Day is in effect from 12Z Tuesday July 14 until 12Z Thursday July 16 in support of Excessive rainfall and flooding ops across portions of South Central Texas combined with Impact Based Decision Support ops in Dallas, TX on Tuesday and Impact Based Decision Support ops in Atlanta, GA on Wednesday. NCO is also monitoring severe storm concerns across Northern New England on Tuesday.",
   "days": [
     {
@@ -29,5 +29,5 @@
       "hazards": []
     }
   ],
-  "updated": "2026-07-14T11:00:00Z"
+  "updated": "2026-07-14T12:15:17Z"
 }
