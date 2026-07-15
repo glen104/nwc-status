@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T23:09:33Z",
+  "updated": "2026-07-15T00:03:04Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -15,9 +15,336 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 2,
-      "comparisonCount": 2,
+      "apiCount": 5,
+      "comparisonCount": 5,
       "comparison": [
+        {
+          "key": "FA.Y.81.KBMX",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "Y",
+            "event": "Flood Advisory",
+            "action": "NEW",
+            "office": "KBMX",
+            "wfo": "BMX",
+            "etn": "0081",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KBMX",
+              "phenomena": "FA",
+              "significance": "Y",
+              "etn": "0081",
+              "start": "260714T2358Z",
+              "end": "260715T0300Z"
+            },
+            "issued": "2026-07-14T18:58:00-05:00",
+            "expires": "2026-07-14T22:00:00-05:00",
+            "areaDesc": "Russell, AL",
+            "ugcZones": [
+              "ALC113"
+            ],
+            "sameCodes": [
+              "001113"
+            ],
+            "polygon": [
+              [
+                32.27,
+                -85.07
+              ],
+              [
+                32.47,
+                -85.07
+              ],
+              [
+                32.47,
+                -85.06
+              ],
+              [
+                32.51,
+                -85.06
+              ],
+              [
+                32.51,
+                -85
+              ],
+              [
+                32.45,
+                -85
+              ],
+              [
+                32.44,
+                -84.97
+              ],
+              [
+                32.42,
+                -84.96
+              ],
+              [
+                32.41,
+                -84.98
+              ],
+              [
+                32.39,
+                -84.97
+              ],
+              [
+                32.39,
+                -84.99
+              ],
+              [
+                32.38,
+                -84.99
+              ],
+              [
+                32.38,
+                -84.98
+              ],
+              [
+                32.37,
+                -84.99
+              ],
+              [
+                32.36,
+                -84.98
+              ],
+              [
+                32.34,
+                -85
+              ],
+              [
+                32.33,
+                -85.01
+              ],
+              [
+                32.3,
+                -84.94
+              ],
+              [
+                32.26,
+                -84.95
+              ],
+              [
+                32.27,
+                -85.07
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flood Advisory issued July 14 at 6:58PM CDT until July 14 at 10:00PM CDT by NWS Birmingham AL",
+            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 10 PM CDT THIS EVENING",
+            "urgency": "Expected",
+            "severity": "Minor",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FA.Y.80.KBMX",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "Y",
+            "event": "Flood Advisory",
+            "action": "NEW",
+            "office": "KBMX",
+            "wfo": "BMX",
+            "etn": "0080",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KBMX",
+              "phenomena": "FA",
+              "significance": "Y",
+              "etn": "0080",
+              "start": "260714T2344Z",
+              "end": "260715T0245Z"
+            },
+            "issued": "2026-07-14T18:44:00-05:00",
+            "expires": "2026-07-14T21:45:00-05:00",
+            "areaDesc": "Lamar, AL",
+            "ugcZones": [
+              "ALC075"
+            ],
+            "sameCodes": [
+              "001075"
+            ],
+            "polygon": [
+              [
+                33.95,
+                -88.22
+              ],
+              [
+                33.98,
+                -88.22
+              ],
+              [
+                33.99,
+                -88.22
+              ],
+              [
+                33.87,
+                -87.95
+              ],
+              [
+                33.86,
+                -87.95
+              ],
+              [
+                33.75,
+                -87.95
+              ],
+              [
+                33.73,
+                -87.95
+              ],
+              [
+                33.79,
+                -88.17
+              ],
+              [
+                33.82,
+                -88.24
+              ],
+              [
+                33.95,
+                -88.22
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flood Advisory issued July 14 at 6:44PM CDT until July 14 at 9:45PM CDT by NWS Birmingham AL",
+            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 945 PM CDT THIS EVENING",
+            "urgency": "Expected",
+            "severity": "Minor",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
+        {
+          "key": "FA.Y.79.KBMX",
+          "iem": null,
+          "api": {
+            "source": "api",
+            "phenomena": "FA",
+            "significance": "Y",
+            "event": "Flood Advisory",
+            "action": "NEW",
+            "office": "KBMX",
+            "wfo": "BMX",
+            "etn": "0079",
+            "vtec": {
+              "productClass": "O",
+              "action": "NEW",
+              "office": "KBMX",
+              "phenomena": "FA",
+              "significance": "Y",
+              "etn": "0079",
+              "start": "260714T2327Z",
+              "end": "260715T0230Z"
+            },
+            "issued": "2026-07-14T18:27:00-05:00",
+            "expires": "2026-07-14T21:30:00-05:00",
+            "areaDesc": "Fayette, AL; Tuscaloosa, AL",
+            "ugcZones": [
+              "ALC057",
+              "ALC125"
+            ],
+            "sameCodes": [
+              "001057",
+              "001125"
+            ],
+            "polygon": [
+              [
+                33.66,
+                -87.9
+              ],
+              [
+                33.74,
+                -87.95
+              ],
+              [
+                33.75,
+                -87.95
+              ],
+              [
+                33.77,
+                -87.95
+              ],
+              [
+                33.82,
+                -87.94
+              ],
+              [
+                33.79,
+                -87.66
+              ],
+              [
+                33.64,
+                -87.63
+              ],
+              [
+                33.53,
+                -87.56
+              ],
+              [
+                33.42,
+                -87.51
+              ],
+              [
+                33.42,
+                -87.6
+              ],
+              [
+                33.52,
+                -87.71
+              ],
+              [
+                33.55,
+                -87.91
+              ],
+              [
+                33.66,
+                -87.9
+              ]
+            ],
+            "threatLevel": "STANDARD",
+            "stormMotion": null,
+            "motionStr": "",
+            "hailSize": null,
+            "windSpeed": null,
+            "detectionSource": "RADAR INDICATED",
+            "nearestLocation": null,
+            "headline": "Flood Advisory issued July 14 at 6:27PM CDT until July 14 at 9:30PM CDT by NWS Birmingham AL",
+            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 930 PM CDT THIS EVENING",
+            "urgency": "Expected",
+            "severity": "Minor",
+            "certainty": "Likely",
+            "messageType": "Alert"
+          },
+          "inBoth": false,
+          "iemOnly": false,
+          "apiOnly": true
+        },
         {
           "key": "FA.Y.78.KBMX",
           "iem": null,
