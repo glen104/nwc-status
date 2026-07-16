@@ -1,17 +1,7 @@
 {
   "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day is in effect until 12Z Thursday July 16 in support of Excessive rainfall and flooding ops across portions of South Central Texas combined with Impact Based Decision Support ops in Atlanta, GA on Wednesday.",
+  "outlookText": "Critical Weather Day is in effect until 12Z Thursday July 16 in support of Excessive rainfall and flooding ops across portions of South Central Texas. NCO continues to monitor excessive rainfall concerns across Texas and the Southwest.",
   "days": [
-    {
-      "weekday": "Wed",
-      "date": "Jul 15",
-      "status": "Critical",
-      "hazards": [
-        "rainstorm",
-        "flood",
-        "idss"
-      ]
-    },
     {
       "weekday": "Thu",
       "date": "Jul 16",
@@ -26,7 +16,15 @@
       "date": "Jul 17",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Sat",
+      "date": "Jul 18",
+      "status": "Enhanced Caution",
+      "hazards": [
+        "idss"
+      ]
     }
   ],
-  "updated": "2026-07-16T06:33:17Z"
+  "updated": "2026-07-16T08:56:49Z"
 }
