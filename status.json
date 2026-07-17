@@ -1,16 +1,7 @@
 {
   "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day is in effect until 12Z Friday July 17 in support of Excessive rainfall and flooding ops across portions of South Central Texas. NCO continues to monitor excessive rainfall concerns across Texas and the Southwest.",
+  "outlookText": "Critical Weather Day is in effect until 12Z Friday July 17 in support of Excessive rainfall and flooding ops across portions of South Central Texas. NCO continues to monitor excessive rainfall concerns across Texas and the Southwest along with severe storm storm potential across the Eastern US on Saturday.",
   "days": [
-    {
-      "weekday": "Thu",
-      "date": "Jul 16",
-      "status": "Critical",
-      "hazards": [
-        "rainstorm",
-        "flood"
-      ]
-    },
     {
       "weekday": "Fri",
       "date": "Jul 17",
@@ -24,7 +15,13 @@
       "hazards": [
         "idss"
       ]
+    },
+    {
+      "weekday": "Sun",
+      "date": "Jul 19",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-07-17T08:34:04Z"
+  "updated": "2026-07-17T10:21:17Z"
 }
