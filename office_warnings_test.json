@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T23:07:18Z",
+  "updated": "2026-07-18T00:03:43Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -15,109 +15,9 @@
     "BMX": {
       "name": "Birmingham, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "FA.Y.82.KBMX",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "FA",
-            "significance": "Y",
-            "event": "Flood Advisory",
-            "action": "NEW",
-            "office": "KBMX",
-            "wfo": "BMX",
-            "etn": "0082",
-            "vtec": {
-              "productClass": "O",
-              "action": "NEW",
-              "office": "KBMX",
-              "phenomena": "FA",
-              "significance": "Y",
-              "etn": "0082",
-              "start": "260717T2113Z",
-              "end": "260717T2315Z"
-            },
-            "issued": "2026-07-17T16:13:00-05:00",
-            "expires": "2026-07-17T18:15:00-05:00",
-            "areaDesc": "Winston, AL",
-            "ugcZones": [
-              "ALC133"
-            ],
-            "sameCodes": [
-              "001133"
-            ],
-            "polygon": [
-              [
-                34.3,
-                -87.32
-              ],
-              [
-                34.3,
-                -87.31
-              ],
-              [
-                34.3,
-                -87.29
-              ],
-              [
-                34.3,
-                -87.26
-              ],
-              [
-                34.3,
-                -87.22
-              ],
-              [
-                34.3,
-                -87.2
-              ],
-              [
-                34.07,
-                -87.13
-              ],
-              [
-                34.06,
-                -87.25
-              ],
-              [
-                34.27,
-                -87.38
-              ],
-              [
-                34.3,
-                -87.39
-              ],
-              [
-                34.3,
-                -87.35
-              ],
-              [
-                34.3,
-                -87.32
-              ]
-            ],
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": "RADAR INDICATED",
-            "nearestLocation": null,
-            "headline": "Flood Advisory issued July 17 at 4:13PM CDT until July 17 at 6:15PM CDT by NWS Birmingham AL",
-            "nwsHeadline": "FLOOD ADVISORY IN EFFECT UNTIL 615 PM CDT THIS EVENING",
-            "urgency": "Expected",
-            "severity": "Minor",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "MOB": {
       "name": "Mobile, AL",
