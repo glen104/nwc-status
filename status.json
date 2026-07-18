@@ -1,13 +1,7 @@
 {
   "status": "NORMAL",
-  "outlookText": "Critical Weather Day is not currently expected in the next 3 days. However, NCO continues to monitor excessive rainfall concerns across portions of Texas and the Southwest along with severe storm storm potential across the Eastern US on Saturday.",
+  "outlookText": "Critical Weather Day is not currently expected in the next 3 days. However, NCO continues to monitor excessive rainfall concerns across portions of the Southwest along with severe storm storm potential across the Eastern US on Saturday.",
   "days": [
-    {
-      "weekday": "Fri",
-      "date": "Jul 17",
-      "status": "Normal",
-      "hazards": []
-    },
     {
       "weekday": "Sat",
       "date": "Jul 18",
@@ -23,7 +17,13 @@
       "hazards": [
         "idss"
       ]
+    },
+    {
+      "weekday": "Mon",
+      "date": "Jul 20",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-07-18T07:16:18Z"
+  "updated": "2026-07-18T08:59:23Z"
 }
