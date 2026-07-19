@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T06:15:20Z",
+  "updated": "2026-07-19T08:33:34Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -147,68 +147,9 @@
     "MOB": {
       "name": "Mobile, AL",
       "iemCount": 0,
-      "apiCount": 1,
-      "comparisonCount": 1,
-      "comparison": [
-        {
-          "key": "HT.Y.4.KMOB",
-          "iem": null,
-          "api": {
-            "source": "api",
-            "phenomena": "HT",
-            "significance": "Y",
-            "event": "Heat Advisory",
-            "action": "CON",
-            "office": "KMOB",
-            "wfo": "MOB",
-            "etn": "0004",
-            "vtec": {
-              "productClass": "O",
-              "action": "CON",
-              "office": "KMOB",
-              "phenomena": "HT",
-              "significance": "Y",
-              "etn": "0004",
-              "start": "260719T1500Z",
-              "end": "260720T0000Z"
-            },
-            "issued": "2026-07-18T21:45:00-05:00",
-            "expires": "2026-07-19T06:00:00-05:00",
-            "areaDesc": "Wayne; Perry; Greene; Stone; George",
-            "ugcZones": [
-              "MSZ067",
-              "MSZ075",
-              "MSZ076",
-              "MSZ078",
-              "MSZ079"
-            ],
-            "sameCodes": [
-              "028153",
-              "028111",
-              "028041",
-              "028131",
-              "028039"
-            ],
-            "polygon": null,
-            "threatLevel": "STANDARD",
-            "stormMotion": null,
-            "motionStr": "",
-            "hailSize": null,
-            "windSpeed": null,
-            "detectionSource": null,
-            "nearestLocation": null,
-            "headline": "Heat Advisory issued July 18 at 9:45PM CDT until July 19 at 7:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": "HEAT ADVISORY REMAINS IN EFFECT FROM 10 AM TO 7 PM CDT SUNDAY",
-            "urgency": "Expected",
-            "severity": "Moderate",
-            "certainty": "Likely",
-            "messageType": "Alert"
-          },
-          "inBoth": false,
-          "iemOnly": false,
-          "apiOnly": true
-        }
-      ]
+      "apiCount": 0,
+      "comparisonCount": 0,
+      "comparison": []
     },
     "HUN": {
       "name": "Huntsville, AL",
