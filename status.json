@@ -1,6 +1,6 @@
 {
   "status": "NORMAL",
-  "outlookText": "Critical Weather Day is not currently expected in the next 3 days. However, NCO is monitoring potential tropical development in the Northern Gulf along with severe storm concerns early this week.",
+  "outlookText": "Critical Weather Day is not currently expected in the next 3 days. However, NCO is monitoring Tropical Depression Two off the west coast of Florida along with severe storm concerns from the Midwest and Great Lakes to the Ohio Valley early this week.",
   "days": [
     {
       "weekday": "Sun",
@@ -15,6 +15,7 @@
       "date": "Jul 20",
       "status": "Enhanced Caution",
       "hazards": [
+        "lightning",
         "tropical"
       ]
     },
@@ -23,9 +24,10 @@
       "date": "Jul 21",
       "status": "Enhanced Caution",
       "hazards": [
+        "lightning",
         "tropical"
       ]
     }
   ],
-  "updated": "2026-07-19T18:05:25Z"
+  "updated": "2026-07-19T19:20:03Z"
 }
