@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T00:02:24Z",
+  "updated": "2026-07-19T03:38:19Z",
   "sources": {
     "primary": "IEM (Iowa Environmental Mesonet) watchwarn.py per-office",
     "secondary": "api.weather.gov (state query, WFO filtered by VTEC)"
@@ -33,13 +33,13 @@
             "phenomena": "HT",
             "significance": "Y",
             "event": "Heat Advisory",
-            "action": "NEW",
+            "action": "CON",
             "office": "KMOB",
             "wfo": "MOB",
             "etn": "0004",
             "vtec": {
               "productClass": "O",
-              "action": "NEW",
+              "action": "CON",
               "office": "KMOB",
               "phenomena": "HT",
               "significance": "Y",
@@ -47,8 +47,8 @@
               "start": "260719T1500Z",
               "end": "260720T0000Z"
             },
-            "issued": "2026-07-18T13:23:00-05:00",
-            "expires": "2026-07-18T21:30:00-05:00",
+            "issued": "2026-07-18T21:45:00-05:00",
+            "expires": "2026-07-19T06:00:00-05:00",
             "areaDesc": "Wayne; Perry; Greene; Stone; George",
             "ugcZones": [
               "MSZ067",
@@ -72,8 +72,8 @@
             "windSpeed": null,
             "detectionSource": null,
             "nearestLocation": null,
-            "headline": "Heat Advisory issued July 18 at 1:23PM CDT until July 19 at 7:00PM CDT by NWS Mobile AL",
-            "nwsHeadline": "HEAT ADVISORY IN EFFECT FROM 10 AM TO 7 PM CDT SUNDAY",
+            "headline": "Heat Advisory issued July 18 at 9:45PM CDT until July 19 at 7:00PM CDT by NWS Mobile AL",
+            "nwsHeadline": "HEAT ADVISORY REMAINS IN EFFECT FROM 10 AM TO 7 PM CDT SUNDAY",
             "urgency": "Expected",
             "severity": "Moderate",
             "certainty": "Likely",
