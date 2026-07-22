@@ -3,14 +3,6 @@
   "outlookText": "Critical Weather Day is not currently expected in the next 3 days. However, NCO is monitoring TS Bertha and excessive rainfall concerns for the NC/VA Tidewater region and Southeast.",
   "days": [
     {
-      "weekday": "Tue",
-      "date": "Jul 21",
-      "status": "Enhanced Caution",
-      "hazards": [
-        "tropical"
-      ]
-    },
-    {
       "weekday": "Wed",
       "date": "Jul 22",
       "status": "Enhanced Caution",
@@ -23,7 +15,13 @@
       "date": "Jul 23",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Fri",
+      "date": "Jul 24",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-07-22T06:15:41Z"
+  "updated": "2026-07-22T08:45:06Z"
 }
