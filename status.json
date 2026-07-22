@@ -1,6 +1,6 @@
 {
   "status": "NORMAL",
-  "outlookText": "Critical Weather Day is not currently expected in the next 3 days. However, NCO is monitoring TS Bertha off the west coast of Florida along with severe storm concerns from the Midwest and Great Lakes to the Ohio Valley early this week.",
+  "outlookText": "Critical Weather Day is not currently expected in the next 3 days. However, NCO is monitoring TS Bertha and excessive rainfall concerns for the NC/VA Tidewater region and Southeast.",
   "days": [
     {
       "weekday": "Tue",
@@ -13,8 +13,10 @@
     {
       "weekday": "Wed",
       "date": "Jul 22",
-      "status": "Normal",
-      "hazards": []
+      "status": "Enhanced Caution",
+      "hazards": [
+        "tropical"
+      ]
     },
     {
       "weekday": "Thu",
@@ -23,5 +25,5 @@
       "hazards": []
     }
   ],
-  "updated": "2026-07-22T03:47:01Z"
+  "updated": "2026-07-22T06:15:41Z"
 }
