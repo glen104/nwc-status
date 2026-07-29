@@ -1,6 +1,6 @@
 {
   "status": "NORMAL",
-  "outlookText": "Critical Weather Day is not currently expected in the next 3 days.",
+  "outlookText": "Critical Weather Day is not currently expected in the next 3 days. However, NCO is monitoring the need for CWD to support excessive rainfall conditions across New England today.",
   "days": [
     {
       "weekday": "Wed",
@@ -23,5 +23,5 @@
       "hazards": []
     }
   ],
-  "updated": "2026-07-29T11:33:50Z"
+  "updated": "2026-07-29T13:17:32Z"
 }
