@@ -1,13 +1,7 @@
 {
   "status": "NORMAL",
-  "outlookText": "Critical Weather Day is not expected in the next 3 days.",
+  "outlookText": "Critical Weather Day will be in effect from 1200Z Sat Aug 01 to 1200Z Sun Aug 02 in support of fire weather ops across portions of the Northwest.",
   "days": [
-    {
-      "weekday": "Thu",
-      "date": "Jul 30",
-      "status": "Normal",
-      "hazards": []
-    },
     {
       "weekday": "Fri",
       "date": "Jul 31",
@@ -17,9 +11,17 @@
     {
       "weekday": "Sat",
       "date": "Aug 01",
+      "status": "Critical",
+      "hazards": [
+        "wildfire"
+      ]
+    },
+    {
+      "weekday": "Sun",
+      "date": "Aug 02",
       "status": "Normal",
       "hazards": []
     }
   ],
-  "updated": "2026-07-31T01:14:31Z"
+  "updated": "2026-08-01T01:15:04Z"
 }
