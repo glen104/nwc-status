@@ -1,13 +1,7 @@
 {
   "status": "NORMAL",
-  "outlookText": "Critical Weather Day is not expected in the next 3 days, however NCO is monitoring excessive rainfall and flood hazards for portions of Ohio and West Virginia.",
+  "outlookText": "Critical Weather Day is not expected in the next 3 days, however NCO is monitoring excessive rainfall and flood hazards for portions of Ohio, West Virginia, Indiana, and Kentucky.",
   "days": [
-    {
-      "weekday": "Mon",
-      "date": "Aug 10",
-      "status": "Normal",
-      "hazards": []
-    },
     {
       "weekday": "Tue",
       "date": "Aug 11",
@@ -22,7 +16,13 @@
       "date": "Aug 12",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Thu",
+      "date": "Aug 13",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-08-11T09:37:05Z"
+  "updated": "2026-08-11T10:28:02Z"
 }
