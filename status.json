@@ -11,15 +11,19 @@
     {
       "weekday": "Thu",
       "date": "Aug 13",
-      "status": "Normal",
-      "hazards": []
+      "status": "Enhanced Caution",
+      "hazards": [
+        "tropical"
+      ]
     },
     {
       "weekday": "Fri",
       "date": "Aug 14",
-      "status": "Normal",
-      "hazards": []
+      "status": "Enhanced Caution",
+      "hazards": [
+        "tropical"
+      ]
     }
   ],
-  "updated": "2026-08-12T12:04:32Z"
+  "updated": "2026-08-12T13:36:22Z"
 }
