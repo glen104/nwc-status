@@ -1,16 +1,7 @@
 {
   "status": "NORMAL",
-  "outlookText": "Critical Weather Day is not expected in the next 3 days.",
+  "outlookText": "Critical Weather Day is being monitored for Hawaii for potential tropical cyclone impacts.",
   "days": [
-    {
-      "weekday": "Wed",
-      "date": "Aug 12",
-      "status": "Enhanced Caution",
-      "hazards": [
-        "rainstorm",
-        "flood"
-      ]
-    },
     {
       "weekday": "Thu",
       "date": "Aug 13",
@@ -26,7 +17,15 @@
       "hazards": [
         "tropical"
       ]
+    },
+    {
+      "weekday": "Sat",
+      "date": "Aug 15",
+      "status": "Enhanced Caution",
+      "hazards": [
+        "tropical"
+      ]
     }
   ],
-  "updated": "2026-08-13T08:40:12Z"
+  "updated": "2026-08-13T09:46:41Z"
 }
