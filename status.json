@@ -1,6 +1,6 @@
 {
-  "status": "NORMAL",
-  "outlookText": "Critical Weather Day is likely later today for tropical cyclone ops in Hawaii.",
+  "status": "Critical Weather Day",
+  "outlookText": "Critical Weather Day is in effect for tropical cyclone ops in Hawaii.",
   "days": [
     {
       "weekday": "Thu",
@@ -29,5 +29,5 @@
       ]
     }
   ],
-  "updated": "2026-08-13T14:40:43Z"
+  "updated": "2026-08-13T15:38:42Z"
 }
