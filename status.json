@@ -1,21 +1,21 @@
 {
   "status": "NORMAL",
-  "outlookText": "Critical Weather Day is being monitored for Hawaii for potential tropical cyclone impacts.",
+  "outlookText": "Critical Weather Day is likely later today for tropical cyclone ops in Hawaii.",
   "days": [
     {
       "weekday": "Thu",
       "date": "Aug 13",
-      "status": "Enhanced Caution",
+      "status": "Critical",
       "hazards": [
+        "tropical",
         "rainstorm",
-        "flood",
-        "tropical"
+        "flood"
       ]
     },
     {
       "weekday": "Fri",
       "date": "Aug 14",
-      "status": "Enhanced Caution",
+      "status": "Critical",
       "hazards": [
         "tropical"
       ]
@@ -23,11 +23,11 @@
     {
       "weekday": "Sat",
       "date": "Aug 15",
-      "status": "Enhanced Caution",
+      "status": "Critical",
       "hazards": [
         "tropical"
       ]
     }
   ],
-  "updated": "2026-08-13T12:08:41Z"
+  "updated": "2026-08-13T13:39:43Z"
 }
