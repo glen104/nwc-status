@@ -3,16 +3,6 @@
   "outlookText": "Critical Weather Day is in effect for tropical cyclone ops in Hawaii.",
   "days": [
     {
-      "weekday": "Thu",
-      "date": "Aug 13",
-      "status": "Critical",
-      "hazards": [
-        "tropical",
-        "rainstorm",
-        "flood"
-      ]
-    },
-    {
       "weekday": "Fri",
       "date": "Aug 14",
       "status": "Critical",
@@ -27,7 +17,13 @@
       "hazards": [
         "tropical"
       ]
+    },
+    {
+      "weekday": "Sun",
+      "date": "Aug 16",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-08-14T08:01:55Z"
+  "updated": "2026-08-14T09:15:31Z"
 }
