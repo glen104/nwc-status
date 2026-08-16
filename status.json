@@ -1,15 +1,15 @@
 {
-  "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day is in effect for tropical cyclone ops in Hawaii on Sunday. Critical Weather Day is not expected Monday or Tuesday.",
+  "status": "NORMAL",
+  "outlookText": "Critical Weather Day is not expected during the next 3 days.",
   "days": [
     {
       "weekday": "Sun",
       "date": "Aug 16",
-      "status": "Critical",
+      "status": "Enhanced Caution",
       "hazards": [
-        "tropical",
         "rainstorm",
-        "flood"
+        "flood",
+        "tropical"
       ]
     },
     {
@@ -25,5 +25,5 @@
       "hazards": []
     }
   ],
-  "updated": "2026-08-16T12:15:32Z"
+  "updated": "2026-08-16T13:01:07Z"
 }
