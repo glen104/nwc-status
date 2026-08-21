@@ -3,14 +3,6 @@
   "outlookText": "Critical Weather Day is not expected during the next 3 days; However the need for CWD to support Tropical Cyclone operations across the Northern Mariana Islands continues to be monitored. The potential need for CWD to support Tropical Cyclone operations in Hawaii this weekend is also being monitored.",
   "days": [
     {
-      "weekday": "Thu",
-      "date": "Aug 20",
-      "status": "Enhanced Caution",
-      "hazards": [
-        "tropical"
-      ]
-    },
-    {
       "weekday": "Fri",
       "date": "Aug 21",
       "status": "Enhanced Caution",
@@ -25,7 +17,13 @@
       "hazards": [
         "tropical"
       ]
+    },
+    {
+      "weekday": "Sun",
+      "date": "Aug 23",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-08-21T08:24:24Z"
+  "updated": "2026-08-21T09:04:29Z"
 }
