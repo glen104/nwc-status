@@ -1,13 +1,7 @@
 {
   "status": "NORMAL",
-  "outlookText": "Critical Weather Day is not expected during the next 3 days; However, the need for CWD to support excessive rainfall operations in the Utah is being monitored.",
+  "outlookText": "Critical Weather Day is not expected during the next 3 days; However, the need for CWD to support Excessive Rainfall and Tropical Cyclone operations across portions of east Texas and southwest Louisiana is being monitored.",
   "days": [
-    {
-      "weekday": "Sun",
-      "date": "Aug 30",
-      "status": "Normal",
-      "hazards": []
-    },
     {
       "weekday": "Mon",
       "date": "Aug 31",
@@ -19,9 +13,18 @@
     {
       "weekday": "Tue",
       "date": "Sep 01",
+      "status": "Enhanced Caution",
+      "hazards": [
+        "rainstorm",
+        "tropical"
+      ]
+    },
+    {
+      "weekday": "Wed",
+      "date": "Sep 02",
       "status": "Normal",
       "hazards": []
     }
   ],
-  "updated": "2026-08-31T06:21:48Z"
+  "updated": "2026-08-31T14:11:33Z"
 }
