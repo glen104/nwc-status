@@ -1,23 +1,13 @@
 {
   "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day is in effect through 00Z Wednesday, September 2nd with a Hurricane Watch now in effect for portions of the Louisiana coast.",
+  "outlookText": "Critical Weather Day is in effect through 00Z Wednesday, September 2nd for Tropical Cyclone ops across portions of the Texas and Louisiana coasts. Otherwise, CWD is not currently expected in the next 3 days.",
   "days": [
-    {
-      "weekday": "Mon",
-      "date": "Aug 31",
-      "status": "Critical",
-      "hazards": [
-        "tropical",
-        "rainstorm"
-      ]
-    },
     {
       "weekday": "Tue",
       "date": "Sep 01",
       "status": "Critical",
       "hazards": [
-        "tropical",
-        "rainstorm"
+        "tropical"
       ]
     },
     {
@@ -25,7 +15,13 @@
       "date": "Sep 02",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Thu",
+      "date": "Sep 03",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-09-01T07:42:16Z"
+  "updated": "2026-09-01T12:45:31Z"
 }
