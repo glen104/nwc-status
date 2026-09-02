@@ -1,11 +1,11 @@
 {
-  "status": "NORMAL",
-  "outlookText": "Critical Weather Day is not expected in the next 3 days.",
+  "status": "Critical Weather Day",
+  "outlookText": "Critical Weather Day is in effect until 12Z Thur Sept 03 2026. CWD is not expected in the next 3 days after this event.",
   "days": [
     {
       "weekday": "Wed",
       "date": "Sep 02",
-      "status": "Enhanced Caution",
+      "status": "Critical",
       "hazards": [
         "rainstorm",
         "flood"
@@ -24,5 +24,5 @@
       "hazards": []
     }
   ],
-  "updated": "2026-09-02T12:59:16Z"
+  "updated": "2026-09-02T17:00:46Z"
 }
