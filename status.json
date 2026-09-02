@@ -1,20 +1,24 @@
 {
-  "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day is in effect through 00Z Wednesday, September 2nd for Tropical Cyclone ops across portions of the Texas and Louisiana coasts. Otherwise, CWD is not currently expected in the next 3 days.",
+  "status": "NORMAL",
+  "outlookText": "Critical Weather Day is not expected in the next 3 days.",
   "days": [
     {
       "weekday": "Tue",
       "date": "Sep 01",
       "status": "Critical",
       "hazards": [
-        "tropical"
+        "tropical",
+        "rainstorm"
       ]
     },
     {
       "weekday": "Wed",
       "date": "Sep 02",
-      "status": "Normal",
-      "hazards": []
+      "status": "Enhanced Caution",
+      "hazards": [
+        "rainstorm",
+        "tropical"
+      ]
     },
     {
       "weekday": "Thu",
@@ -23,5 +27,5 @@
       "hazards": []
     }
   ],
-  "updated": "2026-09-01T22:04:38Z"
+  "updated": "2026-09-02T00:00:52Z"
 }
