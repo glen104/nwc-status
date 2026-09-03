@@ -1,12 +1,14 @@
 {
-  "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day remains in effect until 12Z Thur Sept 03 2026 in support of excessive rainfall and flooding operations across southeast Texas. The potential need for CWD to support tropical operations in Hawaii will be closely monitored this weekend.",
+  "status": "NORMAL",
+  "outlookText": "The potential need for CWD to support tropical operations in Hawaii will be closely monitored this weekend.",
   "days": [
     {
       "weekday": "Thu",
       "date": "Sep 03",
-      "status": "Normal",
-      "hazards": []
+      "status": "Enhanced Caution",
+      "hazards": [
+        "rainstorm"
+      ]
     },
     {
       "weekday": "Fri",
@@ -21,5 +23,5 @@
       "hazards": []
     }
   ],
-  "updated": "2026-09-03T11:40:31Z"
+  "updated": "2026-09-03T15:12:19Z"
 }
