@@ -1,16 +1,7 @@
 {
   "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day is in effect until 12Z Thur Sept 03 2026. CWD is not expected in the next 3 days after this event.",
+  "outlookText": "Critical Weather Day remains in effect until 12Z Thur Sept 03 2026 in support of excessive rainfall and flooding operations across southeast Texas. The potential need for CWD to support tropical operations in Hawaii will be closely monitored this weekend.",
   "days": [
-    {
-      "weekday": "Wed",
-      "date": "Sep 02",
-      "status": "Critical",
-      "hazards": [
-        "rainstorm",
-        "flood"
-      ]
-    },
     {
       "weekday": "Thu",
       "date": "Sep 03",
@@ -22,7 +13,13 @@
       "date": "Sep 04",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Sat",
+      "date": "Sep 05",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-09-03T06:37:13Z"
+  "updated": "2026-09-03T11:40:31Z"
 }
