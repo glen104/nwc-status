@@ -1,25 +1,31 @@
 {
   "status": "NORMAL",
-  "outlookText": "Critical Weather Day is not expected in the next 3 days; However, the potential need for CWD to support tropical operations in Hawaii and severe weather operations in the Mid-Atlantic states will continue to be monitored.",
+  "outlookText": "The need for Critical Weather Day to support tropical operations in Hawaii is being monitored.",
   "days": [
     {
       "weekday": "Sat",
       "date": "Sep 05",
-      "status": "Normal",
-      "hazards": []
+      "status": "Enhanced Caution",
+      "hazards": [
+        "tropical"
+      ]
     },
     {
       "weekday": "Sun",
       "date": "Sep 06",
-      "status": "Normal",
-      "hazards": []
+      "status": "Enhanced Caution",
+      "hazards": [
+        "tropical"
+      ]
     },
     {
       "weekday": "Mon",
       "date": "Sep 07",
-      "status": "Normal",
-      "hazards": []
+      "status": "Enhanced Caution",
+      "hazards": [
+        "tropical"
+      ]
     }
   ],
-  "updated": "2026-09-06T00:59:39Z"
+  "updated": "2026-09-06T05:31:59Z"
 }
