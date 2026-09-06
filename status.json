@@ -3,14 +3,6 @@
   "outlookText": "The need for Critical Weather Day to support tropical operations in Hawaii is being monitored.",
   "days": [
     {
-      "weekday": "Sat",
-      "date": "Sep 05",
-      "status": "Enhanced Caution",
-      "hazards": [
-        "tropical"
-      ]
-    },
-    {
       "weekday": "Sun",
       "date": "Sep 06",
       "status": "Enhanced Caution",
@@ -25,7 +17,15 @@
       "hazards": [
         "tropical"
       ]
+    },
+    {
+      "weekday": "Tue",
+      "date": "Sep 08",
+      "status": "Enhanced Caution",
+      "hazards": [
+        "tropical"
+      ]
     }
   ],
-  "updated": "2026-09-06T05:31:59Z"
+  "updated": "2026-09-06T09:37:40Z"
 }
