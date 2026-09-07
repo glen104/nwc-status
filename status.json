@@ -1,11 +1,11 @@
 {
-  "status": "NORMAL",
-  "outlookText": "The need for Critical Weather Day to support tropical operations in Hawaii is being monitored.",
+  "status": "Critical Weather Day",
+  "outlookText": "Critical Weather Day is in effect until 1500Z Tue Sept 8 to support Tropical Cyclone operations in Hawaii.",
   "days": [
     {
       "weekday": "Sun",
       "date": "Sep 06",
-      "status": "Enhanced Caution",
+      "status": "Critical",
       "hazards": [
         "tropical"
       ]
@@ -13,7 +13,7 @@
     {
       "weekday": "Mon",
       "date": "Sep 07",
-      "status": "Enhanced Caution",
+      "status": "Critical",
       "hazards": [
         "tropical"
       ]
@@ -21,11 +21,11 @@
     {
       "weekday": "Tue",
       "date": "Sep 08",
-      "status": "Enhanced Caution",
+      "status": "Critical",
       "hazards": [
         "tropical"
       ]
     }
   ],
-  "updated": "2026-09-07T01:52:21Z"
+  "updated": "2026-09-07T06:44:11Z"
 }
