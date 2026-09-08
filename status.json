@@ -3,14 +3,6 @@
   "outlookText": "Critical Weather Day is in effect until 2100Z Tue Sept 8 to support Tropical Cyclone operations in Hawaii.",
   "days": [
     {
-      "weekday": "Mon",
-      "date": "Sep 07",
-      "status": "Critical",
-      "hazards": [
-        "tropical"
-      ]
-    },
-    {
       "weekday": "Tue",
       "date": "Sep 08",
       "status": "Critical",
@@ -23,7 +15,13 @@
       "date": "Sep 09",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Thu",
+      "date": "Sep 10",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-09-08T11:08:30Z"
+  "updated": "2026-09-08T15:03:23Z"
 }
