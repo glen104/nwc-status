@@ -1,6 +1,6 @@
 {
-  "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day is in effect until 2100Z Tue Sept 8 to support Tropical Cyclone operations in Hawaii.",
+  "status": "NORMAL",
+  "outlookText": "Critical Weather Day ended at 08/18Z as all NHC watches and warnings for Hawaii regarding Hurricane Lowell have been discontinued. Otherwise, CWD is not expected during the next 3 days.",
   "days": [
     {
       "weekday": "Tue",
@@ -23,5 +23,5 @@
       "hazards": []
     }
   ],
-  "updated": "2026-09-08T15:03:23Z"
+  "updated": "2026-09-08T18:32:42Z"
 }
