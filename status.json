@@ -1,15 +1,7 @@
 {
   "status": "NORMAL",
-  "outlookText": "Critical Weather Day ended at 08/18Z as all NHC watches and warnings for Hawaii regarding Hurricane Lowell have been discontinued. Otherwise, CWD is not expected during the next 3 days.",
+  "outlookText": "Critical Weather Day is not expected in the next 3 days.",
   "days": [
-    {
-      "weekday": "Tue",
-      "date": "Sep 08",
-      "status": "Critical",
-      "hazards": [
-        "tropical"
-      ]
-    },
     {
       "weekday": "Wed",
       "date": "Sep 09",
@@ -21,7 +13,13 @@
       "date": "Sep 10",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Fri",
+      "date": "Sep 11",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-09-09T06:09:18Z"
+  "updated": "2026-09-09T11:15:37Z"
 }
