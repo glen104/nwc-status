@@ -1,13 +1,7 @@
 {
   "status": "NORMAL",
-  "outlookText": "Critical Weather Day is not expected in the next 3 days.",
+  "outlookText": "NCO is monitoring fire weather conditions in the High Plains. Otherwise, Critical Weather Day is not expected in the next 3 days.",
   "days": [
-    {
-      "weekday": "Thu",
-      "date": "Sep 10",
-      "status": "Normal",
-      "hazards": []
-    },
     {
       "weekday": "Fri",
       "date": "Sep 11",
@@ -19,7 +13,13 @@
       "date": "Sep 12",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Sun",
+      "date": "Sep 13",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-09-11T04:54:11Z"
+  "updated": "2026-09-11T09:14:09Z"
 }
