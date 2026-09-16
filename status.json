@@ -1,13 +1,7 @@
 {
   "status": "NORMAL",
-  "outlookText": "Critical Weather Day is not expected in the next 3 days. However, NCO continues to monitor the need for CWD in support of Excessive Rainfall and Flooding ops in the Central Plains.",
+  "outlookText": "Critical Weather Day is not expected in the next 3 days. However, the need for CWD is being monitored to support Excessive Rainfall in the Southwest.",
   "days": [
-    {
-      "weekday": "Tue",
-      "date": "Sep 15",
-      "status": "Normal",
-      "hazards": []
-    },
     {
       "weekday": "Wed",
       "date": "Sep 16",
@@ -19,7 +13,13 @@
       "date": "Sep 17",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Fri",
+      "date": "Sep 18",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-09-16T06:40:35Z"
+  "updated": "2026-09-16T12:06:18Z"
 }
