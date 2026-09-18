@@ -3,12 +3,6 @@
   "outlookText": "Critical Weather Day is not expected in the next 3 days.",
   "days": [
     {
-      "weekday": "Thu",
-      "date": "Sep 17",
-      "status": "Normal",
-      "hazards": []
-    },
-    {
       "weekday": "Fri",
       "date": "Sep 18",
       "status": "Normal",
@@ -19,7 +13,13 @@
       "date": "Sep 19",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Sun",
+      "date": "Sep 20",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-09-18T06:34:00Z"
+  "updated": "2026-09-18T11:43:18Z"
 }
