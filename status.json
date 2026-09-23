@@ -1,28 +1,37 @@
 {
-  "status": "NORMAL",
-  "outlookText": "NCO is monitoring expected heavy rain and flooding conditions over New Mexico. In addition, Critical Weather Day is likely in support of tropical weather ops for Tropical Depression Fifteen-E approaching Hawaii.",
+  "status": "Critical Weather Day",
+  "outlookText": "Critical Weather Day is in effect from 23/2130Z until 28/12Z in support of tropical, heavy rainfall, and flash flood ops in Hawaii. NCO also continues to monitor heavy rain and flooding conditions in New Mexico.",
   "days": [
     {
       "weekday": "Wed",
       "date": "Sep 23",
-      "status": "Enhanced Caution",
+      "status": "Critical",
       "hazards": [
         "rainstorm",
-        "flood"
+        "flood",
+        "tropical"
       ]
     },
     {
       "weekday": "Thu",
       "date": "Sep 24",
-      "status": "Normal",
-      "hazards": []
+      "status": "Critical",
+      "hazards": [
+        "rainstorm",
+        "flood",
+        "tropical"
+      ]
     },
     {
       "weekday": "Fri",
       "date": "Sep 25",
-      "status": "Normal",
-      "hazards": []
+      "status": "Critical",
+      "hazards": [
+        "rainstorm",
+        "flood",
+        "tropical"
+      ]
     }
   ],
-  "updated": "2026-09-23T18:25:43Z"
+  "updated": "2026-09-23T21:36:47Z"
 }
