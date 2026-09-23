@@ -1,16 +1,7 @@
 {
   "status": "NORMAL",
-  "outlookText": "NCO is monitoring expected heavy rain and flooding conditions over New Mexico. Otherwise, Critical Weather Day is not expected in the next 3 days.",
+  "outlookText": "NCO is monitoring expected heavy rain and flooding conditions over New Mexico. In addition, Critical Weather Day is likely in support of tropical weather ops for Tropical Depression Fifteen-E approaching Hawaii.",
   "days": [
-    {
-      "weekday": "Tue",
-      "date": "Sep 22",
-      "status": "Enhanced Caution",
-      "hazards": [
-        "rainstorm",
-        "flood"
-      ]
-    },
     {
       "weekday": "Wed",
       "date": "Sep 23",
@@ -25,7 +16,13 @@
       "date": "Sep 24",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Fri",
+      "date": "Sep 25",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-09-23T04:36:39Z"
+  "updated": "2026-09-23T09:29:55Z"
 }
