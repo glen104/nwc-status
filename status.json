@@ -3,16 +3,6 @@
   "outlookText": "Critical Weather Day is in effect until 28/12Z in support of tropical, heavy rainfall, and flash flood ops in Hawaii.",
   "days": [
     {
-      "weekday": "Thu",
-      "date": "Sep 24",
-      "status": "Critical",
-      "hazards": [
-        "rainstorm",
-        "flood",
-        "tropical"
-      ]
-    },
-    {
       "weekday": "Fri",
       "date": "Sep 25",
       "status": "Critical",
@@ -31,7 +21,17 @@
         "flood",
         "tropical"
       ]
+    },
+    {
+      "weekday": "Sun",
+      "date": "Sep 27",
+      "status": "Critical",
+      "hazards": [
+        "rainstorm",
+        "flood",
+        "tropical"
+      ]
     }
   ],
-  "updated": "2026-09-25T06:39:44Z"
+  "updated": "2026-09-25T12:10:21Z"
 }
