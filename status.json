@@ -1,6 +1,6 @@
 {
   "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day is in effect until 28/12Z in support of tropical, heavy rainfall, and flash flood ops in Hawaii.",
+  "outlookText": "Critical Weather Day is in effect until 28/12Z in support of tropical, heavy rainfall, and flash flood ops in Hawaii. The need for CWD to support excessive rainfall and flooding ops in the Southwest early next week is also being monitored.",
   "days": [
     {
       "weekday": "Sat",
@@ -29,5 +29,5 @@
       "hazards": []
     }
   ],
-  "updated": "2026-09-26T15:06:25Z"
+  "updated": "2026-09-26T18:31:09Z"
 }
