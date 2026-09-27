@@ -1,17 +1,7 @@
 {
   "status": "NORMAL",
-  "outlookText": "Critical Weather Day ended early as of 27/03Z as all NHC tropical watches and warnings for Hawaii were discontinued. The need for CWD to support excessive rainfall and flooding operations in New Mexico and other portions of the Southwest early next week is being monitored.",
+  "outlookText": "The need for CWD to support excessive rainfall and flooding operations in New Mexico and other portions of the Southwest is being monitored.",
   "days": [
-    {
-      "weekday": "Sat",
-      "date": "Sep 26",
-      "status": "Critical",
-      "hazards": [
-        "rainstorm",
-        "flood",
-        "tropical"
-      ]
-    },
     {
       "weekday": "Sun",
       "date": "Sep 27",
@@ -26,7 +16,16 @@
         "rainstorm",
         "flood"
       ]
+    },
+    {
+      "weekday": "Tue",
+      "date": "Sep 29",
+      "status": "Enhanced Caution",
+      "hazards": [
+        "rainstorm",
+        "flood"
+      ]
     }
   ],
-  "updated": "2026-09-27T07:10:26Z"
+  "updated": "2026-09-27T13:02:32Z"
 }
