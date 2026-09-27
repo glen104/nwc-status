@@ -1,6 +1,6 @@
 {
-  "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day is in effect until 28/1200Z in support of tropical, heavy rainfall, and flash flood ops in Hawaii. Also, the need for CWD to support excessive rainfall and flooding operations in New Mexico and other portions of the Southwest early next week is being monitored.",
+  "status": "NORMAL",
+  "outlookText": "Critical Weather Day ended early as of 27/03Z as all NHC tropical watches and warnings for Hawaii were discontinued. The need for CWD to support excessive rainfall and flooding operations in New Mexico and other portions of the Southwest early next week is being monitored.",
   "days": [
     {
       "weekday": "Sat",
@@ -15,12 +15,8 @@
     {
       "weekday": "Sun",
       "date": "Sep 27",
-      "status": "Critical",
-      "hazards": [
-        "rainstorm",
-        "flood",
-        "tropical"
-      ]
+      "status": "Normal",
+      "hazards": []
     },
     {
       "weekday": "Mon",
@@ -32,5 +28,5 @@
       ]
     }
   ],
-  "updated": "2026-09-27T01:49:55Z"
+  "updated": "2026-09-27T07:10:26Z"
 }
