@@ -3,12 +3,6 @@
   "outlookText": "The need for CWD to support excessive rainfall and flooding operations in New Mexico and other portions of the Southwest is being monitored.",
   "days": [
     {
-      "weekday": "Sun",
-      "date": "Sep 27",
-      "status": "Normal",
-      "hazards": []
-    },
-    {
       "weekday": "Mon",
       "date": "Sep 28",
       "status": "Enhanced Caution",
@@ -25,7 +19,13 @@
         "rainstorm",
         "flood"
       ]
+    },
+    {
+      "weekday": "Wed",
+      "date": "Sep 30",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-09-28T07:39:44Z"
+  "updated": "2026-09-28T15:55:36Z"
 }
