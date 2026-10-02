@@ -1,29 +1,29 @@
 {
   "status": "NORMAL",
-  "outlookText": "The need for CWD to support excessive rainfall and flooding operations across portions of the Southern Plains is being monitored. In addition, NCO is monitoring for the need for CWD in support of tropical cyclone operations in the Northern Marianas Islands.",
+  "outlookText": "The need for CWD in support of tropical cyclone operations in the Northern Marianas Islands continues to be monitored.",
   "days": [
     {
-      "weekday": "Thu",
-      "date": "Oct 01",
+      "weekday": "Fri",
+      "date": "Oct 02",
       "status": "Enhanced Caution",
       "hazards": [
-        "rainstorm",
-        "flood",
         "tropical"
       ]
     },
     {
-      "weekday": "Fri",
-      "date": "Oct 02",
-      "status": "Normal",
-      "hazards": []
-    },
-    {
       "weekday": "Sat",
       "date": "Oct 03",
+      "status": "Enhanced Caution",
+      "hazards": [
+        "tropical"
+      ]
+    },
+    {
+      "weekday": "Sun",
+      "date": "Oct 04",
       "status": "Normal",
       "hazards": []
     }
   ],
-  "updated": "2026-10-02T08:55:47Z"
+  "updated": "2026-10-02T15:11:27Z"
 }
