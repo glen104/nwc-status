@@ -1,29 +1,25 @@
 {
   "status": "NORMAL",
-  "outlookText": "The need for CWD in support of tropical cyclone operations in the Northern Marianas Islands continues to be monitored.",
+  "outlookText": "Critical Weather Day is not expected in the next 3 days.",
   "days": [
-    {
-      "weekday": "Fri",
-      "date": "Oct 02",
-      "status": "Enhanced Caution",
-      "hazards": [
-        "tropical"
-      ]
-    },
     {
       "weekday": "Sat",
       "date": "Oct 03",
-      "status": "Enhanced Caution",
-      "hazards": [
-        "tropical"
-      ]
+      "status": "Normal",
+      "hazards": []
     },
     {
       "weekday": "Sun",
       "date": "Oct 04",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Mon",
+      "date": "Oct 05",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-10-03T08:07:14Z"
+  "updated": "2026-10-03T13:18:29Z"
 }
