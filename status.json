@@ -1,13 +1,7 @@
 {
   "status": "NORMAL",
-  "outlookText": "Critical Weather Day is not expected in the next 3 days.",
+  "outlookText": "Critical Weather Day is possible as early as Thursday due to Tropical Cyclone ops across portions of the Central Gulf Coast.",
   "days": [
-    {
-      "weekday": "Mon",
-      "date": "Oct 05",
-      "status": "Normal",
-      "hazards": []
-    },
     {
       "weekday": "Tue",
       "date": "Oct 06",
@@ -17,9 +11,19 @@
     {
       "weekday": "Wed",
       "date": "Oct 07",
-      "status": "Normal",
-      "hazards": []
+      "status": "Enhanced Caution",
+      "hazards": [
+        "tropical"
+      ]
+    },
+    {
+      "weekday": "Thu",
+      "date": "Oct 08",
+      "status": "Enhanced Caution",
+      "hazards": [
+        "tropical"
+      ]
     }
   ],
-  "updated": "2026-10-06T06:12:35Z"
+  "updated": "2026-10-06T13:19:35Z"
 }
