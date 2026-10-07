@@ -1,6 +1,6 @@
 {
-  "status": "NORMAL",
-  "outlookText": "Critical Weather Day is expected to begin later today and continue through at least Day 3 (Friday) in support of Tropical Cyclone ops across portions of the Central Gulf Coast.",
+  "status": "Critical Weather Day",
+  "outlookText": "Critical Weather Day is in effect until 12Z Saturday 10 Oct in support of Tropical Cyclone ops across portions of the Central Gulf Coast for Isaias.",
   "days": [
     {
       "weekday": "Wed",
@@ -27,5 +27,5 @@
       ]
     }
   ],
-  "updated": "2026-10-07T14:50:43Z"
+  "updated": "2026-10-07T20:16:15Z"
 }
