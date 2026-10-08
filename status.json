@@ -3,14 +3,6 @@
   "outlookText": "Critical Weather Day is in effect until 12Z Saturday 10 Oct in support of Tropical Cyclone ops across portions of the Central Gulf Coast for Isaias.",
   "days": [
     {
-      "weekday": "Wed",
-      "date": "Oct 07",
-      "status": "Critical",
-      "hazards": [
-        "tropical"
-      ]
-    },
-    {
       "weekday": "Thu",
       "date": "Oct 08",
       "status": "Critical",
@@ -25,7 +17,13 @@
       "hazards": [
         "tropical"
       ]
+    },
+    {
+      "weekday": "Sat",
+      "date": "Oct 10",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-10-08T06:06:03Z"
+  "updated": "2026-10-08T13:18:50Z"
 }
