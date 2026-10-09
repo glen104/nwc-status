@@ -1,15 +1,7 @@
 {
   "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day is in effect until 12Z Saturday 10 Oct in support of Tropical Cyclone ops across portions of the Central Gulf Coast for Isaias.",
+  "outlookText": "Critical Weather Day is in effect until 12Z Saturday 10 Oct in support of Tropical Cyclone ops across portions of the Central Gulf Coast for Isaias. NCO is also monitoring the potential need for CWD to support tropical cyclone and excessive rainfall ops in Southern California and the Southwest as Tropical Storm Rachel tracks toward northern Baja California, although CWD for this event is not expected at this time.",
   "days": [
-    {
-      "weekday": "Thu",
-      "date": "Oct 08",
-      "status": "Critical",
-      "hazards": [
-        "tropical"
-      ]
-    },
     {
       "weekday": "Fri",
       "date": "Oct 09",
@@ -23,7 +15,13 @@
       "date": "Oct 10",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Sun",
+      "date": "Oct 11",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-10-09T03:05:28Z"
+  "updated": "2026-10-09T10:23:20Z"
 }
