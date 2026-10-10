@@ -7,6 +7,7 @@
       "date": "Oct 09",
       "status": "Critical",
       "hazards": [
+        "rainstorm",
         "tropical"
       ]
     },
@@ -25,5 +26,5 @@
       "hazards": []
     }
   ],
-  "updated": "2026-10-10T01:11:25Z"
+  "updated": "2026-10-10T07:09:11Z"
 }
