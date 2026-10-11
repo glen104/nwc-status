@@ -1,17 +1,7 @@
 {
   "status": "NORMAL",
-  "outlookText": "Critical Weather Day is not expected in the next 3 days. However, the potential need for CWD to support tropical cyclone operations in Southern California associated with Tropical Storm Rachel and flooding/excessive rainfall operations in the Southern Appalachians associated with the remnants of Isaias continues to be monitored.",
+  "outlookText": "Critical Weather Day is not expected in the next 3 days.",
   "days": [
-    {
-      "weekday": "Sat",
-      "date": "Oct 10",
-      "status": "Enhanced Caution",
-      "hazards": [
-        "rainstorm",
-        "flood",
-        "tropical"
-      ]
-    },
     {
       "weekday": "Sun",
       "date": "Oct 11",
@@ -23,7 +13,13 @@
       "date": "Oct 12",
       "status": "Normal",
       "hazards": []
+    },
+    {
+      "weekday": "Tue",
+      "date": "Oct 13",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-10-11T05:48:40Z"
+  "updated": "2026-10-11T11:37:37Z"
 }
