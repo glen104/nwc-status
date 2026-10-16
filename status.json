@@ -1,15 +1,7 @@
 {
   "status": "Critical Weather Day",
-  "outlookText": "Critical Weather Day is in effect until 12Z on Sun Oct 18 2026 in support of Tropical Cyclone ops across Guam, Rota, Tinian, and Saipan. NCO is also monitoring fire wx in southern California and excessive rainfall in West Texas.",
+  "outlookText": "Critical Weather Day is in effect until 12Z on Sun Oct 18 2026 in support of Tropical Cyclone ops across Guam, Rota, Tinian, and Saipan. NCO is also monitoring fire wx in southern California today.",
   "days": [
-    {
-      "weekday": "Thu",
-      "date": "Oct 15",
-      "status": "Critical",
-      "hazards": [
-        "tropical"
-      ]
-    },
     {
       "weekday": "Fri",
       "date": "Oct 16",
@@ -25,7 +17,13 @@
       "hazards": [
         "tropical"
       ]
+    },
+    {
+      "weekday": "Sun",
+      "date": "Oct 18",
+      "status": "Normal",
+      "hazards": []
     }
   ],
-  "updated": "2026-10-16T06:24:56Z"
+  "updated": "2026-10-16T11:40:59Z"
 }
